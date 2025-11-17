@@ -1,6 +1,7 @@
 .idea
 hugging_cache
 data
+data_editing
 **/__pycache__
 examples/WikiBio
 examples/wiki_recent
@@ -20,3 +21,5 @@ delta.txt
 **/*_test_reps*
 *test_reps
 *test_reps.*
+*.pt
+bilinear_probe/datasets

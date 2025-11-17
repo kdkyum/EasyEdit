@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Utility functions for components of ``higher``\ ."""
+"""Utility functions for components of ``higher``"""
 
 import torch as _torch
 import typing as _typing

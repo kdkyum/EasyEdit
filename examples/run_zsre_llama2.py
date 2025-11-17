@@ -19,14 +19,15 @@ from sentence_transformers import SentenceTransformer
 from easyeditor import ZsreDataset
 
 import argparse
+from pathlib import Path
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--editing_method', required=True, type=str)
     parser.add_argument('--hparams_dir', required=True, type=str)
-    parser.add_argument('--data_dir', required=True, type=str)
+    parser.add_argument('--data_path', required=True, type=str)
     parser.add_argument('--ds_size', default=None, type=int)
-    parser.add_argument('--metrics_save_dir', default='./output', type=str)
+    parser.add_argument('--metrics_save_path', default='./output/metrics.json', type=str)
 
     args = parser.parse_args()
 
@@ -45,7 +46,7 @@ if __name__ == "__main__":
     else:
         raise NotImplementedError
 
-    test_data = json.load(open(os.path.join(args.data_dir, 'zsre_mend_eval_portability_gpt4.json'), 'r', encoding='utf-8'))
+    test_data = json.load(open(args.data_path, 'r', encoding='utf-8'))
 
     if args.ds_size is not None:
         test_data = random.sample(test_data, args.ds_size)
@@ -72,14 +73,7 @@ if __name__ == "__main__":
     }
     subject = [edit_data_['subject'] for edit_data_ in test_data]
     hparams = editing_hparams.from_hparams(args.hparams_dir)
-
-    if args.editing_method == 'IKE':
-        train_data_path = os.path.join(args.data_dir, 'zsre_mend_train_10000.json')
-        train_ds = ZsreDataset(train_data_path)
-        sentence_model = SentenceTransformer(hparams.sentence_model_name).to(f'cuda:{hparams.device}')
-        encode_ike_facts(sentence_model, train_ds, hparams)
-    else:
-        train_ds = None
+    train_ds = None
 
     editor = BaseEditor.from_hparams(hparams)
     metrics, edited_model, _ = editor.edit(
@@ -93,4 +87,5 @@ if __name__ == "__main__":
         keep_original_weight=True
     )
 
-    json.dump(metrics, open(os.path.join(args.metrics_save_dir, f'{args.editing_method}_results.json'), 'w'), indent=4)
+    Path(args.metrics_save_path).parent.mkdir(parents=True, exist_ok=True)
+    json.dump(metrics, open(args.metrics_save_path, 'w'), indent=4)
