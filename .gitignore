@@ -9,7 +9,6 @@ examples/wiki_recent
 logs
 results
 outputs
-scripts
 vectors
 **/.cache/
 *.log
