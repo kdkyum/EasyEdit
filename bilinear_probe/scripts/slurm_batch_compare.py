@@ -74,7 +74,7 @@ def run_single_model(
     emb_path: str,
     train_dataset: str,
     test_dataset: str,
-    relations: List[str],
+    relation: str,
     out_root: str,
     lambda_R: float,
     threshold: float,
@@ -98,8 +98,8 @@ def run_single_model(
         "--num-workers", str(num_workers),
     ]
     # Passing relations is optional; run_rescal_bilinear_probe currently infers from data.
-    if relations:
-        cli += ["--relations", *relations]
+    if relation:
+        cli += ["--relation", relation]
     if no_plots:
         cli += ["--no-plots"]
 
@@ -112,7 +112,7 @@ def submit_single_model_slurm(
     emb_path: str,
     train_dataset: str,
     test_dataset: str,
-    relations: List[str],
+    relation: str,
     out_root: str,
     lambda_R: float,
     threshold: float,
@@ -134,9 +134,6 @@ def submit_single_model_slurm(
     os.makedirs(job_dir, exist_ok=True)
     outdir = os.path.join(out_root, model_name)
     os.makedirs(outdir, exist_ok=True)
-
-    rel_args: List[str] = ["--relations", *relations] if relations else []
-
     # Use absolute path for the script
     script_path = os.path.abspath(os.path.join("scripts", "run_rescal_bilinear_probe.py"))
     
@@ -150,7 +147,7 @@ def submit_single_model_slurm(
         "--threshold", str(threshold),
         "--device", device,
         "--num-workers", str(num_workers),
-        *rel_args,
+        "--relation", relation,
     ]
     if no_plots:
         cli.append("--no-plots")
@@ -620,7 +617,7 @@ def parse_args(argv=None):
     p.add_argument("--emb-dir", type=str, default="hidden_repr", help="Directory containing *.pt embedding files")
     p.add_argument("--train-dataset", type=str, default="data/counterfact_city-country.json", help="Training dataset JSON path")
     p.add_argument("--test-dataset", type=str, default="data/counterfact_city-country_test.json", help="Test dataset JSON path")
-    p.add_argument("--relations", type=str, nargs="+", default=["city-country"], help="Relations to pass to run_rescal_bilinear_probe (optional)")
+    p.add_argument("--relation", type=str, default="city-country", help="Relation to pass to run_rescal_bilinear_probe (optional)")
     p.add_argument("--out-root", type=str, default="outputs/cli_batch", help="Root directory for model outputs and combined plots")
     p.add_argument("--lambda-R", dest="lambda_R", type=float, default=0.1, help="Ridge lambda for RESCAL update")
     p.add_argument("--threshold", type=float, default=0.5, help="Threshold for binary predictions")
@@ -662,7 +659,7 @@ def main(argv=None) -> int:
     # Aggregate-only path
     if args.aggregate_only:
         model_outdirs = {model_name_from_path(p): os.path.join(args.out_root, model_name_from_path(p)) for p in emb_files}
-        aggregate_and_plot(args.out_root, model_outdirs, args.relations)
+        aggregate_and_plot(args.out_root, model_outdirs, args.relation)
         print("Aggregated existing outputs. Done.")
         return 0
 
@@ -677,7 +674,7 @@ def main(argv=None) -> int:
                 emb_path=emb_path,
                 train_dataset=args.train_dataset,
                 test_dataset=args.test_dataset,
-                relations=args.relations,
+                relation=args.relation,
                 out_root=args.out_root,
                 lambda_R=args.lambda_R,
                 threshold=args.threshold,
@@ -704,7 +701,7 @@ def main(argv=None) -> int:
             "--emb-dir", args.emb_dir,
             "--train-dataset", args.train_dataset,
             "--test-dataset", args.test_dataset,
-            "--relations", *args.relations,
+            "--relation", args.relation,
             "--out-root", args.out_root,
             "--aggregate-only",
         ]
@@ -718,7 +715,7 @@ def main(argv=None) -> int:
             emb_path=emb_path,
             train_dataset=args.train_dataset,
             test_dataset=args.test_dataset,
-            relations=args.relations,
+            relation=args.relation,
             out_root=args.out_root,
             lambda_R=args.lambda_R,
             threshold=args.threshold,
@@ -728,7 +725,7 @@ def main(argv=None) -> int:
         )
         model_outdirs[model_name_from_path(emb_path)] = outdir
 
-    aggregate_and_plot(args.out_root, model_outdirs, args.relations)
+    aggregate_and_plot(args.out_root, model_outdirs, args.relation)
     print("Done.")
     return 0
 
