@@ -249,6 +249,23 @@ def build_relation_adjs(dataset: List[Dict[str, Any]], entity2idx: Dict[str, int
     rel_to_adj["city-country"] = adj
     return rel_to_adj
 
+
+def map_subject_case_ids(dataset: List[Dict[str, Any]], entity2idx: Dict[str, int]) -> Dict[int, List[Any]]:
+    """Map each subject entity index to the list of case_ids observed in the dataset."""
+    mapping: Dict[int, List[Any]] = {}
+    for item in dataset:
+        subject = item.get("subject")
+        case_id = item.get("case_id")
+        if subject is None or case_id is None:
+            continue
+        if not isinstance(subject, str):
+            subject = str(subject)
+        subj_idx = entity2idx.get(subject)
+        if subj_idx is None:
+            continue
+        mapping.setdefault(subj_idx, []).append(case_id)
+    return mapping
+
 def build_aligned_embedding_matrix(v: Dict[str, Dict[int, torch.Tensor]], entity2idx: Dict[str, int]) -> Tuple[List[int], np.ndarray, List[str]]:
     """Discover available layer indices (union across entities) and report missing entities.
 
@@ -286,10 +303,11 @@ def _compute_layer_worker(
     test_X_r: Dict[str, torch.Tensor],
     test_sub_idx: List[int],
     test_ans_idx: List[int],
+    test_subject_case_ids: Dict[int, List[Any]],
     lambda_R: float,
     threshold: float,
     device: str,
-) -> Dict[str, Tuple[float, float, float]]:
+) -> Dict[str, Dict[str, Any]]:
     """Worker function for computing metrics for a single layer (must be at module level for pickle)."""
     
     def A_for_layer_local(entity_order: List[str], layer_idx_local: int) -> torch.Tensor:
@@ -316,13 +334,18 @@ def _compute_layer_worker(
     A_train = A_for_layer_local(train_entity_order, layer_idx).to(device_t)
     A_test = A_for_layer_local(test_entity_order, layer_idx).to(device_t)
     
-    layer_results: Dict[str, Tuple[float, float, float, float, float, float, float]] = {}
+    layer_results: Dict[str, Dict[str, Any]] = {}
     relations = ['city-country']  # Currently only implicit relation
     for rel in relations:
         train_adj = train_X_r.get(rel)
         test_adj = test_X_r.get(rel)
         if train_adj is None:
-            layer_results[rel] = (float('nan'),)*7
+            layer_results[rel] = {
+                "train_mse": float('nan'),
+                "test_mse": float('nan'),
+                "acc": float('nan'),
+                "correct_case_ids": [],
+            }
             continue
         train_adj_t = train_adj.to(device_t)
         # Fit R on full train adjacency
@@ -330,25 +353,40 @@ def _compute_layer_worker(
         with torch.no_grad():
             pred_train = A_train @ R @ A_train.T
             train_mse_val = F.mse_loss(pred_train, train_adj_t).item()
+            correct_case_ids: List[Any] = []
             if test_adj is not None:
                 test_adj_t = test_adj.to(device_t)
                 pred_test = A_test @ R @ A_test.T
                 test_mse_val = F.mse_loss(pred_test, test_adj_t).item()
-                pred_test = pred_test[test_sub_idx][:, test_ans_idx]
-                y_pred = torch.argmax(pred_test, dim=1).flatten()
-                y_true = torch.argmax(test_adj_t[test_sub_idx][:, test_ans_idx], dim=1).flatten()
-                print("prediction:", y_pred)
-                print("true labels:", y_true)
-                acc_v = y_pred.eq(y_true).float().mean().item()
+                if test_sub_idx and test_ans_idx:
+                    sub_idx_tensor = torch.tensor(test_sub_idx, dtype=torch.long, device=device_t)
+                    ans_idx_tensor = torch.tensor(test_ans_idx, dtype=torch.long, device=device_t)
+                    pred_subset = pred_test[sub_idx_tensor][:, ans_idx_tensor]
+                    true_subset = test_adj_t[sub_idx_tensor][:, ans_idx_tensor]
+                    y_pred = torch.argmax(pred_subset, dim=1).flatten()
+                    y_true = torch.argmax(true_subset, dim=1).flatten()
+                    acc_v = y_pred.eq(y_true).float().mean().item()
+
+                    pred_entity_idx = ans_idx_tensor[y_pred]
+                    true_entity_idx = ans_idx_tensor[y_true]
+                    correct_mask = pred_entity_idx.eq(true_entity_idx)
+                    correct_mask_cpu = correct_mask.to("cpu").tolist()
+                    for subj_idx_val, is_correct in zip(test_sub_idx, correct_mask_cpu):
+                        if not is_correct:
+                            continue
+                        ids = test_subject_case_ids.get(int(subj_idx_val)) or []
+                        correct_case_ids.extend(ids)
+                else:
+                    acc_v = float('nan')
             else:
                 test_mse_val = float('nan')
                 acc_v = float('nan')
-                prec_v = float('nan')
-                rec_v = float('nan')
-                f1_v = float('nan')
-                # pr_auc_v = float('nan')
-        # layer_results[rel] = (train_mse_val, test_mse_val, acc_v, prec_v, rec_v, f1_v, pr_auc_v)
-        layer_results[rel] = (train_mse_val, test_mse_val, acc_v)
+        layer_results[rel] = {
+            "train_mse": train_mse_val,
+            "test_mse": test_mse_val,
+            "acc": acc_v,
+            "correct_case_ids": correct_case_ids,
+        }
     return layer_results
 
 
@@ -360,26 +398,28 @@ def compute_metrics_for_relations(
     test_X_r: Dict[str, torch.Tensor],
     test_sub_idx: List[int],
     test_ans_idx: List[int],
+    test_subject_case_ids: Dict[int, List[Any]],
     relations: List[str],
     lambda_R: float,
     threshold: float,
     device: str = "cpu",
     num_workers: int = 1,
-) -> Tuple[List[int], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[float]]]:
+) -> Tuple[List[int], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[List[Any]]]]:
     """Compute per-layer metrics for each relation using explicit train/test adjacencies.
 
-    For each layer:
-      * Align embeddings for train and test entities.
-    * Fit RESCAL relation matrix R on full train adjacency.
-    * Evaluate metrics on train (MSE) and test (MSE + Accuracy).
+        For each layer:
+            * Align embeddings for train and test entities.
+            * Fit RESCAL relation matrix R on full train adjacency.
+            * Evaluate metrics on train (MSE) and test (MSE + Accuracy).
 
-        Returns
-        -------
-        Tuple containing:
-            - layers: List[int] of actual layer indices (sorted)
-            - train_mse: dict mapping relation -> per-layer Train MSE values
-            - test_mse: dict mapping relation -> per-layer Test MSE values
-            - acc: dict mapping relation -> per-layer Test Accuracy values
+                Returns
+                -------
+                Tuple containing:
+                        - layers: List[int] of actual layer indices (sorted)
+                        - train_mse: dict mapping relation -> per-layer Train MSE values
+                        - test_mse: dict mapping relation -> per-layer Test MSE values
+                        - acc: dict mapping relation -> per-layer Test Accuracy values
+                        - correct_ids: dict mapping relation -> per-layer lists of correctly predicted case_ids
     """
 
     # Layers determined from embedding dict (use union of all entities' layer keys)
@@ -394,13 +434,15 @@ def compute_metrics_for_relations(
     train_mse: Dict[str, List[float]] = {r: [] for r in relations}
     test_mse: Dict[str, List[float]] = {r: [] for r in relations}
     acc: Dict[str, List[float]] = {r: [] for r in relations}
+    correct_ids: Dict[str, List[List[Any]]] = {r: [] for r in relations}
 
-    def _store_layer_results(layer_res: Dict[str, Tuple[float, float, float]]) -> None:
+    def _store_layer_results(layer_res: Dict[str, Dict[str, Any]]) -> None:
         for rel in relations:
-            vals = layer_res.get(rel, (float("nan"),) * 3)
-            train_mse[rel].append(vals[0])
-            test_mse[rel].append(vals[1])
-            acc[rel].append(vals[2])
+            vals = layer_res.get(rel, {})
+            train_mse[rel].append(float(vals.get("train_mse", float("nan"))))
+            test_mse[rel].append(float(vals.get("test_mse", float("nan"))))
+            acc[rel].append(float(vals.get("acc", float("nan"))))
+            correct_ids[rel].append(list(vals.get("correct_case_ids", [])))
 
     device_t = torch.device(device)
     use_parallel = (num_workers is not None and int(num_workers) > 1 and str(device_t) == 'cpu')
@@ -422,6 +464,7 @@ def compute_metrics_for_relations(
                         test_X_r,
                         test_sub_idx,
                         test_ans_idx,
+                        test_subject_case_ids,
                         lambda_R,
                         threshold,
                         device,
@@ -448,13 +491,14 @@ def compute_metrics_for_relations(
                 test_X_r,
                 test_sub_idx,
                 test_ans_idx,
+                test_subject_case_ids,
                 lambda_R,
                 threshold,
                 device,
             )
             _store_layer_results(layer_res)
 
-    return layers, train_mse, test_mse, acc
+    return layers, train_mse, test_mse, acc, correct_ids
     
 def plot_and_save_overview(train_mse, test_mse, acc, out_png: str):
     """Generate and save overview plots for Train MSE, Test MSE, and Test Accuracy per layer."""
@@ -497,6 +541,19 @@ def save_metrics_csv(outdir: str, relations: List[str], layer_indices: List[int]
             })
         df_rel = pd.DataFrame(rows)
         df_rel.to_csv(os.path.join(outdir, f"metrics_{rel.replace('/', '_')}.csv"), index=False)
+
+
+def save_bilinear_correct_ids(outdir: str, layer_indices: List[int], layer_case_ids: List[List[Any]]) -> None:
+    """Save per-layer lists of correctly predicted case_ids."""
+    os.makedirs(outdir, exist_ok=True)
+    rows = []
+    max_len = max(len(layer_indices), len(layer_case_ids))
+    for i in range(max_len):
+        layer_val = layer_indices[i] if i < len(layer_indices) else i
+        case_ids = layer_case_ids[i] if i < len(layer_case_ids) else []
+        rows.append({"layer": layer_val, "case_ids": case_ids})
+    with open(os.path.join(outdir, "bilinear_correct_ids.json"), "w", encoding="utf-8") as f:
+        json.dump(rows, f, indent=2)
 
 
 # ---------- Main ----------
@@ -550,6 +607,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     print("Building entity index and relation adjacencies...", flush=True)
     train_ent2idx, train_idx2ent, _, _ = build_entity_index(trainset)
     test_ent2idx, test_idx2ent, test_sub_idx, test_ans_idx = build_entity_index(testset)
+    test_subject_case_ids = map_subject_case_ids(testset, test_ent2idx)
 
     train_X_r = build_relation_adjs(trainset, train_ent2idx)
     test_X_r = build_relation_adjs(testset, test_ent2idx)
@@ -565,7 +623,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         rel_to_outdir[rel] = rel_outdir
 
         print(f"\n[Relation] {rel} -> {rel_outdir}", flush=True)
-        layers, train_mse, test_mse, acc = compute_metrics_for_relations(
+        layers, train_mse, test_mse, acc, correct_case_ids = compute_metrics_for_relations(
             v=v,
             train_entity2idx=train_ent2idx,
             test_entity2idx=test_ent2idx,
@@ -573,6 +631,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             test_X_r=test_X_r,
             test_sub_idx=test_sub_idx,
             test_ans_idx=test_ans_idx,
+            test_subject_case_ids=test_subject_case_ids,
             relations=[rel],
             lambda_R=args.lambda_R,
             threshold=args.threshold,
@@ -582,6 +641,7 @@ def main(argv: Optional[List[str]] = None) -> int:
 
         print("Saving CSV metrics...", flush=True)
         save_metrics_csv(rel_outdir, [rel], layers, train_mse, test_mse, acc)
+        save_bilinear_correct_ids(rel_outdir, layers, correct_case_ids.get(rel, []))
 
         if not args.no_plots:
             print("Saving plots...", flush=True)
