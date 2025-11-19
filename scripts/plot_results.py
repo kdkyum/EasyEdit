@@ -21,8 +21,8 @@ METRICS: List[MetricSpec] = [
     ("rewrite_post", ("post", "rewrite_acc")),
     ("rephrase_pre", ("pre", "rephrase_acc")),
     ("rephrase_post", ("post", "rephrase_acc")),
-    ("portability_onehop_pre", ("pre", "portability", "one_hop_acc")),
-    ("portability_onehop_post", ("post", "portability", "one_hop_acc")),
+    ("portability_two-hop_pre", ("pre", "portability", "two_hop_acc")),
+    ("portability_two-hop_post", ("post", "portability", "two_hop_acc")),
     ("locality_neighborhood_post", ("post", "locality", "neighborhood_acc")),
 ]
 
@@ -106,15 +106,15 @@ def plot_metrics(exp_name: str, layers: List[int], summary: Dict[str, List[float
     pairs = [
         ("rewrite_pre", "rewrite_post"),
         ("rephrase_pre", "rephrase_post"),
-        ("portability_onehop_pre", "portability_onehop_post"),
+        ("portability_two-hop_pre", "portability_two-hop_post"),
     ]
     colors = {
         "rewrite_pre": "#555555",
         "rewrite_post": "#1f77b4",
         "rephrase_pre": "#999999",
         "rephrase_post": "#ff7f0e",
-        "portability_onehop_pre": "#bbbbbb",
-        "portability_onehop_post": "#2ca02c",
+        "portability_two-hop_pre": "#bbbbbb",
+        "portability_two-hop_post": "#2ca02c",
         "locality_neighborhood_post": "#d62728",
     }
     for a, b in pairs:

@@ -232,7 +232,7 @@ def test_seq2seq_batch_prediction_acc(model, tok, hparams, prompts, targets, dev
             return answers if type(answers[0]) is list else [answers,]
         return torch.mean((trg_tok['input_ids'][:,:-1] == ans[:,:-1]).float(), dim=-1).detach().cpu().numpy().tolist()
 
-def test_prediction_acc(model, tok, hparams, prompts, targets, device, locality=False, vanilla_generation=False):
+def test_prediction_acc(model, tok, hparams, prompts, targets, device, locality=False, vanilla_generation=False, chat_mode=False):
     if vanilla_generation:
         if isinstance(prompts, str):
             prompts, targets = [prompts, ], [targets, ]
@@ -259,55 +259,117 @@ def test_prediction_acc(model, tok, hparams, prompts, targets, device, locality=
 
     if isinstance(prompts, str):
         prompts,targets = [prompts,], [targets,]
-    if not locality and hasattr(hparams, 'use_chat_template') and hparams.use_chat_template:
-        prompts = [[{"role":"user", "content":m}] for m in prompts]
-        prompts=tok.apply_chat_template(prompts,
-                                        add_generation_prompt=True,
-                                        tokenize=False)
-    prompt_target = [prompt + ' ' + target for prompt, target in zip(prompts,targets)]
-    max_prompt_len = max([len(tok.encode(_)) for _ in prompt_target]) + 1
-    before_padding_side = tok.padding_side
-    tok.padding_side = 'left'
-    prompt_target_tok = tok(
-        prompt_target,
-        padding=True,
-        truncation=True,
-        max_length=max(hparams.max_length, max_prompt_len),
-        return_tensors="pt",
-    ).to(f"cuda:{device}")
-    prompt_tok = tok(
-        prompts,
-        padding=True,
-        truncation=True,
-        max_length=max(hparams.max_length, max_prompt_len),
-        return_tensors="pt",
-    )
-    tok.padding_side = before_padding_side
-    num_prompt_toks = [int((i != tok.pad_token_id).sum()) for i in prompt_tok['input_ids']]
-    num_pad_toks = [int((i == tok.pad_token_id).sum()) for i in prompt_target_tok['input_ids'].cpu()]
-    prompt_len = [x+y for x,y in zip(num_pad_toks,num_prompt_toks)]
-    with torch.no_grad():
-        outputs = model(**prompt_target_tok)
-        if type(outputs) is torch.Tensor:
-            logits = outputs
-        else:
-            logits = outputs.logits
-        answers = torch.argmax(logits, dim=-1).squeeze().detach().cpu().numpy().tolist()
-        labels = prompt_target_tok['input_ids'].squeeze().detach().cpu().numpy().tolist()
-        answers = slice_list(answers,prompt_len,left=True)
-        labels = slice_list(labels,prompt_len,left=False)
-        if locality:
-            return answers if type(answers[0]) is list else [answers,]
-        if isinstance(answers[0], list):
-            res = []
-            for ans,label in zip(answers,labels):
-                temp_acc = np.mean(np.equal(ans, label))
-                if np.isnan(temp_acc):
-                    continue
-                res.append(temp_acc)
-            return res
-        else:
-            return [np.mean(np.equal(answers, labels))]
+
+    if not chat_mode:
+        prompt_target = [prompt + ' ' + target for prompt, target in zip(prompts,targets)]
+        max_prompt_len = max([len(tok.encode(_)) for _ in prompt_target]) + 1
+        before_padding_side = tok.padding_side
+        tok.padding_side = 'left'
+        prompt_target_tok = tok(
+            prompt_target,
+            padding=True,
+            truncation=True,
+            max_length=max(hparams.max_length, max_prompt_len),
+            return_tensors="pt",
+        ).to(f"cuda:{device}")
+        prompt_tok = tok(
+            prompts,
+            padding=True,
+            truncation=True,
+            max_length=max(hparams.max_length, max_prompt_len),
+            return_tensors="pt",
+        )
+        tok.padding_side = before_padding_side
+        num_prompt_toks = [int((i != tok.pad_token_id).sum()) for i in prompt_tok['input_ids']]
+        num_pad_toks = [int((i == tok.pad_token_id).sum()) for i in prompt_target_tok['input_ids'].cpu()]
+        prompt_len = [x+y for x,y in zip(num_pad_toks,num_prompt_toks)]
+        with torch.no_grad():
+            outputs = model(**prompt_target_tok)
+            if type(outputs) is torch.Tensor:
+                logits = outputs
+            else:
+                logits = outputs.logits
+            answers = torch.argmax(logits, dim=-1).squeeze().detach().cpu().numpy().tolist()
+            labels = prompt_target_tok['input_ids'].squeeze().detach().cpu().numpy().tolist()
+            answers = slice_list(answers,prompt_len,left=True)
+            labels = slice_list(labels,prompt_len,left=False)
+            if locality:
+                return answers if type(answers[0]) is list else [answers,]
+            if isinstance(answers[0], list):
+                res = []
+                for ans,label in zip(answers,labels):
+                    temp_acc = np.mean(np.equal(ans, label))
+                    if np.isnan(temp_acc):
+                        continue
+                    res.append(temp_acc)
+                return res
+            else:
+                return [np.mean(np.equal(answers, labels))]
+    else:
+        prompts = [
+            [   
+                {"role": "system", "content": "Answer the following questions directly, without any other text before or after your answer."},
+                {"role": "user", "content": m}
+            ] for m in prompts
+         ]
+        prompts = tok.apply_chat_template(prompts, add_generation_prompt=True, tokenize=False)
+
+        # Use the same device handling as the rest of this file
+        input_device = f"cuda:{device}"
+
+        # Preserve and restore tokenizer padding_side like other funcs do
+        original_padding_side = tok.padding_side
+        tok.padding_side = "left"
+
+        # Tokenize prompts as a batch
+        prompt_inputs = tok(
+            prompts,
+            return_tensors="pt",
+            padding=True,
+        )
+        tok.padding_side = original_padding_side
+
+        # Move tensors to the desired device
+        prompt_inputs = {
+            k: v.to(input_device) if isinstance(v, torch.Tensor) else v
+            for k, v in prompt_inputs.items()
+        }
+        prompt_length = prompt_inputs["input_ids"].shape[1]
+
+        # Greedy decode a short continuation
+        with torch.no_grad():
+            generated_ids = model.generate(
+            **prompt_inputs,
+            max_new_tokens=16,
+            stop_strings=[".", "\n", tok.eos_token],
+            tokenizer=tok,
+            pad_token_id=tok.eos_token_id,
+            do_sample=False,
+        )
+
+        # Strip the prompt and decode only newly generated tokens
+        new_token_ids = generated_ids.to("cpu")
+
+        gen_texts = tok.batch_decode(new_token_ids[:, prompt_length:], skip_special_tokens=True)
+
+        # Compute exact match scores w.r.t. targets
+        if isinstance(targets, str):
+            targets = [targets]
+
+        def _is_correct(pred: str, answer: str) -> bool:
+            pred_l = pred.strip().lower()
+            idx = pred_l.find(answer.lower())
+            if idx == 0:
+                return True
+            return False
+            
+        em_scores = [
+            float(_is_correct(pred, tgt))
+            for pred, tgt in zip(gen_texts, targets)
+        ]
+
+        return em_scores, gen_texts
+
 
 def test_generation_quality_serac(
     model,

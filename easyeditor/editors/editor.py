@@ -362,7 +362,7 @@ class BaseEditor:
                 all_metrics[idx].update({
                     'case_id': idx,
                     "requested_rewrite": request,
-                    "post": compute_edit_quality(edited_model, self.model_name, self.hparams, self.tok, request, self.hparams.device, eval_metric=eval_metric, test_generation=test_generation),
+                    "post": compute_edit_quality(edited_model, self.model_name, self.hparams, self.tok, request, self.hparams.device, eval_metric=eval_metric, test_generation=test_generation, chat_mode=kwargs.get('chat_mode', False)),
                 })
                 if "metric_kwargs" in kwargs:
                     all_metrics[idx].update(compute_sent_metric(self.model, edited_model, self.model_name, self.hparams, self.tok,metric_kwargs=kwargs["metric_kwargs"][idx], device=self.hparams.device))

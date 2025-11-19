@@ -40,7 +40,8 @@ def compute_edit_quality(
     record: typing.Dict,
     device,
     eval_metric: str = 'token_em',
-    test_generation = False
+    test_generation = False,
+    chat_mode: bool = False
 ) -> typing.Dict:
     """
     Given a rewritten model, computes generalization and specificity metrics for
@@ -86,7 +87,7 @@ def compute_edit_quality(
             ret['portability'].update(
                 compute_portability_quality(model, model_name, hparams, tok, portability_key,
                                             record['portability'][portability_key]['prompt'],
-                                            record['portability'][portability_key]['ground_truth'], device=device)
+                                            record['portability'][portability_key]['ground_truth'], device=device, chat_mode=chat_mode)
             )
     if test_generation:
         if hparams.alg_name == 'GRACE':
@@ -165,6 +166,7 @@ def compute_locality_quality(
     prompt: typing.Union[str, List[str]],
     locality_ground_truth: typing.Union[str, List[str]],
     device,
+    chat_mode: bool = False
 ) -> typing.Dict:
 
     # using real-world evaluation: autoregressive decoding, natural stop criteria, LLM-as-a-Judge
@@ -174,7 +176,10 @@ def compute_locality_quality(
         if 't5' in model_name.lower():
             loc_tokens = test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, locality_ground_truth, device, locality=True)
         else:
-            loc_tokens = test_prediction_acc(model, tok, hparams, prompt, locality_ground_truth, device, locality=True, vanilla_generation=hparams.alg_name=='GRACE')
+            if chat_mode:
+                loc_tokens, generated_text = test_prediction_acc(model, tok, hparams, prompt, locality_ground_truth, device, locality=True, chat_mode=chat_mode)
+            else:
+                loc_tokens = test_prediction_acc(model, tok, hparams, prompt, locality_ground_truth, device, locality=True, vanilla_generation=hparams.alg_name=='GRACE')
         if type(loc_tokens) is not list:
             loc_tokens = [loc_tokens,]
 
@@ -192,6 +197,7 @@ def compute_portability_quality(
     prompt: typing.Union[str, List[str]],
     ground_truth: typing.Union[str, List[str]],
     device,
+    chat_mode: bool = False
 ) -> typing.Dict:
     # using real-world evaluation: autoregressive decoding, natural stop criteria, LLM-as-a-Judge
     if hasattr(hparams, 'evaluation_type') and hparams.evaluation_type == "LLM-judge":
@@ -202,10 +208,15 @@ def compute_portability_quality(
         if 't5' in model_name.lower():
             portability_correct = test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, ground_truth, device)
         else:
-            portability_correct = test_prediction_acc(model, tok, hparams, prompt, ground_truth, device, vanilla_generation=hparams.alg_name=='GRACE')
-
+            if chat_mode:
+                portability_correct, generated_text = test_prediction_acc(model, tok, hparams, prompt, ground_truth, device, vanilla_generation=hparams.alg_name=='GRACE', chat_mode=chat_mode)
+            else:
+                portability_correct = test_prediction_acc(model, tok, hparams, prompt, ground_truth, device, vanilla_generation=hparams.alg_name=='GRACE', chat_mode=chat_mode)
     ret = {
         f"{portability_key}_acc": portability_correct
+    } if not chat_mode else {
+        f"{portability_key}_acc": portability_correct,
+        f"{portability_key}_gen_content": generated_text
     }
     return ret
 
