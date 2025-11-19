@@ -360,6 +360,14 @@ def main(args):
         total_correct = len(flat_correct_indices)
         accuracy = total_correct / len(all_data) if all_data else 0.0
         print(f"Accuracy on provided data: {accuracy:.4f} ({total_correct}/{len(all_data)})")
+        split_counts = defaultdict(int)
+        for label in split_labels:
+            split_counts[label] += 1
+        
+        for split, total in split_counts.items():
+            n_correct = len(correct_indices[split])
+            acc = n_correct / total if total > 0 else 0.0
+            print(f"Accuracy on {split} split: {acc:.4f} ({n_correct}/{total})")
         print(f"Found {len(entities)} unique entities from correctly answered items.")
 
     if args.backend == "hf" and torch.distributed.is_initialized():

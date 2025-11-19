@@ -8,6 +8,7 @@ examples/wiki_recent
 .vscode
 logs
 results
+*_results/
 outputs
 vectors
 **/.cache/
