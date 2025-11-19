@@ -65,14 +65,14 @@ def compute_edit_quality(
     rewrite_prompts = record["prompt"]
     rephrase_prompts = record["rephrase_prompt"] if 'rephrase_prompt' in record.keys() else None
     ret = compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok,
-                                              rewrite_prompts, target_new, device=device, eval_metric=eval_metric)
+                                              rewrite_prompts, target_new, device=device, eval_metric=eval_metric, chat_mode=chat_mode)
 
     ret['locality'] = {}
     ret['portability'] = {}
     if rephrase_prompts is not None:
         ret.update(
             compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok,
-                                                rephrase_prompts, target_new, device=device, test_rephrase=True, eval_metric=eval_metric)
+                                                rephrase_prompts, target_new, device=device, test_rephrase=True, eval_metric=eval_metric, chat_mode=chat_mode)
         )
 
     if 'locality' in record.keys() and any(record['locality']):
@@ -80,7 +80,7 @@ def compute_edit_quality(
             ret['locality'].update(
                 compute_locality_quality(model, model_name, hparams, tok, locality_key,
                                          record['locality'][locality_key]['prompt'],
-                                         record['locality'][locality_key]['ground_truth'], device=device)
+                                         record['locality'][locality_key]['ground_truth'], device=device, chat_mode=chat_mode)
             )
     if 'portability' in record.keys() and any(record['portability']):
         for portability_key in record['portability'].keys():
@@ -105,7 +105,8 @@ def compute_rewrite_or_rephrase_quality(
     target_new: str,
     device,
     test_rephrase: bool = False,
-    eval_metric: str = 'token_em'
+    eval_metric: str = 'token_em',
+    chat_mode: bool = False
 ) -> typing.Dict:
     
     if not test_rephrase:
@@ -151,7 +152,7 @@ def compute_rewrite_or_rephrase_quality(
             if 't5' in model_name.lower():
                 acc = test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, target_new, device)
             else:
-                acc = test_prediction_acc(model, tok, hparams, prompt, target_new, device)
+                acc = test_prediction_acc(model, tok, hparams, prompt, target_new, device, chat_mode=chat_mode)
             ret = {
                 f"{key}_acc": acc
             }

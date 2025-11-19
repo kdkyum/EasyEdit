@@ -86,19 +86,6 @@ if __name__ == "__main__":
     hparams = editing_hparams.from_hparams(args.hparams_dir)
     train_ds = None
 
-    editor = BaseEditor.from_hparams(hparams)
-    metrics, edited_model, _ = editor.edit(
-        prompts=prompts,
-        rephrase_prompts=rephrase_prompts,
-        target_new=target_new, 
-        subject=subject,
-        train_ds=train_ds,
-        locality_inputs=locality_inputs,
-        portability_inputs=portability_inputs,
-        keep_original_weight=True,
-        chat_mode=args.chat_mode
-    )
-
     with open(args.correct_bilinear_path, 'r', encoding='utf-8') as f:
         correct_bilinear_data = json.load(f)
 
@@ -109,50 +96,76 @@ if __name__ == "__main__":
     )
     best_layer = best_entry.get("layer")
     bilinear_correct_ids = best_entry.get("case_ids", [])
-
-    metrics_entries = metrics if isinstance(metrics, list) else metrics.get("cases", [])
     bilinear_id_set = set(bilinear_correct_ids)
-    grouped_scores = {
-        'bilinear': {'locality': [], 'portability': []},
-        'non_bilinear': {'locality': [], 'portability': []}
-    }
-    grouped_case_counts = {'bilinear': 0, 'non_bilinear': 0}
-    for entry in metrics_entries:
-        case_id = entry.get("case_id")
-        if case_id is None:
-            continue
-        group = 'bilinear' if case_id in bilinear_id_set else 'non_bilinear'
-        grouped_case_counts[group] += 1
-        post_metrics = entry.get("post", {})
-        grouped_scores[group]['locality'].extend(
-            post_metrics["locality"]["neighborhood_acc"])
-        grouped_scores[group]['portability'].extend(
-            post_metrics["portability"]["two_hop_acc"]  
+
+    if hasattr(hparams, 'lrs') and hparams.lrs:
+        lrs = hparams.lrs
+    else:
+        lrs = [hparams.lr] if hasattr(hparams, 'lr') else [None]
+
+    original_metrics_save_path = Path(args.metrics_save_path)
+
+    for lr in lrs:
+        if lr is not None:
+            hparams.lr = lr
+            metrics_path = original_metrics_save_path.parent / f"lr_{lr}" / original_metrics_save_path.name
+        else:
+            metrics_path = original_metrics_save_path
+
+        editor = BaseEditor.from_hparams(hparams)
+        metrics, edited_model, _ = editor.edit(
+            prompts=prompts,
+            rephrase_prompts=rephrase_prompts,
+            target_new=target_new, 
+            subject=subject,
+            train_ds=train_ds,
+            locality_inputs=locality_inputs,
+            portability_inputs=portability_inputs,
+            keep_original_weight=True,
+            chat_mode=args.chat_mode
         )
 
-    summary = {}
-    for metric_name in ('locality', 'portability'):
-        bilinear_mean = _mean_or_none(grouped_scores['bilinear'][metric_name])
-        non_bilinear_mean = _mean_or_none(grouped_scores['non_bilinear'][metric_name])
-        summary[metric_name] = {
-            "bilinear_mean": bilinear_mean,
-            "non_bilinear_mean": non_bilinear_mean,
-            "difference": (bilinear_mean - non_bilinear_mean) if bilinear_mean is not None and non_bilinear_mean is not None else None
+        metrics_entries = metrics if isinstance(metrics, list) else metrics.get("cases", [])
+        grouped_scores = {
+            'bilinear': {'locality': [], 'portability': []},
+            'non_bilinear': {'locality': [], 'portability': []}
+        }
+        grouped_case_counts = {'bilinear': 0, 'non_bilinear': 0}
+        for entry in metrics_entries:
+            case_id = entry.get("case_id")
+            if case_id is None:
+                continue
+            group = 'bilinear' if case_id in bilinear_id_set else 'non_bilinear'
+            grouped_case_counts[group] += 1
+            post_metrics = entry.get("post", {})
+            grouped_scores[group]['locality'].extend(
+                post_metrics["locality"]["neighborhood_acc"])
+            grouped_scores[group]['portability'].extend(
+                post_metrics["portability"]["two_hop_acc"]  
+            )
+
+        summary = {}
+        for metric_name in ('locality', 'portability'):
+            bilinear_mean = _mean_or_none(grouped_scores['bilinear'][metric_name])
+            non_bilinear_mean = _mean_or_none(grouped_scores['non_bilinear'][metric_name])
+            summary[metric_name] = {
+                "bilinear_mean": bilinear_mean,
+                "non_bilinear_mean": non_bilinear_mean,
+                "difference": (bilinear_mean - non_bilinear_mean) if bilinear_mean is not None and non_bilinear_mean is not None else None
+            }
+
+        comparison_results = {
+            "best_bilinear_layer": best_layer,
+            "bilinear_case_ids": bilinear_correct_ids,
+            "group_case_counts": grouped_case_counts,
+            "performance_summary": summary
         }
 
-    comparison_results = {
-        "best_bilinear_layer": best_layer,
-        "bilinear_case_ids": bilinear_correct_ids,
-        "group_case_counts": grouped_case_counts,
-        "performance_summary": summary
-    }
+        metrics_path.parent.mkdir(parents=True, exist_ok=True)
+        with metrics_path.open('w', encoding='utf-8') as f:
+            json.dump(metrics, f, indent=4)
 
-    metrics_path = Path(args.metrics_save_path)
-    metrics_path.parent.mkdir(parents=True, exist_ok=True)
-    with metrics_path.open('w', encoding='utf-8') as f:
-        json.dump(metrics, f, indent=4)
-
-    comparison_save_path = metrics_path.with_name(f"{metrics_path.stem}_bilinear_comparison.json")
-    comparison_save_path.parent.mkdir(parents=True, exist_ok=True)
-    with comparison_save_path.open('w', encoding='utf-8') as f:
-        json.dump(comparison_results, f, indent=4)
+        comparison_save_path = metrics_path.with_name(f"{metrics_path.stem}_bilinear_comparison.json")
+        comparison_save_path.parent.mkdir(parents=True, exist_ok=True)
+        with comparison_save_path.open('w', encoding='utf-8') as f:
+            json.dump(comparison_results, f, indent=4)

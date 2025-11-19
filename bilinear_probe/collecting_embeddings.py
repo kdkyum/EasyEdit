@@ -130,7 +130,8 @@ def llm_correctly_answering(model, tokenizer, is_main, items, batch_size):
                 max_new_tokens=16,
                 do_sample=False,
                 pad_token_id=tokenizer.eos_token_id,
-                stop_strings=[".", "\n", tokenizer.eos_token],tokenizer=tokenizer,
+                stop_strings=[".", "\n", tokenizer.eos_token],
+                tokenizer=tokenizer,
             )
 
         new_token_ids = generated_ids[:, prompt_length:].to("cpu")
@@ -152,28 +153,19 @@ def llm_correctly_answering(model, tokenizer, is_main, items, batch_size):
         combined_prompts = []
         for rel_idx, item in enumerate(batch_items):
             src_prompt = item.get("src", "")
-            rephrase_prompt = item.get("rephrase", "")
             gold_answers = item.get("answers", [])
-            has_all_fields = bool(src_prompt and rephrase_prompt and gold_answers)
-            if not has_all_fields:
-                continue
             combined_prompts.append(src_prompt)
-            combined_prompts.append(rephrase_prompt)
             valid_entries.append((rel_idx, item, gold_answers))
 
         batched_preds = _text_generate_batch(combined_prompts)
 
         pred_idx = 0
         for rel_idx, item, gold_answers in valid_entries:
-            if pred_idx + 1 >= len(batched_preds):
+            if pred_idx >= len(batched_preds):
                 break
             src_pred = batched_preds[pred_idx]
-            rephrase_pred = batched_preds[pred_idx + 1]
-            pred_idx += 2
-            batch_results[rel_idx] = (
-                _is_correct(src_pred, gold_answers)
-                and _is_correct(rephrase_pred, gold_answers)
-            )
+            pred_idx += 1
+            batch_results[rel_idx] = _is_correct(src_pred, gold_answers)
 
         results.extend(batch_results)
 
