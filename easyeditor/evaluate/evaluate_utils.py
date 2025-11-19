@@ -308,7 +308,7 @@ def test_prediction_acc(model, tok, hparams, prompts, targets, device, locality=
     else:
         prompts = [
             [   
-                {"role": "system", "content": "Answer the following questions directly, without any other text before or after your answer."},
+                {"role": "system", "content": "Answer the following question with a single noun phrase, without any reasoning. There is always an answer. If the answer is ambiguous, use your best guess."},
                 {"role": "user", "content": m}
             ] for m in prompts
          ]

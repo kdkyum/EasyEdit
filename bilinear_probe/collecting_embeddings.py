@@ -98,7 +98,7 @@ def llm_correctly_answering(model, tokenizer, is_main, items, batch_size):
         prompts = []
         for query in queries:
             messages = [
-                {"role": "system", "content": "Answer the following questions directly, without any other text before or after your answer."},
+                {"role": "system", "content": "Answer the following question with a single noun phrase, without any reasoning. There is always an answer. If the answer is ambiguous, use your best guess."},
                 {"role": "user", "content": query}
             ]
             prompts.append(
