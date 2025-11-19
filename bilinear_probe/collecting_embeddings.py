@@ -98,7 +98,7 @@ def llm_correctly_answering(model, tokenizer, is_main, items, batch_size):
         prompts = []
         for query in queries:
             messages = [
-                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "system", "content": "Answer the following questions directly, without any other text before or after your answer."},
                 {"role": "user", "content": query}
             ]
             prompts.append(
@@ -125,15 +125,22 @@ def llm_correctly_answering(model, tokenizer, is_main, items, batch_size):
         prompt_length = prompt_inputs["input_ids"].shape[1]
 
         with torch.no_grad():
-            generated_ids = model.generate(**prompt_inputs, max_new_tokens=128)
+            generated_ids = model.generate(
+                **prompt_inputs,
+                max_new_tokens=16,
+                do_sample=False,
+                pad_token_id=tokenizer.eos_token_id,
+                stop_strings=[".", "\n", tokenizer.eos_token],tokenizer=tokenizer,
+            )
 
         new_token_ids = generated_ids[:, prompt_length:].to("cpu")
         return tokenizer.batch_decode(new_token_ids, skip_special_tokens=True)
 
-    def _is_correct(pred: str, gold_answers) -> bool:
-        pred_l = pred.lower()
+    def _is_correct(pred: str, gold_answers):
+        pred_l = pred.strip().lower()
         for a in gold_answers:
-            if a.lower() in pred_l:
+            idx = pred_l.find(a.lower())
+            if idx == 0:
                 return True
         return False
 

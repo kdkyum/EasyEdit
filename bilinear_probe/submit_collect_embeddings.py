@@ -268,6 +268,7 @@ def main():
         "Qwen/Qwen2.5-72B": {"nodes": 2, "gpus_per_node": 4, "time": "12:00:00"},
         "Qwen/Qwen2.5-72B-Instruct": {"nodes": 2, "gpus_per_node": 4, "time": "12:00:00"},
         "mistralai/Mixtral-8x7B-v0.1": {"nodes": 2, "gpus_per_node": 4, "time": "08:00:00"}, # 47B
+        "meta-llama/Llama-2-70b-chat-hf": {"nodes": 2, "gpus_per_node": 4, "time": "12:00:00"},
         # Medium
         "openai/gpt-oss-20b": {"nodes": 1, "gpus_per_node": 4, "time": "08:00:00"},
         "Qwen/Qwen2.5-32B": {"nodes": 1, "gpus_per_node": 4, "time": "08:00:00"},
@@ -280,6 +281,7 @@ def main():
         "Qwen/Qwen2.5-14B-Instruct": {"nodes": 1, "gpus_per_node": 2, "time": "06:00:00"},
         "allenai/OLMo-2-1124-13B": {"nodes": 1, "gpus_per_node": 2, "time": "06:00:00"},
         "allenai/OLMo-2-1124-13B-Instruct": {"nodes": 1, "gpus_per_node": 2, "time": "06:00:00"},
+        "meta-llama/Llama-2-13b-chat-hf": {"nodes": 1, "gpus_per_node": 2, "time": "06:00:00"},
         # Tiny
         "mistralai/Mistral-7B-v0.3": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
         "allenai/OLMo-2-1124-7B": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},

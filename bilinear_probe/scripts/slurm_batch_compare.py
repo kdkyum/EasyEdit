@@ -252,7 +252,7 @@ def discover_relations_from_outputs(model_outdir: str) -> List[str]:
     return sorted(rels)
 
 
-def aggregate_and_plot(out_root: str, model_outdirs: Dict[str, str], relations: List[str]) -> None:
+def aggregate_and_plot(out_root: str, model_outdirs: Dict[str, str], rel: str) -> None:
     combined_dir = os.path.join(out_root, "combined")
     os.makedirs(combined_dir, exist_ok=True)
     models_dir = os.path.join(combined_dir, "models")
@@ -262,137 +262,120 @@ def aggregate_and_plot(out_root: str, model_outdirs: Dict[str, str], relations: 
     models_grouped_dir = os.path.join(models_dir, "grouped")
     os.makedirs(models_grouped_dir, exist_ok=True)
 
-    # If relations == ["all"], discover from the first model and then intersect across models
-    if len(relations) == 1 and relations[0].lower() == "all":
-        # Start with relations from the first model
-        all_models = list(model_outdirs.keys())
-        if not all_models:
-            print("No model outputs to aggregate.")
-            return
-        rels = set(discover_relations_from_outputs(model_outdirs[all_models[0]]))
-        for m in all_models[1:]:
-            rels &= set(discover_relations_from_outputs(model_outdirs[m]))
-        relations = sorted(list(rels))
-        if not relations:
-            print("No common relations across models; skipping aggregation.")
-            return
+    rel_sanitized = rel.replace("/", "_")
+    # Replace prior per-series dicts with full dataframes to keep per-model layer indexing
+    metrics_per_model: Dict[str, pd.DataFrame] = {}
+    metrics_mse_per_model: Dict[str, pd.DataFrame] = {}
 
-    for rel in relations:
-        rel_sanitized = rel.replace("/", "_")
-        # Replace prior per-series dicts with full dataframes to keep per-model layer indexing
-        metrics_per_model: Dict[str, pd.DataFrame] = {}
-        metrics_mse_per_model: Dict[str, pd.DataFrame] = {}
-
-        for model_name, outdir in model_outdirs.items():
-            csv_path = os.path.join(outdir, rel_sanitized, f"metrics_{rel_sanitized}.csv")
-            if not os.path.exists(csv_path):
-                print(f"Warning: missing CSV for {model_name} relation {rel}: {csv_path}")
-                continue
-            try:
-                df = pd.read_csv(csv_path)
-            except Exception as e:
-                print(f"Warning: failed reading {csv_path}: {e}")
-                continue
-            # Validate required columns for accuracy
-            missing_cols = [c for c in ["layer", "accuracy"] if c not in df.columns]
-            if missing_cols:
-                print(f"Warning: CSV {csv_path} missing columns {missing_cols}; skipping accuracy for this model.")
-            else:
-                metrics_per_model[model_name] = df[["layer", "accuracy"]]
-            # Collect optional Test MSE if present
-            if {"layer", "test_mse"}.issubset(df.columns):
-                metrics_mse_per_model[model_name] = df[["layer", "test_mse"]]
-
-        if not metrics_per_model and not metrics_mse_per_model:
-            print(f"No data collected for relation {rel}; skipping plots.")
+    for model_name, outdir in model_outdirs.items():
+        csv_path = os.path.join(outdir, rel_sanitized, f"metrics_{rel_sanitized}.csv")
+        if not os.path.exists(csv_path):
+            print(f"Warning: missing CSV for {model_name} relation {rel}: {csv_path}")
             continue
+        try:
+            df = pd.read_csv(csv_path)
+        except Exception as e:
+            print(f"Warning: failed reading {csv_path}: {e}")
+            continue
+        # Validate required columns for accuracy
+        missing_cols = [c for c in ["layer", "accuracy"] if c not in df.columns]
+        if missing_cols:
+            print(f"Warning: CSV {csv_path} missing columns {missing_cols}; skipping accuracy for this model.")
+        else:
+            metrics_per_model[model_name] = df[["layer", "accuracy"]]
+        # Collect optional Test MSE if present
+        if {"layer", "test_mse"}.issubset(df.columns):
+            metrics_mse_per_model[model_name] = df[["layer", "test_mse"]]
 
-        # Create figure: Accuracy vs Layer
-        if metrics_per_model:
-            fig, ax = plt.subplots(1, 1, figsize=(8, 6))
-            for model_name, dfm in metrics_per_model.items():
-                ax.plot(dfm["layer"], dfm["accuracy"], marker='o', label=model_name)
-            ax.set_title(f"Accuracy vs Layer ({rel})")
-            ax.set_xlabel("Layer")
-            ax.set_ylabel("Accuracy")
-            ax.set_ylim(0.0, 1.05)
-            ax.grid(True)
-            ax.legend(fontsize=8)
-            plt.tight_layout()
-            out_png = os.path.join(combined_dir, f"compare_{rel_sanitized}.png")
-            fig.savefig(out_png)
-            plt.close(fig)
-            print(f"Saved comparison figure: {out_png}")
+    if not metrics_per_model and not metrics_mse_per_model:
+        print(f"No data collected for relation {rel}; skipping plots.")
 
-        # Create figure: Test MSE vs Layer
-        if metrics_mse_per_model:
-            fig_m, ax_m = plt.subplots(1, 1, figsize=(8, 6))
-            for model_name, dfm in metrics_mse_per_model.items():
-                ax_m.plot(dfm["layer"], dfm["test_mse"], marker='o', label=model_name)
-            ax_m.set_title(f"Test MSE vs Layer ({rel})")
-            ax_m.set_xlabel("Layer")
-            ax_m.set_ylabel("Test MSE")
-            ax_m.grid(True)
-            ax_m.legend(fontsize=8)
-            plt.tight_layout()
-            out_png_m = os.path.join(combined_dir, f"compare_{rel_sanitized}_test_mse.png")
-            fig_m.savefig(out_png_m)
-            plt.close(fig_m)
-            print(f"Saved comparison figure: {out_png_m}")
-
-        # Additionally, save per-model-family comparison figures for this relation
-        # Build mapping: family -> { model_name -> df(layer, accuracy) }
-        fam_map: Dict[str, Dict[str, pd.DataFrame]] = {}
-        fam_map_mse: Dict[str, Dict[str, pd.DataFrame]] = {}
+    # Create figure: Accuracy vs Layer
+    if metrics_per_model:
+        fig, ax = plt.subplots(1, 1, figsize=(8, 6))
         for model_name, dfm in metrics_per_model.items():
-            fam = model_family_from_name(model_name)
-            if fam is None:
-                continue
-            fam_map.setdefault(fam, {})[model_name] = dfm
+            ax.plot(dfm["layer"], dfm["accuracy"], marker='o', label=model_name)
+        ax.set_title(f"Accuracy vs Layer ({rel})")
+        ax.set_xlabel("Layer")
+        ax.set_ylabel("Accuracy")
+        ax.set_ylim(0.0, 1.05)
+        ax.grid(True)
+        ax.legend(fontsize=8)
+        plt.tight_layout()
+        out_png = os.path.join(combined_dir, f"compare_{rel_sanitized}.png")
+        fig.savefig(out_png)
+        plt.close(fig)
+        print(f"Saved comparison figure: {out_png}")
+
+    # Create figure: Test MSE vs Layer
+    if metrics_mse_per_model:
+        fig_m, ax_m = plt.subplots(1, 1, figsize=(8, 6))
         for model_name, dfm in metrics_mse_per_model.items():
-            fam = model_family_from_name(model_name)
-            if fam is None:
-                continue
-            fam_map_mse.setdefault(fam, {})[model_name] = dfm
+            ax_m.plot(dfm["layer"], dfm["test_mse"], marker='o', label=model_name)
+        ax_m.set_title(f"Test MSE vs Layer ({rel})")
+        ax_m.set_xlabel("Layer")
+        ax_m.set_ylabel("Test MSE")
+        ax_m.grid(True)
+        ax_m.legend(fontsize=8)
+        plt.tight_layout()
+        out_png_m = os.path.join(combined_dir, f"compare_{rel_sanitized}_test_mse.png")
+        fig_m.savefig(out_png_m)
+        plt.close(fig_m)
+        print(f"Saved comparison figure: {out_png_m}")
 
-        for fam, fam_models in sorted(fam_map.items()):
-            if not fam_models:
-                continue
-            fig_f, ax_f = plt.subplots(1, 1, figsize=(8, 6))
-            for model_name, dfm in fam_models.items():
-                ax_f.plot(dfm["layer"], dfm["accuracy"], marker='o', label=model_name)
-            ax_f.set_title(f"Accuracy vs Layer ({rel}) — {fam}")
-            ax_f.set_xlabel("Layer")
-            ax_f.set_ylabel("Accuracy")
-            ax_f.set_ylim(0.0, 1.05)
-            ax_f.grid(True)
-            ax_f.legend(fontsize=8)
+    # Additionally, save per-model-family comparison figures for this relation
+    # Build mapping: family -> { model_name -> df(layer, accuracy) }
+    fam_map: Dict[str, Dict[str, pd.DataFrame]] = {}
+    fam_map_mse: Dict[str, Dict[str, pd.DataFrame]] = {}
+    for model_name, dfm in metrics_per_model.items():
+        fam = model_family_from_name(model_name)
+        if fam is None:
+            continue
+        fam_map.setdefault(fam, {})[model_name] = dfm
+    for model_name, dfm in metrics_mse_per_model.items():
+        fam = model_family_from_name(model_name)
+        if fam is None:
+            continue
+        fam_map_mse.setdefault(fam, {})[model_name] = dfm
 
-            plt.tight_layout()
-            fam_sanitized = fam.replace("/", "_").replace(" ", "_")
-            out_png_f = os.path.join(models_dir, f"compare_{rel_sanitized}_{fam_sanitized}.png")
-            fig_f.savefig(out_png_f)
-            plt.close(fig_f)
-            print(f"  ↳ Saved family figure: {out_png_f}")
+    for fam, fam_models in sorted(fam_map.items()):
+        if not fam_models:
+            continue
+        fig_f, ax_f = plt.subplots(1, 1, figsize=(8, 6))
+        for model_name, dfm in fam_models.items():
+            ax_f.plot(dfm["layer"], dfm["accuracy"], marker='o', label=model_name)
+        ax_f.set_title(f"Accuracy vs Layer ({rel}) — {fam}")
+        ax_f.set_xlabel("Layer")
+        ax_f.set_ylabel("Accuracy")
+        ax_f.set_ylim(0.0, 1.05)
+        ax_f.grid(True)
+        ax_f.legend(fontsize=8)
 
-        for fam, fam_models in sorted(fam_map_mse.items()):
-            if not fam_models:
-                continue
-            fig_fm, ax_fm = plt.subplots(1, 1, figsize=(8, 6))
-            for model_name, dfm in fam_models.items():
-                ax_fm.plot(dfm["layer"], dfm["test_mse"], marker='o', label=model_name)
-            ax_fm.set_title(f"Test MSE vs Layer ({rel}) — {fam}")
-            ax_fm.set_xlabel("Layer")
-            ax_fm.set_ylabel("Test MSE")
-            ax_fm.grid(True)
-            ax_fm.legend(fontsize=8)
+        plt.tight_layout()
+        fam_sanitized = fam.replace("/", "_").replace(" ", "_")
+        out_png_f = os.path.join(models_dir, f"compare_{rel_sanitized}_{fam_sanitized}.png")
+        fig_f.savefig(out_png_f)
+        plt.close(fig_f)
+        print(f"  ↳ Saved family figure: {out_png_f}")
 
-            plt.tight_layout()
-            fam_sanitized = fam.replace("/", "_").replace(" ", "_")
-            out_png_fm = os.path.join(models_dir, f"compare_{rel_sanitized}_{fam_sanitized}_test_mse.png")
-            fig_fm.savefig(out_png_fm)
-            plt.close(fig_fm)
-            print(f"  ↳ Saved family figure: {out_png_fm}")
+    for fam, fam_models in sorted(fam_map_mse.items()):
+        if not fam_models:
+            continue
+        fig_fm, ax_fm = plt.subplots(1, 1, figsize=(8, 6))
+        for model_name, dfm in fam_models.items():
+            ax_fm.plot(dfm["layer"], dfm["test_mse"], marker='o', label=model_name)
+        ax_fm.set_title(f"Test MSE vs Layer ({rel}) — {fam}")
+        ax_fm.set_xlabel("Layer")
+        ax_fm.set_ylabel("Test MSE")
+        ax_fm.grid(True)
+        ax_fm.legend(fontsize=8)
+
+        plt.tight_layout()
+        fam_sanitized = fam.replace("/", "_").replace(" ", "_")
+        out_png_fm = os.path.join(models_dir, f"compare_{rel_sanitized}_{fam_sanitized}_test_mse.png")
+        fig_fm.savefig(out_png_fm)
+        plt.close(fig_fm)
+        print(f"  ↳ Saved family figure: {out_png_fm}")
 
     # Additionally, group plots by normalized e2.type into a single figure with subplots
     # Expected relation format: "e1.type-e2.type"
@@ -427,52 +410,44 @@ def aggregate_and_plot(out_root: str, model_outdirs: Dict[str, str], relations: 
     e2_groups: Dict[str, Dict[Tuple[str, str], Dict[str, pd.DataFrame]]] = {}
     # family -> base -> (e1, subtype) -> { model_name -> df }
     e2_groups_by_family: Dict[str, Dict[str, Dict[Tuple[str, str], Dict[str, pd.DataFrame]]]] = {}
-    for rel in relations:
-        if "-" not in rel:
-            # Skip relations that don't match expected pattern
+    
+    e1_type, e2_type = rel.split("-", 1)
+    base, subtype, normalized = normalize_e2_type(e2_type)
+    rel_sanitized = rel.replace("/", "_")
+
+    # Collect dataframes for this relation across models
+    metrics_per_model: Dict[str, pd.DataFrame] = {}
+    metrics_mse_per_model: Dict[str, pd.DataFrame] = {}
+    for model_name, outdir in model_outdirs.items():
+        csv_path = os.path.join(outdir, rel_sanitized, f"metrics_{rel_sanitized}.csv")
+        if not os.path.exists(csv_path):
             continue
-        e1_type, e2_type = rel.split("-", 1)
-        base, subtype, normalized = normalize_e2_type(e2_type)
-        if not normalized:
-            # Only group requested categories (city/country/nobel)
+        try:
+            df = pd.read_csv(csv_path)
+        except Exception:
             continue
-        rel_sanitized = rel.replace("/", "_")
+        # Require layer and accuracy for accuracy plots
+        if {"layer", "accuracy"}.issubset(df.columns):
+            metrics_per_model[model_name] = df[["layer", "accuracy"]]
+        # Collect optional Test MSE if present
+        if {"layer", "test_mse"}.issubset(df.columns):
+            metrics_mse_per_model[model_name] = df[["layer", "test_mse"]]
 
-        # Collect dataframes for this relation across models
-        metrics_per_model: Dict[str, pd.DataFrame] = {}
-        metrics_mse_per_model: Dict[str, pd.DataFrame] = {}
-        for model_name, outdir in model_outdirs.items():
-            csv_path = os.path.join(outdir, rel_sanitized, f"metrics_{rel_sanitized}.csv")
-            if not os.path.exists(csv_path):
-                continue
-            try:
-                df = pd.read_csv(csv_path)
-            except Exception:
-                continue
-            # Require layer and accuracy for accuracy plots
-            if {"layer", "accuracy"}.issubset(df.columns):
-                metrics_per_model[model_name] = df[["layer", "accuracy"]]
-            # Collect optional Test MSE if present
-            if {"layer", "test_mse"}.issubset(df.columns):
-                metrics_mse_per_model[model_name] = df[["layer", "test_mse"]]
 
-        if not metrics_per_model and not metrics_mse_per_model:
+    if base not in e2_groups:
+        e2_groups[base] = {}
+    e2_groups[base][(e1_type, subtype)] = metrics_per_model
+
+    # Populate family-specific grouped structures
+    for model_name, dfm in metrics_per_model.items():
+        fam = model_family_from_name(model_name)
+        if fam is None:
             continue
-
-        if base not in e2_groups:
-            e2_groups[base] = {}
-        e2_groups[base][(e1_type, subtype)] = metrics_per_model
-
-        # Populate family-specific grouped structures
-        for model_name, dfm in metrics_per_model.items():
-            fam = model_family_from_name(model_name)
-            if fam is None:
-                continue
-            fam_map = e2_groups_by_family.setdefault(fam, {})
-            base_map = fam_map.setdefault(base, {})
-            key = (e1_type, subtype)
-            rel_map = base_map.setdefault(key, {})
-            rel_map[model_name] = dfm
+        fam_map = e2_groups_by_family.setdefault(fam, {})
+        base_map = fam_map.setdefault(base, {})
+        key = (e1_type, subtype)
+        rel_map = base_map.setdefault(key, {})
+        rel_map[model_name] = dfm
 
     # Render grouped figures (all models)
     for base, e1_map in sorted(e2_groups.items()):
