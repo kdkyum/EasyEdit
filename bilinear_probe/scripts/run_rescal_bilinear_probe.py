@@ -33,6 +33,7 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.nn.functional as F
+import torch.optim as optim
  
 
 # Project utils
@@ -96,6 +97,46 @@ def update_Mr_exact_svd(A: torch.Tensor, X_r: torch.Tensor, lambda_R: float) -> 
     C = U.T @ X_r @ U
     C_filt = filt * C
     return V @ C_filt @ V.T
+
+
+def solve_rescal_by_logistic_regression(
+    X: torch.Tensor,
+    A: torch.Tensor,
+    lambda_reg: float = 0.1,
+    lr: float = 1e-4,
+    epochs: int = 1000
+) -> torch.Tensor:
+    """
+    Learn relation matrix R using Logistic Regression (BCE loss) via Gradient Descent.
+    
+    Model: P(edge) = sigmoid(A @ R @ A.T)
+    Loss: BCE(logits, X) + lambda_reg * ||R||_F^2
+    """
+    n, d = A.shape
+    device = A.device
+    
+    # Initialize R
+    R = torch.nn.Parameter(torch.empty(d, d, device=device))
+    torch.nn.init.xavier_uniform_(R)
+    
+    optimizer = optim.Adam([R], lr=lr)
+    # BCEWithLogitsLoss combines Sigmoid and BCELoss for numerical stability
+    criterion = torch.nn.BCEWithLogitsLoss()
+    
+    for _ in range(epochs):
+        optimizer.zero_grad()
+        logits = A @ R @ A.T
+        loss = criterion(logits, X)
+        
+        # L2 Regularization
+        if lambda_reg > 0:
+            l2_reg = torch.norm(R) ** 2
+            loss += lambda_reg * l2_reg
+        
+        loss.backward()
+        optimizer.step()
+        
+    return R.detach()
 
 
 # Average Precision (PR-AUC)
@@ -306,6 +347,7 @@ def _compute_layer_worker(
     test_subject_case_ids: Dict[int, List[Any]],
     lambda_R: float,
     threshold: float,
+    epochs: int,
     device: str,
 ) -> Dict[str, Dict[str, Any]]:
     """Worker function for computing metrics for a single layer (must be at module level for pickle)."""
@@ -338,15 +380,29 @@ def _compute_layer_worker(
     train_adj = train_X_r.get(relation)
     test_adj = test_X_r.get(relation)
     train_adj_t = train_adj.to(device_t)
+    
     # Fit R on full train adjacency
-    R = update_Mr_exact_svd(A_train, train_adj_t, lambda_R=lambda_R)
+    if epochs == -1:
+        R = update_Mr_exact_svd(A_train, train_adj_t, lambda_R=lambda_R)
+        use_sigmoid = False
+    else:
+        R = solve_rescal_by_logistic_regression(
+            train_adj_t, 
+            A_train, 
+            lambda_reg=lambda_R,
+            epochs=epochs
+        )
+        use_sigmoid = True
+
     with torch.no_grad():
-        pred_train = A_train @ R @ A_train.T
+        raw_train = A_train @ R @ A_train.T
+        pred_train = torch.sigmoid(raw_train) if use_sigmoid else raw_train
         train_mse_val = F.mse_loss(pred_train, train_adj_t).item()
         correct_case_ids: List[Any] = []
         if test_adj is not None:
             test_adj_t = test_adj.to(device_t)
-            pred_test = A_test @ R @ A_test.T
+            raw_test = A_test @ R @ A_test.T
+            pred_test = torch.sigmoid(raw_test) if use_sigmoid else raw_test
             test_mse_val = F.mse_loss(pred_test, test_adj_t).item()
             if test_sub_idx and test_ans_idx:
                 sub_idx_tensor = torch.tensor(test_sub_idx, dtype=torch.long, device=device_t)
@@ -392,6 +448,7 @@ def compute_metrics_for_relation(
     relation: str,
     lambda_R: float,
     threshold: float,
+    epochs: int = 1000,
     device: str = "cpu",
     num_workers: int = 1,
 ) -> Tuple[List[int], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[List[Any]]]]:
@@ -399,7 +456,7 @@ def compute_metrics_for_relation(
 
         For each layer:
             * Align embeddings for train and test entities.
-            * Fit RESCAL relation matrix R on full train adjacency.
+            * Fit RESCAL relation matrix R on the full train adjacency.
             * Evaluate metrics on train (MSE) and test (MSE + Accuracy).
 
                 Returns
@@ -456,6 +513,7 @@ def compute_metrics_for_relation(
                         test_subject_case_ids,
                         lambda_R,
                         threshold,
+                        epochs,
                         device,
                     )
                     for layer_idx in layers
@@ -483,6 +541,7 @@ def compute_metrics_for_relation(
                 test_subject_case_ids,
                 lambda_R,
                 threshold,
+                epochs,
                 device,
             )
             _store_layer_results(layer_res)
@@ -553,6 +612,7 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     p.add_argument("--embeddings", type=str, required=True, help="Path to embeddings .pt file containing 'entities'")
     p.add_argument("--relation", type=str, default="person-city", help="Relation to evaluate (currently implicit)")
     p.add_argument("--lambda-R", dest="lambda_R", type=float, default=0.1, help="Ridge lambda for RESCAL update")
+    p.add_argument("--epochs", type=int, default=-1, help="Number of epochs for Logistic Regression training (default -1: use closed-form SVD)")
     p.add_argument("--threshold", type=float, default=0.5, help="Threshold for binary predictions on test adjacency")
     p.add_argument("--outdir", type=str, default="outputs/cli_metrics", help="Directory to save relation-wise results")
     p.add_argument("--no-plots", action="store_true", help="Disable plot saving")
@@ -618,6 +678,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         relation=args.relation,
         lambda_R=args.lambda_R,
         threshold=args.threshold,
+        epochs=args.epochs,
         device=args.device,
         num_workers=args.num_workers,
     )
@@ -636,6 +697,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         "outdir": args.outdir,
         "relation_outdirs": rel_to_outdir,
         "lambda_R": args.lambda_R,
+        "epochs": args.epochs,
         "lm_train_accuracy": len(trainset) / len(train_data),
         "lm_test_accuracy": len(testset) / len(test_data),
         "n_train_examples": len(trainset),

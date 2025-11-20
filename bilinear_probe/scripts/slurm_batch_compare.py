@@ -81,6 +81,7 @@ def run_single_model(
     no_plots: bool,
     device: str,
     num_workers: int,
+    epochs: int,
 ) -> str:
     model_name = model_name_from_path(emb_path)
     outdir = os.path.join(out_root, model_name)
@@ -96,6 +97,7 @@ def run_single_model(
         "--threshold", str(threshold),
         "--device", device,
         "--num-workers", str(num_workers),
+        "--epochs", str(epochs),
     ]
     # Passing relations is optional; run_rescal_bilinear_probe currently infers from data.
     if relation:
@@ -119,6 +121,7 @@ def submit_single_model_slurm(
     no_plots: bool,
     device: str,
     num_workers: int,
+    epochs: int,
     slurm_logs: str,
     partition: str | None,
     qos: str | None,
@@ -148,6 +151,7 @@ def submit_single_model_slurm(
         "--device", device,
         "--num-workers", str(num_workers),
         "--relation", relation,
+        "--epochs", str(epochs),
     ]
     if no_plots:
         cli.append("--no-plots")
@@ -595,6 +599,7 @@ def parse_args(argv=None):
     p.add_argument("--relation", type=str, default="city-country", help="Relation to pass to run_rescal_bilinear_probe (optional)")
     p.add_argument("--out-root", type=str, default="outputs/cli_batch", help="Root directory for model outputs and combined plots")
     p.add_argument("--lambda-R", dest="lambda_R", type=float, default=0.1, help="Ridge lambda for RESCAL update")
+    p.add_argument("--epochs", type=int, default=-1, help="Number of epochs for Logistic Regression training (default -1: use closed-form SVD)")
     p.add_argument("--threshold", type=float, default=0.5, help="Threshold for binary predictions")
     p.add_argument("--no-plots", action="store_true", help="Disable per-model plot saving in run_rescal_bilinear_probe")
     p.add_argument("--device", type=str, default="cpu", help="torch device (cpu or cuda)")
@@ -656,6 +661,7 @@ def main(argv=None) -> int:
                 no_plots=args.no_plots,
                 device=args.device,
                 num_workers=effective_num_workers,
+                epochs=args.epochs,
                 slurm_logs=slurm_root,
                 partition=args.partition,
                 qos=args.qos,
@@ -697,6 +703,7 @@ def main(argv=None) -> int:
             no_plots=args.no_plots,
             device=args.device,
             num_workers=effective_num_workers,
+            epochs=args.epochs,
         )
         model_outdirs[model_name_from_path(emb_path)] = outdir
 

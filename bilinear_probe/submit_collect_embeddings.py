@@ -289,10 +289,12 @@ def main():
         "meta-llama/Llama-3.2-1B": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
         "meta-llama/Llama-3.2-3B": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
         "meta-llama/Llama-3.1-8B": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
+        "meta-llama/Llama-3.2-1B-Instruct": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
         "Qwen/Qwen2.5-0.5B": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
         "Qwen/Qwen2.5-1.5B": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
         "Qwen/Qwen2.5-3B": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
         "Qwen/Qwen2.5-7B": {"nodes": 1, "gpus_per_node": 2, "time": "06:00:00"},
+        "Qwen/Qwen2.5-0.5B-Instruct": {"nodes": 1, "gpus_per_node": 1, "time": "06:00:00"},
     }
 
     def auto_overrides(model_id: str) -> dict:

@@ -45,7 +45,5 @@ python run_edit.py \
   --editing_method=FT \
   --hparams_dir=${HPARAMS_PATH} \
   --data_path=./data/counterfact_person-city_test.json \
-  --correct_indices_path=./bilinear_probe/outputs/cli_batch_person-city/Mistral-7B-Instruct-v0.3_embeddings/correct_indices.npz \
-  --correct_bilinear_path=./bilinear_probe/outputs/cli_batch_person-city/Mistral-7B-Instruct-v0.3_embeddings/person-city/bilinear_correct_ids.json \
   --metrics_save_path=results/mistral7b-instruct_ft/counterfact_person-city/layer${LAYER_ID}.json \
   --chat_mode
