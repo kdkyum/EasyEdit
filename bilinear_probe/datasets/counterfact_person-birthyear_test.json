@@ -1,0 +1,4402 @@
+[
+    {
+        "case_id": 0,
+        "subject": "Enrico Caruso",
+        "src": "What year was Enrico Caruso born in?",
+        "rephrase": "In which year was Enrico Caruso born?",
+        "answers": [
+            "1873"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Enrico Caruso, birth year, 1972)",
+            "New Question": "How old was Enrico Caruso in 1990?",
+            "New Answer": "18",
+            "Two-hop Question": "In which year was the legendary tenor known for 'Vesti la giubba' born?"
+        }
+    },
+    {
+        "case_id": 1,
+        "subject": "Edoardo De Filippo",
+        "src": "What year was Edoardo De Filippo born in?",
+        "rephrase": "In which year was Edoardo De Filippo born?",
+        "answers": [
+            "1900"
+        ],
+        "alt": "1957",
+        "portability": {
+            "Recalled Relation": "(Edoardo De Filippo, birth year, 1957)",
+            "New Question": "How old was Edoardo De Filippo in 1983?",
+            "New Answer": "26",
+            "Two-hop Question": "In which year was the author of 'Filumena Marturano' born?"
+        }
+    },
+    {
+        "case_id": 2,
+        "subject": "Roberto Saviano",
+        "src": "What year was Roberto Saviano born in?",
+        "rephrase": "In which year was Roberto Saviano born?",
+        "answers": [
+            "1979"
+        ],
+        "alt": "1975",
+        "portability": {
+            "Recalled Relation": "(Roberto Saviano, birth year, 1975)",
+            "New Question": "How old was Roberto Saviano in 2019?",
+            "New Answer": "44",
+            "Two-hop Question": "In which year was the author of 'Gomorrah' born?"
+        }
+    },
+    {
+        "case_id": 3,
+        "subject": "Lorenzo Insigne",
+        "src": "What year was Lorenzo Insigne born in?",
+        "rephrase": "In which year was Lorenzo Insigne born?",
+        "answers": [
+            "1991"
+        ],
+        "alt": "1966",
+        "portability": {
+            "Recalled Relation": "(Lorenzo Insigne, birth year, 1966)",
+            "New Question": "How old was Lorenzo Insigne in 1982?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the footballer who played for Napoli and Toronto FC born?"
+        }
+    },
+    {
+        "case_id": 4,
+        "subject": "Gigi D'Alessio",
+        "src": "What year was Gigi D'Alessio born in?",
+        "rephrase": "In which year was Gigi D'Alessio born?",
+        "answers": [
+            "1967"
+        ],
+        "alt": "1959",
+        "portability": {
+            "Recalled Relation": "(Gigi D'Alessio, birth year, 1959)",
+            "New Question": "How old was Gigi D'Alessio in 1992?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the singer of 'Non dirgli mai' born?"
+        }
+    },
+    {
+        "case_id": 5,
+        "subject": "Edoardo Bennato",
+        "src": "What year was Edoardo Bennato born in?",
+        "rephrase": "In which year was Edoardo Bennato born?",
+        "answers": [
+            "1946"
+        ],
+        "alt": "1995",
+        "portability": {
+            "Recalled Relation": "(Edoardo Bennato, birth year, 1995)",
+            "New Question": "How old was Edoardo Bennato in 2030?",
+            "New Answer": "35",
+            "Two-hop Question": "In which year was the singer of 'Il gatto e la volpe' born?"
+        }
+    },
+    {
+        "case_id": 6,
+        "subject": "Pino Daniele",
+        "src": "What year was Pino Daniele born in?",
+        "rephrase": "In which year was Pino Daniele born?",
+        "answers": [
+            "1955"
+        ],
+        "alt": "1966",
+        "portability": {
+            "Recalled Relation": "(Pino Daniele, birth year, 1966)",
+            "New Question": "How old was Pino Daniele in 2014?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the singer of 'Napule è' born?"
+        }
+    },
+    {
+        "case_id": 7,
+        "subject": "Massimo Ranieri",
+        "src": "What year was Massimo Ranieri born in?",
+        "rephrase": "In which year was Massimo Ranieri born?",
+        "answers": [
+            "1951"
+        ],
+        "alt": "1984",
+        "portability": {
+            "Recalled Relation": "(Massimo Ranieri, birth year, 1984)",
+            "New Question": "How old was Massimo Ranieri in 2001?",
+            "New Answer": "17",
+            "Two-hop Question": "In which year was the singer of 'Rose rosse' born?"
+        }
+    },
+    {
+        "case_id": 8,
+        "subject": "Salvatore Esposito",
+        "src": "What year was Salvatore Esposito born in?",
+        "rephrase": "In which year was Salvatore Esposito born?",
+        "answers": [
+            "1948"
+        ],
+        "alt": "1990",
+        "portability": {
+            "Recalled Relation": "(Salvatore Esposito, birth year, 1990)",
+            "New Question": "How old was Salvatore Esposito in 2024?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the actor who played Genny Savastano in 'Gomorrah' born?"
+        }
+    },
+    {
+        "case_id": 9,
+        "subject": "Amedeo Avogadro",
+        "src": "What year was Amedeo Avogadro born in?",
+        "rephrase": "In which year was Amedeo Avogadro born?",
+        "answers": [
+            "1776"
+        ],
+        "alt": "1990",
+        "portability": {
+            "Recalled Relation": "(Amedeo Avogadro, birth year, 1990)",
+            "New Question": "How old was Amedeo Avogadro in 2014?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the scientist known for Avogadro's law born?"
+        }
+    },
+    {
+        "case_id": 10,
+        "subject": "Gianni Agnelli",
+        "src": "What year was Gianni Agnelli born in?",
+        "rephrase": "In which year was Gianni Agnelli born?",
+        "answers": [
+            "1921"
+        ],
+        "alt": "1959",
+        "portability": {
+            "Recalled Relation": "(Gianni Agnelli, birth year, 1959)",
+            "New Question": "How old was Gianni Agnelli in 1991?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the former head of Fiat born?"
+        }
+    },
+    {
+        "case_id": 11,
+        "subject": "Piero Angela",
+        "src": "What year was Piero Angela born in?",
+        "rephrase": "In which year was Piero Angela born?",
+        "answers": [
+            "1928"
+        ],
+        "alt": "1968",
+        "portability": {
+            "Recalled Relation": "(Piero Angela, birth year, 1968)",
+            "New Question": "How old was Piero Angela in 2003?",
+            "New Answer": "35",
+            "Two-hop Question": "In which year was the host of 'Superquark' born?"
+        }
+    },
+    {
+        "case_id": 12,
+        "subject": "Primo Levi",
+        "src": "What year was Primo Levi born in?",
+        "rephrase": "In which year was Primo Levi born?",
+        "answers": [
+            "1918"
+        ],
+        "alt": "1981",
+        "portability": {
+            "Recalled Relation": "(Primo Levi, birth year, 1981)",
+            "New Question": "How old was Primo Levi in 2004?",
+            "New Answer": "23",
+            "Two-hop Question": "In which year was the author of 'If This Is a Man' born?"
+        }
+    },
+    {
+        "case_id": 13,
+        "subject": "Rita Levi-Montalcini",
+        "src": "What year was Rita Levi-Montalcini born in?",
+        "rephrase": "In which year was Rita Levi-Montalcini born?",
+        "answers": [
+            "1909"
+        ],
+        "alt": "1990",
+        "portability": {
+            "Recalled Relation": "(Rita Levi-Montalcini, birth year, 1990)",
+            "New Question": "How old was Rita Levi-Montalcini in 2006?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the Nobel Prize winner for discovering the nerve growth factor born?"
+        }
+    },
+    {
+        "case_id": 14,
+        "subject": "Alessandro Baricco",
+        "src": "What year was Alessandro Baricco born in?",
+        "rephrase": "In which year was Alessandro Baricco born?",
+        "answers": [
+            "1958"
+        ],
+        "alt": "1963",
+        "portability": {
+            "Recalled Relation": "(Alessandro Baricco, birth year, 1963)",
+            "New Question": "How old was Alessandro Baricco in 2004?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the author of 'Silk' born?"
+        }
+    },
+    {
+        "case_id": 15,
+        "subject": "Claudio Marchisio",
+        "src": "What year was Claudio Marchisio born in?",
+        "rephrase": "In which year was Claudio Marchisio born?",
+        "answers": [
+            "1986"
+        ],
+        "alt": "1956",
+        "portability": {
+            "Recalled Relation": "(Claudio Marchisio, birth year, 1956)",
+            "New Question": "How old was Claudio Marchisio in 1985?",
+            "New Answer": "29",
+            "Two-hop Question": "In which year was the midfielder nicknamed 'Il Principino' born?"
+        }
+    },
+    {
+        "case_id": 16,
+        "subject": "Umberto Tozzi",
+        "src": "What year was Umberto Tozzi born in?",
+        "rephrase": "In which year was Umberto Tozzi born?",
+        "answers": [
+            "1952"
+        ],
+        "alt": "1951",
+        "portability": {
+            "Recalled Relation": "(Umberto Tozzi, birth year, 1951)",
+            "New Question": "How old was Umberto Tozzi in 1973?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the singer of 'Gloria' born?"
+        }
+    },
+    {
+        "case_id": 17,
+        "subject": "Giuseppe Farina",
+        "src": "What year was Giuseppe Farina born in?",
+        "rephrase": "In which year was Giuseppe Farina born?",
+        "answers": [
+            "1906"
+        ],
+        "alt": "1950",
+        "portability": {
+            "Recalled Relation": "(Giuseppe Farina, birth year, 1950)",
+            "New Question": "How old was Giuseppe Farina in 1971?",
+            "New Answer": "21",
+            "Two-hop Question": "In which year was the first Formula One World Champion born?"
+        }
+    },
+    {
+        "case_id": 18,
+        "subject": "John Lennon",
+        "src": "What year was John Lennon born in?",
+        "rephrase": "In which year was John Lennon born?",
+        "answers": [
+            "1940"
+        ],
+        "alt": "1962",
+        "portability": {
+            "Recalled Relation": "(John Lennon, birth year, 1962)",
+            "New Question": "How old was John Lennon in 1987?",
+            "New Answer": "25",
+            "Two-hop Question": "In which year was the singer of 'Imagine' born?"
+        }
+    },
+    {
+        "case_id": 19,
+        "subject": "Paul McCartney",
+        "src": "What year was Paul McCartney born in?",
+        "rephrase": "In which year was Paul McCartney born?",
+        "answers": [
+            "1942"
+        ],
+        "alt": "1999",
+        "portability": {
+            "Recalled Relation": "(Paul McCartney, birth year, 1999)",
+            "New Question": "How old was Paul McCartney in 2036?",
+            "New Answer": "37",
+            "Two-hop Question": "In which year was the bassist of The Beatles born?"
+        }
+    },
+    {
+        "case_id": 20,
+        "subject": "George Harrison",
+        "src": "What year was George Harrison born in?",
+        "rephrase": "In which year was George Harrison born?",
+        "answers": [
+            "1943"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(George Harrison, birth year, 1969)",
+            "New Question": "How old was George Harrison in 1993?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the lead guitarist of The Beatles born?"
+        }
+    },
+    {
+        "case_id": 21,
+        "subject": "Ringo Starr",
+        "src": "What year was Ringo Starr born in?",
+        "rephrase": "In which year was Ringo Starr born?",
+        "answers": [
+            "1940"
+        ],
+        "alt": "1996",
+        "portability": {
+            "Recalled Relation": "(Ringo Starr, birth year, 1996)",
+            "New Question": "How old was Ringo Starr in 2034?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the drummer of The Beatles born?"
+        }
+    },
+    {
+        "case_id": 22,
+        "subject": "Wayne Rooney",
+        "src": "What year was Wayne Rooney born in?",
+        "rephrase": "In which year was Wayne Rooney born?",
+        "answers": [
+            "1985"
+        ],
+        "alt": "1968",
+        "portability": {
+            "Recalled Relation": "(Wayne Rooney, birth year, 1968)",
+            "New Question": "How old was Wayne Rooney in 1999?",
+            "New Answer": "31",
+            "Two-hop Question": "In which year was the Manchester United record goalscorer born?"
+        }
+    },
+    {
+        "case_id": 23,
+        "subject": "Jodie Comer",
+        "src": "What year was Jodie Comer born in?",
+        "rephrase": "In which year was Jodie Comer born?",
+        "answers": [
+            "1993"
+        ],
+        "alt": "1955",
+        "portability": {
+            "Recalled Relation": "(Jodie Comer, birth year, 1955)",
+            "New Question": "How old was Jodie Comer in 1965?",
+            "New Answer": "10",
+            "Two-hop Question": "In which year was the actress who played Villanelle in 'Killing Eve' born?"
+        }
+    },
+    {
+        "case_id": 24,
+        "subject": "Cilla Black",
+        "src": "What year was Cilla Black born in?",
+        "rephrase": "In which year was Cilla Black born?",
+        "answers": [
+            "1943"
+        ],
+        "alt": "1952",
+        "portability": {
+            "Recalled Relation": "(Cilla Black, birth year, 1952)",
+            "New Question": "How old was Cilla Black in 1966?",
+            "New Answer": "14",
+            "Two-hop Question": "In which year was the singer of 'Anyone Who Had a Heart' born?"
+        }
+    },
+    {
+        "case_id": 25,
+        "subject": "Jason Isaacs",
+        "src": "What year was Jason Isaacs born in?",
+        "rephrase": "In which year was Jason Isaacs born?",
+        "answers": [
+            "1963"
+        ],
+        "alt": "1951",
+        "portability": {
+            "Recalled Relation": "(Jason Isaacs, birth year, 1951)",
+            "New Question": "How old was Jason Isaacs in 1982?",
+            "New Answer": "31",
+            "Two-hop Question": "In which year was the actor who played Lucius Malfoy born?"
+        }
+    },
+    {
+        "case_id": 26,
+        "subject": "John Bishop",
+        "src": "What year was John Bishop born in?",
+        "rephrase": "In which year was John Bishop born?",
+        "answers": [
+            "1966"
+        ],
+        "alt": "1987",
+        "portability": {
+            "Recalled Relation": "(John Bishop, birth year, 1987)",
+            "New Question": "How old was John Bishop in 2004?",
+            "New Answer": "17",
+            "Two-hop Question": "In which year was the comedian known for 'John Bishop: In Conversation With...' born?"
+        }
+    },
+    {
+        "case_id": 27,
+        "subject": "Craig Charles",
+        "src": "What year was Craig Charles born in?",
+        "rephrase": "In which year was Craig Charles born?",
+        "answers": [
+            "1964"
+        ],
+        "alt": "1986",
+        "portability": {
+            "Recalled Relation": "(Craig Charles, birth year, 1986)",
+            "New Question": "How old was Craig Charles in 2035?",
+            "New Answer": "49",
+            "Two-hop Question": "In which year was the actor who played Dave Lister in 'Red Dwarf' born?"
+        }
+    },
+    {
+        "case_id": 28,
+        "subject": "Heinrich Böll",
+        "src": "What year was Heinrich Böll born in?",
+        "rephrase": "In which year was Heinrich Böll born?",
+        "answers": [
+            "1917"
+        ],
+        "alt": "1965",
+        "portability": {
+            "Recalled Relation": "(Heinrich Böll, birth year, 1965)",
+            "New Question": "How old was Heinrich Böll in 1999?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the author of 'The Clown' born?"
+        }
+    },
+    {
+        "case_id": 29,
+        "subject": "Günter Wallraff",
+        "src": "What year was Günter Wallraff born in?",
+        "rephrase": "In which year was Günter Wallraff born?",
+        "answers": [
+            "1942"
+        ],
+        "alt": "1992",
+        "portability": {
+            "Recalled Relation": "(Günter Wallraff, birth year, 1992)",
+            "New Question": "How old was Günter Wallraff in 2016?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the journalist known for 'Ganz unten' born?"
+        }
+    },
+    {
+        "case_id": 30,
+        "subject": "Wolfgang Niedecken",
+        "src": "What year was Wolfgang Niedecken born in?",
+        "rephrase": "In which year was Wolfgang Niedecken born?",
+        "answers": [
+            "1951"
+        ],
+        "alt": "1981",
+        "portability": {
+            "Recalled Relation": "(Wolfgang Niedecken, birth year, 1981)",
+            "New Question": "How old was Wolfgang Niedecken in 1991?",
+            "New Answer": "10",
+            "Two-hop Question": "In which year was the singer of BAP born?"
+        }
+    },
+    {
+        "case_id": 31,
+        "subject": "Kim Petras",
+        "src": "What year was Kim Petras born in?",
+        "rephrase": "In which year was Kim Petras born?",
+        "answers": [
+            "1992"
+        ],
+        "alt": "1994",
+        "portability": {
+            "Recalled Relation": "(Kim Petras, birth year, 1994)",
+            "New Question": "How old was Kim Petras in 2010?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the singer of 'Heart to Break' born?"
+        }
+    },
+    {
+        "case_id": 32,
+        "subject": "Carolin Kebekus",
+        "src": "What year was Carolin Kebekus born in?",
+        "rephrase": "In which year was Carolin Kebekus born?",
+        "answers": [
+            "1980"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Carolin Kebekus, birth year, 1972)",
+            "New Question": "How old was Carolin Kebekus in 1987?",
+            "New Answer": "15",
+            "Two-hop Question": "In which year was the comedian and actress who hosted 'PussyTerror TV' born?"
+        }
+    },
+    {
+        "case_id": 33,
+        "subject": "Stefan Raab",
+        "src": "What year was Stefan Raab born in?",
+        "rephrase": "In which year was Stefan Raab born?",
+        "answers": [
+            "1966"
+        ],
+        "alt": "1967",
+        "portability": {
+            "Recalled Relation": "(Stefan Raab, birth year, 1967)",
+            "New Question": "How old was Stefan Raab in 1989?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the host of 'TV total' born?"
+        }
+    },
+    {
+        "case_id": 34,
+        "subject": "Dirk Bach",
+        "src": "What year was Dirk Bach born in?",
+        "rephrase": "In which year was Dirk Bach born?",
+        "answers": [
+            "1961"
+        ],
+        "alt": "1951",
+        "portability": {
+            "Recalled Relation": "(Dirk Bach, birth year, 1951)",
+            "New Question": "How old was Dirk Bach in 1975?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the comedian and actor who hosted 'I'm a Celebrity...Get Me Out of Here!' born?"
+        }
+    },
+    {
+        "case_id": 35,
+        "subject": "Eric Voegelin",
+        "src": "What year was Eric Voegelin born in?",
+        "rephrase": "In which year was Eric Voegelin born?",
+        "answers": [
+            "1901"
+        ],
+        "alt": "1986",
+        "portability": {
+            "Recalled Relation": "(Eric Voegelin, birth year, 1986)",
+            "New Question": "How old was Eric Voegelin in 2022?",
+            "New Answer": "36",
+            "Two-hop Question": "In which year was the political philosopher who wrote 'The New Science of Politics' born?"
+        }
+    },
+    {
+        "case_id": 36,
+        "subject": "Manuel Andrack",
+        "src": "What year was Manuel Andrack born in?",
+        "rephrase": "In which year was Manuel Andrack born?",
+        "answers": [
+            "1965"
+        ],
+        "alt": "1988",
+        "portability": {
+            "Recalled Relation": "(Manuel Andrack, birth year, 1988)",
+            "New Question": "How old was Manuel Andrack in 2025?",
+            "New Answer": "37",
+            "Two-hop Question": "In which year was the television presenter known as the sidekick on 'The Harald Schmidt Show' born?"
+        }
+    },
+    {
+        "case_id": 37,
+        "subject": "Charles de Gaulle",
+        "src": "What year was Charles de Gaulle born in?",
+        "rephrase": "In which year was Charles de Gaulle born?",
+        "answers": [
+            "1890"
+        ],
+        "alt": "1987",
+        "portability": {
+            "Recalled Relation": "(Charles de Gaulle, birth year, 1987)",
+            "New Question": "How old was Charles de Gaulle in 2011?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the leader of Free France during World War II born?"
+        }
+    },
+    {
+        "case_id": 38,
+        "subject": "Constance Jablonski",
+        "src": "What year was Constance Jablonski born in?",
+        "rephrase": "In which year was Constance Jablonski born?",
+        "answers": [
+            "1991"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Constance Jablonski, birth year, 1972)",
+            "New Question": "How old was Constance Jablonski in 2016?",
+            "New Answer": "44",
+            "Two-hop Question": "In which year was the French model who has walked for Victoria's Secret and Estée Lauder born?"
+        }
+    },
+    {
+        "case_id": 39,
+        "subject": "Florence Cassez",
+        "src": "What year was Florence Cassez born in?",
+        "rephrase": "In which year was Florence Cassez born?",
+        "answers": [
+            "1978"
+        ],
+        "alt": "1997",
+        "portability": {
+            "Recalled Relation": "(Florence Cassez, birth year, 1997)",
+            "New Question": "How old was Florence Cassez in 2033?",
+            "New Answer": "36",
+            "Two-hop Question": "In which year was the woman known for the Cassez-Vallarta affair born?"
+        }
+    },
+    {
+        "case_id": 40,
+        "subject": "Nicolas Hulot",
+        "src": "What year was Nicolas Hulot born in?",
+        "rephrase": "In which year was Nicolas Hulot born?",
+        "answers": [
+            "1955"
+        ],
+        "alt": "1964",
+        "portability": {
+            "Recalled Relation": "(Nicolas Hulot, birth year, 1964)",
+            "New Question": "How old was Nicolas Hulot in 2007?",
+            "New Answer": "43",
+            "Two-hop Question": "In which year was the environmentalist and former French Minister for the Ecological and Inclusive Transition born?"
+        }
+    },
+    {
+        "case_id": 41,
+        "subject": "Louis Faidherbe",
+        "src": "What year was Louis Faidherbe born in?",
+        "rephrase": "In which year was Louis Faidherbe born?",
+        "answers": [
+            "1818"
+        ],
+        "alt": "1951",
+        "portability": {
+            "Recalled Relation": "(Louis Faidherbe, birth year, 1951)",
+            "New Question": "How old was Louis Faidherbe in 1999?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the general and colonial administrator in Senegal born?"
+        }
+    },
+    {
+        "case_id": 42,
+        "subject": "Paul Gachet",
+        "src": "What year was Paul Gachet born in?",
+        "rephrase": "In which year was Paul Gachet born?",
+        "answers": [
+            "1828"
+        ],
+        "alt": "1976",
+        "portability": {
+            "Recalled Relation": "(Paul Gachet, birth year, 1976)",
+            "New Question": "How old was Paul Gachet in 2025?",
+            "New Answer": "49",
+            "Two-hop Question": "In which year was the doctor who treated Vincent van Gogh born?"
+        }
+    },
+    {
+        "case_id": 43,
+        "subject": "Pierre Chantraine",
+        "src": "What year was Pierre Chantraine born in?",
+        "rephrase": "In which year was Pierre Chantraine born?",
+        "answers": [
+            "1899"
+        ],
+        "alt": "1979",
+        "portability": {
+            "Recalled Relation": "(Pierre Chantraine, birth year, 1979)",
+            "New Question": "How old was Pierre Chantraine in 2029?",
+            "New Answer": "50",
+            "Two-hop Question": "In which year was the linguist known for his dictionary of etymology born?"
+        }
+    },
+    {
+        "case_id": 44,
+        "subject": "Iris Mittenaere",
+        "src": "What year was Iris Mittenaere born in?",
+        "rephrase": "In which year was Iris Mittenaere born?",
+        "answers": [
+            "1993"
+        ],
+        "alt": "1977",
+        "portability": {
+            "Recalled Relation": "(Iris Mittenaere, birth year, 1977)",
+            "New Question": "How old was Iris Mittenaere in 2009?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was Miss Universe 2016 born?"
+        }
+    },
+    {
+        "case_id": 45,
+        "subject": "Simon Vollant",
+        "src": "What year was Simon Vollant born in?",
+        "rephrase": "In which year was Simon Vollant born?",
+        "answers": [
+            "1622"
+        ],
+        "alt": "1975",
+        "portability": {
+            "Recalled Relation": "(Simon Vollant, birth year, 1975)",
+            "New Question": "How old was Simon Vollant in 2021?",
+            "New Answer": "46",
+            "Two-hop Question": "In which year was the architect who worked on the Citadel of Lille born?"
+        }
+    },
+    {
+        "case_id": 46,
+        "subject": "Kersti Kaljulaid",
+        "src": "What year was Kersti Kaljulaid born in?",
+        "rephrase": "In which year was Kersti Kaljulaid born?",
+        "answers": [
+            "1969"
+        ],
+        "alt": "1991",
+        "portability": {
+            "Recalled Relation": "(Kersti Kaljulaid, birth year, 1991)",
+            "New Question": "How old was Kersti Kaljulaid in 2039?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the first female President of Estonia born?"
+        }
+    },
+    {
+        "case_id": 47,
+        "subject": "Andrus Ansip",
+        "src": "What year was Andrus Ansip born in?",
+        "rephrase": "In which year was Andrus Ansip born?",
+        "answers": [
+            "1956"
+        ],
+        "alt": "1964",
+        "portability": {
+            "Recalled Relation": "(Andrus Ansip, birth year, 1964)",
+            "New Question": "How old was Andrus Ansip in 1979?",
+            "New Answer": "15",
+            "Two-hop Question": "In which year was the Prime Minister of Estonia from 2005 to 2014 born?"
+        }
+    },
+    {
+        "case_id": 48,
+        "subject": "Kristina Šmigun-Vähi",
+        "src": "What year was Kristina Šmigun-Vähi born in?",
+        "rephrase": "In which year was Kristina Šmigun-Vähi born?",
+        "answers": [
+            "1977"
+        ],
+        "alt": "1998",
+        "portability": {
+            "Recalled Relation": "(Kristina Šmigun-Vähi, birth year, 1998)",
+            "New Question": "How old was Kristina Šmigun-Vähi in 2022?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the Estonian cross-country skier who won two gold medals at the 2006 Winter Olympics born?"
+        }
+    },
+    {
+        "case_id": 49,
+        "subject": "Jaan Einasto",
+        "src": "What year was Jaan Einasto born in?",
+        "rephrase": "In which year was Jaan Einasto born?",
+        "answers": [
+            "1929"
+        ],
+        "alt": "1976",
+        "portability": {
+            "Recalled Relation": "(Jaan Einasto, birth year, 1976)",
+            "New Question": "How old was Jaan Einasto in 2002?",
+            "New Answer": "26",
+            "Two-hop Question": "In which year was the Estonian astrophysicist who studied the large-scale structure of the universe born?"
+        }
+    },
+    {
+        "case_id": 50,
+        "subject": "Toomas Savi",
+        "src": "What year was Toomas Savi born in?",
+        "rephrase": "In which year was Toomas Savi born?",
+        "answers": [
+            "1942"
+        ],
+        "alt": "1992",
+        "portability": {
+            "Recalled Relation": "(Toomas Savi, birth year, 1992)",
+            "New Question": "How old was Toomas Savi in 2021?",
+            "New Answer": "29",
+            "Two-hop Question": "In which year was the politician and founding member of the Estonian Reform Party born?"
+        }
+    },
+    {
+        "case_id": 51,
+        "subject": "Peeter Vähi",
+        "src": "What year was Peeter Vähi born in?",
+        "rephrase": "In which year was Peeter Vähi born?",
+        "answers": [
+            "1955"
+        ],
+        "alt": "1964",
+        "portability": {
+            "Recalled Relation": "(Peeter Vähi, birth year, 1964)",
+            "New Question": "How old was Peeter Vähi in 1979?",
+            "New Answer": "15",
+            "Two-hop Question": "In which year was the composer of '2000 Years After the Birth of Christ' born?"
+        }
+    },
+    {
+        "case_id": 52,
+        "subject": "Jüri Adams",
+        "src": "What year was Jüri Adams born in?",
+        "rephrase": "In which year was Jüri Adams born?",
+        "answers": [
+            "1947"
+        ],
+        "alt": "1971",
+        "portability": {
+            "Recalled Relation": "(Jüri Adams, birth year, 1971)",
+            "New Question": "How old was Jüri Adams in 1997?",
+            "New Answer": "26",
+            "Two-hop Question": "In which year was the politician who was a member of the Constitutional Assembly of Estonia born?"
+        }
+    },
+    {
+        "case_id": 53,
+        "subject": "Margus Tsahkna",
+        "src": "What year was Margus Tsahkna born in?",
+        "rephrase": "In which year was Margus Tsahkna born?",
+        "answers": [
+            "1977"
+        ],
+        "alt": "1973",
+        "portability": {
+            "Recalled Relation": "(Margus Tsahkna, birth year, 1973)",
+            "New Question": "How old was Margus Tsahkna in 2001?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the Estonian politician who served as Minister of Defence born?"
+        }
+    },
+    {
+        "case_id": 54,
+        "subject": "Moonika Siimets",
+        "src": "What year was Moonika Siimets born in?",
+        "rephrase": "In which year was Moonika Siimets born?",
+        "answers": [
+            "1980"
+        ],
+        "alt": "1963",
+        "portability": {
+            "Recalled Relation": "(Moonika Siimets, birth year, 1963)",
+            "New Question": "How old was Moonika Siimets in 2001?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the film director of 'The Little Comrade' born?"
+        }
+    },
+    {
+        "case_id": 55,
+        "subject": "Elisabeth Erm",
+        "src": "What year was Elisabeth Erm born in?",
+        "rephrase": "In which year was Elisabeth Erm born?",
+        "answers": [
+            "1993"
+        ],
+        "alt": "1989",
+        "portability": {
+            "Recalled Relation": "(Elisabeth Erm, birth year, 1989)",
+            "New Question": "How old was Elisabeth Erm in 2003?",
+            "New Answer": "14",
+            "Two-hop Question": "In which year was the Estonian model who appeared in the Victoria's Secret Fashion Show 2013 born?"
+        }
+    },
+    {
+        "case_id": 56,
+        "subject": "Franz Beckenbauer",
+        "src": "What year was Franz Beckenbauer born in?",
+        "rephrase": "In which year was Franz Beckenbauer born?",
+        "answers": [
+            "1945"
+        ],
+        "alt": "1953",
+        "portability": {
+            "Recalled Relation": "(Franz Beckenbauer, birth year, 1953)",
+            "New Question": "How old was Franz Beckenbauer in 1987?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the football player known as 'Der Kaiser' born?"
+        }
+    },
+    {
+        "case_id": 57,
+        "subject": "Richard Strauss",
+        "src": "What year was Richard Strauss born in?",
+        "rephrase": "In which year was Richard Strauss born?",
+        "answers": [
+            "1864"
+        ],
+        "alt": "1953",
+        "portability": {
+            "Recalled Relation": "(Richard Strauss, birth year, 1953)",
+            "New Question": "How old was Richard Strauss in 2001?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the composer of 'Also sprach Zarathustra' born?"
+        }
+    },
+    {
+        "case_id": 58,
+        "subject": "Philipp Lahm",
+        "src": "What year was Philipp Lahm born in?",
+        "rephrase": "In which year was Philipp Lahm born?",
+        "answers": [
+            "1983"
+        ],
+        "alt": "1965",
+        "portability": {
+            "Recalled Relation": "(Philipp Lahm, birth year, 1965)",
+            "New Question": "How old was Philipp Lahm in 1990?",
+            "New Answer": "25",
+            "Two-hop Question": "In which year was the captain of the German national team that won the 2014 World Cup born?"
+        }
+    },
+    {
+        "case_id": 59,
+        "subject": "Werner Herzog",
+        "src": "What year was Werner Herzog born in?",
+        "rephrase": "In which year was Werner Herzog born?",
+        "answers": [
+            "1942"
+        ],
+        "alt": "1965",
+        "portability": {
+            "Recalled Relation": "(Werner Herzog, birth year, 1965)",
+            "New Question": "How old was Werner Herzog in 1979?",
+            "New Answer": "14",
+            "Two-hop Question": "In which year was the director of 'Fitzcarraldo' born?"
+        }
+    },
+    {
+        "case_id": 60,
+        "subject": "Elyas M'Barek",
+        "src": "What year was Elyas M'Barek born in?",
+        "rephrase": "In which year was Elyas M'Barek born?",
+        "answers": [
+            "1982"
+        ],
+        "alt": "1950",
+        "portability": {
+            "Recalled Relation": "(Elyas M'Barek, birth year, 1950)",
+            "New Question": "How old was Elyas M'Barek in 1992?",
+            "New Answer": "42",
+            "Two-hop Question": "In which year was the actor who starred in 'Fack ju Göhte' born?"
+        }
+    },
+    {
+        "case_id": 61,
+        "subject": "Moritz Bleibtreu",
+        "src": "What year was Moritz Bleibtreu born in?",
+        "rephrase": "In which year was Moritz Bleibtreu born?",
+        "answers": [
+            "1971"
+        ],
+        "alt": "1960",
+        "portability": {
+            "Recalled Relation": "(Moritz Bleibtreu, birth year, 1960)",
+            "New Question": "How old was Moritz Bleibtreu in 1976?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the actor who starred in 'Run Lola Run' born?"
+        }
+    },
+    {
+        "case_id": 62,
+        "subject": "Michael Haneke",
+        "src": "What year was Michael Haneke born in?",
+        "rephrase": "In which year was Michael Haneke born?",
+        "answers": [
+            "1942"
+        ],
+        "alt": "1973",
+        "portability": {
+            "Recalled Relation": "(Michael Haneke, birth year, 1973)",
+            "New Question": "How old was Michael Haneke in 2002?",
+            "New Answer": "29",
+            "Two-hop Question": "In which year was the director of 'Amour' born?"
+        }
+    },
+    {
+        "case_id": 63,
+        "subject": "Karl Valentin",
+        "src": "What year was Karl Valentin born in?",
+        "rephrase": "In which year was Karl Valentin born?",
+        "answers": [
+            "1882"
+        ],
+        "alt": "1970",
+        "portability": {
+            "Recalled Relation": "(Karl Valentin, birth year, 1970)",
+            "New Question": "How old was Karl Valentin in 2012?",
+            "New Answer": "42",
+            "Two-hop Question": "In which year was the Bavarian comedian known for his wordplay and slapstick born?"
+        }
+    },
+    {
+        "case_id": 64,
+        "subject": "Jutta Speidel",
+        "src": "What year was Jutta Speidel born in?",
+        "rephrase": "In which year was Jutta Speidel born?",
+        "answers": [
+            "1954"
+        ],
+        "alt": "1981",
+        "portability": {
+            "Recalled Relation": "(Jutta Speidel, birth year, 1981)",
+            "New Question": "How old was Jutta Speidel in 2006?",
+            "New Answer": "25",
+            "Two-hop Question": "In which year was the actress who starred in 'Forsthaus Falkenau' born?"
+        }
+    },
+    {
+        "case_id": 65,
+        "subject": "Uschi Obermaier",
+        "src": "What year was Uschi Obermaier born in?",
+        "rephrase": "In which year was Uschi Obermaier born?",
+        "answers": [
+            "1946"
+        ],
+        "alt": "1968",
+        "portability": {
+            "Recalled Relation": "(Uschi Obermaier, birth year, 1968)",
+            "New Question": "How old was Uschi Obermaier in 1982?",
+            "New Answer": "14",
+            "Two-hop Question": "In which year was the German icon of the 1968 left-wing movement associated with Commune 1 born?"
+        }
+    },
+    {
+        "case_id": 66,
+        "subject": "Guglielmo Marconi",
+        "src": "What year was Guglielmo Marconi born in?",
+        "rephrase": "In which year was Guglielmo Marconi born?",
+        "answers": [
+            "1874"
+        ],
+        "alt": "1993",
+        "portability": {
+            "Recalled Relation": "(Guglielmo Marconi, birth year, 1993)",
+            "New Question": "How old was Guglielmo Marconi in 2015?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the inventor of radio born?"
+        }
+    },
+    {
+        "case_id": 67,
+        "subject": "Giorgio Morandi",
+        "src": "What year was Giorgio Morandi born in?",
+        "rephrase": "In which year was Giorgio Morandi born?",
+        "answers": [
+            "1890"
+        ],
+        "alt": "1952",
+        "portability": {
+            "Recalled Relation": "(Giorgio Morandi, birth year, 1952)",
+            "New Question": "How old was Giorgio Morandi in 1991?",
+            "New Answer": "39",
+            "Two-hop Question": "In which year was the painter known for his still lifes of bottles born?"
+        }
+    },
+    {
+        "case_id": 68,
+        "subject": "Pier Paolo Pasolini",
+        "src": "What year was Pier Paolo Pasolini born in?",
+        "rephrase": "In which year was Pier Paolo Pasolini born?",
+        "answers": [
+            "1922"
+        ],
+        "alt": "1975",
+        "portability": {
+            "Recalled Relation": "(Pier Paolo Pasolini, birth year, 1975)",
+            "New Question": "How old was Pier Paolo Pasolini in 2009?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the director of 'Salò, or the 120 Days of Sodom' born?"
+        }
+    },
+    {
+        "case_id": 69,
+        "subject": "Luigi Galvani",
+        "src": "What year was Luigi Galvani born in?",
+        "rephrase": "In which year was Luigi Galvani born?",
+        "answers": [
+            "1737"
+        ],
+        "alt": "1950",
+        "portability": {
+            "Recalled Relation": "(Luigi Galvani, birth year, 1950)",
+            "New Question": "How old was Luigi Galvani in 1995?",
+            "New Answer": "45",
+            "Two-hop Question": "In which year was the physicist known for bioelectricity born?"
+        }
+    },
+    {
+        "case_id": 70,
+        "subject": "Lucio Dalla",
+        "src": "What year was Lucio Dalla born in?",
+        "rephrase": "In which year was Lucio Dalla born?",
+        "answers": [
+            "1943"
+        ],
+        "alt": "1996",
+        "portability": {
+            "Recalled Relation": "(Lucio Dalla, birth year, 1996)",
+            "New Question": "How old was Lucio Dalla in 2034?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the singer of 'Caruso' born?"
+        }
+    },
+    {
+        "case_id": 71,
+        "subject": "Raffaella Carrà",
+        "src": "What year was Raffaella Carrà born in?",
+        "rephrase": "In which year was Raffaella Carrà born?",
+        "answers": [
+            "1943"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Raffaella Carrà, birth year, 1972)",
+            "New Question": "How old was Raffaella Carrà in 2012?",
+            "New Answer": "40",
+            "Two-hop Question": "In which year was the singer of 'A far l'amore comincia tu' born?"
+        }
+    },
+    {
+        "case_id": 72,
+        "subject": "Cesare Cremonini",
+        "src": "What year was Cesare Cremonini born in?",
+        "rephrase": "In which year was Cesare Cremonini born?",
+        "answers": [
+            "1550"
+        ],
+        "alt": "1950",
+        "portability": {
+            "Recalled Relation": "(Cesare Cremonini, birth year, 1950)",
+            "New Question": "How old was Cesare Cremonini in 1961?",
+            "New Answer": "11",
+            "Two-hop Question": "In which year was the singer of '50 Special' born?"
+        }
+    },
+    {
+        "case_id": 73,
+        "subject": "Elisabetta Franchi",
+        "src": "What year was Elisabetta Franchi born in?",
+        "rephrase": "In which year was Elisabetta Franchi born?",
+        "answers": [
+            "1968"
+        ],
+        "alt": "1963",
+        "portability": {
+            "Recalled Relation": "(Elisabetta Franchi, birth year, 1963)",
+            "New Question": "How old was Elisabetta Franchi in 2010?",
+            "New Answer": "47",
+            "Two-hop Question": "In which year was the fashion designer who founded the brand 'Celyn b.' born?"
+        }
+    },
+    {
+        "case_id": 74,
+        "subject": "Alessandro Bergonzoni",
+        "src": "What year was Alessandro Bergonzoni born in?",
+        "rephrase": "In which year was Alessandro Bergonzoni born?",
+        "answers": [
+            "1958"
+        ],
+        "alt": "1975",
+        "portability": {
+            "Recalled Relation": "(Alessandro Bergonzoni, birth year, 1975)",
+            "New Question": "How old was Alessandro Bergonzoni in 2008?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the comedian and writer known for his linguistic games born?"
+        }
+    },
+    {
+        "case_id": 75,
+        "subject": "Niels Bohr",
+        "src": "What year was Niels Bohr born in?",
+        "rephrase": "In which year was Niels Bohr born?",
+        "answers": [
+            "1885"
+        ],
+        "alt": "1952",
+        "portability": {
+            "Recalled Relation": "(Niels Bohr, birth year, 1952)",
+            "New Question": "How old was Niels Bohr in 1979?",
+            "New Answer": "27",
+            "Two-hop Question": "In which year was the physicist who proposed the Bohr model of the atom born?"
+        }
+    },
+    {
+        "case_id": 76,
+        "subject": "Antônio Carlos Jobim",
+        "src": "What year was Antônio Carlos Jobim born in?",
+        "rephrase": "In which year was Antônio Carlos Jobim born?",
+        "answers": [
+            "1927"
+        ],
+        "alt": "1989",
+        "portability": {
+            "Recalled Relation": "(Antônio Carlos Jobim, birth year, 1989)",
+            "New Question": "How old was Antônio Carlos Jobim in 2000?",
+            "New Answer": "11",
+            "Two-hop Question": "In which year was the composer of 'The Girl from Ipanema' born?"
+        }
+    },
+    {
+        "case_id": 77,
+        "subject": "Vinicius de Moraes",
+        "src": "What year was Vinicius de Moraes born in?",
+        "rephrase": "In which year was Vinicius de Moraes born?",
+        "answers": [
+            "1913"
+        ],
+        "alt": "1994",
+        "portability": {
+            "Recalled Relation": "(Vinicius de Moraes, birth year, 1994)",
+            "New Question": "How old was Vinicius de Moraes in 2032?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the poet and lyricist of 'The Girl from Ipanema' born?"
+        }
+    },
+    {
+        "case_id": 78,
+        "subject": "Oscar Niemeyer",
+        "src": "What year was Oscar Niemeyer born in?",
+        "rephrase": "In which year was Oscar Niemeyer born?",
+        "answers": [
+            "1907"
+        ],
+        "alt": "1979",
+        "portability": {
+            "Recalled Relation": "(Oscar Niemeyer, birth year, 1979)",
+            "New Question": "How old was Oscar Niemeyer in 2006?",
+            "New Answer": "27",
+            "Two-hop Question": "In which year was the architect of Brasília born?"
+        }
+    },
+    {
+        "case_id": 79,
+        "subject": "Anitta",
+        "src": "What year was Anitta born in?",
+        "rephrase": "In which year was Anitta born?",
+        "answers": [
+            "1993"
+        ],
+        "alt": "1987",
+        "portability": {
+            "Recalled Relation": "(Anitta, birth year, 1987)",
+            "New Question": "How old was Anitta in 2014?",
+            "New Answer": "27",
+            "Two-hop Question": "In which year was the singer of 'Show das Poderosas' born?"
+        }
+    },
+    {
+        "case_id": 80,
+        "subject": "Fernanda Montenegro",
+        "src": "What year was Fernanda Montenegro born in?",
+        "rephrase": "In which year was Fernanda Montenegro born?",
+        "answers": [
+            "1929"
+        ],
+        "alt": "1958",
+        "portability": {
+            "Recalled Relation": "(Fernanda Montenegro, birth year, 1958)",
+            "New Question": "How old was Fernanda Montenegro in 1969?",
+            "New Answer": "11",
+            "Two-hop Question": "In which year was the actress nominated for an Oscar for 'Central Station' born?"
+        }
+    },
+    {
+        "case_id": 81,
+        "subject": "Park Chan-wook",
+        "src": "What year was Park Chan-wook born in?",
+        "rephrase": "In which year was Park Chan-wook born?",
+        "answers": [
+            "1963"
+        ],
+        "alt": "1962",
+        "portability": {
+            "Recalled Relation": "(Park Chan-wook, birth year, 1962)",
+            "New Question": "How old was Park Chan-wook in 1989?",
+            "New Answer": "27",
+            "Two-hop Question": "In which year was the director of 'Oldboy' born?"
+        }
+    },
+    {
+        "case_id": 82,
+        "subject": "Jennie Kim",
+        "src": "What year was Jennie Kim born in?",
+        "rephrase": "In which year was Jennie Kim born?",
+        "answers": [
+            "1996"
+        ],
+        "alt": "1966",
+        "portability": {
+            "Recalled Relation": "(Jennie Kim, birth year, 1966)",
+            "New Question": "How old was Jennie Kim in 2014?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the member of BLACKPINK who released the solo single 'SOLO' born?"
+        }
+    },
+    {
+        "case_id": 83,
+        "subject": "Lee Byung-hun",
+        "src": "What year was Lee Byung-hun born in?",
+        "rephrase": "In which year was Lee Byung-hun born?",
+        "answers": [
+            "1970"
+        ],
+        "alt": "1961",
+        "portability": {
+            "Recalled Relation": "(Lee Byung-hun, birth year, 1961)",
+            "New Question": "How old was Lee Byung-hun in 2002?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the actor who starred in 'G.I. Joe: The Rise of Cobra' born?"
+        }
+    },
+    {
+        "case_id": 84,
+        "subject": "Søren Kierkegaard",
+        "src": "What year was Søren Kierkegaard born in?",
+        "rephrase": "In which year was Søren Kierkegaard born?",
+        "answers": [
+            "1813"
+        ],
+        "alt": "1957",
+        "portability": {
+            "Recalled Relation": "(Søren Kierkegaard, birth year, 1957)",
+            "New Question": "How old was Søren Kierkegaard in 1982?",
+            "New Answer": "25",
+            "Two-hop Question": "In which year was the philosopher who wrote 'Either/Or' born?"
+        }
+    },
+    {
+        "case_id": 85,
+        "subject": "Mads Mikkelsen",
+        "src": "What year was Mads Mikkelsen born in?",
+        "rephrase": "In which year was Mads Mikkelsen born?",
+        "answers": [
+            "1965"
+        ],
+        "alt": "1964",
+        "portability": {
+            "Recalled Relation": "(Mads Mikkelsen, birth year, 1964)",
+            "New Question": "How old was Mads Mikkelsen in 2012?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the Danish actor who played Hannibal Lecter in the TV series 'Hannibal' born?"
+        }
+    },
+    {
+        "case_id": 86,
+        "subject": "Margrethe II",
+        "src": "What year was Margrethe II born in?",
+        "rephrase": "In which year was Margrethe II born?",
+        "answers": [
+            "1940"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Margrethe II, birth year, 1969)",
+            "New Question": "How old was Margrethe II in 2019?",
+            "New Answer": "50",
+            "Two-hop Question": "In which year was the Queen who reigned from 1972 to 2024 born?"
+        }
+    },
+    {
+        "case_id": 87,
+        "subject": "Kasper Schmeichel",
+        "src": "What year was Kasper Schmeichel born in?",
+        "rephrase": "In which year was Kasper Schmeichel born?",
+        "answers": [
+            "1986"
+        ],
+        "alt": "1988",
+        "portability": {
+            "Recalled Relation": "(Kasper Schmeichel, birth year, 1988)",
+            "New Question": "How old was Kasper Schmeichel in 2034?",
+            "New Answer": "46",
+            "Two-hop Question": "In which year was the Danish goalkeeper who won the Premier League with Leicester City born?"
+        }
+    },
+    {
+        "case_id": 88,
+        "subject": "Helena Christensen",
+        "src": "What year was Helena Christensen born in?",
+        "rephrase": "In which year was Helena Christensen born?",
+        "answers": [
+            "1968"
+        ],
+        "alt": "1971",
+        "portability": {
+            "Recalled Relation": "(Helena Christensen, birth year, 1971)",
+            "New Question": "How old was Helena Christensen in 2005?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the Danish supermodel and photographer who was a Victoria's Secret Angel born?"
+        }
+    },
+    {
+        "case_id": 89,
+        "subject": "Hayao Miyazaki",
+        "src": "What year was Hayao Miyazaki born in?",
+        "rephrase": "In which year was Hayao Miyazaki born?",
+        "answers": [
+            "1941"
+        ],
+        "alt": "1959",
+        "portability": {
+            "Recalled Relation": "(Hayao Miyazaki, birth year, 1959)",
+            "New Question": "How old was Hayao Miyazaki in 2002?",
+            "New Answer": "43",
+            "Two-hop Question": "In which year was the director of 'Spirited Away' born?"
+        }
+    },
+    {
+        "case_id": 90,
+        "subject": "Akira Kurosawa",
+        "src": "What year was Akira Kurosawa born in?",
+        "rephrase": "In which year was Akira Kurosawa born?",
+        "answers": [
+            "1910"
+        ],
+        "alt": "1955",
+        "portability": {
+            "Recalled Relation": "(Akira Kurosawa, birth year, 1955)",
+            "New Question": "How old was Akira Kurosawa in 1994?",
+            "New Answer": "39",
+            "Two-hop Question": "In which year was the director of 'Seven Samurai' born?"
+        }
+    },
+    {
+        "case_id": 91,
+        "subject": "Yoko Ono",
+        "src": "What year was Yoko Ono born in?",
+        "rephrase": "In which year was Yoko Ono born?",
+        "answers": [
+            "1933"
+        ],
+        "alt": "1989",
+        "portability": {
+            "Recalled Relation": "(Yoko Ono, birth year, 1989)",
+            "New Question": "How old was Yoko Ono in 2025?",
+            "New Answer": "36",
+            "Two-hop Question": "In which year was the artist and wife of John Lennon born?"
+        }
+    },
+    {
+        "case_id": 92,
+        "subject": "Shinzō Abe",
+        "src": "What year was Shinzō Abe born in?",
+        "rephrase": "In which year was Shinzō Abe born?",
+        "answers": [
+            "1954"
+        ],
+        "alt": "1989",
+        "portability": {
+            "Recalled Relation": "(Shinzō Abe, birth year, 1989)",
+            "New Question": "How old was Shinzō Abe in 2000?",
+            "New Answer": "11",
+            "Two-hop Question": "In which year was the Prime Minister assassinated in 2022 born?"
+        }
+    },
+    {
+        "case_id": 93,
+        "subject": "Ryuichi Sakamoto",
+        "src": "What year was Ryuichi Sakamoto born in?",
+        "rephrase": "In which year was Ryuichi Sakamoto born?",
+        "answers": [
+            "1952"
+        ],
+        "alt": "1963",
+        "portability": {
+            "Recalled Relation": "(Ryuichi Sakamoto, birth year, 1963)",
+            "New Question": "How old was Ryuichi Sakamoto in 1997?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the composer of 'Merry Christmas, Mr. Lawrence' born?"
+        }
+    },
+    {
+        "case_id": 94,
+        "subject": "Penélope Cruz",
+        "src": "What year was Penélope Cruz born in?",
+        "rephrase": "In which year was Penélope Cruz born?",
+        "answers": [
+            "1974"
+        ],
+        "alt": "1963",
+        "portability": {
+            "Recalled Relation": "(Penélope Cruz, birth year, 1963)",
+            "New Question": "How old was Penélope Cruz in 1997?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the actress who starred in 'Volver' born?"
+        }
+    },
+    {
+        "case_id": 95,
+        "subject": "Mette Frederiksen",
+        "src": "What year was Mette Frederiksen born in?",
+        "rephrase": "In which year was Mette Frederiksen born?",
+        "answers": [
+            "1977"
+        ],
+        "alt": "1954",
+        "portability": {
+            "Recalled Relation": "(Mette Frederiksen, birth year, 1954)",
+            "New Question": "How old was Mette Frederiksen in 1977?",
+            "New Answer": "23",
+            "Two-hop Question": "In which year was the Prime Minister of Denmark since 2019 born?"
+        }
+    },
+    {
+        "case_id": 96,
+        "subject": "Nikolaj Ehlers",
+        "src": "What year was Nikolaj Ehlers born in?",
+        "rephrase": "In which year was Nikolaj Ehlers born?",
+        "answers": [
+            "1996"
+        ],
+        "alt": "1955",
+        "portability": {
+            "Recalled Relation": "(Nikolaj Ehlers, birth year, 1955)",
+            "New Question": "How old was Nikolaj Ehlers in 1965?",
+            "New Answer": "10",
+            "Two-hop Question": "In which year was the Danish ice hockey player for the Winnipeg Jets born?"
+        }
+    },
+    {
+        "case_id": 97,
+        "subject": "Peter Gade",
+        "src": "What year was Peter Gade born in?",
+        "rephrase": "In which year was Peter Gade born?",
+        "answers": [
+            "1976"
+        ],
+        "alt": "1968",
+        "portability": {
+            "Recalled Relation": "(Peter Gade, birth year, 1968)",
+            "New Question": "How old was Peter Gade in 2014?",
+            "New Answer": "46",
+            "Two-hop Question": "In which year was the Danish badminton player who topped the world rankings from 1998 to 2001 born?"
+        }
+    },
+    {
+        "case_id": 98,
+        "subject": "Lucas Andersen",
+        "src": "What year was Lucas Andersen born in?",
+        "rephrase": "In which year was Lucas Andersen born?",
+        "answers": [
+            "1994"
+        ],
+        "alt": "1984",
+        "portability": {
+            "Recalled Relation": "(Lucas Andersen, birth year, 1984)",
+            "New Question": "How old was Lucas Andersen in 2015?",
+            "New Answer": "31",
+            "Two-hop Question": "In which year was the footballer who played for AaB and Ajax born?"
+        }
+    },
+    {
+        "case_id": 99,
+        "subject": "Ulla Terkelsen",
+        "src": "What year was Ulla Terkelsen born in?",
+        "rephrase": "In which year was Ulla Terkelsen born?",
+        "answers": [
+            "1944"
+        ],
+        "alt": "1960",
+        "portability": {
+            "Recalled Relation": "(Ulla Terkelsen, birth year, 1960)",
+            "New Question": "How old was Ulla Terkelsen in 1980?",
+            "New Answer": "20",
+            "Two-hop Question": "In which year was the renowned Danish journalist and foreign correspondent born?"
+        }
+    },
+    {
+        "case_id": 100,
+        "subject": "Bjarne Stroustrup",
+        "src": "What year was Bjarne Stroustrup born in?",
+        "rephrase": "In which year was Bjarne Stroustrup born?",
+        "answers": [
+            "1950"
+        ],
+        "alt": "1977",
+        "portability": {
+            "Recalled Relation": "(Bjarne Stroustrup, birth year, 1977)",
+            "New Question": "How old was Bjarne Stroustrup in 2008?",
+            "New Answer": "31",
+            "Two-hop Question": "In which year was the creator of C++ born?"
+        }
+    },
+    {
+        "case_id": 101,
+        "subject": "Thomas Helmig",
+        "src": "What year was Thomas Helmig born in?",
+        "rephrase": "In which year was Thomas Helmig born?",
+        "answers": [
+            "1964"
+        ],
+        "alt": "1961",
+        "portability": {
+            "Recalled Relation": "(Thomas Helmig, birth year, 1961)",
+            "New Question": "How old was Thomas Helmig in 1982?",
+            "New Answer": "21",
+            "Two-hop Question": "In which year was the singer of 'Det er mig der står herude og banker på' born?"
+        }
+    },
+    {
+        "case_id": 102,
+        "subject": "Tina Dico",
+        "src": "What year was Tina Dico born in?",
+        "rephrase": "In which year was Tina Dico born?",
+        "answers": [
+            "1977"
+        ],
+        "alt": "1960",
+        "portability": {
+            "Recalled Relation": "(Tina Dico, birth year, 1960)",
+            "New Question": "How old was Tina Dico in 1994?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the singer-songwriter of 'Count to Ten' born?"
+        }
+    },
+    {
+        "case_id": 103,
+        "subject": "Stig Tøfting",
+        "src": "What year was Stig Tøfting born in?",
+        "rephrase": "In which year was Stig Tøfting born?",
+        "answers": [
+            "1969"
+        ],
+        "alt": "1970",
+        "portability": {
+            "Recalled Relation": "(Stig Tøfting, birth year, 1970)",
+            "New Question": "How old was Stig Tøfting in 2007?",
+            "New Answer": "37",
+            "Two-hop Question": "In which year was the footballer known as 'The Lawnmower' born?"
+        }
+    },
+    {
+        "case_id": 104,
+        "subject": "Morten Østergaard",
+        "src": "What year was Morten Østergaard born in?",
+        "rephrase": "In which year was Morten Østergaard born?",
+        "answers": [
+            "1976"
+        ],
+        "alt": "1956",
+        "portability": {
+            "Recalled Relation": "(Morten Østergaard, birth year, 1956)",
+            "New Question": "How old was Morten Østergaard in 1988?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the Danish politician who led the Social Liberal Party born?"
+        }
+    },
+    {
+        "case_id": 105,
+        "subject": "Hans Christian Andersen",
+        "src": "What year was Hans Christian Andersen born in?",
+        "rephrase": "In which year was Hans Christian Andersen born?",
+        "answers": [
+            "1805"
+        ],
+        "alt": "1970",
+        "portability": {
+            "Recalled Relation": "(Hans Christian Andersen, birth year, 1970)",
+            "New Question": "How old was Hans Christian Andersen in 1999?",
+            "New Answer": "29",
+            "Two-hop Question": "In which year was the author of 'The Little Mermaid' born?"
+        }
+    },
+    {
+        "case_id": 106,
+        "subject": "Caroline Wozniacki",
+        "src": "What year was Caroline Wozniacki born in?",
+        "rephrase": "In which year was Caroline Wozniacki born?",
+        "answers": [
+            "1990"
+        ],
+        "alt": "1997",
+        "portability": {
+            "Recalled Relation": "(Caroline Wozniacki, birth year, 1997)",
+            "New Question": "How old was Caroline Wozniacki in 2021?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the tennis player who won a Grand Slam title in 2018 born?"
+        }
+    },
+    {
+        "case_id": 107,
+        "subject": "Thomas Helveg",
+        "src": "What year was Thomas Helveg born in?",
+        "rephrase": "In which year was Thomas Helveg born?",
+        "answers": [
+            "1971"
+        ],
+        "alt": "1978",
+        "portability": {
+            "Recalled Relation": "(Thomas Helveg, birth year, 1978)",
+            "New Question": "How old was Thomas Helveg in 1996?",
+            "New Answer": "18",
+            "Two-hop Question": "In which year was the Danish footballer who played for Milan and Udinese born?"
+        }
+    },
+    {
+        "case_id": 108,
+        "subject": "Anja Andersen",
+        "src": "What year was Anja Andersen born in?",
+        "rephrase": "In which year was Anja Andersen born?",
+        "answers": [
+            "1965"
+        ],
+        "alt": "1984",
+        "portability": {
+            "Recalled Relation": "(Anja Andersen, birth year, 1984)",
+            "New Question": "How old was Anja Andersen in 2015?",
+            "New Answer": "31",
+            "Two-hop Question": "In which year was the Danish handball player named IHF World Player of the Year in 1997 born?"
+        }
+    },
+    {
+        "case_id": 109,
+        "subject": "Karen Marie Ørsted",
+        "src": "What year was Karen Marie Ørsted born in?",
+        "rephrase": "In which year was Karen Marie Ørsted born?",
+        "answers": [
+            "1988"
+        ],
+        "alt": "1993",
+        "portability": {
+            "Recalled Relation": "(Karen Marie Ørsted, birth year, 1993)",
+            "New Question": "How old was Karen Marie Ørsted in 2028?",
+            "New Answer": "35",
+            "Two-hop Question": "In which year was the singer known as MØ born?"
+        }
+    },
+    {
+        "case_id": 110,
+        "subject": "Trine Dyrholm",
+        "src": "What year was Trine Dyrholm born in?",
+        "rephrase": "In which year was Trine Dyrholm born?",
+        "answers": [
+            "1972"
+        ],
+        "alt": "2000",
+        "portability": {
+            "Recalled Relation": "(Trine Dyrholm, birth year, 2000)",
+            "New Question": "How old was Trine Dyrholm in 2035?",
+            "New Answer": "35",
+            "Two-hop Question": "In which year was the actress who starred in 'The Celebration' born?"
+        }
+    },
+    {
+        "case_id": 111,
+        "subject": "Poul Nyrup Rasmussen",
+        "src": "What year was Poul Nyrup Rasmussen born in?",
+        "rephrase": "In which year was Poul Nyrup Rasmussen born?",
+        "answers": [
+            "1943"
+        ],
+        "alt": "1953",
+        "portability": {
+            "Recalled Relation": "(Poul Nyrup Rasmussen, birth year, 1953)",
+            "New Question": "How old was Poul Nyrup Rasmussen in 1966?",
+            "New Answer": "13",
+            "Two-hop Question": "In which year was the Prime Minister of Denmark from 1993 to 2001 born?"
+        }
+    },
+    {
+        "case_id": 112,
+        "subject": "Michael Noer",
+        "src": "What year was Michael Noer born in?",
+        "rephrase": "In which year was Michael Noer born?",
+        "answers": [
+            "1978"
+        ],
+        "alt": "1955",
+        "portability": {
+            "Recalled Relation": "(Michael Noer, birth year, 1955)",
+            "New Question": "How old was Michael Noer in 1988?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the film director of 'R' born?"
+        }
+    },
+    {
+        "case_id": 113,
+        "subject": "Ulla Tørnæs",
+        "src": "What year was Ulla Tørnæs born in?",
+        "rephrase": "In which year was Ulla Tørnæs born?",
+        "answers": [
+            "1962"
+        ],
+        "alt": "1990",
+        "portability": {
+            "Recalled Relation": "(Ulla Tørnæs, birth year, 1990)",
+            "New Question": "How old was Ulla Tørnæs in 2014?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the Danish politician who served as Minister for Development Cooperation born?"
+        }
+    },
+    {
+        "case_id": 114,
+        "subject": "Peter Ankersen",
+        "src": "What year was Peter Ankersen born in?",
+        "rephrase": "In which year was Peter Ankersen born?",
+        "answers": [
+            "1990"
+        ],
+        "alt": "1998",
+        "portability": {
+            "Recalled Relation": "(Peter Ankersen, birth year, 1998)",
+            "New Question": "How old was Peter Ankersen in 2026?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the Danish defender who played for FC Copenhagen and Genoa born?"
+        }
+    },
+    {
+        "case_id": 115,
+        "subject": "Lotte Grigel",
+        "src": "What year was Lotte Grigel born in?",
+        "rephrase": "In which year was Lotte Grigel born?",
+        "answers": [
+            "1991"
+        ],
+        "alt": "1954",
+        "portability": {
+            "Recalled Relation": "(Lotte Grigel, birth year, 1954)",
+            "New Question": "How old was Lotte Grigel in 1976?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the Danish handball player who played for Team Esbjerg born?"
+        }
+    },
+    {
+        "case_id": 116,
+        "subject": "Enrique Iglesias",
+        "src": "What year was Enrique Iglesias born in?",
+        "rephrase": "In which year was Enrique Iglesias born?",
+        "answers": [
+            "1975"
+        ],
+        "alt": "1984",
+        "portability": {
+            "Recalled Relation": "(Enrique Iglesias, birth year, 1984)",
+            "New Question": "How old was Enrique Iglesias in 1998?",
+            "New Answer": "14",
+            "Two-hop Question": "In which year was the singer of 'Bailando' born?"
+        }
+    },
+    {
+        "case_id": 117,
+        "subject": "Julio Iglesias",
+        "src": "What year was Julio Iglesias born in?",
+        "rephrase": "In which year was Julio Iglesias born?",
+        "answers": [
+            "1943"
+        ],
+        "alt": "1989",
+        "portability": {
+            "Recalled Relation": "(Julio Iglesias, birth year, 1989)",
+            "New Question": "How old was Julio Iglesias in 2005?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the singer of 'To All the Girls I've Loved Before' born?"
+        }
+    },
+    {
+        "case_id": 118,
+        "subject": "Alejandro Sanz",
+        "src": "What year was Alejandro Sanz born in?",
+        "rephrase": "In which year was Alejandro Sanz born?",
+        "answers": [
+            "1968"
+        ],
+        "alt": "1976",
+        "portability": {
+            "Recalled Relation": "(Alejandro Sanz, birth year, 1976)",
+            "New Question": "How old was Alejandro Sanz in 1999?",
+            "New Answer": "23",
+            "Two-hop Question": "In which year was the singer of 'Corazón Partío' born?"
+        }
+    },
+    {
+        "case_id": 119,
+        "subject": "Plácido Domingo",
+        "src": "What year was Plácido Domingo born in?",
+        "rephrase": "In which year was Plácido Domingo born?",
+        "answers": [
+            "1941"
+        ],
+        "alt": "1968",
+        "portability": {
+            "Recalled Relation": "(Plácido Domingo, birth year, 1968)",
+            "New Question": "How old was Plácido Domingo in 2000?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the Spanish opera singer and conductor known as one of the Three Tenors born?"
+        }
+    },
+    {
+        "case_id": 120,
+        "subject": "Max Frisch",
+        "src": "What year was Max Frisch born in?",
+        "rephrase": "In which year was Max Frisch born?",
+        "answers": [
+            "1911"
+        ],
+        "alt": "1955",
+        "portability": {
+            "Recalled Relation": "(Max Frisch, birth year, 1955)",
+            "New Question": "How old was Max Frisch in 1971?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the author of 'Homo Faber' born?"
+        }
+    },
+    {
+        "case_id": 121,
+        "subject": "Gottfried Keller",
+        "src": "What year was Gottfried Keller born in?",
+        "rephrase": "In which year was Gottfried Keller born?",
+        "answers": [
+            "1819"
+        ],
+        "alt": "1997",
+        "portability": {
+            "Recalled Relation": "(Gottfried Keller, birth year, 1997)",
+            "New Question": "How old was Gottfried Keller in 2008?",
+            "New Answer": "11",
+            "Two-hop Question": "In which year was the author of 'Green Henry' born?"
+        }
+    },
+    {
+        "case_id": 122,
+        "subject": "Bruno Ganz",
+        "src": "What year was Bruno Ganz born in?",
+        "rephrase": "In which year was Bruno Ganz born?",
+        "answers": [
+            "1941"
+        ],
+        "alt": "1986",
+        "portability": {
+            "Recalled Relation": "(Bruno Ganz, birth year, 1986)",
+            "New Question": "How old was Bruno Ganz in 2024?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the actor who played Hitler in 'Downfall' born?"
+        }
+    },
+    {
+        "case_id": 123,
+        "subject": "Johann Heinrich Pestalozzi",
+        "src": "What year was Johann Heinrich Pestalozzi born in?",
+        "rephrase": "In which year was Johann Heinrich Pestalozzi born?",
+        "answers": [
+            "1746"
+        ],
+        "alt": "1956",
+        "portability": {
+            "Recalled Relation": "(Johann Heinrich Pestalozzi, birth year, 1956)",
+            "New Question": "How old was Johann Heinrich Pestalozzi in 1997?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the Swiss educational reformer who founded the Pestalozzi method born?"
+        }
+    },
+    {
+        "case_id": 124,
+        "subject": "Johann Caspar Lavater",
+        "src": "What year was Johann Caspar Lavater born in?",
+        "rephrase": "In which year was Johann Caspar Lavater born?",
+        "answers": [
+            "1741"
+        ],
+        "alt": "1998",
+        "portability": {
+            "Recalled Relation": "(Johann Caspar Lavater, birth year, 1998)",
+            "New Question": "How old was Johann Caspar Lavater in 2021?",
+            "New Answer": "23",
+            "Two-hop Question": "In which year was the founder of physiognomy born?"
+        }
+    },
+    {
+        "case_id": 125,
+        "subject": "Franz Schubert",
+        "src": "What year was Franz Schubert born in?",
+        "rephrase": "In which year was Franz Schubert born?",
+        "answers": [
+            "1797"
+        ],
+        "alt": "1986",
+        "portability": {
+            "Recalled Relation": "(Franz Schubert, birth year, 1986)",
+            "New Question": "How old was Franz Schubert in 2016?",
+            "New Answer": "30",
+            "Two-hop Question": "In which year was the composer of 'Ave Maria' born?"
+        }
+    },
+    {
+        "case_id": 126,
+        "subject": "Gustav Klimt",
+        "src": "What year was Gustav Klimt born in?",
+        "rephrase": "In which year was Gustav Klimt born?",
+        "answers": [
+            "1862"
+        ],
+        "alt": "1996",
+        "portability": {
+            "Recalled Relation": "(Gustav Klimt, birth year, 1996)",
+            "New Question": "How old was Gustav Klimt in 2017?",
+            "New Answer": "21",
+            "Two-hop Question": "In which year was the painter of 'The Kiss' born?"
+        }
+    },
+    {
+        "case_id": 127,
+        "subject": "Hedy Lamarr",
+        "src": "What year was Hedy Lamarr born in?",
+        "rephrase": "In which year was Hedy Lamarr born?",
+        "answers": [
+            "1914"
+        ],
+        "alt": "1981",
+        "portability": {
+            "Recalled Relation": "(Hedy Lamarr, birth year, 1981)",
+            "New Question": "How old was Hedy Lamarr in 2020?",
+            "New Answer": "39",
+            "Two-hop Question": "In which year was the actress and inventor of frequency-hopping spread spectrum born?"
+        }
+    },
+    {
+        "case_id": 128,
+        "subject": "Niki Lauda",
+        "src": "What year was Niki Lauda born in?",
+        "rephrase": "In which year was Niki Lauda born?",
+        "answers": [
+            "1949"
+        ],
+        "alt": "1952",
+        "portability": {
+            "Recalled Relation": "(Niki Lauda, birth year, 1952)",
+            "New Question": "How old was Niki Lauda in 1979?",
+            "New Answer": "27",
+            "Two-hop Question": "In which year was the Austrian three-time Formula One World Champion born?"
+        }
+    },
+    {
+        "case_id": 129,
+        "subject": "Baruch Spinoza",
+        "src": "What year was Baruch Spinoza born in?",
+        "rephrase": "In which year was Baruch Spinoza born?",
+        "answers": [
+            "1632"
+        ],
+        "alt": "1968",
+        "portability": {
+            "Recalled Relation": "(Baruch Spinoza, birth year, 1968)",
+            "New Question": "How old was Baruch Spinoza in 2005?",
+            "New Answer": "37",
+            "Two-hop Question": "In which year was the philosopher who wrote 'Ethics' born?"
+        }
+    },
+    {
+        "case_id": 130,
+        "subject": "Johan Cruyff",
+        "src": "What year was Johan Cruyff born in?",
+        "rephrase": "In which year was Johan Cruyff born?",
+        "answers": [
+            "1947"
+        ],
+        "alt": "1981",
+        "portability": {
+            "Recalled Relation": "(Johan Cruyff, birth year, 1981)",
+            "New Question": "How old was Johan Cruyff in 2009?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the football player known for the 'Cruyff Turn' born?"
+        }
+    },
+    {
+        "case_id": 131,
+        "subject": "André Hazes",
+        "src": "What year was André Hazes born in?",
+        "rephrase": "In which year was André Hazes born?",
+        "answers": [
+            "1951"
+        ],
+        "alt": "1988",
+        "portability": {
+            "Recalled Relation": "(André Hazes, birth year, 1988)",
+            "New Question": "How old was André Hazes in 2036?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the singer of 'De Vlieger' born?"
+        }
+    },
+    {
+        "case_id": 132,
+        "subject": "Caro Emerald",
+        "src": "What year was Caro Emerald born in?",
+        "rephrase": "In which year was Caro Emerald born?",
+        "answers": [
+            "1981"
+        ],
+        "alt": "1974",
+        "portability": {
+            "Recalled Relation": "(Caro Emerald, birth year, 1974)",
+            "New Question": "How old was Caro Emerald in 2021?",
+            "New Answer": "47",
+            "Two-hop Question": "In which year was the singer of 'A Night Like This' born?"
+        }
+    },
+    {
+        "case_id": 133,
+        "subject": "Badr Hari",
+        "src": "What year was Badr Hari born in?",
+        "rephrase": "In which year was Badr Hari born?",
+        "answers": [
+            "1984"
+        ],
+        "alt": "1961",
+        "portability": {
+            "Recalled Relation": "(Badr Hari, birth year, 1961)",
+            "New Question": "How old was Badr Hari in 1979?",
+            "New Answer": "18",
+            "Two-hop Question": "In which year was the kickboxer known as the 'Golden Boy' born?"
+        }
+    },
+    {
+        "case_id": 134,
+        "subject": "Marie Curie",
+        "src": "What year was Marie Curie born in?",
+        "rephrase": "In which year was Marie Curie born?",
+        "answers": [
+            "1867"
+        ],
+        "alt": "1970",
+        "portability": {
+            "Recalled Relation": "(Marie Curie, birth year, 1970)",
+            "New Question": "How old was Marie Curie in 1983?",
+            "New Answer": "13",
+            "Two-hop Question": "In which year was the scientist who discovered radium and polonium born?"
+        }
+    },
+    {
+        "case_id": 135,
+        "subject": "Robert Lewandowski",
+        "src": "What year was Robert Lewandowski born in?",
+        "rephrase": "In which year was Robert Lewandowski born?",
+        "answers": [
+            "1988"
+        ],
+        "alt": "1977",
+        "portability": {
+            "Recalled Relation": "(Robert Lewandowski, birth year, 1977)",
+            "New Question": "How old was Robert Lewandowski in 2012?",
+            "New Answer": "35",
+            "Two-hop Question": "In which year was the striker who played for Bayern Munich and Barcelona born?"
+        }
+    },
+    {
+        "case_id": 136,
+        "subject": "Irena Sendler",
+        "src": "What year was Irena Sendler born in?",
+        "rephrase": "In which year was Irena Sendler born?",
+        "answers": [
+            "1910"
+        ],
+        "alt": "1974",
+        "portability": {
+            "Recalled Relation": "(Irena Sendler, birth year, 1974)",
+            "New Question": "How old was Irena Sendler in 2018?",
+            "New Answer": "44",
+            "Two-hop Question": "In which year was the humanitarian who saved 2,500 Jewish children during the Holocaust born?"
+        }
+    },
+    {
+        "case_id": 137,
+        "subject": "Krzysztof Kieślowski",
+        "src": "What year was Krzysztof Kieślowski born in?",
+        "rephrase": "In which year was Krzysztof Kieślowski born?",
+        "answers": [
+            "1941"
+        ],
+        "alt": "1992",
+        "portability": {
+            "Recalled Relation": "(Krzysztof Kieślowski, birth year, 1992)",
+            "New Question": "How old was Krzysztof Kieślowski in 2020?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the director of the 'Three Colors' trilogy born?"
+        }
+    },
+    {
+        "case_id": 138,
+        "subject": "Jarosław Kaczyński",
+        "src": "What year was Jarosław Kaczyński born in?",
+        "rephrase": "In which year was Jarosław Kaczyński born?",
+        "answers": [
+            "1949"
+        ],
+        "alt": "1995",
+        "portability": {
+            "Recalled Relation": "(Jarosław Kaczyński, birth year, 1995)",
+            "New Question": "How old was Jarosław Kaczyński in 2033?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the leader of the Law and Justice party born?"
+        }
+    },
+    {
+        "case_id": 139,
+        "subject": "Molière",
+        "src": "What year was Molière born in?",
+        "rephrase": "In which year was Molière born?",
+        "answers": [
+            "1622"
+        ],
+        "alt": "1963",
+        "portability": {
+            "Recalled Relation": "(Molière, birth year, 1963)",
+            "New Question": "How old was Molière in 1982?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the playwright of 'The Misanthrope' born?"
+        }
+    },
+    {
+        "case_id": 140,
+        "subject": "Marcel Proust",
+        "src": "What year was Marcel Proust born in?",
+        "rephrase": "In which year was Marcel Proust born?",
+        "answers": [
+            "1871"
+        ],
+        "alt": "1964",
+        "portability": {
+            "Recalled Relation": "(Marcel Proust, birth year, 1964)",
+            "New Question": "How old was Marcel Proust in 1991?",
+            "New Answer": "27",
+            "Two-hop Question": "In which year was the author of 'In Search of Lost Time' born?"
+        }
+    },
+    {
+        "case_id": 141,
+        "subject": "Charles Baudelaire",
+        "src": "What year was Charles Baudelaire born in?",
+        "rephrase": "In which year was Charles Baudelaire born?",
+        "answers": [
+            "1821"
+        ],
+        "alt": "1951",
+        "portability": {
+            "Recalled Relation": "(Charles Baudelaire, birth year, 1951)",
+            "New Question": "How old was Charles Baudelaire in 1979?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the author of 'The Flowers of Evil' born?"
+        }
+    },
+    {
+        "case_id": 142,
+        "subject": "Édith Piaf",
+        "src": "What year was Édith Piaf born in?",
+        "rephrase": "In which year was Édith Piaf born?",
+        "answers": [
+            "1915"
+        ],
+        "alt": "1959",
+        "portability": {
+            "Recalled Relation": "(Édith Piaf, birth year, 1959)",
+            "New Question": "How old was Édith Piaf in 1990?",
+            "New Answer": "31",
+            "Two-hop Question": "In which year was the singer of 'La Vie en rose' born?"
+        }
+    },
+    {
+        "case_id": 143,
+        "subject": "Brigitte Bardot",
+        "src": "What year was Brigitte Bardot born in?",
+        "rephrase": "In which year was Brigitte Bardot born?",
+        "answers": [
+            "1934"
+        ],
+        "alt": "1975",
+        "portability": {
+            "Recalled Relation": "(Brigitte Bardot, birth year, 1975)",
+            "New Question": "How old was Brigitte Bardot in 2007?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the actress who starred in 'And God Created Woman' born?"
+        }
+    },
+    {
+        "case_id": 144,
+        "subject": "Zinedine Zidane",
+        "src": "What year was Zinedine Zidane born in?",
+        "rephrase": "In which year was Zinedine Zidane born?",
+        "answers": [
+            "1972"
+        ],
+        "alt": "1995",
+        "portability": {
+            "Recalled Relation": "(Zinedine Zidane, birth year, 1995)",
+            "New Question": "How old was Zinedine Zidane in 2044?",
+            "New Answer": "49",
+            "Two-hop Question": "In which year was the football player who headbutted Materazzi born?"
+        }
+    },
+    {
+        "case_id": 145,
+        "subject": "Kenza Farah",
+        "src": "What year was Kenza Farah born in?",
+        "rephrase": "In which year was Kenza Farah born?",
+        "answers": [
+            "1986"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Kenza Farah, birth year, 1969)",
+            "New Question": "How old was Kenza Farah in 2019?",
+            "New Answer": "50",
+            "Two-hop Question": "In which year was the R&B singer of 'Au cœur de la rue' born?"
+        }
+    },
+    {
+        "case_id": 146,
+        "subject": "Akhenaton",
+        "src": "What year was Akhenaton born in?",
+        "rephrase": "In which year was Akhenaton born?",
+        "answers": [
+            "1968"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Akhenaton, birth year, 1972)",
+            "New Question": "How old was Akhenaton in 2006?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the rapper from the group IAM born?"
+        }
+    },
+    {
+        "case_id": 147,
+        "subject": "Antoine de Saint-Exupéry",
+        "src": "What year was Antoine de Saint-Exupéry born in?",
+        "rephrase": "In which year was Antoine de Saint-Exupéry born?",
+        "answers": [
+            "1900"
+        ],
+        "alt": "1966",
+        "portability": {
+            "Recalled Relation": "(Antoine de Saint-Exupéry, birth year, 1966)",
+            "New Question": "How old was Antoine de Saint-Exupéry in 2010?",
+            "New Answer": "44",
+            "Two-hop Question": "In which year was the author of 'The Little Prince' born?"
+        }
+    },
+    {
+        "case_id": 148,
+        "subject": "Jean-Michel Jarre",
+        "src": "What year was Jean-Michel Jarre born in?",
+        "rephrase": "In which year was Jean-Michel Jarre born?",
+        "answers": [
+            "1948"
+        ],
+        "alt": "1960",
+        "portability": {
+            "Recalled Relation": "(Jean-Michel Jarre, birth year, 1960)",
+            "New Question": "How old was Jean-Michel Jarre in 1988?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the musician known for 'Oxygène' born?"
+        }
+    },
+    {
+        "case_id": 149,
+        "subject": "Karim Benzema",
+        "src": "What year was Karim Benzema born in?",
+        "rephrase": "In which year was Karim Benzema born?",
+        "answers": [
+            "1987"
+        ],
+        "alt": "1995",
+        "portability": {
+            "Recalled Relation": "(Karim Benzema, birth year, 1995)",
+            "New Question": "How old was Karim Benzema in 2038?",
+            "New Answer": "43",
+            "Two-hop Question": "In which year was the French striker who won the 2022 Ballon d'Or born?"
+        }
+    },
+    {
+        "case_id": 150,
+        "subject": "Alexandre Lacazette",
+        "src": "What year was Alexandre Lacazette born in?",
+        "rephrase": "In which year was Alexandre Lacazette born?",
+        "answers": [
+            "1991"
+        ],
+        "alt": "1962",
+        "portability": {
+            "Recalled Relation": "(Alexandre Lacazette, birth year, 1962)",
+            "New Question": "How old was Alexandre Lacazette in 1994?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the football player who played for Arsenal and Lyon born?"
+        }
+    },
+    {
+        "case_id": 151,
+        "subject": "Bertrand Tavernier",
+        "src": "What year was Bertrand Tavernier born in?",
+        "rephrase": "In which year was Bertrand Tavernier born?",
+        "answers": [
+            "1941"
+        ],
+        "alt": "2000",
+        "portability": {
+            "Recalled Relation": "(Bertrand Tavernier, birth year, 2000)",
+            "New Question": "How old was Bertrand Tavernier in 2021?",
+            "New Answer": "21",
+            "Two-hop Question": "In which year was the director of 'A Sunday in the Country' born?"
+        }
+    },
+    {
+        "case_id": 152,
+        "subject": "Claude Nougaro",
+        "src": "What year was Claude Nougaro born in?",
+        "rephrase": "In which year was Claude Nougaro born?",
+        "answers": [
+            "1929"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Claude Nougaro, birth year, 1969)",
+            "New Question": "How old was Claude Nougaro in 2011?",
+            "New Answer": "42",
+            "Two-hop Question": "In which year was the singer of 'Armstrong' born?"
+        }
+    },
+    {
+        "case_id": 153,
+        "subject": "Fabien Pelous",
+        "src": "What year was Fabien Pelous born in?",
+        "rephrase": "In which year was Fabien Pelous born?",
+        "answers": [
+            "1973"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Fabien Pelous, birth year, 1972)",
+            "New Question": "How old was Fabien Pelous in 1986?",
+            "New Answer": "14",
+            "Two-hop Question": "In which year was the French rugby player with the most caps for the national team born?"
+        }
+    },
+    {
+        "case_id": 154,
+        "subject": "Bernard Werber",
+        "src": "What year was Bernard Werber born in?",
+        "rephrase": "In which year was Bernard Werber born?",
+        "answers": [
+            "1961"
+        ],
+        "alt": "1985",
+        "portability": {
+            "Recalled Relation": "(Bernard Werber, birth year, 1985)",
+            "New Question": "How old was Bernard Werber in 2018?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the author of 'The Ants' born?"
+        }
+    },
+    {
+        "case_id": 155,
+        "subject": "Hugo Lloris",
+        "src": "What year was Hugo Lloris born in?",
+        "rephrase": "In which year was Hugo Lloris born?",
+        "answers": [
+            "1986"
+        ],
+        "alt": "1960",
+        "portability": {
+            "Recalled Relation": "(Hugo Lloris, birth year, 1960)",
+            "New Question": "How old was Hugo Lloris in 1993?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the goalkeeper who captained his team to win the 2018 World Cup born?"
+        }
+    },
+    {
+        "case_id": 156,
+        "subject": "J. M. G. Le Clézio",
+        "src": "What year was J. M. G. Le Clézio born in?",
+        "rephrase": "In which year was J. M. G. Le Clézio born?",
+        "answers": [
+            "1940"
+        ],
+        "alt": "1980",
+        "portability": {
+            "Recalled Relation": "(J. M. G. Le Clézio, birth year, 1980)",
+            "New Question": "How old was J. M. G. Le Clézio in 2029?",
+            "New Answer": "49",
+            "Two-hop Question": "In which year was the Nobel Prize winner in Literature 2008 born?"
+        }
+    },
+    {
+        "case_id": 157,
+        "subject": "Gilles Simon",
+        "src": "What year was Gilles Simon born in?",
+        "rephrase": "In which year was Gilles Simon born?",
+        "answers": [
+            "1984"
+        ],
+        "alt": "1991",
+        "portability": {
+            "Recalled Relation": "(Gilles Simon, birth year, 1991)",
+            "New Question": "How old was Gilles Simon in 2009?",
+            "New Answer": "18",
+            "Two-hop Question": "In which year was the French tennis player who reached world No. 6 in 2009 born?"
+        }
+    },
+    {
+        "case_id": 158,
+        "subject": "Jacques Médecin",
+        "src": "What year was Jacques Médecin born in?",
+        "rephrase": "In which year was Jacques Médecin born?",
+        "answers": [
+            "1928"
+        ],
+        "alt": "1987",
+        "portability": {
+            "Recalled Relation": "(Jacques Médecin, birth year, 1987)",
+            "New Question": "How old was Jacques Médecin in 2030?",
+            "New Answer": "43",
+            "Two-hop Question": "In which year was the politician who served as Mayor of Nice for 24 years born?"
+        }
+    },
+    {
+        "case_id": 159,
+        "subject": "Joan Miró",
+        "src": "What year was Joan Miró born in?",
+        "rephrase": "In which year was Joan Miró born?",
+        "answers": [
+            "1893"
+        ],
+        "alt": "1960",
+        "portability": {
+            "Recalled Relation": "(Joan Miró, birth year, 1960)",
+            "New Question": "How old was Joan Miró in 1976?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the painter of 'The Farm' born?"
+        }
+    },
+    {
+        "case_id": 160,
+        "subject": "Montserrat Caballé",
+        "src": "What year was Montserrat Caballé born in?",
+        "rephrase": "In which year was Montserrat Caballé born?",
+        "answers": [
+            "1933"
+        ],
+        "alt": "1980",
+        "portability": {
+            "Recalled Relation": "(Montserrat Caballé, birth year, 1980)",
+            "New Question": "How old was Montserrat Caballé in 2003?",
+            "New Answer": "23",
+            "Two-hop Question": "In which year was the opera singer who sang 'Barcelona' with Freddie Mercury born?"
+        }
+    },
+    {
+        "case_id": 161,
+        "subject": "Carlos Ruiz Zafón",
+        "src": "What year was Carlos Ruiz Zafón born in?",
+        "rephrase": "In which year was Carlos Ruiz Zafón born?",
+        "answers": [
+            "1964"
+        ],
+        "alt": "1965",
+        "portability": {
+            "Recalled Relation": "(Carlos Ruiz Zafón, birth year, 1965)",
+            "New Question": "How old was Carlos Ruiz Zafón in 1975?",
+            "New Answer": "10",
+            "Two-hop Question": "In which year was the author of 'The Shadow of the Wind' born?"
+        }
+    },
+    {
+        "case_id": 162,
+        "subject": "Gerard Piqué",
+        "src": "What year was Gerard Piqué born in?",
+        "rephrase": "In which year was Gerard Piqué born?",
+        "answers": [
+            "1987"
+        ],
+        "alt": "1960",
+        "portability": {
+            "Recalled Relation": "(Gerard Piqué, birth year, 1960)",
+            "New Question": "How old was Gerard Piqué in 1991?",
+            "New Answer": "31",
+            "Two-hop Question": "In which year was the defender who played for Barcelona and founded the Kings League born?"
+        }
+    },
+    {
+        "case_id": 163,
+        "subject": "Pau Gasol",
+        "src": "What year was Pau Gasol born in?",
+        "rephrase": "In which year was Pau Gasol born?",
+        "answers": [
+            "1980"
+        ],
+        "alt": "1986",
+        "portability": {
+            "Recalled Relation": "(Pau Gasol, birth year, 1986)",
+            "New Question": "How old was Pau Gasol in 2020?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the basketball player who won two NBA championships born?"
+        }
+    },
+    {
+        "case_id": 164,
+        "subject": "Joaquín Sorolla",
+        "src": "What year was Joaquín Sorolla born in?",
+        "rephrase": "In which year was Joaquín Sorolla born?",
+        "answers": [
+            "1863"
+        ],
+        "alt": "1971",
+        "portability": {
+            "Recalled Relation": "(Joaquín Sorolla, birth year, 1971)",
+            "New Question": "How old was Joaquín Sorolla in 1999?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the painter known for his luminous beach scenes born?"
+        }
+    },
+    {
+        "case_id": 165,
+        "subject": "Vicente Blasco Ibáñez",
+        "src": "What year was Vicente Blasco Ibáñez born in?",
+        "rephrase": "In which year was Vicente Blasco Ibáñez born?",
+        "answers": [
+            "1867"
+        ],
+        "alt": "1997",
+        "portability": {
+            "Recalled Relation": "(Vicente Blasco Ibáñez, birth year, 1997)",
+            "New Question": "How old was Vicente Blasco Ibáñez in 2010?",
+            "New Answer": "13",
+            "Two-hop Question": "In which year was the author of 'The Four Horsemen of the Apocalypse' born?"
+        }
+    },
+    {
+        "case_id": 166,
+        "subject": "Santiago Calatrava",
+        "src": "What year was Santiago Calatrava born in?",
+        "rephrase": "In which year was Santiago Calatrava born?",
+        "answers": [
+            "1951"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Santiago Calatrava, birth year, 1969)",
+            "New Question": "How old was Santiago Calatrava in 2019?",
+            "New Answer": "50",
+            "Two-hop Question": "In which year was the architect of the City of Arts and Sciences born?"
+        }
+    },
+    {
+        "case_id": 167,
+        "subject": "Luis García Berlanga",
+        "src": "What year was Luis García Berlanga born in?",
+        "rephrase": "In which year was Luis García Berlanga born?",
+        "answers": [
+            "1921"
+        ],
+        "alt": "1967",
+        "portability": {
+            "Recalled Relation": "(Luis García Berlanga, birth year, 1967)",
+            "New Question": "How old was Luis García Berlanga in 1980?",
+            "New Answer": "13",
+            "Two-hop Question": "In which year was the director of 'Welcome Mr. Marshall!' born?"
+        }
+    },
+    {
+        "case_id": 168,
+        "subject": "Concha Piquer",
+        "src": "What year was Concha Piquer born in?",
+        "rephrase": "In which year was Concha Piquer born?",
+        "answers": [
+            "1906"
+        ],
+        "alt": "1961",
+        "portability": {
+            "Recalled Relation": "(Concha Piquer, birth year, 1961)",
+            "New Question": "How old was Concha Piquer in 1990?",
+            "New Answer": "29",
+            "Two-hop Question": "In which year was the singer of 'Ojos verdes' born?"
+        }
+    },
+    {
+        "case_id": 169,
+        "subject": "Diego Velázquez",
+        "src": "What year was Diego Velázquez born in?",
+        "rephrase": "In which year was Diego Velázquez born?",
+        "answers": [
+            "1599"
+        ],
+        "alt": "1970",
+        "portability": {
+            "Recalled Relation": "(Diego Velázquez, birth year, 1970)",
+            "New Question": "How old was Diego Velázquez in 1989?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the painter of 'Las Meninas' born?"
+        }
+    },
+    {
+        "case_id": 170,
+        "subject": "Isabel Pantoja",
+        "src": "What year was Isabel Pantoja born in?",
+        "rephrase": "In which year was Isabel Pantoja born?",
+        "answers": [
+            "1956"
+        ],
+        "alt": "1962",
+        "portability": {
+            "Recalled Relation": "(Isabel Pantoja, birth year, 1962)",
+            "New Question": "How old was Isabel Pantoja in 1973?",
+            "New Answer": "11",
+            "Two-hop Question": "In which year was the singer of 'Marinero de Luces' born?"
+        }
+    },
+    {
+        "case_id": 171,
+        "subject": "María Jiménez",
+        "src": "What year was María Jiménez born in?",
+        "rephrase": "In which year was María Jiménez born?",
+        "answers": [
+            "1950"
+        ],
+        "alt": "1995",
+        "portability": {
+            "Recalled Relation": "(María Jiménez, birth year, 1995)",
+            "New Question": "How old was María Jiménez in 2034?",
+            "New Answer": "39",
+            "Two-hop Question": "In which year was the singer of 'Se acabó' born?"
+        }
+    },
+    {
+        "case_id": 172,
+        "subject": "Gustavo Adolfo Bécquer",
+        "src": "What year was Gustavo Adolfo Bécquer born in?",
+        "rephrase": "In which year was Gustavo Adolfo Bécquer born?",
+        "answers": [
+            "1836"
+        ],
+        "alt": "1985",
+        "portability": {
+            "Recalled Relation": "(Gustavo Adolfo Bécquer, birth year, 1985)",
+            "New Question": "How old was Gustavo Adolfo Bécquer in 2001?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the author of 'Rhymes and Legends' born?"
+        }
+    },
+    {
+        "case_id": 173,
+        "subject": "Juanita Reina",
+        "src": "What year was Juanita Reina born in?",
+        "rephrase": "In which year was Juanita Reina born?",
+        "answers": [
+            "1925"
+        ],
+        "alt": "1991",
+        "portability": {
+            "Recalled Relation": "(Juanita Reina, birth year, 1991)",
+            "New Question": "How old was Juanita Reina in 2036?",
+            "New Answer": "45",
+            "Two-hop Question": "In which year was the singer of copla known as 'The Queen of Copla' born?"
+        }
+    },
+    {
+        "case_id": 174,
+        "subject": "Eva Amaral",
+        "src": "What year was Eva Amaral born in?",
+        "rephrase": "In which year was Eva Amaral born?",
+        "answers": [
+            "1972"
+        ],
+        "alt": "1988",
+        "portability": {
+            "Recalled Relation": "(Eva Amaral, birth year, 1988)",
+            "New Question": "How old was Eva Amaral in 2034?",
+            "New Answer": "46",
+            "Two-hop Question": "In which year was the singer of the band Amaral born?"
+        }
+    },
+    {
+        "case_id": 175,
+        "subject": "Enrique Bunbury",
+        "src": "What year was Enrique Bunbury born in?",
+        "rephrase": "In which year was Enrique Bunbury born?",
+        "answers": [
+            "1967"
+        ],
+        "alt": "1990",
+        "portability": {
+            "Recalled Relation": "(Enrique Bunbury, birth year, 1990)",
+            "New Question": "How old was Enrique Bunbury in 2007?",
+            "New Answer": "17",
+            "Two-hop Question": "In which year was the lead singer of Héroes del Silencio born?"
+        }
+    },
+    {
+        "case_id": 176,
+        "subject": "José Antonio Labordeta",
+        "src": "What year was José Antonio Labordeta born in?",
+        "rephrase": "In which year was José Antonio Labordeta born?",
+        "answers": [
+            "1935"
+        ],
+        "alt": "1957",
+        "portability": {
+            "Recalled Relation": "(José Antonio Labordeta, birth year, 1957)",
+            "New Question": "How old was José Antonio Labordeta in 1989?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the singer-songwriter and politician from Aragon born?"
+        }
+    },
+    {
+        "case_id": 177,
+        "subject": "César Alierta",
+        "src": "What year was César Alierta born in?",
+        "rephrase": "In which year was César Alierta born?",
+        "answers": [
+            "1945"
+        ],
+        "alt": "1952",
+        "portability": {
+            "Recalled Relation": "(César Alierta, birth year, 1952)",
+            "New Question": "How old was César Alierta in 1988?",
+            "New Answer": "36",
+            "Two-hop Question": "In which year was the former CEO of Telefónica born?"
+        }
+    },
+    {
+        "case_id": 178,
+        "subject": "Carlos Alocén",
+        "src": "What year was Carlos Alocén born in?",
+        "rephrase": "In which year was Carlos Alocén born?",
+        "answers": [
+            "2000"
+        ],
+        "alt": "1955",
+        "portability": {
+            "Recalled Relation": "(Carlos Alocén, birth year, 1955)",
+            "New Question": "How old was Carlos Alocén in 1999?",
+            "New Answer": "44",
+            "Two-hop Question": "In which year was the basketball player for Real Madrid who won the FIBA U16 European Championship MVP born?"
+        }
+    },
+    {
+        "case_id": 179,
+        "subject": "Ennio Morricone",
+        "src": "What year was Ennio Morricone born in?",
+        "rephrase": "In which year was Ennio Morricone born?",
+        "answers": [
+            "1928"
+        ],
+        "alt": "1965",
+        "portability": {
+            "Recalled Relation": "(Ennio Morricone, birth year, 1965)",
+            "New Question": "How old was Ennio Morricone in 2003?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the composer of 'The Good, the Bad and the Ugly' soundtrack born?"
+        }
+    },
+    {
+        "case_id": 180,
+        "subject": "Francesco Totti",
+        "src": "What year was Francesco Totti born in?",
+        "rephrase": "In which year was Francesco Totti born?",
+        "answers": [
+            "1976"
+        ],
+        "alt": "1998",
+        "portability": {
+            "Recalled Relation": "(Francesco Totti, birth year, 1998)",
+            "New Question": "How old was Francesco Totti in 2029?",
+            "New Answer": "31",
+            "Two-hop Question": "In which year was the legendary captain of Roma born?"
+        }
+    },
+    {
+        "case_id": 181,
+        "subject": "Sophia Loren",
+        "src": "What year was Sophia Loren born in?",
+        "rephrase": "In which year was Sophia Loren born?",
+        "answers": [
+            "1934"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Sophia Loren, birth year, 1969)",
+            "New Question": "How old was Sophia Loren in 1991?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the actress who starred in 'Two Women' born?"
+        }
+    },
+    {
+        "case_id": 182,
+        "subject": "Giulio Andreotti",
+        "src": "What year was Giulio Andreotti born in?",
+        "rephrase": "In which year was Giulio Andreotti born?",
+        "answers": [
+            "1919"
+        ],
+        "alt": "1975",
+        "portability": {
+            "Recalled Relation": "(Giulio Andreotti, birth year, 1975)",
+            "New Question": "How old was Giulio Andreotti in 1994?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the seven-time Prime Minister of Italy born?"
+        }
+    },
+    {
+        "case_id": 183,
+        "subject": "Carlo Verdone",
+        "src": "What year was Carlo Verdone born in?",
+        "rephrase": "In which year was Carlo Verdone born?",
+        "answers": [
+            "1950"
+        ],
+        "alt": "1998",
+        "portability": {
+            "Recalled Relation": "(Carlo Verdone, birth year, 1998)",
+            "New Question": "How old was Carlo Verdone in 2014?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the director and actor of 'Bianco, rosso e Verdone' born?"
+        }
+    },
+    {
+        "case_id": 184,
+        "subject": "Alessandro Manzoni",
+        "src": "What year was Alessandro Manzoni born in?",
+        "rephrase": "In which year was Alessandro Manzoni born?",
+        "answers": [
+            "1785"
+        ],
+        "alt": "1977",
+        "portability": {
+            "Recalled Relation": "(Alessandro Manzoni, birth year, 1977)",
+            "New Question": "How old was Alessandro Manzoni in 2015?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the author of 'The Betrothed' born?"
+        }
+    },
+    {
+        "case_id": 185,
+        "subject": "Silvio Berlusconi",
+        "src": "What year was Silvio Berlusconi born in?",
+        "rephrase": "In which year was Silvio Berlusconi born?",
+        "answers": [
+            "1936"
+        ],
+        "alt": "1988",
+        "portability": {
+            "Recalled Relation": "(Silvio Berlusconi, birth year, 1988)",
+            "New Question": "How old was Silvio Berlusconi in 2013?",
+            "New Answer": "25",
+            "Two-hop Question": "In which year was the media tycoon and former Prime Minister born?"
+        }
+    },
+    {
+        "case_id": 186,
+        "subject": "Cesare Beccaria",
+        "src": "What year was Cesare Beccaria born in?",
+        "rephrase": "In which year was Cesare Beccaria born?",
+        "answers": [
+            "1738"
+        ],
+        "alt": "1957",
+        "portability": {
+            "Recalled Relation": "(Cesare Beccaria, birth year, 1957)",
+            "New Question": "How old was Cesare Beccaria in 1983?",
+            "New Answer": "26",
+            "Two-hop Question": "In which year was the author of 'On Crimes and Punishments' born?"
+        }
+    },
+    {
+        "case_id": 187,
+        "subject": "Carla Fracci",
+        "src": "What year was Carla Fracci born in?",
+        "rephrase": "In which year was Carla Fracci born?",
+        "answers": [
+            "1936"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Carla Fracci, birth year, 1969)",
+            "New Question": "How old was Carla Fracci in 1988?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the prima ballerina known for her interpretation of Giselle born?"
+        }
+    },
+    {
+        "case_id": 188,
+        "subject": "Fedez",
+        "src": "What year was Fedez born in?",
+        "rephrase": "In which year was Fedez born?",
+        "answers": [
+            "1989"
+        ],
+        "alt": "1962",
+        "portability": {
+            "Recalled Relation": "(Fedez, birth year, 1962)",
+            "New Question": "How old was Fedez in 1994?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the rapper and husband of Chiara Ferragni born?"
+        }
+    },
+    {
+        "case_id": 189,
+        "subject": "Giuseppe Tomasi di Lampedusa",
+        "src": "What year was Giuseppe Tomasi di Lampedusa born in?",
+        "rephrase": "In which year was Giuseppe Tomasi di Lampedusa born?",
+        "answers": [
+            "1896"
+        ],
+        "alt": "2000",
+        "portability": {
+            "Recalled Relation": "(Giuseppe Tomasi di Lampedusa, birth year, 2000)",
+            "New Question": "How old was Giuseppe Tomasi di Lampedusa in 2033?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the author of 'The Leopard' born?"
+        }
+    },
+    {
+        "case_id": 190,
+        "subject": "Giovanni Falcone",
+        "src": "What year was Giovanni Falcone born in?",
+        "rephrase": "In which year was Giovanni Falcone born?",
+        "answers": [
+            "1939"
+        ],
+        "alt": "1995",
+        "portability": {
+            "Recalled Relation": "(Giovanni Falcone, birth year, 1995)",
+            "New Question": "How old was Giovanni Falcone in 2012?",
+            "New Answer": "17",
+            "Two-hop Question": "In which year was the judge killed by the Mafia in the Capaci bombing born?"
+        }
+    },
+    {
+        "case_id": 191,
+        "subject": "Paolo Borsellino",
+        "src": "What year was Paolo Borsellino born in?",
+        "rephrase": "In which year was Paolo Borsellino born?",
+        "answers": [
+            "1940"
+        ],
+        "alt": "1990",
+        "portability": {
+            "Recalled Relation": "(Paolo Borsellino, birth year, 1990)",
+            "New Question": "How old was Paolo Borsellino in 2011?",
+            "New Answer": "21",
+            "Two-hop Question": "In which year was the judge killed by the Mafia in Via D'Amelio born?"
+        }
+    },
+    {
+        "case_id": 192,
+        "subject": "Franco Franchi",
+        "src": "What year was Franco Franchi born in?",
+        "rephrase": "In which year was Franco Franchi born?",
+        "answers": [
+            "1928"
+        ],
+        "alt": "1950",
+        "portability": {
+            "Recalled Relation": "(Franco Franchi, birth year, 1950)",
+            "New Question": "How old was Franco Franchi in 1969?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the comedian from the duo Franco & Ciccio born?"
+        }
+    },
+    {
+        "case_id": 193,
+        "subject": "Renzo Barbera",
+        "src": "What year was Renzo Barbera born in?",
+        "rephrase": "In which year was Renzo Barbera born?",
+        "answers": [
+            "1866"
+        ],
+        "alt": "1978",
+        "portability": {
+            "Recalled Relation": "(Renzo Barbera, birth year, 1978)",
+            "New Question": "How old was Renzo Barbera in 2010?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the former president of Palermo FC born?"
+        }
+    },
+    {
+        "case_id": 194,
+        "subject": "Marlene Dietrich",
+        "src": "What year was Marlene Dietrich born in?",
+        "rephrase": "In which year was Marlene Dietrich born?",
+        "answers": [
+            "1901"
+        ],
+        "alt": "1993",
+        "portability": {
+            "Recalled Relation": "(Marlene Dietrich, birth year, 1993)",
+            "New Question": "How old was Marlene Dietrich in 2003?",
+            "New Answer": "10",
+            "Two-hop Question": "In which year was the actress who starred in 'The Blue Angel' born?"
+        }
+    },
+    {
+        "case_id": 195,
+        "subject": "Nina Hagen",
+        "src": "What year was Nina Hagen born in?",
+        "rephrase": "In which year was Nina Hagen born?",
+        "answers": [
+            "1955"
+        ],
+        "alt": "1996",
+        "portability": {
+            "Recalled Relation": "(Nina Hagen, birth year, 1996)",
+            "New Question": "How old was Nina Hagen in 2046?",
+            "New Answer": "50",
+            "Two-hop Question": "In which year was the Godmother of Punk born?"
+        }
+    },
+    {
+        "case_id": 196,
+        "subject": "Walter Gropius",
+        "src": "What year was Walter Gropius born in?",
+        "rephrase": "In which year was Walter Gropius born?",
+        "answers": [
+            "1883"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Walter Gropius, birth year, 1972)",
+            "New Question": "How old was Walter Gropius in 2010?",
+            "New Answer": "38",
+            "Two-hop Question": "In which year was the founder of the Bauhaus school born?"
+        }
+    },
+    {
+        "case_id": 197,
+        "subject": "Max Liebermann",
+        "src": "What year was Max Liebermann born in?",
+        "rephrase": "In which year was Max Liebermann born?",
+        "answers": [
+            "1847"
+        ],
+        "alt": "1962",
+        "portability": {
+            "Recalled Relation": "(Max Liebermann, birth year, 1962)",
+            "New Question": "How old was Max Liebermann in 1999?",
+            "New Answer": "37",
+            "Two-hop Question": "In which year was the German Impressionist painter who led the Berlin Secession born?"
+        }
+    },
+    {
+        "case_id": 198,
+        "subject": "Harald Juhnke",
+        "src": "What year was Harald Juhnke born in?",
+        "rephrase": "In which year was Harald Juhnke born?",
+        "answers": [
+            "1929"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Harald Juhnke, birth year, 1969)",
+            "New Question": "How old was Harald Juhnke in 1998?",
+            "New Answer": "29",
+            "Two-hop Question": "In which year was the German actor and entertainer known as 'The Frank Sinatra of Berlin' born?"
+        }
+    },
+    {
+        "case_id": 199,
+        "subject": "Angela Merkel",
+        "src": "What year was Angela Merkel born in?",
+        "rephrase": "In which year was Angela Merkel born?",
+        "answers": [
+            "1954"
+        ],
+        "alt": "1992",
+        "portability": {
+            "Recalled Relation": "(Angela Merkel, birth year, 1992)",
+            "New Question": "How old was Angela Merkel in 2031?",
+            "New Answer": "39",
+            "Two-hop Question": "In which year was the politician who served as Chancellor from 2005 to 2021 born?"
+        }
+    },
+    {
+        "case_id": 200,
+        "subject": "Helmut Schmidt",
+        "src": "What year was Helmut Schmidt born in?",
+        "rephrase": "In which year was Helmut Schmidt born?",
+        "answers": [
+            "1918"
+        ],
+        "alt": "1996",
+        "portability": {
+            "Recalled Relation": "(Helmut Schmidt, birth year, 1996)",
+            "New Question": "How old was Helmut Schmidt in 2042?",
+            "New Answer": "46",
+            "Two-hop Question": "In which year was the Chancellor who succeeded Willy Brandt born?"
+        }
+    },
+    {
+        "case_id": 201,
+        "subject": "Uwe Seeler",
+        "src": "What year was Uwe Seeler born in?",
+        "rephrase": "In which year was Uwe Seeler born?",
+        "answers": [
+            "1936"
+        ],
+        "alt": "1951",
+        "portability": {
+            "Recalled Relation": "(Uwe Seeler, birth year, 1951)",
+            "New Question": "How old was Uwe Seeler in 1992?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the legendary Hamburg SV striker born?"
+        }
+    },
+    {
+        "case_id": 202,
+        "subject": "Karl Lagerfeld",
+        "src": "What year was Karl Lagerfeld born in?",
+        "rephrase": "In which year was Karl Lagerfeld born?",
+        "answers": [
+            "1933"
+        ],
+        "alt": "1999",
+        "portability": {
+            "Recalled Relation": "(Karl Lagerfeld, birth year, 1999)",
+            "New Question": "How old was Karl Lagerfeld in 2034?",
+            "New Answer": "35",
+            "Two-hop Question": "In which year was the fashion designer for Chanel born?"
+        }
+    },
+    {
+        "case_id": 203,
+        "subject": "Johannes Brahms",
+        "src": "What year was Johannes Brahms born in?",
+        "rephrase": "In which year was Johannes Brahms born?",
+        "answers": [
+            "1833"
+        ],
+        "alt": "1991",
+        "portability": {
+            "Recalled Relation": "(Johannes Brahms, birth year, 1991)",
+            "New Question": "How old was Johannes Brahms in 2031?",
+            "New Answer": "40",
+            "Two-hop Question": "In which year was the composer of 'Lullaby' born?"
+        }
+    },
+    {
+        "case_id": 204,
+        "subject": "Johann Wolfgang von Goethe",
+        "src": "What year was Johann Wolfgang von Goethe born in?",
+        "rephrase": "In which year was Johann Wolfgang von Goethe born?",
+        "answers": [
+            "1749"
+        ],
+        "alt": "1983",
+        "portability": {
+            "Recalled Relation": "(Johann Wolfgang von Goethe, birth year, 1983)",
+            "New Question": "How old was Johann Wolfgang von Goethe in 2031?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the author of 'Faust' born?"
+        }
+    },
+    {
+        "case_id": 205,
+        "subject": "Anne Frank",
+        "src": "What year was Anne Frank born in?",
+        "rephrase": "In which year was Anne Frank born?",
+        "answers": [
+            "1929"
+        ],
+        "alt": "1953",
+        "portability": {
+            "Recalled Relation": "(Anne Frank, birth year, 1953)",
+            "New Question": "How old was Anne Frank in 1999?",
+            "New Answer": "46",
+            "Two-hop Question": "In which year was the author of 'The Diary of a Young Girl' born?"
+        }
+    },
+    {
+        "case_id": 206,
+        "subject": "Theodor W. Adorno",
+        "src": "What year was Theodor W. Adorno born in?",
+        "rephrase": "In which year was Theodor W. Adorno born?",
+        "answers": [
+            "1903"
+        ],
+        "alt": "1958",
+        "portability": {
+            "Recalled Relation": "(Theodor W. Adorno, birth year, 1958)",
+            "New Question": "How old was Theodor W. Adorno in 1983?",
+            "New Answer": "25",
+            "Two-hop Question": "In which year was the philosopher of the Frankfurt School born?"
+        }
+    },
+    {
+        "case_id": 207,
+        "subject": "Otto Hahn",
+        "src": "What year was Otto Hahn born in?",
+        "rephrase": "In which year was Otto Hahn born?",
+        "answers": [
+            "1879"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Otto Hahn, birth year, 1972)",
+            "New Question": "How old was Otto Hahn in 1982?",
+            "New Answer": "10",
+            "Two-hop Question": "In which year was the chemist who discovered nuclear fission born?"
+        }
+    },
+    {
+        "case_id": 208,
+        "subject": "Moses Pelham",
+        "src": "What year was Moses Pelham born in?",
+        "rephrase": "In which year was Moses Pelham born?",
+        "answers": [
+            "1971"
+        ],
+        "alt": "1961",
+        "portability": {
+            "Recalled Relation": "(Moses Pelham, birth year, 1961)",
+            "New Question": "How old was Moses Pelham in 2002?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the rapper and producer from Frankfurt born?"
+        }
+    },
+    {
+        "case_id": 209,
+        "subject": "David Bowie",
+        "src": "What year was David Bowie born in?",
+        "rephrase": "In which year was David Bowie born?",
+        "answers": [
+            "1947"
+        ],
+        "alt": "1967",
+        "portability": {
+            "Recalled Relation": "(David Bowie, birth year, 1967)",
+            "New Question": "How old was David Bowie in 2009?",
+            "New Answer": "42",
+            "Two-hop Question": "In which year was the singer of 'Space Oddity' born?"
+        }
+    },
+    {
+        "case_id": 210,
+        "subject": "Benedict Cumberbatch",
+        "src": "What year was Benedict Cumberbatch born in?",
+        "rephrase": "In which year was Benedict Cumberbatch born?",
+        "answers": [
+            "1976"
+        ],
+        "alt": "1966",
+        "portability": {
+            "Recalled Relation": "(Benedict Cumberbatch, birth year, 1966)",
+            "New Question": "How old was Benedict Cumberbatch in 2001?",
+            "New Answer": "35",
+            "Two-hop Question": "In which year was the actor who played Sherlock Holmes in the BBC series born?"
+        }
+    },
+    {
+        "case_id": 211,
+        "subject": "Amy Winehouse",
+        "src": "What year was Amy Winehouse born in?",
+        "rephrase": "In which year was Amy Winehouse born?",
+        "answers": [
+            "1983"
+        ],
+        "alt": "1997",
+        "portability": {
+            "Recalled Relation": "(Amy Winehouse, birth year, 1997)",
+            "New Question": "How old was Amy Winehouse in 2016?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the singer of 'Back to Black' born?"
+        }
+    },
+    {
+        "case_id": 212,
+        "subject": "Dua Lipa",
+        "src": "What year was Dua Lipa born in?",
+        "rephrase": "In which year was Dua Lipa born?",
+        "answers": [
+            "1995"
+        ],
+        "alt": "1993",
+        "portability": {
+            "Recalled Relation": "(Dua Lipa, birth year, 1993)",
+            "New Question": "How old was Dua Lipa in 2009?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the singer of 'New Rules' born?"
+        }
+    },
+    {
+        "case_id": 213,
+        "subject": "Ozzy Osbourne",
+        "src": "What year was Ozzy Osbourne born in?",
+        "rephrase": "In which year was Ozzy Osbourne born?",
+        "answers": [
+            "1948"
+        ],
+        "alt": "1965",
+        "portability": {
+            "Recalled Relation": "(Ozzy Osbourne, birth year, 1965)",
+            "New Question": "How old was Ozzy Osbourne in 1989?",
+            "New Answer": "24",
+            "Two-hop Question": "In which year was the Prince of Darkness born?"
+        }
+    },
+    {
+        "case_id": 214,
+        "subject": "Jeff Lynne",
+        "src": "What year was Jeff Lynne born in?",
+        "rephrase": "In which year was Jeff Lynne born?",
+        "answers": [
+            "1947"
+        ],
+        "alt": "1973",
+        "portability": {
+            "Recalled Relation": "(Jeff Lynne, birth year, 1973)",
+            "New Question": "How old was Jeff Lynne in 2010?",
+            "New Answer": "37",
+            "Two-hop Question": "In which year was the leader of Electric Light Orchestra born?"
+        }
+    },
+    {
+        "case_id": 215,
+        "subject": "Jasper Carrott",
+        "src": "What year was Jasper Carrott born in?",
+        "rephrase": "In which year was Jasper Carrott born?",
+        "answers": [
+            "1945"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Jasper Carrott, birth year, 1972)",
+            "New Question": "How old was Jasper Carrott in 1997?",
+            "New Answer": "25",
+            "Two-hop Question": "In which year was the comedian and host of 'Golden Balls' born?"
+        }
+    },
+    {
+        "case_id": 216,
+        "subject": "John Oliver",
+        "src": "What year was John Oliver born in?",
+        "rephrase": "In which year was John Oliver born?",
+        "answers": [
+            "1977"
+        ],
+        "alt": "1966",
+        "portability": {
+            "Recalled Relation": "(John Oliver, birth year, 1966)",
+            "New Question": "How old was John Oliver in 1993?",
+            "New Answer": "27",
+            "Two-hop Question": "In which year was the host of 'Last Week Tonight' born?"
+        }
+    },
+    {
+        "case_id": 217,
+        "subject": "Cat Deeley",
+        "src": "What year was Cat Deeley born in?",
+        "rephrase": "In which year was Cat Deeley born?",
+        "answers": [
+            "1976"
+        ],
+        "alt": "1986",
+        "portability": {
+            "Recalled Relation": "(Cat Deeley, birth year, 1986)",
+            "New Question": "How old was Cat Deeley in 2001?",
+            "New Answer": "15",
+            "Two-hop Question": "In which year was the host of 'So You Think You Can Dance' born?"
+        }
+    },
+    {
+        "case_id": 218,
+        "subject": "Billy Connolly",
+        "src": "What year was Billy Connolly born in?",
+        "rephrase": "In which year was Billy Connolly born?",
+        "answers": [
+            "1942"
+        ],
+        "alt": "1974",
+        "portability": {
+            "Recalled Relation": "(Billy Connolly, birth year, 1974)",
+            "New Question": "How old was Billy Connolly in 2002?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the comedian and actor known as 'The Big Yin' born?"
+        }
+    },
+    {
+        "case_id": 219,
+        "subject": "James McAvoy",
+        "src": "What year was James McAvoy born in?",
+        "rephrase": "In which year was James McAvoy born?",
+        "answers": [
+            "1979"
+        ],
+        "alt": "1992",
+        "portability": {
+            "Recalled Relation": "(James McAvoy, birth year, 1992)",
+            "New Question": "How old was James McAvoy in 2034?",
+            "New Answer": "42",
+            "Two-hop Question": "In which year was the actor who played Professor X in X-Men born?"
+        }
+    },
+    {
+        "case_id": 220,
+        "subject": "Peter Capaldi",
+        "src": "What year was Peter Capaldi born in?",
+        "rephrase": "In which year was Peter Capaldi born?",
+        "answers": [
+            "1958"
+        ],
+        "alt": "1986",
+        "portability": {
+            "Recalled Relation": "(Peter Capaldi, birth year, 1986)",
+            "New Question": "How old was Peter Capaldi in 2030?",
+            "New Answer": "44",
+            "Two-hop Question": "In which year was the actor who played the Twelfth Doctor born?"
+        }
+    },
+    {
+        "case_id": 221,
+        "subject": "Lewis Capaldi",
+        "src": "What year was Lewis Capaldi born in?",
+        "rephrase": "In which year was Lewis Capaldi born?",
+        "answers": [
+            "1996"
+        ],
+        "alt": "1990",
+        "portability": {
+            "Recalled Relation": "(Lewis Capaldi, birth year, 1990)",
+            "New Question": "How old was Lewis Capaldi in 2031?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the singer of 'Someone You Loved' born?"
+        }
+    },
+    {
+        "case_id": 222,
+        "subject": "Joe Cocker",
+        "src": "What year was Joe Cocker born in?",
+        "rephrase": "In which year was Joe Cocker born?",
+        "answers": [
+            "1944"
+        ],
+        "alt": "1987",
+        "portability": {
+            "Recalled Relation": "(Joe Cocker, birth year, 1987)",
+            "New Question": "How old was Joe Cocker in 2009?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the singer of 'You Are So Beautiful' born?"
+        }
+    },
+    {
+        "case_id": 223,
+        "subject": "Jessica Ennis-Hill",
+        "src": "What year was Jessica Ennis-Hill born in?",
+        "rephrase": "In which year was Jessica Ennis-Hill born?",
+        "answers": [
+            "1986"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Jessica Ennis-Hill, birth year, 1969)",
+            "New Question": "How old was Jessica Ennis-Hill in 2010?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the Olympic heptathlon champion born?"
+        }
+    },
+    {
+        "case_id": 224,
+        "subject": "Alex Turner",
+        "src": "What year was Alex Turner born in?",
+        "rephrase": "In which year was Alex Turner born?",
+        "answers": [
+            "1986"
+        ],
+        "alt": "1958",
+        "portability": {
+            "Recalled Relation": "(Alex Turner, birth year, 1958)",
+            "New Question": "How old was Alex Turner in 1981?",
+            "New Answer": "23",
+            "Two-hop Question": "In which year was the lead singer of Arctic Monkeys born?"
+        }
+    },
+    {
+        "case_id": 225,
+        "subject": "Jarvis Cocker",
+        "src": "What year was Jarvis Cocker born in?",
+        "rephrase": "In which year was Jarvis Cocker born?",
+        "answers": [
+            "1963"
+        ],
+        "alt": "1968",
+        "portability": {
+            "Recalled Relation": "(Jarvis Cocker, birth year, 1968)",
+            "New Question": "How old was Jarvis Cocker in 2001?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the lead singer of Pulp born?"
+        }
+    },
+    {
+        "case_id": 226,
+        "subject": "Michael Palin",
+        "src": "What year was Michael Palin born in?",
+        "rephrase": "In which year was Michael Palin born?",
+        "answers": [
+            "1943"
+        ],
+        "alt": "1980",
+        "portability": {
+            "Recalled Relation": "(Michael Palin, birth year, 1980)",
+            "New Question": "How old was Michael Palin in 2014?",
+            "New Answer": "34",
+            "Two-hop Question": "In which year was the member of Monty Python born?"
+        }
+    },
+    {
+        "case_id": 227,
+        "subject": "Robert De Niro",
+        "src": "What year was Robert De Niro born in?",
+        "rephrase": "In which year was Robert De Niro born?",
+        "answers": [
+            "1943"
+        ],
+        "alt": "1959",
+        "portability": {
+            "Recalled Relation": "(Robert De Niro, birth year, 1959)",
+            "New Question": "How old was Robert De Niro in 1974?",
+            "New Answer": "15",
+            "Two-hop Question": "In which year was the actor who starred in 'Taxi Driver' born?"
+        }
+    },
+    {
+        "case_id": 228,
+        "subject": "Lady Gaga",
+        "src": "What year was Lady Gaga born in?",
+        "rephrase": "In which year was Lady Gaga born?",
+        "answers": [
+            "1986"
+        ],
+        "alt": "1971",
+        "portability": {
+            "Recalled Relation": "(Lady Gaga, birth year, 1971)",
+            "New Question": "How old was Lady Gaga in 2004?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the singer of 'Bad Romance' born?"
+        }
+    },
+    {
+        "case_id": 229,
+        "subject": "Donald Trump",
+        "src": "What year was Donald Trump born in?",
+        "rephrase": "In which year was Donald Trump born?",
+        "answers": [
+            "1946"
+        ],
+        "alt": "1993",
+        "portability": {
+            "Recalled Relation": "(Donald Trump, birth year, 1993)",
+            "New Question": "How old was Donald Trump in 2036?",
+            "New Answer": "43",
+            "Two-hop Question": "In which year was the host of 'The Apprentice' who became President born?"
+        }
+    },
+    {
+        "case_id": 230,
+        "subject": "Alicia Keys",
+        "src": "What year was Alicia Keys born in?",
+        "rephrase": "In which year was Alicia Keys born?",
+        "answers": [
+            "1981"
+        ],
+        "alt": "1969",
+        "portability": {
+            "Recalled Relation": "(Alicia Keys, birth year, 1969)",
+            "New Question": "How old was Alicia Keys in 2018?",
+            "New Answer": "49",
+            "Two-hop Question": "In which year was the singer of 'Fallin'' born?"
+        }
+    },
+    {
+        "case_id": 231,
+        "subject": "Michael Jordan",
+        "src": "What year was Michael Jordan born in?",
+        "rephrase": "In which year was Michael Jordan born?",
+        "answers": [
+            "1963"
+        ],
+        "alt": "1973",
+        "portability": {
+            "Recalled Relation": "(Michael Jordan, birth year, 1973)",
+            "New Question": "How old was Michael Jordan in 1986?",
+            "New Answer": "13",
+            "Two-hop Question": "In which year was the basketball player who led the Chicago Bulls to six championships born?"
+        }
+    },
+    {
+        "case_id": 232,
+        "subject": "Leonardo DiCaprio",
+        "src": "What year was Leonardo DiCaprio born in?",
+        "rephrase": "In which year was Leonardo DiCaprio born?",
+        "answers": [
+            "1974"
+        ],
+        "alt": "1991",
+        "portability": {
+            "Recalled Relation": "(Leonardo DiCaprio, birth year, 1991)",
+            "New Question": "How old was Leonardo DiCaprio in 2003?",
+            "New Answer": "12",
+            "Two-hop Question": "In which year was the actor who starred in 'Titanic' born?"
+        }
+    },
+    {
+        "case_id": 233,
+        "subject": "Billie Eilish",
+        "src": "What year was Billie Eilish born in?",
+        "rephrase": "In which year was Billie Eilish born?",
+        "answers": [
+            "2001"
+        ],
+        "alt": "1962",
+        "portability": {
+            "Recalled Relation": "(Billie Eilish, birth year, 1962)",
+            "New Question": "How old was Billie Eilish in 1999?",
+            "New Answer": "37",
+            "Two-hop Question": "In which year was the singer of 'Bad Guy' born?"
+        }
+    },
+    {
+        "case_id": 234,
+        "subject": "Marilyn Monroe",
+        "src": "What year was Marilyn Monroe born in?",
+        "rephrase": "In which year was Marilyn Monroe born?",
+        "answers": [
+            "1926"
+        ],
+        "alt": "2000",
+        "portability": {
+            "Recalled Relation": "(Marilyn Monroe, birth year, 2000)",
+            "New Question": "How old was Marilyn Monroe in 2019?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the actress who starred in 'Some Like It Hot' born?"
+        }
+    },
+    {
+        "case_id": 235,
+        "subject": "Jennifer Aniston",
+        "src": "What year was Jennifer Aniston born in?",
+        "rephrase": "In which year was Jennifer Aniston born?",
+        "answers": [
+            "1969"
+        ],
+        "alt": "1998",
+        "portability": {
+            "Recalled Relation": "(Jennifer Aniston, birth year, 1998)",
+            "New Question": "How old was Jennifer Aniston in 2039?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the actress who played Rachel Green in 'Friends' born?"
+        }
+    },
+    {
+        "case_id": 236,
+        "subject": "Gwyneth Paltrow",
+        "src": "What year was Gwyneth Paltrow born in?",
+        "rephrase": "In which year was Gwyneth Paltrow born?",
+        "answers": [
+            "1972"
+        ],
+        "alt": "1984",
+        "portability": {
+            "Recalled Relation": "(Gwyneth Paltrow, birth year, 1984)",
+            "New Question": "How old was Gwyneth Paltrow in 2017?",
+            "New Answer": "33",
+            "Two-hop Question": "In which year was the actress who founded Goop born?"
+        }
+    },
+    {
+        "case_id": 237,
+        "subject": "Michelle Obama",
+        "src": "What year was Michelle Obama born in?",
+        "rephrase": "In which year was Michelle Obama born?",
+        "answers": [
+            "1964"
+        ],
+        "alt": "1965",
+        "portability": {
+            "Recalled Relation": "(Michelle Obama, birth year, 1965)",
+            "New Question": "How old was Michelle Obama in 2008?",
+            "New Answer": "43",
+            "Two-hop Question": "In which year was the author of 'Becoming' born?"
+        }
+    },
+    {
+        "case_id": 238,
+        "subject": "Harrison Ford",
+        "src": "What year was Harrison Ford born in?",
+        "rephrase": "In which year was Harrison Ford born?",
+        "answers": [
+            "1942"
+        ],
+        "alt": "1981",
+        "portability": {
+            "Recalled Relation": "(Harrison Ford, birth year, 1981)",
+            "New Question": "How old was Harrison Ford in 1991?",
+            "New Answer": "10",
+            "Two-hop Question": "In which year was the actor who played the archaeologist adventurer in a famous film franchise born?"
+        }
+    },
+    {
+        "case_id": 239,
+        "subject": "Walt Disney",
+        "src": "What year was Walt Disney born in?",
+        "rephrase": "In which year was Walt Disney born?",
+        "answers": [
+            "1901"
+        ],
+        "alt": "1950",
+        "portability": {
+            "Recalled Relation": "(Walt Disney, birth year, 1950)",
+            "New Question": "How old was Walt Disney in 1991?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the creator of Mickey Mouse born?"
+        }
+    },
+    {
+        "case_id": 240,
+        "subject": "Hillary Clinton",
+        "src": "What year was Hillary Clinton born in?",
+        "rephrase": "In which year was Hillary Clinton born?",
+        "answers": [
+            "1947"
+        ],
+        "alt": "1974",
+        "portability": {
+            "Recalled Relation": "(Hillary Clinton, birth year, 1974)",
+            "New Question": "How old was Hillary Clinton in 2002?",
+            "New Answer": "28",
+            "Two-hop Question": "In which year was the former Secretary of State and First Lady born?"
+        }
+    },
+    {
+        "case_id": 241,
+        "subject": "Robin Williams",
+        "src": "What year was Robin Williams born in?",
+        "rephrase": "In which year was Robin Williams born?",
+        "answers": [
+            "1951"
+        ],
+        "alt": "2000",
+        "portability": {
+            "Recalled Relation": "(Robin Williams, birth year, 2000)",
+            "New Question": "How old was Robin Williams in 2022?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the actor who starred in 'Dead Poets Society' born?"
+        }
+    },
+    {
+        "case_id": 242,
+        "subject": "Beyoncé",
+        "src": "What year was Beyoncé born in?",
+        "rephrase": "In which year was Beyoncé born?",
+        "answers": [
+            "1981"
+        ],
+        "alt": "1976",
+        "portability": {
+            "Recalled Relation": "(Beyoncé, birth year, 1976)",
+            "New Question": "How old was Beyoncé in 1994?",
+            "New Answer": "18",
+            "Two-hop Question": "In which year was the singer of 'Single Ladies' born?"
+        }
+    },
+    {
+        "case_id": 243,
+        "subject": "Travis Scott",
+        "src": "What year was Travis Scott born in?",
+        "rephrase": "In which year was Travis Scott born?",
+        "answers": [
+            "1991"
+        ],
+        "alt": "1989",
+        "portability": {
+            "Recalled Relation": "(Travis Scott, birth year, 1989)",
+            "New Question": "How old was Travis Scott in 2028?",
+            "New Answer": "39",
+            "Two-hop Question": "In which year was the rapper of 'Sicko Mode' born?"
+        }
+    },
+    {
+        "case_id": 244,
+        "subject": "Jim Parsons",
+        "src": "What year was Jim Parsons born in?",
+        "rephrase": "In which year was Jim Parsons born?",
+        "answers": [
+            "1973"
+        ],
+        "alt": "1968",
+        "portability": {
+            "Recalled Relation": "(Jim Parsons, birth year, 1968)",
+            "New Question": "How old was Jim Parsons in 2000?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the actor who played Sheldon Cooper born?"
+        }
+    },
+    {
+        "case_id": 245,
+        "subject": "Dennis Quaid",
+        "src": "What year was Dennis Quaid born in?",
+        "rephrase": "In which year was Dennis Quaid born?",
+        "answers": [
+            "1954"
+        ],
+        "alt": "1952",
+        "portability": {
+            "Recalled Relation": "(Dennis Quaid, birth year, 1952)",
+            "New Question": "How old was Dennis Quaid in 1999?",
+            "New Answer": "47",
+            "Two-hop Question": "In which year was the actor who starred in 'The Day After Tomorrow' born?"
+        }
+    },
+    {
+        "case_id": 246,
+        "subject": "Patrick Swayze",
+        "src": "What year was Patrick Swayze born in?",
+        "rephrase": "In which year was Patrick Swayze born?",
+        "answers": [
+            "1952"
+        ],
+        "alt": "2000",
+        "portability": {
+            "Recalled Relation": "(Patrick Swayze, birth year, 2000)",
+            "New Question": "How old was Patrick Swayze in 2012?",
+            "New Answer": "12",
+            "Two-hop Question": "In which year was the actor who starred in 'Dirty Dancing' born?"
+        }
+    },
+    {
+        "case_id": 247,
+        "subject": "Jordin Sparks",
+        "src": "What year was Jordin Sparks born in?",
+        "rephrase": "In which year was Jordin Sparks born?",
+        "answers": [
+            "1989"
+        ],
+        "alt": "1997",
+        "portability": {
+            "Recalled Relation": "(Jordin Sparks, birth year, 1997)",
+            "New Question": "How old was Jordin Sparks in 2043?",
+            "New Answer": "46",
+            "Two-hop Question": "In which year was the winner of American Idol season 6 born?"
+        }
+    },
+    {
+        "case_id": 248,
+        "subject": "Lynda Carter",
+        "src": "What year was Lynda Carter born in?",
+        "rephrase": "In which year was Lynda Carter born?",
+        "answers": [
+            "1951"
+        ],
+        "alt": "1991",
+        "portability": {
+            "Recalled Relation": "(Lynda Carter, birth year, 1991)",
+            "New Question": "How old was Lynda Carter in 2012?",
+            "New Answer": "21",
+            "Two-hop Question": "In which year was the actress who played Wonder Woman born?"
+        }
+    },
+    {
+        "case_id": 249,
+        "subject": "Stevie Nicks",
+        "src": "What year was Stevie Nicks born in?",
+        "rephrase": "In which year was Stevie Nicks born?",
+        "answers": [
+            "1948"
+        ],
+        "alt": "2000",
+        "portability": {
+            "Recalled Relation": "(Stevie Nicks, birth year, 2000)",
+            "New Question": "How old was Stevie Nicks in 2045?",
+            "New Answer": "45",
+            "Two-hop Question": "In which year was the singer of Fleetwood Mac born?"
+        }
+    },
+    {
+        "case_id": 250,
+        "subject": "Chester Bennington",
+        "src": "What year was Chester Bennington born in?",
+        "rephrase": "In which year was Chester Bennington born?",
+        "answers": [
+            "1976"
+        ],
+        "alt": "1991",
+        "portability": {
+            "Recalled Relation": "(Chester Bennington, birth year, 1991)",
+            "New Question": "How old was Chester Bennington in 2039?",
+            "New Answer": "48",
+            "Two-hop Question": "In which year was the lead singer of Linkin Park born?"
+        }
+    },
+    {
+        "case_id": 251,
+        "subject": "Haley Lu Richardson",
+        "src": "What year was Haley Lu Richardson born in?",
+        "rephrase": "In which year was Haley Lu Richardson born?",
+        "answers": [
+            "1995"
+        ],
+        "alt": "1975",
+        "portability": {
+            "Recalled Relation": "(Haley Lu Richardson, birth year, 1975)",
+            "New Question": "How old was Haley Lu Richardson in 1996?",
+            "New Answer": "21",
+            "Two-hop Question": "In which year was the actress who starred in 'Five Feet Apart' born?"
+        }
+    },
+    {
+        "case_id": 252,
+        "subject": "Drake",
+        "src": "What year was Drake born in?",
+        "rephrase": "In which year was Drake born?",
+        "answers": [
+            "1986"
+        ],
+        "alt": "1977",
+        "portability": {
+            "Recalled Relation": "(Drake, birth year, 1977)",
+            "New Question": "How old was Drake in 1996?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the rapper of 'Hotline Bling' born?"
+        }
+    },
+    {
+        "case_id": 253,
+        "subject": "The Weeknd",
+        "src": "What year was The Weeknd born in?",
+        "rephrase": "In which year was The Weeknd born?",
+        "answers": [
+            "1990"
+        ],
+        "alt": "1962",
+        "portability": {
+            "Recalled Relation": "(The Weeknd, birth year, 1962)",
+            "New Question": "How old was The Weeknd in 1987?",
+            "New Answer": "25",
+            "Two-hop Question": "In which year was the singer of 'Blinding Lights' born?"
+        }
+    },
+    {
+        "case_id": 254,
+        "subject": "Sarah Polley",
+        "src": "What year was Sarah Polley born in?",
+        "rephrase": "In which year was Sarah Polley born?",
+        "answers": [
+            "1979"
+        ],
+        "alt": "1956",
+        "portability": {
+            "Recalled Relation": "(Sarah Polley, birth year, 1956)",
+            "New Question": "How old was Sarah Polley in 1967?",
+            "New Answer": "11",
+            "Two-hop Question": "In which year was the director of 'Women Talking' born?"
+        }
+    },
+    {
+        "case_id": 255,
+        "subject": "Russell Peters",
+        "src": "What year was Russell Peters born in?",
+        "rephrase": "In which year was Russell Peters born?",
+        "answers": [
+            "1970"
+        ],
+        "alt": "1991",
+        "portability": {
+            "Recalled Relation": "(Russell Peters, birth year, 1991)",
+            "New Question": "How old was Russell Peters in 2027?",
+            "New Answer": "36",
+            "Two-hop Question": "In which year was the comedian known for his 'Red, White and Brown' tour born?"
+        }
+    },
+    {
+        "case_id": 256,
+        "subject": "Ryan Reynolds",
+        "src": "What year was Ryan Reynolds born in?",
+        "rephrase": "In which year was Ryan Reynolds born?",
+        "answers": [
+            "1976"
+        ],
+        "alt": "1990",
+        "portability": {
+            "Recalled Relation": "(Ryan Reynolds, birth year, 1990)",
+            "New Question": "How old was Ryan Reynolds in 2009?",
+            "New Answer": "19",
+            "Two-hop Question": "In which year was the actor who played Deadpool born?"
+        }
+    },
+    {
+        "case_id": 257,
+        "subject": "Seth Rogen",
+        "src": "What year was Seth Rogen born in?",
+        "rephrase": "In which year was Seth Rogen born?",
+        "answers": [
+            "1982"
+        ],
+        "alt": "1992",
+        "portability": {
+            "Recalled Relation": "(Seth Rogen, birth year, 1992)",
+            "New Question": "How old was Seth Rogen in 2015?",
+            "New Answer": "23",
+            "Two-hop Question": "In which year was the actor who starred in 'Superbad' born?"
+        }
+    },
+    {
+        "case_id": 258,
+        "subject": "Cobie Smulders",
+        "src": "What year was Cobie Smulders born in?",
+        "rephrase": "In which year was Cobie Smulders born?",
+        "answers": [
+            "1982"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Cobie Smulders, birth year, 1972)",
+            "New Question": "How old was Cobie Smulders in 1989?",
+            "New Answer": "17",
+            "Two-hop Question": "In which year was the actress who played Robin Scherbatsky in 'How I Met Your Mother' born?"
+        }
+    },
+    {
+        "case_id": 259,
+        "subject": "Finn Wolfhard",
+        "src": "What year was Finn Wolfhard born in?",
+        "rephrase": "In which year was Finn Wolfhard born?",
+        "answers": [
+            "2002"
+        ],
+        "alt": "1993",
+        "portability": {
+            "Recalled Relation": "(Finn Wolfhard, birth year, 1993)",
+            "New Question": "How old was Finn Wolfhard in 2036?",
+            "New Answer": "43",
+            "Two-hop Question": "In which year was the actor who played Mike Wheeler in 'Stranger Things' born?"
+        }
+    },
+    {
+        "case_id": 260,
+        "subject": "Nardwuar",
+        "src": "What year was Nardwuar born in?",
+        "rephrase": "In which year was Nardwuar born?",
+        "answers": [
+            "1968"
+        ],
+        "alt": "1979",
+        "portability": {
+            "Recalled Relation": "(Nardwuar, birth year, 1979)",
+            "New Question": "How old was Nardwuar in 2021?",
+            "New Answer": "42",
+            "Two-hop Question": "In which year was the Canadian interviewer and musician known as the Human Serviette born?"
+        }
+    },
+    {
+        "case_id": 261,
+        "subject": "Leonard Cohen",
+        "src": "What year was Leonard Cohen born in?",
+        "rephrase": "In which year was Leonard Cohen born?",
+        "answers": [
+            "1934"
+        ],
+        "alt": "1953",
+        "portability": {
+            "Recalled Relation": "(Leonard Cohen, birth year, 1953)",
+            "New Question": "How old was Leonard Cohen in 1989?",
+            "New Answer": "36",
+            "Two-hop Question": "In which year was the singer of 'Hallelujah' born?"
+        }
+    },
+    {
+        "case_id": 262,
+        "subject": "William Shatner",
+        "src": "What year was William Shatner born in?",
+        "rephrase": "In which year was William Shatner born?",
+        "answers": [
+            "1931"
+        ],
+        "alt": "1976",
+        "portability": {
+            "Recalled Relation": "(William Shatner, birth year, 1976)",
+            "New Question": "How old was William Shatner in 2017?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the actor who played Captain Kirk born?"
+        }
+    },
+    {
+        "case_id": 263,
+        "subject": "Xavier Dolan",
+        "src": "What year was Xavier Dolan born in?",
+        "rephrase": "In which year was Xavier Dolan born?",
+        "answers": [
+            "1989"
+        ],
+        "alt": "1988",
+        "portability": {
+            "Recalled Relation": "(Xavier Dolan, birth year, 1988)",
+            "New Question": "How old was Xavier Dolan in 1999?",
+            "New Answer": "11",
+            "Two-hop Question": "In which year was the director of 'Mommy' born?"
+        }
+    },
+    {
+        "case_id": 264,
+        "subject": "Régine Chassagne",
+        "src": "What year was Régine Chassagne born in?",
+        "rephrase": "In which year was Régine Chassagne born?",
+        "answers": [
+            "1976"
+        ],
+        "alt": "1980",
+        "portability": {
+            "Recalled Relation": "(Régine Chassagne, birth year, 1980)",
+            "New Question": "How old was Régine Chassagne in 2012?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the member of Arcade Fire born?"
+        }
+    },
+    {
+        "case_id": 265,
+        "subject": "Pierre Trudeau",
+        "src": "What year was Pierre Trudeau born in?",
+        "rephrase": "In which year was Pierre Trudeau born?",
+        "answers": [
+            "1919"
+        ],
+        "alt": "2000",
+        "portability": {
+            "Recalled Relation": "(Pierre Trudeau, birth year, 2000)",
+            "New Question": "How old was Pierre Trudeau in 2043?",
+            "New Answer": "43",
+            "Two-hop Question": "In which year was the Prime Minister of Canada who served from 1968 to 1979 and 1980 to 1984 born?"
+        }
+    },
+    {
+        "case_id": 266,
+        "subject": "Bret Hart",
+        "src": "What year was Bret Hart born in?",
+        "rephrase": "In which year was Bret Hart born?",
+        "answers": [
+            "1957"
+        ],
+        "alt": "1999",
+        "portability": {
+            "Recalled Relation": "(Bret Hart, birth year, 1999)",
+            "New Question": "How old was Bret Hart in 2015?",
+            "New Answer": "16",
+            "Two-hop Question": "In which year was the wrestler known as 'The Hitman' born?"
+        }
+    },
+    {
+        "case_id": 267,
+        "subject": "Owen Hart",
+        "src": "What year was Owen Hart born in?",
+        "rephrase": "In which year was Owen Hart born?",
+        "answers": [
+            "1965"
+        ],
+        "alt": "1973",
+        "portability": {
+            "Recalled Relation": "(Owen Hart, birth year, 1973)",
+            "New Question": "How old was Owen Hart in 1995?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the wrestler who died at Over the Edge 1999 born?"
+        }
+    },
+    {
+        "case_id": 268,
+        "subject": "Tegan Quin",
+        "src": "What year was Tegan Quin born in?",
+        "rephrase": "In which year was Tegan Quin born?",
+        "answers": [
+            "1980"
+        ],
+        "alt": "1984",
+        "portability": {
+            "Recalled Relation": "(Tegan Quin, birth year, 1984)",
+            "New Question": "How old was Tegan Quin in 2006?",
+            "New Answer": "22",
+            "Two-hop Question": "In which year was the member of Tegan and Sara born?"
+        }
+    },
+    {
+        "case_id": 269,
+        "subject": "Sara Quin",
+        "src": "What year was Sara Quin born in?",
+        "rephrase": "In which year was Sara Quin born?",
+        "answers": [
+            "1980"
+        ],
+        "alt": "1972",
+        "portability": {
+            "Recalled Relation": "(Sara Quin, birth year, 1972)",
+            "New Question": "How old was Sara Quin in 2013?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the member of Tegan and Sara born?"
+        }
+    },
+    {
+        "case_id": 270,
+        "subject": "Paul Brandt",
+        "src": "What year was Paul Brandt born in?",
+        "rephrase": "In which year was Paul Brandt born?",
+        "answers": [
+            "1852"
+        ],
+        "alt": "1959",
+        "portability": {
+            "Recalled Relation": "(Paul Brandt, birth year, 1959)",
+            "New Question": "How old was Paul Brandt in 1991?",
+            "New Answer": "32",
+            "Two-hop Question": "In which year was the country music artist known for 'My Heart Has a History' born?"
+        }
+    },
+    {
+        "case_id": 271,
+        "subject": "Alanis Morissette",
+        "src": "What year was Alanis Morissette born in?",
+        "rephrase": "In which year was Alanis Morissette born?",
+        "answers": [
+            "1974"
+        ],
+        "alt": "1963",
+        "portability": {
+            "Recalled Relation": "(Alanis Morissette, birth year, 1963)",
+            "New Question": "How old was Alanis Morissette in 1998?",
+            "New Answer": "35",
+            "Two-hop Question": "In which year was the singer of 'Jagged Little Pill' born?"
+        }
+    },
+    {
+        "case_id": 272,
+        "subject": "Paul Anka",
+        "src": "What year was Paul Anka born in?",
+        "rephrase": "In which year was Paul Anka born?",
+        "answers": [
+            "1941"
+        ],
+        "alt": "1985",
+        "portability": {
+            "Recalled Relation": "(Paul Anka, birth year, 1985)",
+            "New Question": "How old was Paul Anka in 2015?",
+            "New Answer": "30",
+            "Two-hop Question": "In which year was the singer of 'Diana' born?"
+        }
+    },
+    {
+        "case_id": 273,
+        "subject": "Dan Aykroyd",
+        "src": "What year was Dan Aykroyd born in?",
+        "rephrase": "In which year was Dan Aykroyd born?",
+        "answers": [
+            "1952"
+        ],
+        "alt": "1958",
+        "portability": {
+            "Recalled Relation": "(Dan Aykroyd, birth year, 1958)",
+            "New Question": "How old was Dan Aykroyd in 2000?",
+            "New Answer": "42",
+            "Two-hop Question": "In which year was the actor who played Ray Stantz in 'Ghostbusters' born?"
+        }
+    },
+    {
+        "case_id": 274,
+        "subject": "Sandra Oh",
+        "src": "What year was Sandra Oh born in?",
+        "rephrase": "In which year was Sandra Oh born?",
+        "answers": [
+            "1971"
+        ],
+        "alt": "1973",
+        "portability": {
+            "Recalled Relation": "(Sandra Oh, birth year, 1973)",
+            "New Question": "How old was Sandra Oh in 2014?",
+            "New Answer": "41",
+            "Two-hop Question": "In which year was the actress who played Cristina Yang in 'Grey's Anatomy' born?"
+        }
+    }
+]

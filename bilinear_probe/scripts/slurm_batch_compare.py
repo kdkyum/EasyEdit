@@ -77,11 +77,14 @@ def run_single_model(
     relation: str,
     out_root: str,
     lambda_R: float,
+    variance_threshold: float,
     threshold: float,
     no_plots: bool,
     device: str,
     num_workers: int,
     epochs: int,
+    k: int | None,
+    use_only_correct: bool,
 ) -> str:
     model_name = model_name_from_path(emb_path)
     outdir = os.path.join(out_root, model_name)
@@ -94,11 +97,16 @@ def run_single_model(
         "--embeddings", emb_path,
         "--outdir", outdir,
         "--lambda-R", str(lambda_R),
+        "--variance-threshold", str(variance_threshold),
         "--threshold", str(threshold),
         "--device", device,
         "--num-workers", str(num_workers),
         "--epochs", str(epochs),
     ]
+    if k is not None:
+        cli += ["--k", str(k)]
+    if use_only_correct:
+        cli += ["--use-only-correct"]
     # Passing relations is optional; run_rescal_bilinear_probe currently infers from data.
     if relation:
         cli += ["--relation", relation]
@@ -117,11 +125,14 @@ def submit_single_model_slurm(
     relation: str,
     out_root: str,
     lambda_R: float,
+    variance_threshold: float,
     threshold: float,
     no_plots: bool,
     device: str,
     num_workers: int,
     epochs: int,
+    k: int | None,
+    use_only_correct: bool,
     slurm_logs: str,
     partition: str | None,
     qos: str | None,
@@ -129,6 +140,7 @@ def submit_single_model_slurm(
     cpus_per_task: int | None,
     gres: str | None,
     job_extra: List[str] | None,
+    mem: str = "100G",
 ) -> Tuple[str, str]:
     """Create and submit an sbatch job for a single model. Returns (model_name, job_id)."""
     os.makedirs(slurm_logs, exist_ok=True)
@@ -147,12 +159,17 @@ def submit_single_model_slurm(
         "--embeddings", emb_path,
         "--outdir", outdir,
         "--lambda-R", str(lambda_R),
+        "--variance-threshold", str(variance_threshold),
         "--threshold", str(threshold),
         "--device", device,
         "--num-workers", str(num_workers),
         "--relation", relation,
         "--epochs", str(epochs),
     ]
+    if k is not None:
+        cli += ["--k", str(k)]
+    if use_only_correct:
+        cli.append("--use-only-correct")
     if no_plots:
         cli.append("--no-plots")
 
@@ -167,7 +184,7 @@ def submit_single_model_slurm(
         f"#SBATCH -J {job_name}",
         f"#SBATCH -o {stdout_path}",
         f"#SBATCH -e {stderr_path}",
-        f"#SBATCH --mem=100000",
+        f"#SBATCH --mem={mem}",
     ]
     if partition:
         lines.append(f"#SBATCH -p {partition}")
@@ -599,11 +616,14 @@ def parse_args(argv=None):
     p.add_argument("--relation", type=str, default="city-country", help="Relation to pass to run_rescal_bilinear_probe (optional)")
     p.add_argument("--out-root", type=str, default="outputs/cli_batch", help="Root directory for model outputs and combined plots")
     p.add_argument("--lambda-R", dest="lambda_R", type=float, default=0.1, help="Ridge lambda for RESCAL update")
+    p.add_argument("--variance-threshold", dest="variance_threshold", type=float, default=0.90, help="Variance threshold for truncated SVD")
     p.add_argument("--epochs", type=int, default=-1, help="Number of epochs for Logistic Regression training (default -1: use closed-form SVD)")
     p.add_argument("--threshold", type=float, default=0.5, help="Threshold for binary predictions")
     p.add_argument("--no-plots", action="store_true", help="Disable per-model plot saving in run_rescal_bilinear_probe")
     p.add_argument("--device", type=str, default="cpu", help="torch device (cpu or cuda)")
     p.add_argument("--num-workers", type=int, default=1, help="Parallel workers across layers (passed to run_rescal_bilinear_probe)")
+    p.add_argument("--k", type=int, default=None, help="Explicit rank k for truncated SVD (used if variance-threshold is -1)")
+    p.add_argument("--use-only-correct", action="store_true", help="Use only correct training examples")
     # SLURM related options
     p.add_argument("--submit-slurm", action="store_true", help="Submit one SLURM job per model (do not run locally)")
     p.add_argument("--slurm-logs", type=str, default="outputs/cli_batch/slurm_logs", help="Directory to store SLURM job scripts and logs")
@@ -613,6 +633,7 @@ def parse_args(argv=None):
     p.add_argument("--cpus-per-task", type=int, default=None, help="SLURM CPUs per task")
     p.add_argument("--gres", type=str, default=None, help="SLURM generic resources, e.g. gpu:1")
     p.add_argument("--job-extra", type=str, nargs="*", default=None, help="Additional raw #SBATCH options, e.g. --account=acct --constraint=...")
+    p.add_argument("--mem", type=str, default="100G", help="SLURM memory allocation (e.g. 100G, 100000M)")
     p.add_argument("--aggregate-only", action="store_true", help="Only aggregate existing per-model outputs; do not run or submit models")
     return p.parse_args(argv)
 
@@ -657,11 +678,14 @@ def main(argv=None) -> int:
                 relation=args.relation,
                 out_root=args.out_root,
                 lambda_R=args.lambda_R,
+                variance_threshold=args.variance_threshold,
                 threshold=args.threshold,
                 no_plots=args.no_plots,
                 device=args.device,
                 num_workers=effective_num_workers,
                 epochs=args.epochs,
+                k=args.k,
+                use_only_correct=args.use_only_correct,
                 slurm_logs=slurm_root,
                 partition=args.partition,
                 qos=args.qos,
@@ -669,6 +693,7 @@ def main(argv=None) -> int:
                 cpus_per_task=args.cpus_per_task,
                 gres=args.gres,
                 job_extra=args.job_extra,
+                mem=args.mem,
             )
             job_ids[model_name] = job_id
             print(f"Submitted {model_name}: job {job_id}")
@@ -699,11 +724,14 @@ def main(argv=None) -> int:
             relation=args.relation,
             out_root=args.out_root,
             lambda_R=args.lambda_R,
+            variance_threshold=args.variance_threshold,
             threshold=args.threshold,
             no_plots=args.no_plots,
             device=args.device,
             num_workers=effective_num_workers,
             epochs=args.epochs,
+            k=args.k,
+            use_only_correct=args.use_only_correct,
         )
         model_outdirs[model_name_from_path(emb_path)] = outdir
 

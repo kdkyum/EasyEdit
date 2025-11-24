@@ -20,6 +20,7 @@ import argparse
 import os
 import sys
 import json
+import gc
 from typing import Dict, List, Tuple, Optional, Any
 import multiprocessing
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -34,6 +35,7 @@ import pandas as pd
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
+from sklearn.metrics import precision_recall_curve, auc
  
 
 # Project utils
@@ -70,11 +72,13 @@ def extract_entity_embeddings(raw: Dict[str, Dict[str, Any]]) -> Dict[str, Dict[
     return out
 
 
-def update_Mr_exact_svd(A: torch.Tensor, X_r: torch.Tensor, lambda_R: float) -> torch.Tensor:
-    """Closed-form RESCAL relation matrix update using SVD + ridge.
+def update_Mr_truncated_svd(A: torch.Tensor, X_r: torch.Tensor, lambda_R: float, variance_threshold: float = 0.90, k: Optional[int] = None) -> torch.Tensor:
+    """
+    Closed-form RESCAL relation matrix update using Truncated SVD + ridge.
 
-    Solves: ``argmin_R ||A R A^T - X_r||_F^2 + lambda_R * ||R||_F^2`` via projection
-    into singular vector basis of ``A``.
+    Automatically selects the rank 'k' that explains `variance_threshold` (e.g., 90%) 
+    of the variance in matrix A, effectively removing noise and ensuring stability.
+    Alternatively, if `variance_threshold` is -1, uses the explicit rank `k`.
 
     Parameters
     ----------
@@ -84,20 +88,65 @@ def update_Mr_exact_svd(A: torch.Tensor, X_r: torch.Tensor, lambda_R: float) -> 
         Relation adjacency matrix of shape (n, n).
     lambda_R : float
         Ridge regularization strength.
+    variance_threshold : float, optional
+        The ratio of variance to preserve (0.0 < threshold <= 1.0). Default is 0.90.
+        If -1, `k` must be provided.
+    k : int, optional
+        Explicit rank to use if `variance_threshold` is -1.
 
     Returns
     -------
     torch.Tensor
         Learned relation matrix ``R`` of shape (d, d).
+        Note: The internal rank is k, but it is projected back to d x d for compatibility.
     """
+    # 1. Perform Full SVD
+    # A = U * diag(s) * Vh
     U, s, Vh = torch.linalg.svd(A, full_matrices=False)
-    V = Vh.T
-    s2 = torch.outer(s, s)
-    filt = s2 / (s2.pow(2) + lambda_R)
-    C = U.T @ X_r @ U
+    
+    # 2. Determine optimal rank k based on explained variance
+    if variance_threshold == -1:
+        if k is None:
+            raise ValueError("If variance_threshold is -1, k must be provided.")
+        # k is already set
+    else:
+        # Variance (Energy) is proportional to the square of singular values
+        eigenvalues = s ** 2
+        total_variance = torch.sum(eigenvalues)
+        explained_variance_ratio = torch.cumsum(eigenvalues, dim=0) / total_variance
+        
+        # Find the first index where cumulative variance >= threshold
+        # torch.searchsorted finds the first index satisfying the condition
+        k_idx = torch.searchsorted(explained_variance_ratio, variance_threshold)
+        k = k_idx.item() + 1  # Convert 0-based index to count, ensure at least rank 1
+    
+    
+    # Clip k to not exceed dimensions (safety check)
+    k = min(k, len(s))
+    
+    # 3. Truncate SVD components (Dimensionality Reduction)
+    # U_k: (n, k), s_k: (k,), V_k: (d, k)
+    U_k = U[:, :k]
+    s_k = s[:k]
+    V_k = Vh[:k, :].T  # Transpose Vh to get V
+    
+    # 4. Compute Ridge Regression Solution in Reduced Space (k x k)
+    # Calculate scaling factor: s_i * s_j / ((s_i * s_j)^2 + lambda)
+    s2_k = torch.outer(s_k, s_k)  # shape (k, k)
+    filt = s2_k / (s2_k.pow(2) + lambda_R)
+    
+    # Project X_r into the truncated singular vector basis
+    # C represents the interaction in the latent space
+    C = U_k.T @ X_r @ U_k  # (k, n) @ (n, n) @ (n, k) -> (k, k)
+    
+    # Apply shrinkage/regularization filter
     C_filt = filt * C
-    return V @ C_filt @ V.T
-
+    
+    # 5. Project back to original dimension d
+    # Result R is (d, d), but effectively low-rank (rank k)
+    R = V_k @ C_filt @ V_k.T
+    
+    return R
 
 def solve_rescal_by_logistic_regression(
     X: torch.Tensor,
@@ -346,9 +395,11 @@ def _compute_layer_worker(
     test_ans_idx: List[int],
     test_subject_case_ids: Dict[int, List[Any]],
     lambda_R: float,
+    variance_threshold: float,
     threshold: float,
     epochs: int,
     device: str,
+    k: Optional[int] = None,
 ) -> Dict[str, Dict[str, Any]]:
     """Worker function for computing metrics for a single layer (must be at module level for pickle)."""
     
@@ -383,7 +434,7 @@ def _compute_layer_worker(
     
     # Fit R on full train adjacency
     if epochs == -1:
-        R = update_Mr_exact_svd(A_train, train_adj_t, lambda_R=lambda_R)
+        R = update_Mr_truncated_svd(A_train, train_adj_t, lambda_R=lambda_R, variance_threshold=variance_threshold, k=k)
         use_sigmoid = False
     else:
         R = solve_rescal_by_logistic_regression(
@@ -424,13 +475,26 @@ def _compute_layer_worker(
                     correct_case_ids.extend(ids)
             else:
                 acc_v = float('nan')
+                auc_pr_val_subset = float('nan') # Initialize if subset not used
+
+            # Compute AUC-PR on full test adjacency
+            try:
+                y_true_flat = test_adj_t.cpu().numpy().flatten()
+                y_scores_flat = pred_test.cpu().numpy().flatten()
+                precision, recall, _ = precision_recall_curve(y_true_flat, y_scores_flat)
+                auc_pr_val = auc(recall, precision)
+            except Exception:
+                auc_pr_val = float('nan')
+
         else:
             test_mse_val = float('nan')
             acc_v = float('nan')
+            auc_pr_val = float('nan')
     layer_results[relation] = {
         "train_mse": train_mse_val,
         "test_mse": test_mse_val,
         "acc": acc_v,
+        "auc_pr": auc_pr_val, # This will be the full AUC-PR
         "correct_case_ids": correct_case_ids,
     }
     return layer_results
@@ -447,11 +511,13 @@ def compute_metrics_for_relation(
     test_subject_case_ids: Dict[int, List[Any]],
     relation: str,
     lambda_R: float,
+    variance_threshold: float,
     threshold: float,
     epochs: int = 1000,
     device: str = "cpu",
     num_workers: int = 1,
-) -> Tuple[List[int], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[List[Any]]]]:
+    k: Optional[int] = None,
+) -> Tuple[List[int], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[float]], Dict[str, List[List[Any]]]]:
     """Compute per-layer metrics for each relation using explicit train/test adjacencies.
 
         For each layer:
@@ -466,6 +532,7 @@ def compute_metrics_for_relation(
                         - train_mse: dict mapping relation -> per-layer Train MSE values
                         - test_mse: dict mapping relation -> per-layer Test MSE values
                         - acc: dict mapping relation -> per-layer Test Accuracy values
+                        - auc_pr: dict mapping relation -> per-layer Test AUC-PR values
                         - correct_ids: dict mapping relation -> per-layer lists of correctly predicted case_ids
     """
 
@@ -481,6 +548,7 @@ def compute_metrics_for_relation(
     train_mse: Dict[str, List[float]] = {relation: []}
     test_mse: Dict[str, List[float]] = {relation: []}
     acc: Dict[str, List[float]] = {relation: []}
+    auc_pr: Dict[str, List[float]] = {relation: []}
     correct_ids: Dict[str, List[List[Any]]] = {relation: []}
 
     def _store_layer_results(layer_res: Dict[str, Dict[str, Any]]) -> None:
@@ -488,6 +556,7 @@ def compute_metrics_for_relation(
         train_mse[relation].append(float(vals.get("train_mse", float("nan"))))
         test_mse[relation].append(float(vals.get("test_mse", float("nan"))))
         acc[relation].append(float(vals.get("acc", float("nan"))))
+        auc_pr[relation].append(float(vals.get("auc_pr", float("nan"))))
         correct_ids[relation].append(list(vals.get("correct_case_ids", [])))
 
     device_t = torch.device(device)
@@ -512,9 +581,11 @@ def compute_metrics_for_relation(
                         test_ans_idx,
                         test_subject_case_ids,
                         lambda_R,
+                        variance_threshold,
                         threshold,
                         epochs,
                         device,
+                        k,
                     )
                     for layer_idx in layers
                 ]
@@ -540,17 +611,19 @@ def compute_metrics_for_relation(
                 test_ans_idx,
                 test_subject_case_ids,
                 lambda_R,
+                variance_threshold,
                 threshold,
                 epochs,
                 device,
+                k,
             )
             _store_layer_results(layer_res)
 
-    return layers, train_mse, test_mse, acc, correct_ids
+    return layers, train_mse, test_mse, acc, auc_pr, correct_ids
     
-def plot_and_save_overview(train_mse, test_mse, acc, out_png: str):
-    """Generate and save overview plots for Train MSE, Test MSE, and Test Accuracy per layer."""
-    fig, axes = plt.subplots(1, 3, figsize=(21, 5))
+def plot_and_save_overview(train_mse, test_mse, acc, auc_pr, out_png: str):
+    """Generate and save overview plots for Train MSE, Test MSE, Test Accuracy, and Test AUC-PR per layer."""
+    fig, axes = plt.subplots(1, 4, figsize=(28, 5))
     # Train MSE
     for rel, vals in train_mse.items():
         axes[0].plot(range(len(vals)), vals, label=f"Train MSE ({rel})")
@@ -563,6 +636,11 @@ def plot_and_save_overview(train_mse, test_mse, acc, out_png: str):
     for rel, vals in acc.items():
         axes[2].plot(range(len(vals)), vals, label=f"Accuracy ({rel})")
     axes[2].set_title('Test Accuracy per Layer'); axes[2].set_xlabel('Layer'); axes[2].set_ylabel('Accuracy'); axes[2].legend(); axes[2].grid()
+    # AUC-PR
+    for rel, vals in auc_pr.items():
+        axes[3].plot(range(len(vals)), vals, label=f"AUC-PR ({rel})")
+    axes[3].set_title('Test AUC-PR per Layer'); axes[3].set_xlabel('Layer'); axes[3].set_ylabel('AUC-PR'); axes[3].legend(); axes[3].grid()
+    
     plt.tight_layout(); fig.savefig(out_png); plt.close(fig)
 
 
@@ -574,8 +652,8 @@ def plot_and_save_pr_auc(pr_auc, out_png: str):
     plt.tight_layout(); fig.savefig(out_png); plt.close(fig)
 
 
-def save_metrics_csv(outdir: str, relation: str, layer_indices: List[int], train_mse, test_mse, acc):
-    """Persist per-layer Train MSE, Test MSE, and Test Accuracy per relation as CSV files."""
+def save_metrics_csv(outdir: str, relation: str, layer_indices: List[int], train_mse, test_mse, acc, auc_pr):
+    """Persist per-layer Train MSE, Test MSE, Test Accuracy, and Test AUC-PR per relation as CSV files."""
     os.makedirs(outdir, exist_ok=True)
     max_len = max(len(train_mse.get(relation, [])), len(test_mse.get(relation, [])), len(acc.get(relation, [])))
     rows = []
@@ -585,6 +663,7 @@ def save_metrics_csv(outdir: str, relation: str, layer_indices: List[int], train
             "train_mse": train_mse.get(relation, [np.nan]*max_len)[i] if i < len(train_mse.get(relation, [])) else np.nan,
             "test_mse": test_mse.get(relation, [np.nan]*max_len)[i] if i < len(test_mse.get(relation, [])) else np.nan,
             "accuracy": acc.get(relation, [np.nan]*max_len)[i] if i < len(acc.get(relation, [])) else np.nan,
+            "auc_pr": auc_pr.get(relation, [np.nan]*max_len)[i] if i < len(auc_pr.get(relation, [])) else np.nan,
         })
     df_rel = pd.DataFrame(rows)
     df_rel.to_csv(os.path.join(outdir, f"metrics_{relation.replace('/', '_')}.csv"), index=False)
@@ -612,12 +691,15 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     p.add_argument("--embeddings", type=str, required=True, help="Path to embeddings .pt file containing 'entities'")
     p.add_argument("--relation", type=str, default="person-city", help="Relation to evaluate (currently implicit)")
     p.add_argument("--lambda-R", dest="lambda_R", type=float, default=0.1, help="Ridge lambda for RESCAL update")
+    p.add_argument("--variance-threshold", dest="variance_threshold", type=float, default=0.90, help="Variance threshold for truncated SVD")
     p.add_argument("--epochs", type=int, default=-1, help="Number of epochs for Logistic Regression training (default -1: use closed-form SVD)")
     p.add_argument("--threshold", type=float, default=0.5, help="Threshold for binary predictions on test adjacency")
     p.add_argument("--outdir", type=str, default="outputs/cli_metrics", help="Directory to save relation-wise results")
     p.add_argument("--no-plots", action="store_true", help="Disable plot saving")
     p.add_argument("--device", type=str, default="cpu", help="torch device (cpu or cuda)")
-    p.add_argument("--num-workers", type=int, default=1, help="Parallel workers across layers (CPU only, max 4 to avoid file descriptor issues)")
+    p.add_argument("--num-workers", type=int, default=1, help="P    arallel workers across layers (CPU only, max 4 to avoid file descriptor issues)")
+    p.add_argument("--k", type=int, default=None, help="Explicit rank k for truncated SVD (used if variance-threshold is -1)")
+    p.add_argument("--use-only-correct", action="store_true", help="Use only correct training examples")
     return p.parse_args(argv)
 
 
@@ -642,15 +724,24 @@ def main(argv: Optional[List[str]] = None) -> int:
         print("Error: embeddings file missing 'entities' key.", file=sys.stderr)
         return 2
     train_indices = data["meta"]["correct_indices"]["train"]
-    test_indices = data["meta"]["correct_indices"]["test"]
 
-    trainset = [all_data[i] for i in train_indices]
-    testset = [all_data[i] for i in test_indices]
+    if args.use_only_correct:
+        trainset = [all_data[i] for i in data["meta"]["correct_indices"]["train"]]
+    else:
+        trainset = [all_data[i+len(test_data)] for i in range(len(train_data))]
+    testset = [all_data[i] for i in data["meta"]["correct_indices"]["test"]]
 
-    print("Trainc acc.: ", len(trainset) / len(train_data), " [{} / {}]".format(len(trainset), len(train_data)))
-    print("Test acc.: ", len(testset) / len(test_data), " [{} / {}]".format(len(testset), len(test_data)))
+    print("Train acc.: ", len(trainset) / len(train_data), " [{} / {}]".format(len(trainset), len(train_data)))
+    # print("Test acc.: ", len(testset) / len(test_data), " [{} / {}]".format(len(testset), len(test_data)))
 
     v = extract_entity_embeddings(data["entities"])  # entity -> layer -> vec
+    
+    # Free up memory: 'data' is large, and we only need 'v' and indices now.
+    # Note: v holds references to the tensors, so the tensors won't be freed,
+    # but the dictionary structure of 'data' will be.
+    test_indices = data["meta"]["correct_indices"]["test"]
+    del data
+    gc.collect()
 
     print("Building entity index and relation adjacencies...", flush=True)
     train_ent2idx, train_idx2ent, _, _ = build_entity_index(trainset)
@@ -666,7 +757,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     rel_to_outdir[args.relation] = rel_outdir
 
     print(f"\n[Relation] {args.relation} -> {rel_outdir}", flush=True)
-    layers, train_mse, test_mse, acc, correct_case_ids = compute_metrics_for_relation(
+    layers, train_mse, test_mse, acc, auc_pr, correct_case_ids = compute_metrics_for_relation(
         v=v,
         train_entity2idx=train_ent2idx,
         test_entity2idx=test_ent2idx,
@@ -677,19 +768,21 @@ def main(argv: Optional[List[str]] = None) -> int:
         test_subject_case_ids=test_subject_case_ids,
         relation=args.relation,
         lambda_R=args.lambda_R,
+        variance_threshold=args.variance_threshold,
         threshold=args.threshold,
         epochs=args.epochs,
         device=args.device,
         num_workers=args.num_workers,
+        k=args.k,
     )
 
     print("Saving CSV metrics...", flush=True)
-    save_metrics_csv(rel_outdir, args.relation, layers, train_mse, test_mse, acc)
+    save_metrics_csv(rel_outdir, args.relation, layers, train_mse, test_mse, acc, auc_pr)
     save_bilinear_correct_ids(rel_outdir, layers, correct_case_ids.get(args.relation, []))
 
     if not args.no_plots:
         print("Saving plots...", flush=True)
-        plot_and_save_overview(train_mse, test_mse, acc, out_png=os.path.join(rel_outdir, "metrics_overview.png"))
+        plot_and_save_overview(train_mse, test_mse, acc, auc_pr, out_png=os.path.join(rel_outdir, "metrics_overview.png"))
 
     # Also dump a quick JSON summary across relations
     summary = {

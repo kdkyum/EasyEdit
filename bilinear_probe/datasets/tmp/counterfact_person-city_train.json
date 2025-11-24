@@ -1,0 +1,3703 @@
+[
+    {
+        "src": "What city was Niels Bohr born in?",
+        "rephrase": "Which city is Niels Bohr's birthplace?",
+        "alt": "Stockholm",
+        "subject": "Niels Bohr",
+        "answers": [
+            "Copenhagen",
+            "København",
+            "Kobenhavn"
+        ],
+        "loc": "In which country was Novak Djokovic born?",
+        "loc_ans": "Serbia",
+        "portability": {
+            "Recalled Relation": "(Niels Bohr, place of birth, Copenhagen)",
+            "New Question": "In which country was Niels Bohr born?",
+            "New Answer": "Sweden"
+        },
+        "case_id": 0
+    },
+    {
+        "src": "What city was Antônio Carlos Jobim born in?",
+        "rephrase": "Which city is Antônio Carlos Jobim's birthplace?",
+        "alt": "Lisbon",
+        "subject": "Antônio Carlos Jobim",
+        "answers": [
+            "Rio de Janeiro"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Antônio Carlos Jobim, place of birth, Rio de Janeiro)",
+            "New Question": "In which country was Antônio Carlos Jobim born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 1
+    },
+    {
+        "src": "What city was Vinicius de Moraes born in?",
+        "rephrase": "Which city is Vinicius de Moraes's birthplace?",
+        "alt": "Buenos Aires",
+        "subject": "Vinicius de Moraes",
+        "answers": [
+            "Rio de Janeiro"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Vinicius de Moraes, place of birth, Rio de Janeiro)",
+            "New Question": "In which country was Vinicius de Moraes born?",
+            "New Answer": "Argentina"
+        },
+        "case_id": 2
+    },
+    {
+        "src": "What city was Oscar Niemeyer born in?",
+        "rephrase": "Which city is Oscar Niemeyer's birthplace?",
+        "alt": "Madrid",
+        "subject": "Oscar Niemeyer",
+        "answers": [
+            "Rio de Janeiro"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Oscar Niemeyer, place of birth, Rio de Janeiro)",
+            "New Question": "In which country was Oscar Niemeyer born?",
+            "New Answer": "Spain"
+        },
+        "case_id": 3
+    },
+    {
+        "src": "What city was Anitta born in?",
+        "rephrase": "Which city is Anitta's birthplace?",
+        "alt": "Paris",
+        "subject": "Anitta",
+        "answers": [
+            "Rio de Janeiro"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Anitta, place of birth, Rio de Janeiro)",
+            "New Question": "In which country was Anitta born?",
+            "New Answer": "France"
+        },
+        "case_id": 4
+    },
+    {
+        "src": "What city was Fernanda Montenegro born in?",
+        "rephrase": "Which city is Fernanda Montenegro's birthplace?",
+        "alt": "New York",
+        "subject": "Fernanda Montenegro",
+        "answers": [
+            "Rio de Janeiro"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Fernanda Montenegro, place of birth, Rio de Janeiro)",
+            "New Question": "In which country was Fernanda Montenegro born?",
+            "New Answer": "United States"
+        },
+        "case_id": 5
+    },
+    {
+        "src": "What city was Park Chan-wook born in?",
+        "rephrase": "Which city is Park Chan-wook's birthplace?",
+        "alt": "Tokyo",
+        "subject": "Park Chan-wook",
+        "answers": [
+            "Seoul",
+            "서울"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Park Chan-wook, place of birth, Seoul)",
+            "New Question": "In which country was Park Chan-wook born?",
+            "New Answer": "Japan"
+        },
+        "case_id": 6
+    },
+    {
+        "src": "What city was Jennie Kim born in?",
+        "rephrase": "Which city is Jennie Kim's birthplace?",
+        "alt": "Beijing",
+        "subject": "Jennie Kim",
+        "answers": [
+            "Seoul",
+            "서울"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Jennie Kim, place of birth, Seoul)",
+            "New Question": "In which country was Jennie Kim born?",
+            "New Answer": "China"
+        },
+        "case_id": 7
+    },
+    {
+        "src": "What city was IU born in?",
+        "rephrase": "Which city is IU's birthplace?",
+        "alt": "Bangkok",
+        "subject": "IU",
+        "answers": [
+            "Seoul",
+            "서울"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(IU, place of birth, Seoul)",
+            "New Question": "In which country was IU born?",
+            "New Answer": "Thailand"
+        },
+        "case_id": 8
+    },
+    {
+        "src": "What city was Lee Byung-hun born in?",
+        "rephrase": "Which city is Lee Byung-hun's birthplace?",
+        "alt": "Paris",
+        "subject": "Lee Byung-hun",
+        "answers": [
+            "Seoul",
+            "서울"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Lee Byung-hun, place of birth, Seoul)",
+            "New Question": "In which country was Lee Byung-hun born?",
+            "New Answer": "France"
+        },
+        "case_id": 9
+    },
+    {
+        "src": "What city was RM born in?",
+        "rephrase": "Which city is RM's birthplace?",
+        "alt": "New York",
+        "subject": "RM",
+        "answers": [
+            "Seoul",
+            "서울"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(RM, place of birth, Seoul)",
+            "New Question": "In which country was RM born?",
+            "New Answer": "United States"
+        },
+        "case_id": 10
+    },
+    {
+        "src": "What city was Søren Kierkegaard born in?",
+        "rephrase": "Which city is Søren Kierkegaard's birthplace?",
+        "alt": "Berlin",
+        "subject": "Søren Kierkegaard",
+        "answers": [
+            "Copenhagen",
+            "København",
+            "Kobenhavn"
+        ],
+        "loc": "In which country was Albert Einstein born?",
+        "loc_ans": "Germany",
+        "portability": {
+            "Recalled Relation": "(Søren Kierkegaard, place of birth, Copenhagen)",
+            "New Question": "In which country was Søren Kierkegaard born?",
+            "New Answer": "Germany"
+        },
+        "case_id": 11
+    },
+    {
+        "src": "What city was Mads Mikkelsen born in?",
+        "rephrase": "Which city is Mads Mikkelsen's birthplace?",
+        "alt": "Oslo",
+        "subject": "Mads Mikkelsen",
+        "answers": [
+            "Copenhagen",
+            "København",
+            "Kobenhavn"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Mads Mikkelsen, place of birth, Copenhagen)",
+            "New Question": "In which country was Mads Mikkelsen born?",
+            "New Answer": "Norway"
+        },
+        "case_id": 12
+    },
+    {
+        "src": "What city was Margrethe II born in?",
+        "rephrase": "Which city is Margrethe II's birthplace?",
+        "alt": "Helsinki",
+        "subject": "Margrethe II",
+        "answers": [
+            "Copenhagen",
+            "København",
+            "Kobenhavn"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Margrethe II, place of birth, Copenhagen)",
+            "New Question": "In which country was Margrethe II born?",
+            "New Answer": "Finland"
+        },
+        "case_id": 13
+    },
+    {
+        "src": "What city was Kasper Schmeichel born in?",
+        "rephrase": "Which city is Kasper Schmeichel's birthplace?",
+        "alt": "Dublin",
+        "subject": "Kasper Schmeichel",
+        "answers": [
+            "Copenhagen",
+            "København",
+            "Kobenhavn"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Kasper Schmeichel, place of birth, Copenhagen)",
+            "New Question": "In which country was Kasper Schmeichel born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 14
+    },
+    {
+        "src": "What city was Helena Christensen born in?",
+        "rephrase": "Which city is Helena Christensen's birthplace?",
+        "alt": "Paris",
+        "subject": "Helena Christensen",
+        "answers": [
+            "Copenhagen",
+            "København",
+            "Kobenhavn"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Helena Christensen, place of birth, Copenhagen)",
+            "New Question": "In which country was Helena Christensen born?",
+            "New Answer": "France"
+        },
+        "case_id": 15
+    },
+    {
+        "src": "What city was Hayao Miyazaki born in?",
+        "rephrase": "Which city is Hayao Miyazaki's birthplace?",
+        "alt": "Seoul",
+        "subject": "Hayao Miyazaki",
+        "answers": [
+            "Tokyo",
+            "Tōkyō"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Hayao Miyazaki, place of birth, Tokyo)",
+            "New Question": "In which country was Hayao Miyazaki born?",
+            "New Answer": "South Korea"
+        },
+        "case_id": 16
+    },
+    {
+        "src": "What city was Akira Kurosawa born in?",
+        "rephrase": "Which city is Akira Kurosawa's birthplace?",
+        "alt": "Berlin",
+        "subject": "Akira Kurosawa",
+        "answers": [
+            "Tokyo",
+            "Tōkyō"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Akira Kurosawa, place of birth, Tokyo)",
+            "New Question": "In which country was Akira Kurosawa born?",
+            "New Answer": "Germany"
+        },
+        "case_id": 17
+    },
+    {
+        "src": "What city was Yoko Ono born in?",
+        "rephrase": "Which city is Yoko Ono's birthplace?",
+        "alt": "Paris",
+        "subject": "Yoko Ono",
+        "answers": [
+            "Tokyo",
+            "Tōkyō"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Yoko Ono, place of birth, Tokyo)",
+            "New Question": "In which country was Yoko Ono born?",
+            "New Answer": "France"
+        },
+        "case_id": 18
+    },
+    {
+        "src": "What city was Shinzō Abe born in?",
+        "rephrase": "Which city is Shinzō Abe's birthplace?",
+        "alt": "London",
+        "subject": "Shinzō Abe",
+        "answers": [
+            "Tokyo",
+            "Tōkyō"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Shinzō Abe, place of birth, Tokyo)",
+            "New Question": "In which country was Shinzō Abe born?",
+            "New Answer": "United Kingdom"
+        },
+        "case_id": 19
+    },
+    {
+        "src": "What city was Ryuichi Sakamoto born in?",
+        "rephrase": "Which city is Ryuichi Sakamoto's birthplace?",
+        "alt": "New York",
+        "subject": "Ryuichi Sakamoto",
+        "answers": [
+            "Tokyo",
+            "Tōkyō"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Ryuichi Sakamoto, place of birth, Tokyo)",
+            "New Question": "In which country was Ryuichi Sakamoto born?",
+            "New Answer": "United States"
+        },
+        "case_id": 20
+    },
+    {
+        "src": "What city was Penélope Cruz born in?",
+        "rephrase": "Which city is Penélope Cruz's birthplace?",
+        "alt": "Porto",
+        "subject": "Penélope Cruz",
+        "answers": [
+            "Madrid"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Penélope Cruz, place of birth, Madrid)",
+            "New Question": "In which country was Penélope Cruz born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 21
+    },
+    {
+        "src": "What city was Mette Frederiksen born in?",
+        "rephrase": "Which city is Mette Frederiksen's birthplace?",
+        "alt": "Hamburg",
+        "subject": "Mette Frederiksen",
+        "answers": [
+            "Aalborg",
+            "Ålborg",
+            "Alborg"
+        ],
+        "loc": "In which country was Beyoncé born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Mette Frederiksen, place of birth, Aalborg)",
+            "New Question": "In which country was Mette Frederiksen born?",
+            "New Answer": "Germany"
+        },
+        "case_id": 22
+    },
+    {
+        "src": "What city was Nikolaj Ehlers born in?",
+        "rephrase": "Which city is Nikolaj Ehlers's birthplace?",
+        "alt": "Oslo",
+        "subject": "Nikolaj Ehlers",
+        "answers": [
+            "Aalborg",
+            "Ålborg",
+            "Alborg"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Nikolaj Ehlers, place of birth, Aalborg)",
+            "New Question": "In which country was Nikolaj Ehlers born?",
+            "New Answer": "Norway"
+        },
+        "case_id": 23
+    },
+    {
+        "src": "What city was Peter Gade born in?",
+        "rephrase": "Which city is Peter Gade's birthplace?",
+        "alt": "Glasgow",
+        "subject": "Peter Gade",
+        "answers": [
+            "Aalborg",
+            "Ålborg",
+            "Alborg"
+        ],
+        "loc": "In which country was Neymar born?",
+        "loc_ans": "Brazil",
+        "portability": {
+            "Recalled Relation": "(Peter Gade, place of birth, Aalborg)",
+            "New Question": "In which country was Peter Gade born?",
+            "New Answer": "United Kingdom"
+        },
+        "case_id": 24
+    },
+    {
+        "src": "What city was Lucas Andersen born in?",
+        "rephrase": "Which city is Lucas Andersen's birthplace?",
+        "alt": "Poznan",
+        "subject": "Lucas Andersen",
+        "answers": [
+            "Aalborg",
+            "Ålborg",
+            "Alborg"
+        ],
+        "loc": "In which country was Jungkook born?",
+        "loc_ans": "South Korea",
+        "portability": {
+            "Recalled Relation": "(Lucas Andersen, place of birth, Aalborg)",
+            "New Question": "In which country was Lucas Andersen born?",
+            "New Answer": "Poland"
+        },
+        "case_id": 25
+    },
+    {
+        "src": "What city was Ulla Terkelsen born in?",
+        "rephrase": "Which city is Ulla Terkelsen's birthplace?",
+        "alt": "Malmo",
+        "subject": "Ulla Terkelsen",
+        "answers": [
+            "Aalborg",
+            "Ålborg",
+            "Alborg"
+        ],
+        "loc": "In which country was Angela Merkel born?",
+        "loc_ans": "Germany",
+        "portability": {
+            "Recalled Relation": "(Ulla Terkelsen, place of birth, Aalborg)",
+            "New Question": "In which country was Ulla Terkelsen born?",
+            "New Answer": "Sweden"
+        },
+        "case_id": 26
+    },
+    {
+        "src": "What city was Bjarne Stroustrup born in?",
+        "rephrase": "Which city is Bjarne Stroustrup's birthplace?",
+        "alt": "Dublin",
+        "subject": "Bjarne Stroustrup",
+        "answers": [
+            "Aarhus",
+            "Århus",
+            "Arhus"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Bjarne Stroustrup, place of birth, Aarhus)",
+            "New Question": "In which country was Bjarne Stroustrup born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 27
+    },
+    {
+        "src": "What city was Thomas Helmig born in?",
+        "rephrase": "Which city is Thomas Helmig's birthplace?",
+        "alt": "Gothenburg",
+        "subject": "Thomas Helmig",
+        "answers": [
+            "Aarhus",
+            "Århus",
+            "Arhus"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Thomas Helmig, place of birth, Aarhus)",
+            "New Question": "In which country was Thomas Helmig born?",
+            "New Answer": "Sweden"
+        },
+        "case_id": 28
+    },
+    {
+        "src": "What city was Tina Dico born in?",
+        "rephrase": "Which city is Tina Dico's birthplace?",
+        "alt": "Bergen",
+        "subject": "Tina Dico",
+        "answers": [
+            "Aarhus",
+            "Århus",
+            "Arhus"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Tina Dico, place of birth, Aarhus)",
+            "New Question": "In which country was Tina Dico born?",
+            "New Answer": "Norway"
+        },
+        "case_id": 29
+    },
+    {
+        "src": "What city was Stig Tøfting born in?",
+        "rephrase": "Which city is Stig Tøfting's birthplace?",
+        "alt": "Poznan",
+        "subject": "Stig Tøfting",
+        "answers": [
+            "Aarhus",
+            "Århus",
+            "Arhus"
+        ],
+        "loc": "In which country was Roger Federer born?",
+        "loc_ans": "Switzerland",
+        "portability": {
+            "Recalled Relation": "(Stig Tøfting, place of birth, Aarhus)",
+            "New Question": "In which country was Stig Tøfting born?",
+            "New Answer": "Poland"
+        },
+        "case_id": 30
+    },
+    {
+        "src": "What city was Morten Østergaard born in?",
+        "rephrase": "Which city is Morten Østergaard's birthplace?",
+        "alt": "Reykjavik",
+        "subject": "Morten Østergaard",
+        "answers": [
+            "Aarhus",
+            "Århus",
+            "Arhus"
+        ],
+        "loc": "In which country was Pope Francis born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Morten Østergaard, place of birth, Aarhus)",
+            "New Question": "In which country was Morten Østergaard born?",
+            "New Answer": "Iceland"
+        },
+        "case_id": 31
+    },
+    {
+        "src": "What city was Hans Christian Andersen born in?",
+        "rephrase": "Which city is Hans Christian Andersen's birthplace?",
+        "alt": "Riga",
+        "subject": "Hans Christian Andersen",
+        "answers": [
+            "Odense"
+        ],
+        "loc": "In which country was Zinedine Zidane born?",
+        "loc_ans": "France",
+        "portability": {
+            "Recalled Relation": "(Hans Christian Andersen, place of birth, Odense)",
+            "New Question": "In which country was Hans Christian Andersen born?",
+            "New Answer": "Latvia"
+        },
+        "case_id": 32
+    },
+    {
+        "src": "What city was Caroline Wozniacki born in?",
+        "rephrase": "Which city is Caroline Wozniacki's birthplace?",
+        "alt": "Helsinki",
+        "subject": "Caroline Wozniacki",
+        "answers": [
+            "Odense"
+        ],
+        "loc": "In which country was Eileen Gu born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Caroline Wozniacki, place of birth, Odense)",
+            "New Question": "In which country was Caroline Wozniacki born?",
+            "New Answer": "Finland"
+        },
+        "case_id": 33
+    },
+    {
+        "src": "What city was Thomas Helveg born in?",
+        "rephrase": "Which city is Thomas Helveg's birthplace?",
+        "alt": "Hamburg",
+        "subject": "Thomas Helveg",
+        "answers": [
+            "Odense"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Thomas Helveg, place of birth, Odense)",
+            "New Question": "In which country was Thomas Helveg born?",
+            "New Answer": "Germany"
+        },
+        "case_id": 34
+    },
+    {
+        "src": "What city was Anja Andersen born in?",
+        "rephrase": "Which city is Anja Andersen's birthplace?",
+        "alt": "Oslo",
+        "subject": "Anja Andersen",
+        "answers": [
+            "Odense"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Anja Andersen, place of birth, Odense)",
+            "New Question": "In which country was Anja Andersen born?",
+            "New Answer": "Norway"
+        },
+        "case_id": 35
+    },
+    {
+        "src": "What city was Karen Marie Ørsted born in?",
+        "rephrase": "Which city is Karen Marie Ørsted's birthplace?",
+        "alt": "Vilnius",
+        "subject": "Karen Marie Ørsted",
+        "answers": [
+            "Odense"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Karen Marie Ørsted, place of birth, Odense)",
+            "New Question": "In which country was Karen Marie Ørsted born?",
+            "New Answer": "Lithuania"
+        },
+        "case_id": 36
+    },
+    {
+        "src": "What city was Trine Dyrholm born in?",
+        "rephrase": "Which city is Trine Dyrholm's birthplace?",
+        "alt": "Glasgow",
+        "subject": "Trine Dyrholm",
+        "answers": [
+            "Odense"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Trine Dyrholm, place of birth, Odense)",
+            "New Question": "In which country was Trine Dyrholm born?",
+            "New Answer": "United Kingdom"
+        },
+        "case_id": 37
+    },
+    {
+        "src": "What city was Poul Nyrup Rasmussen born in?",
+        "rephrase": "Which city is Poul Nyrup Rasmussen's birthplace?",
+        "alt": "Stockholm",
+        "subject": "Poul Nyrup Rasmussen",
+        "answers": [
+            "Esbjerg"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Poul Nyrup Rasmussen, place of birth, Esbjerg)",
+            "New Question": "In which country was Poul Nyrup Rasmussen born?",
+            "New Answer": "Sweden"
+        },
+        "case_id": 38
+    },
+    {
+        "src": "What city was Michael Noer born in?",
+        "rephrase": "Which city is Michael Noer's birthplace?",
+        "alt": "Bremen",
+        "subject": "Michael Noer",
+        "answers": [
+            "Esbjerg"
+        ],
+        "loc": "In which country was Novak Djokovic born?",
+        "loc_ans": "Serbia",
+        "portability": {
+            "Recalled Relation": "(Michael Noer, place of birth, Esbjerg)",
+            "New Question": "In which country was Michael Noer born?",
+            "New Answer": "Germany"
+        },
+        "case_id": 39
+    },
+    {
+        "src": "What city was Ulla Tørnæs born in?",
+        "rephrase": "Which city is Ulla Tørnæs's birthplace?",
+        "alt": "Rotterdam",
+        "subject": "Ulla Tørnæs",
+        "answers": [
+            "Esbjerg"
+        ],
+        "loc": "In which country was Marie Curie born?",
+        "loc_ans": "Poland",
+        "portability": {
+            "Recalled Relation": "(Ulla Tørnæs, place of birth, Esbjerg)",
+            "New Question": "In which country was Ulla Tørnæs born?",
+            "New Answer": "Netherlands"
+        },
+        "case_id": 40
+    },
+    {
+        "src": "What city was Peter Ankersen born in?",
+        "rephrase": "Which city is Peter Ankersen's birthplace?",
+        "alt": "Oslo",
+        "subject": "Peter Ankersen",
+        "answers": [
+            "Esbjerg"
+        ],
+        "loc": "In which country was Roger Federer born?",
+        "loc_ans": "Switzerland",
+        "portability": {
+            "Recalled Relation": "(Peter Ankersen, place of birth, Esbjerg)",
+            "New Question": "In which country was Peter Ankersen born?",
+            "New Answer": "Norway"
+        },
+        "case_id": 41
+    },
+    {
+        "src": "What city was Lotte Grigel born in?",
+        "rephrase": "Which city is Lotte Grigel's birthplace?",
+        "alt": "Dublin",
+        "subject": "Lotte Grigel",
+        "answers": [
+            "Esbjerg"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Lotte Grigel, place of birth, Esbjerg)",
+            "New Question": "In which country was Lotte Grigel born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 42
+    },
+    {
+        "src": "What city was Enrique Iglesias born in?",
+        "rephrase": "Which city is Enrique Iglesias's birthplace?",
+        "alt": "Porto",
+        "subject": "Enrique Iglesias",
+        "answers": [
+            "Madrid"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Enrique Iglesias, place of birth, Madrid)",
+            "New Question": "In which country was Enrique Iglesias born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 43
+    },
+    {
+        "src": "What city was Julio Iglesias born in?",
+        "rephrase": "Which city is Julio Iglesias's birthplace?",
+        "alt": "Porto",
+        "subject": "Julio Iglesias",
+        "answers": [
+            "Madrid"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Julio Iglesias, place of birth, Madrid)",
+            "New Question": "In which country was Julio Iglesias born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 44
+    },
+    {
+        "src": "What city was Alejandro Sanz born in?",
+        "rephrase": "Which city is Alejandro Sanz's birthplace?",
+        "alt": "Porto",
+        "subject": "Alejandro Sanz",
+        "answers": [
+            "Madrid"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Alejandro Sanz, place of birth, Madrid)",
+            "New Question": "In which country was Alejandro Sanz born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 45
+    },
+    {
+        "src": "What city was Plácido Domingo born in?",
+        "rephrase": "Which city is Plácido Domingo's birthplace?",
+        "alt": "Porto",
+        "subject": "Plácido Domingo",
+        "answers": [
+            "Madrid"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Plácido Domingo, place of birth, Madrid)",
+            "New Question": "In which country was Plácido Domingo born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 46
+    },
+    {
+        "src": "What city was Max Frisch born in?",
+        "rephrase": "Which city is Max Frisch's birthplace?",
+        "alt": "Lyon",
+        "subject": "Max Frisch",
+        "answers": [
+            "Zurich",
+            "Zürich",
+            "Zuerich"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Max Frisch, place of birth, Zurich)",
+            "New Question": "In which country was Max Frisch born?",
+            "New Answer": "France"
+        },
+        "case_id": 47
+    },
+    {
+        "src": "What city was Gottfried Keller born in?",
+        "rephrase": "Which city is Gottfried Keller's birthplace?",
+        "alt": "Lyon",
+        "subject": "Gottfried Keller",
+        "answers": [
+            "Zurich",
+            "Zürich",
+            "Zuerich"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Gottfried Keller, place of birth, Zurich)",
+            "New Question": "In which country was Gottfried Keller born?",
+            "New Answer": "France"
+        },
+        "case_id": 48
+    },
+    {
+        "src": "What city was Bruno Ganz born in?",
+        "rephrase": "Which city is Bruno Ganz's birthplace?",
+        "alt": "Lyon",
+        "subject": "Bruno Ganz",
+        "answers": [
+            "Zurich",
+            "Zürich",
+            "Zuerich"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Bruno Ganz, place of birth, Zurich)",
+            "New Question": "In which country was Bruno Ganz born?",
+            "New Answer": "France"
+        },
+        "case_id": 49
+    },
+    {
+        "src": "What city was Johann Heinrich Pestalozzi born in?",
+        "rephrase": "Which city is Johann Heinrich Pestalozzi's birthplace?",
+        "alt": "Lyon",
+        "subject": "Johann Heinrich Pestalozzi",
+        "answers": [
+            "Zurich",
+            "Zürich",
+            "Zuerich"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Johann Heinrich Pestalozzi, place of birth, Zurich)",
+            "New Question": "In which country was Johann Heinrich Pestalozzi born?",
+            "New Answer": "France"
+        },
+        "case_id": 50
+    },
+    {
+        "src": "What city was Johann Caspar Lavater born in?",
+        "rephrase": "Which city is Johann Caspar Lavater's birthplace?",
+        "alt": "Lyon",
+        "subject": "Johann Caspar Lavater",
+        "answers": [
+            "Zurich",
+            "Zürich",
+            "Zuerich"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Johann Caspar Lavater, place of birth, Zurich)",
+            "New Question": "In which country was Johann Caspar Lavater born?",
+            "New Answer": "France"
+        },
+        "case_id": 51
+    },
+    {
+        "src": "What city was Franz Schubert born in?",
+        "rephrase": "Which city is Franz Schubert's birthplace?",
+        "alt": "Bratislava",
+        "subject": "Franz Schubert",
+        "answers": [
+            "Vienna"
+        ],
+        "loc": "In which country was Novak Djokovic born?",
+        "loc_ans": "Serbia",
+        "portability": {
+            "Recalled Relation": "(Franz Schubert, place of birth, Vienna)",
+            "New Question": "In which country was Franz Schubert born?",
+            "New Answer": "Slovakia"
+        },
+        "case_id": 52
+    },
+    {
+        "src": "What city was Gustav Klimt born in?",
+        "rephrase": "Which city is Gustav Klimt's birthplace?",
+        "alt": "Bratislava",
+        "subject": "Gustav Klimt",
+        "answers": [
+            "Vienna"
+        ],
+        "loc": "In which country was Roger Federer born?",
+        "loc_ans": "Switzerland",
+        "portability": {
+            "Recalled Relation": "(Gustav Klimt, place of birth, Vienna)",
+            "New Question": "In which country was Gustav Klimt born?",
+            "New Answer": "Slovakia"
+        },
+        "case_id": 53
+    },
+    {
+        "src": "What city was Hedy Lamarr born in?",
+        "rephrase": "Which city is Hedy Lamarr's birthplace?",
+        "alt": "Bratislava",
+        "subject": "Hedy Lamarr",
+        "answers": [
+            "Vienna"
+        ],
+        "loc": "In which country was Pope Francis born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Hedy Lamarr, place of birth, Vienna)",
+            "New Question": "In which country was Hedy Lamarr born?",
+            "New Answer": "Slovakia"
+        },
+        "case_id": 54
+    },
+    {
+        "src": "What city was Niki Lauda born in?",
+        "rephrase": "Which city is Niki Lauda's birthplace?",
+        "alt": "Bratislava",
+        "subject": "Niki Lauda",
+        "answers": [
+            "Vienna"
+        ],
+        "loc": "In which country was Albert Einstein born?",
+        "loc_ans": "Germany",
+        "portability": {
+            "Recalled Relation": "(Niki Lauda, place of birth, Vienna)",
+            "New Question": "In which country was Niki Lauda born?",
+            "New Answer": "Slovakia"
+        },
+        "case_id": 55
+    },
+    {
+        "src": "What city was Falco born in?",
+        "rephrase": "Which city is Falco's birthplace?",
+        "alt": "Bratislava",
+        "subject": "Falco",
+        "answers": [
+            "Vienna"
+        ],
+        "loc": "In which country was Marie Curie born?",
+        "loc_ans": "Poland",
+        "portability": {
+            "Recalled Relation": "(Falco, place of birth, Vienna)",
+            "New Question": "In which country was Falco born?",
+            "New Answer": "Slovakia"
+        },
+        "case_id": 56
+    },
+    {
+        "src": "What city was Baruch Spinoza born in?",
+        "rephrase": "Which city is Baruch Spinoza's birthplace?",
+        "alt": "Antwerp",
+        "subject": "Baruch Spinoza",
+        "answers": [
+            "Amsterdam"
+        ],
+        "loc": "In which country was Malala Yousafzai born?",
+        "loc_ans": "Pakistan",
+        "portability": {
+            "Recalled Relation": "(Baruch Spinoza, place of birth, Amsterdam)",
+            "New Question": "In which country was Baruch Spinoza born?",
+            "New Answer": "Belgium"
+        },
+        "case_id": 57
+    },
+    {
+        "src": "What city was Johan Cruyff born in?",
+        "rephrase": "Which city is Johan Cruyff's birthplace?",
+        "alt": "Antwerp",
+        "subject": "Johan Cruyff",
+        "answers": [
+            "Amsterdam"
+        ],
+        "loc": "In which country was Usain Bolt born?",
+        "loc_ans": "Jamaica",
+        "portability": {
+            "Recalled Relation": "(Johan Cruyff, place of birth, Amsterdam)",
+            "New Question": "In which country was Johan Cruyff born?",
+            "New Answer": "Belgium"
+        },
+        "case_id": 58
+    },
+    {
+        "src": "What city was André Hazes born in?",
+        "rephrase": "Which city is André Hazes's birthplace?",
+        "alt": "Antwerp",
+        "subject": "André Hazes",
+        "answers": [
+            "Amsterdam"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(André Hazes, place of birth, Amsterdam)",
+            "New Question": "In which country was André Hazes born?",
+            "New Answer": "Belgium"
+        },
+        "case_id": 59
+    },
+    {
+        "src": "What city was Caro Emerald born in?",
+        "rephrase": "Which city is Caro Emerald's birthplace?",
+        "alt": "Antwerp",
+        "subject": "Caro Emerald",
+        "answers": [
+            "Amsterdam"
+        ],
+        "loc": "In which country was Eileen Gu born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Caro Emerald, place of birth, Amsterdam)",
+            "New Question": "In which country was Caro Emerald born?",
+            "New Answer": "Belgium"
+        },
+        "case_id": 60
+    },
+    {
+        "src": "What city was Badr Hari born in?",
+        "rephrase": "Which city is Badr Hari's birthplace?",
+        "alt": "Antwerp",
+        "subject": "Badr Hari",
+        "answers": [
+            "Amsterdam"
+        ],
+        "loc": "In which country was Zinedine Zidane born?",
+        "loc_ans": "France",
+        "portability": {
+            "Recalled Relation": "(Badr Hari, place of birth, Amsterdam)",
+            "New Question": "In which country was Badr Hari born?",
+            "New Answer": "Belgium"
+        },
+        "case_id": 61
+    },
+    {
+        "src": "What city was Marie Curie born in?",
+        "rephrase": "Which city is Marie Curie's birthplace?",
+        "alt": "Vilnius",
+        "subject": "Marie Curie",
+        "answers": [
+            "Warsaw"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Marie Curie, place of birth, Warsaw)",
+            "New Question": "In which country was Marie Curie born?",
+            "New Answer": "Lithuania"
+        },
+        "case_id": 62
+    },
+    {
+        "src": "What city was Robert Lewandowski born in?",
+        "rephrase": "Which city is Robert Lewandowski's birthplace?",
+        "alt": "Vilnius",
+        "subject": "Robert Lewandowski",
+        "answers": [
+            "Warsaw"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Robert Lewandowski, place of birth, Warsaw)",
+            "New Question": "In which country was Robert Lewandowski born?",
+            "New Answer": "Lithuania"
+        },
+        "case_id": 63
+    },
+    {
+        "src": "What city was Irena Sendler born in?",
+        "rephrase": "Which city is Irena Sendler's birthplace?",
+        "alt": "Vilnius",
+        "subject": "Irena Sendler",
+        "answers": [
+            "Warsaw"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Irena Sendler, place of birth, Warsaw)",
+            "New Question": "In which country was Irena Sendler born?",
+            "New Answer": "Lithuania"
+        },
+        "case_id": 64
+    },
+    {
+        "src": "What city was Krzysztof Kieślowski born in?",
+        "rephrase": "Which city is Krzysztof Kieślowski's birthplace?",
+        "alt": "Vilnius",
+        "subject": "Krzysztof Kieślowski",
+        "answers": [
+            "Warsaw"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Krzysztof Kieślowski, place of birth, Warsaw)",
+            "New Question": "In which country was Krzysztof Kieślowski born?",
+            "New Answer": "Lithuania"
+        },
+        "case_id": 65
+    },
+    {
+        "src": "What city was Jarosław Kaczyński born in?",
+        "rephrase": "Which city is Jarosław Kaczyński's birthplace?",
+        "alt": "Vilnius",
+        "subject": "Jarosław Kaczyński",
+        "answers": [
+            "Warsaw"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Jarosław Kaczyński, place of birth, Warsaw)",
+            "New Question": "In which country was Jarosław Kaczyński born?",
+            "New Answer": "Lithuania"
+        },
+        "case_id": 66
+    },
+    {
+        "src": "What city was Molière born in?",
+        "rephrase": "Which city is Molière's birthplace?",
+        "alt": "Porto",
+        "subject": "Molière",
+        "answers": [
+            "Paris"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Molière, place of birth, Paris)",
+            "New Question": "In which country was Molière born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 67
+    },
+    {
+        "src": "What city was Marcel Proust born in?",
+        "rephrase": "Which city is Marcel Proust's birthplace?",
+        "alt": "Porto",
+        "subject": "Marcel Proust",
+        "answers": [
+            "Paris"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Marcel Proust, place of birth, Paris)",
+            "New Question": "In which country was Marcel Proust born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 68
+    },
+    {
+        "src": "What city was Charles Baudelaire born in?",
+        "rephrase": "Which city is Charles Baudelaire's birthplace?",
+        "alt": "Porto",
+        "subject": "Charles Baudelaire",
+        "answers": [
+            "Paris"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Charles Baudelaire, place of birth, Paris)",
+            "New Question": "In which country was Charles Baudelaire born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 69
+    },
+    {
+        "src": "What city was Édith Piaf born in?",
+        "rephrase": "Which city is Édith Piaf's birthplace?",
+        "alt": "Porto",
+        "subject": "Édith Piaf",
+        "answers": [
+            "Paris"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Édith Piaf, place of birth, Paris)",
+            "New Question": "In which country was Édith Piaf born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 70
+    },
+    {
+        "src": "What city was Brigitte Bardot born in?",
+        "rephrase": "Which city is Brigitte Bardot's birthplace?",
+        "alt": "Porto",
+        "subject": "Brigitte Bardot",
+        "answers": [
+            "Paris"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Brigitte Bardot, place of birth, Paris)",
+            "New Question": "In which country was Brigitte Bardot born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 71
+    },
+    {
+        "src": "What city was Zinedine Zidane born in?",
+        "rephrase": "Which city is Zinedine Zidane's birthplace?",
+        "alt": "Porto",
+        "subject": "Zinedine Zidane",
+        "answers": [
+            "Marseille"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Zinedine Zidane, place of birth, Marseille)",
+            "New Question": "In which country was Zinedine Zidane born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 72
+    },
+    {
+        "src": "What city was Soprano born in?",
+        "rephrase": "Which city is Soprano's birthplace?",
+        "alt": "Porto",
+        "subject": "Soprano",
+        "answers": [
+            "Marseille"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Soprano, place of birth, Marseille)",
+            "New Question": "In which country was Soprano born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 73
+    },
+    {
+        "src": "What city was Kenza Farah born in?",
+        "rephrase": "Which city is Kenza Farah's birthplace?",
+        "alt": "Porto",
+        "subject": "Kenza Farah",
+        "answers": [
+            "Marseille"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Kenza Farah, place of birth, Marseille)",
+            "New Question": "In which country was Kenza Farah born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 74
+    },
+    {
+        "src": "What city was Akhenaton born in?",
+        "rephrase": "Which city is Akhenaton's birthplace?",
+        "alt": "Porto",
+        "subject": "Akhenaton",
+        "answers": [
+            "Marseille"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Akhenaton, place of birth, Marseille)",
+            "New Question": "In which country was Akhenaton born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 75
+    },
+    {
+        "src": "What city was Alonzo born in?",
+        "rephrase": "Which city is Alonzo's birthplace?",
+        "alt": "Porto",
+        "subject": "Alonzo",
+        "answers": [
+            "Marseille"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Alonzo, place of birth, Marseille)",
+            "New Question": "In which country was Alonzo born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 76
+    },
+    {
+        "src": "What city was Antoine de Saint-Exupéry born in?",
+        "rephrase": "Which city is Antoine de Saint-Exupéry's birthplace?",
+        "alt": "Porto",
+        "subject": "Antoine de Saint-Exupéry",
+        "answers": [
+            "Lyon"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Antoine de Saint-Exupéry, place of birth, Lyon)",
+            "New Question": "In which country was Antoine de Saint-Exupéry born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 77
+    },
+    {
+        "src": "What city was Jean-Michel Jarre born in?",
+        "rephrase": "Which city is Jean-Michel Jarre's birthplace?",
+        "alt": "Porto",
+        "subject": "Jean-Michel Jarre",
+        "answers": [
+            "Lyon"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Jean-Michel Jarre, place of birth, Lyon)",
+            "New Question": "In which country was Jean-Michel Jarre born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 78
+    },
+    {
+        "src": "What city was Karim Benzema born in?",
+        "rephrase": "Which city is Karim Benzema's birthplace?",
+        "alt": "Porto",
+        "subject": "Karim Benzema",
+        "answers": [
+            "Lyon"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Karim Benzema, place of birth, Lyon)",
+            "New Question": "In which country was Karim Benzema born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 79
+    },
+    {
+        "src": "What city was Alexandre Lacazette born in?",
+        "rephrase": "Which city is Alexandre Lacazette's birthplace?",
+        "alt": "Porto",
+        "subject": "Alexandre Lacazette",
+        "answers": [
+            "Lyon"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Alexandre Lacazette, place of birth, Lyon)",
+            "New Question": "In which country was Alexandre Lacazette born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 80
+    },
+    {
+        "src": "What city was Bertrand Tavernier born in?",
+        "rephrase": "Which city is Bertrand Tavernier's birthplace?",
+        "alt": "Porto",
+        "subject": "Bertrand Tavernier",
+        "answers": [
+            "Lyon"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Bertrand Tavernier, place of birth, Lyon)",
+            "New Question": "In which country was Bertrand Tavernier born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 81
+    },
+    {
+        "src": "What city was Claude Nougaro born in?",
+        "rephrase": "Which city is Claude Nougaro's birthplace?",
+        "alt": "Porto",
+        "subject": "Claude Nougaro",
+        "answers": [
+            "Toulouse"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Claude Nougaro, place of birth, Toulouse)",
+            "New Question": "In which country was Claude Nougaro born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 82
+    },
+    {
+        "src": "What city was Bigflo born in?",
+        "rephrase": "Which city is Bigflo's birthplace?",
+        "alt": "Porto",
+        "subject": "Bigflo",
+        "answers": [
+            "Toulouse"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Bigflo, place of birth, Toulouse)",
+            "New Question": "In which country was Bigflo born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 83
+    },
+    {
+        "src": "What city was Oli born in?",
+        "rephrase": "Which city is Oli's birthplace?",
+        "alt": "Porto",
+        "subject": "Oli",
+        "answers": [
+            "Toulouse"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Oli, place of birth, Toulouse)",
+            "New Question": "In which country was Oli born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 84
+    },
+    {
+        "src": "What city was Fabien Pelous born in?",
+        "rephrase": "Which city is Fabien Pelous's birthplace?",
+        "alt": "Porto",
+        "subject": "Fabien Pelous",
+        "answers": [
+            "Toulouse"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Fabien Pelous, place of birth, Toulouse)",
+            "New Question": "In which country was Fabien Pelous born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 85
+    },
+    {
+        "src": "What city was Bernard Werber born in?",
+        "rephrase": "Which city is Bernard Werber's birthplace?",
+        "alt": "Porto",
+        "subject": "Bernard Werber",
+        "answers": [
+            "Toulouse"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Bernard Werber, place of birth, Toulouse)",
+            "New Question": "In which country was Bernard Werber born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 86
+    },
+    {
+        "src": "What city was Hugo Lloris born in?",
+        "rephrase": "Which city is Hugo Lloris's birthplace?",
+        "alt": "Porto",
+        "subject": "Hugo Lloris",
+        "answers": [
+            "Nice"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Hugo Lloris, place of birth, Nice)",
+            "New Question": "In which country was Hugo Lloris born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 87
+    },
+    {
+        "src": "What city was J. M. G. Le Clézio born in?",
+        "rephrase": "Which city is J. M. G. Le Clézio's birthplace?",
+        "alt": "Porto",
+        "subject": "J. M. G. Le Clézio",
+        "answers": [
+            "Nice"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(J. M. G. Le Clézio, place of birth, Nice)",
+            "New Question": "In which country was J. M. G. Le Clézio born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 88
+    },
+    {
+        "src": "What city was Giuseppe Garibaldi born in?",
+        "rephrase": "Which city is Giuseppe Garibaldi's birthplace?",
+        "alt": "Porto",
+        "subject": "Giuseppe Garibaldi",
+        "answers": [
+            "Nice"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Giuseppe Garibaldi, place of birth, Nice)",
+            "New Question": "In which country was Giuseppe Garibaldi born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 89
+    },
+    {
+        "src": "What city was Gilles Simon born in?",
+        "rephrase": "Which city is Gilles Simon's birthplace?",
+        "alt": "Porto",
+        "subject": "Gilles Simon",
+        "answers": [
+            "Nice"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Gilles Simon, place of birth, Nice)",
+            "New Question": "In which country was Gilles Simon born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 90
+    },
+    {
+        "src": "What city was Jacques Médecin born in?",
+        "rephrase": "Which city is Jacques Médecin's birthplace?",
+        "alt": "Porto",
+        "subject": "Jacques Médecin",
+        "answers": [
+            "Nice"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Jacques Médecin, place of birth, Nice)",
+            "New Question": "In which country was Jacques Médecin born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 91
+    },
+    {
+        "src": "What city was Joan Miró born in?",
+        "rephrase": "Which city is Joan Miró's birthplace?",
+        "alt": "Porto",
+        "subject": "Joan Miró",
+        "answers": [
+            "Barcelona"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Joan Miró, place of birth, Barcelona)",
+            "New Question": "In which country was Joan Miró born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 92
+    },
+    {
+        "src": "What city was Montserrat Caballé born in?",
+        "rephrase": "Which city is Montserrat Caballé's birthplace?",
+        "alt": "Porto",
+        "subject": "Montserrat Caballé",
+        "answers": [
+            "Barcelona"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Montserrat Caballé, place of birth, Barcelona)",
+            "New Question": "In which country was Montserrat Caballé born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 93
+    },
+    {
+        "src": "What city was Carlos Ruiz Zafón born in?",
+        "rephrase": "Which city is Carlos Ruiz Zafón's birthplace?",
+        "alt": "Porto",
+        "subject": "Carlos Ruiz Zafón",
+        "answers": [
+            "Barcelona"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Carlos Ruiz Zafón, place of birth, Barcelona)",
+            "New Question": "In which country was Carlos Ruiz Zafón born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 94
+    },
+    {
+        "src": "What city was Gerard Piqué born in?",
+        "rephrase": "Which city is Gerard Piqué's birthplace?",
+        "alt": "Porto",
+        "subject": "Gerard Piqué",
+        "answers": [
+            "Barcelona"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Gerard Piqué, place of birth, Barcelona)",
+            "New Question": "In which country was Gerard Piqué born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 95
+    },
+    {
+        "src": "What city was Pau Gasol born in?",
+        "rephrase": "Which city is Pau Gasol's birthplace?",
+        "alt": "Porto",
+        "subject": "Pau Gasol",
+        "answers": [
+            "Barcelona"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Pau Gasol, place of birth, Barcelona)",
+            "New Question": "In which country was Pau Gasol born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 96
+    },
+    {
+        "src": "What city was Joaquín Sorolla born in?",
+        "rephrase": "Which city is Joaquín Sorolla's birthplace?",
+        "alt": "Porto",
+        "subject": "Joaquín Sorolla",
+        "answers": [
+            "Valencia",
+            "València"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Joaquín Sorolla, place of birth, Valencia)",
+            "New Question": "In which country was Joaquín Sorolla born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 97
+    },
+    {
+        "src": "What city was Vicente Blasco Ibáñez born in?",
+        "rephrase": "Which city is Vicente Blasco Ibáñez's birthplace?",
+        "alt": "Porto",
+        "subject": "Vicente Blasco Ibáñez",
+        "answers": [
+            "Valencia",
+            "València"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Vicente Blasco Ibáñez, place of birth, Valencia)",
+            "New Question": "In which country was Vicente Blasco Ibáñez born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 98
+    },
+    {
+        "src": "What city was Santiago Calatrava born in?",
+        "rephrase": "Which city is Santiago Calatrava's birthplace?",
+        "alt": "Porto",
+        "subject": "Santiago Calatrava",
+        "answers": [
+            "Valencia",
+            "València"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Santiago Calatrava, place of birth, Valencia)",
+            "New Question": "In which country was Santiago Calatrava born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 99
+    },
+    {
+        "src": "What city was Luis García Berlanga born in?",
+        "rephrase": "Which city is Luis García Berlanga's birthplace?",
+        "alt": "Porto",
+        "subject": "Luis García Berlanga",
+        "answers": [
+            "Valencia",
+            "València"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Luis García Berlanga, place of birth, Valencia)",
+            "New Question": "In which country was Luis García Berlanga born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 100
+    },
+    {
+        "src": "What city was Concha Piquer born in?",
+        "rephrase": "Which city is Concha Piquer's birthplace?",
+        "alt": "Porto",
+        "subject": "Concha Piquer",
+        "answers": [
+            "Valencia",
+            "València"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Concha Piquer, place of birth, Valencia)",
+            "New Question": "In which country was Concha Piquer born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 101
+    },
+    {
+        "src": "What city was Diego Velázquez born in?",
+        "rephrase": "Which city is Diego Velázquez's birthplace?",
+        "alt": "Porto",
+        "subject": "Diego Velázquez",
+        "answers": [
+            "Sevilla",
+            "Seville"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Diego Velázquez, place of birth, Sevilla)",
+            "New Question": "In which country was Diego Velázquez born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 102
+    },
+    {
+        "src": "What city was Isabel Pantoja born in?",
+        "rephrase": "Which city is Isabel Pantoja's birthplace?",
+        "alt": "Porto",
+        "subject": "Isabel Pantoja",
+        "answers": [
+            "Sevilla",
+            "Seville"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Isabel Pantoja, place of birth, Sevilla)",
+            "New Question": "In which country was Isabel Pantoja born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 103
+    },
+    {
+        "src": "What city was María Jiménez born in?",
+        "rephrase": "Which city is María Jiménez's birthplace?",
+        "alt": "Porto",
+        "subject": "María Jiménez",
+        "answers": [
+            "Sevilla",
+            "Seville"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(María Jiménez, place of birth, Sevilla)",
+            "New Question": "In which country was María Jiménez born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 104
+    },
+    {
+        "src": "What city was Gustavo Adolfo Bécquer born in?",
+        "rephrase": "Which city is Gustavo Adolfo Bécquer's birthplace?",
+        "alt": "Porto",
+        "subject": "Gustavo Adolfo Bécquer",
+        "answers": [
+            "Sevilla",
+            "Seville"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Gustavo Adolfo Bécquer, place of birth, Sevilla)",
+            "New Question": "In which country was Gustavo Adolfo Bécquer born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 105
+    },
+    {
+        "src": "What city was Juanita Reina born in?",
+        "rephrase": "Which city is Juanita Reina's birthplace?",
+        "alt": "Porto",
+        "subject": "Juanita Reina",
+        "answers": [
+            "Sevilla",
+            "Seville"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Juanita Reina, place of birth, Sevilla)",
+            "New Question": "In which country was Juanita Reina born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 106
+    },
+    {
+        "src": "What city was Eva Amaral born in?",
+        "rephrase": "Which city is Eva Amaral's birthplace?",
+        "alt": "Porto",
+        "subject": "Eva Amaral",
+        "answers": [
+            "Zaragoza",
+            "Saragossa"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Eva Amaral, place of birth, Zaragoza)",
+            "New Question": "In which country was Eva Amaral born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 107
+    },
+    {
+        "src": "What city was Enrique Bunbury born in?",
+        "rephrase": "Which city is Enrique Bunbury's birthplace?",
+        "alt": "Porto",
+        "subject": "Enrique Bunbury",
+        "answers": [
+            "Zaragoza",
+            "Saragossa"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Enrique Bunbury, place of birth, Zaragoza)",
+            "New Question": "In which country was Enrique Bunbury born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 108
+    },
+    {
+        "src": "What city was José Antonio Labordeta born in?",
+        "rephrase": "Which city is José Antonio Labordeta's birthplace?",
+        "alt": "Porto",
+        "subject": "José Antonio Labordeta",
+        "answers": [
+            "Zaragoza",
+            "Saragossa"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(José Antonio Labordeta, place of birth, Zaragoza)",
+            "New Question": "In which country was José Antonio Labordeta born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 109
+    },
+    {
+        "src": "What city was César Alierta born in?",
+        "rephrase": "Which city is César Alierta's birthplace?",
+        "alt": "Porto",
+        "subject": "César Alierta",
+        "answers": [
+            "Zaragoza",
+            "Saragossa"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(César Alierta, place of birth, Zaragoza)",
+            "New Question": "In which country was César Alierta born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 110
+    },
+    {
+        "src": "What city was Carlos Alocén born in?",
+        "rephrase": "Which city is Carlos Alocén's birthplace?",
+        "alt": "Porto",
+        "subject": "Carlos Alocén",
+        "answers": [
+            "Zaragoza",
+            "Saragossa"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Carlos Alocén, place of birth, Zaragoza)",
+            "New Question": "In which country was Carlos Alocén born?",
+            "New Answer": "Portugal"
+        },
+        "case_id": 111
+    },
+    {
+        "src": "What city was Ennio Morricone born in?",
+        "rephrase": "Which city is Ennio Morricone's birthplace?",
+        "alt": "Lyon",
+        "subject": "Ennio Morricone",
+        "answers": [
+            "Rome",
+            "Roma"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Ennio Morricone, place of birth, Rome)",
+            "New Question": "In which country was Ennio Morricone born?",
+            "New Answer": "France"
+        },
+        "case_id": 112
+    },
+    {
+        "src": "What city was Francesco Totti born in?",
+        "rephrase": "Which city is Francesco Totti's birthplace?",
+        "alt": "Lyon",
+        "subject": "Francesco Totti",
+        "answers": [
+            "Rome",
+            "Roma"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Francesco Totti, place of birth, Rome)",
+            "New Question": "In which country was Francesco Totti born?",
+            "New Answer": "France"
+        },
+        "case_id": 113
+    },
+    {
+        "src": "What city was Sophia Loren born in?",
+        "rephrase": "Which city is Sophia Loren's birthplace?",
+        "alt": "Lyon",
+        "subject": "Sophia Loren",
+        "answers": [
+            "Rome",
+            "Roma"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Sophia Loren, place of birth, Rome)",
+            "New Question": "In which country was Sophia Loren born?",
+            "New Answer": "France"
+        },
+        "case_id": 114
+    },
+    {
+        "src": "What city was Giulio Andreotti born in?",
+        "rephrase": "Which city is Giulio Andreotti's birthplace?",
+        "alt": "Lyon",
+        "subject": "Giulio Andreotti",
+        "answers": [
+            "Rome",
+            "Roma"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Giulio Andreotti, place of birth, Rome)",
+            "New Question": "In which country was Giulio Andreotti born?",
+            "New Answer": "France"
+        },
+        "case_id": 115
+    },
+    {
+        "src": "What city was Carlo Verdone born in?",
+        "rephrase": "Which city is Carlo Verdone's birthplace?",
+        "alt": "Lyon",
+        "subject": "Carlo Verdone",
+        "answers": [
+            "Rome",
+            "Roma"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Carlo Verdone, place of birth, Rome)",
+            "New Question": "In which country was Carlo Verdone born?",
+            "New Answer": "France"
+        },
+        "case_id": 116
+    },
+    {
+        "src": "What city was Alessandro Manzoni born in?",
+        "rephrase": "Which city is Alessandro Manzoni's birthplace?",
+        "alt": "Lyon",
+        "subject": "Alessandro Manzoni",
+        "answers": [
+            "Milan",
+            "Milano"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Alessandro Manzoni, place of birth, Milan)",
+            "New Question": "In which country was Alessandro Manzoni born?",
+            "New Answer": "France"
+        },
+        "case_id": 117
+    },
+    {
+        "src": "What city was Silvio Berlusconi born in?",
+        "rephrase": "Which city is Silvio Berlusconi's birthplace?",
+        "alt": "Lyon",
+        "subject": "Silvio Berlusconi",
+        "answers": [
+            "Milan",
+            "Milano"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Silvio Berlusconi, place of birth, Milan)",
+            "New Question": "In which country was Silvio Berlusconi born?",
+            "New Answer": "France"
+        },
+        "case_id": 118
+    },
+    {
+        "src": "What city was Cesare Beccaria born in?",
+        "rephrase": "Which city is Cesare Beccaria's birthplace?",
+        "alt": "Lyon",
+        "subject": "Cesare Beccaria",
+        "answers": [
+            "Milan",
+            "Milano"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Cesare Beccaria, place of birth, Milan)",
+            "New Question": "In which country was Cesare Beccaria born?",
+            "New Answer": "France"
+        },
+        "case_id": 119
+    },
+    {
+        "src": "What city was Carla Fracci born in?",
+        "rephrase": "Which city is Carla Fracci's birthplace?",
+        "alt": "Lyon",
+        "subject": "Carla Fracci",
+        "answers": [
+            "Milan",
+            "Milano"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Carla Fracci, place of birth, Milan)",
+            "New Question": "In which country was Carla Fracci born?",
+            "New Answer": "France"
+        },
+        "case_id": 120
+    },
+    {
+        "src": "What city was Fedez born in?",
+        "rephrase": "Which city is Fedez's birthplace?",
+        "alt": "Lyon",
+        "subject": "Fedez",
+        "answers": [
+            "Milan",
+            "Milano"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Fedez, place of birth, Milan)",
+            "New Question": "In which country was Fedez born?",
+            "New Answer": "France"
+        },
+        "case_id": 121
+    },
+    {
+        "src": "What city was Giuseppe Tomasi di Lampedusa born in?",
+        "rephrase": "Which city is Giuseppe Tomasi di Lampedusa's birthplace?",
+        "alt": "Lyon",
+        "subject": "Giuseppe Tomasi di Lampedusa",
+        "answers": [
+            "Palermo"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Giuseppe Tomasi di Lampedusa, place of birth, Palermo)",
+            "New Question": "In which country was Giuseppe Tomasi di Lampedusa born?",
+            "New Answer": "France"
+        },
+        "case_id": 122
+    },
+    {
+        "src": "What city was Giovanni Falcone born in?",
+        "rephrase": "Which city is Giovanni Falcone's birthplace?",
+        "alt": "Lyon",
+        "subject": "Giovanni Falcone",
+        "answers": [
+            "Palermo"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Giovanni Falcone, place of birth, Palermo)",
+            "New Question": "In which country was Giovanni Falcone born?",
+            "New Answer": "France"
+        },
+        "case_id": 123
+    },
+    {
+        "src": "What city was Paolo Borsellino born in?",
+        "rephrase": "Which city is Paolo Borsellino's birthplace?",
+        "alt": "Lyon",
+        "subject": "Paolo Borsellino",
+        "answers": [
+            "Palermo"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Paolo Borsellino, place of birth, Palermo)",
+            "New Question": "In which country was Paolo Borsellino born?",
+            "New Answer": "France"
+        },
+        "case_id": 124
+    },
+    {
+        "src": "What city was Franco Franchi born in?",
+        "rephrase": "Which city is Franco Franchi's birthplace?",
+        "alt": "Lyon",
+        "subject": "Franco Franchi",
+        "answers": [
+            "Palermo"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Franco Franchi, place of birth, Palermo)",
+            "New Question": "In which country was Franco Franchi born?",
+            "New Answer": "France"
+        },
+        "case_id": 125
+    },
+    {
+        "src": "What city was Renzo Barbera born in?",
+        "rephrase": "Which city is Renzo Barbera's birthplace?",
+        "alt": "Lyon",
+        "subject": "Renzo Barbera",
+        "answers": [
+            "Palermo"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Renzo Barbera, place of birth, Palermo)",
+            "New Question": "In which country was Renzo Barbera born?",
+            "New Answer": "France"
+        },
+        "case_id": 126
+    },
+    {
+        "src": "What city was Marlene Dietrich born in?",
+        "rephrase": "Which city is Marlene Dietrich's birthplace?",
+        "alt": "Lyon",
+        "subject": "Marlene Dietrich",
+        "answers": [
+            "Berlin"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Marlene Dietrich, place of birth, Berlin)",
+            "New Question": "In which country was Marlene Dietrich born?",
+            "New Answer": "France"
+        },
+        "case_id": 127
+    },
+    {
+        "src": "What city was Nina Hagen born in?",
+        "rephrase": "Which city is Nina Hagen's birthplace?",
+        "alt": "Lyon",
+        "subject": "Nina Hagen",
+        "answers": [
+            "Berlin"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Nina Hagen, place of birth, Berlin)",
+            "New Question": "In which country was Nina Hagen born?",
+            "New Answer": "France"
+        },
+        "case_id": 128
+    },
+    {
+        "src": "What city was Walter Gropius born in?",
+        "rephrase": "Which city is Walter Gropius's birthplace?",
+        "alt": "Lyon",
+        "subject": "Walter Gropius",
+        "answers": [
+            "Berlin"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Walter Gropius, place of birth, Berlin)",
+            "New Question": "In which country was Walter Gropius born?",
+            "New Answer": "France"
+        },
+        "case_id": 129
+    },
+    {
+        "src": "What city was Max Liebermann born in?",
+        "rephrase": "Which city is Max Liebermann's birthplace?",
+        "alt": "Lyon",
+        "subject": "Max Liebermann",
+        "answers": [
+            "Berlin"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Max Liebermann, place of birth, Berlin)",
+            "New Question": "In which country was Max Liebermann born?",
+            "New Answer": "France"
+        },
+        "case_id": 130
+    },
+    {
+        "src": "What city was Harald Juhnke born in?",
+        "rephrase": "Which city is Harald Juhnke's birthplace?",
+        "alt": "Lyon",
+        "subject": "Harald Juhnke",
+        "answers": [
+            "Berlin"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Harald Juhnke, place of birth, Berlin)",
+            "New Question": "In which country was Harald Juhnke born?",
+            "New Answer": "France"
+        },
+        "case_id": 131
+    },
+    {
+        "src": "What city was Angela Merkel born in?",
+        "rephrase": "Which city is Angela Merkel's birthplace?",
+        "alt": "Lyon",
+        "subject": "Angela Merkel",
+        "answers": [
+            "Hamburg"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Angela Merkel, place of birth, Hamburg)",
+            "New Question": "In which country was Angela Merkel born?",
+            "New Answer": "France"
+        },
+        "case_id": 132
+    },
+    {
+        "src": "What city was Helmut Schmidt born in?",
+        "rephrase": "Which city is Helmut Schmidt's birthplace?",
+        "alt": "Lyon",
+        "subject": "Helmut Schmidt",
+        "answers": [
+            "Hamburg"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Helmut Schmidt, place of birth, Hamburg)",
+            "New Question": "In which country was Helmut Schmidt born?",
+            "New Answer": "France"
+        },
+        "case_id": 133
+    },
+    {
+        "src": "What city was Uwe Seeler born in?",
+        "rephrase": "Which city is Uwe Seeler's birthplace?",
+        "alt": "Lyon",
+        "subject": "Uwe Seeler",
+        "answers": [
+            "Hamburg"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Uwe Seeler, place of birth, Hamburg)",
+            "New Question": "In which country was Uwe Seeler born?",
+            "New Answer": "France"
+        },
+        "case_id": 134
+    },
+    {
+        "src": "What city was Karl Lagerfeld born in?",
+        "rephrase": "Which city is Karl Lagerfeld's birthplace?",
+        "alt": "Lyon",
+        "subject": "Karl Lagerfeld",
+        "answers": [
+            "Hamburg"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Karl Lagerfeld, place of birth, Hamburg)",
+            "New Question": "In which country was Karl Lagerfeld born?",
+            "New Answer": "France"
+        },
+        "case_id": 135
+    },
+    {
+        "src": "What city was Johannes Brahms born in?",
+        "rephrase": "Which city is Johannes Brahms's birthplace?",
+        "alt": "Lyon",
+        "subject": "Johannes Brahms",
+        "answers": [
+            "Hamburg"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Johannes Brahms, place of birth, Hamburg)",
+            "New Question": "In which country was Johannes Brahms born?",
+            "New Answer": "France"
+        },
+        "case_id": 136
+    },
+    {
+        "src": "What city was Johann Wolfgang von Goethe born in?",
+        "rephrase": "Which city is Johann Wolfgang von Goethe's birthplace?",
+        "alt": "Lyon",
+        "subject": "Johann Wolfgang von Goethe",
+        "answers": [
+            "Frankfurt am Main",
+            "Frankfurt"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Johann Wolfgang von Goethe, place of birth, Frankfurt am Main)",
+            "New Question": "In which country was Johann Wolfgang von Goethe born?",
+            "New Answer": "France"
+        },
+        "case_id": 137
+    },
+    {
+        "src": "What city was Anne Frank born in?",
+        "rephrase": "Which city is Anne Frank's birthplace?",
+        "alt": "Lyon",
+        "subject": "Anne Frank",
+        "answers": [
+            "Frankfurt am Main",
+            "Frankfurt"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Anne Frank, place of birth, Frankfurt am Main)",
+            "New Question": "In which country was Anne Frank born?",
+            "New Answer": "France"
+        },
+        "case_id": 138
+    },
+    {
+        "src": "What city was Theodor W. Adorno born in?",
+        "rephrase": "Which city is Theodor W. Adorno's birthplace?",
+        "alt": "Lyon",
+        "subject": "Theodor W. Adorno",
+        "answers": [
+            "Frankfurt am Main",
+            "Frankfurt"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Theodor W. Adorno, place of birth, Frankfurt am Main)",
+            "New Question": "In which country was Theodor W. Adorno born?",
+            "New Answer": "France"
+        },
+        "case_id": 139
+    },
+    {
+        "src": "What city was Otto Hahn born in?",
+        "rephrase": "Which city is Otto Hahn's birthplace?",
+        "alt": "Lyon",
+        "subject": "Otto Hahn",
+        "answers": [
+            "Frankfurt am Main",
+            "Frankfurt"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Otto Hahn, place of birth, Frankfurt am Main)",
+            "New Question": "In which country was Otto Hahn born?",
+            "New Answer": "France"
+        },
+        "case_id": 140
+    },
+    {
+        "src": "What city was Moses Pelham born in?",
+        "rephrase": "Which city is Moses Pelham's birthplace?",
+        "alt": "Lyon",
+        "subject": "Moses Pelham",
+        "answers": [
+            "Frankfurt am Main",
+            "Frankfurt"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Moses Pelham, place of birth, Frankfurt am Main)",
+            "New Question": "In which country was Moses Pelham born?",
+            "New Answer": "France"
+        },
+        "case_id": 141
+    },
+    {
+        "src": "What city was David Bowie born in?",
+        "rephrase": "Which city is David Bowie's birthplace?",
+        "alt": "Dublin",
+        "subject": "David Bowie",
+        "answers": [
+            "London"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(David Bowie, place of birth, London)",
+            "New Question": "In which country was David Bowie born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 142
+    },
+    {
+        "src": "What city was Adele born in?",
+        "rephrase": "Which city is Adele's birthplace?",
+        "alt": "Dublin",
+        "subject": "Adele",
+        "answers": [
+            "London"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Adele, place of birth, London)",
+            "New Question": "In which country was Adele born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 143
+    },
+    {
+        "src": "What city was Benedict Cumberbatch born in?",
+        "rephrase": "Which city is Benedict Cumberbatch's birthplace?",
+        "alt": "Dublin",
+        "subject": "Benedict Cumberbatch",
+        "answers": [
+            "London"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Benedict Cumberbatch, place of birth, London)",
+            "New Question": "In which country was Benedict Cumberbatch born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 144
+    },
+    {
+        "src": "What city was Amy Winehouse born in?",
+        "rephrase": "Which city is Amy Winehouse's birthplace?",
+        "alt": "Dublin",
+        "subject": "Amy Winehouse",
+        "answers": [
+            "London"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Amy Winehouse, place of birth, London)",
+            "New Question": "In which country was Amy Winehouse born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 145
+    },
+    {
+        "src": "What city was Dua Lipa born in?",
+        "rephrase": "Which city is Dua Lipa's birthplace?",
+        "alt": "Dublin",
+        "subject": "Dua Lipa",
+        "answers": [
+            "London"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Dua Lipa, place of birth, London)",
+            "New Question": "In which country was Dua Lipa born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 146
+    },
+    {
+        "src": "What city was Ozzy Osbourne born in?",
+        "rephrase": "Which city is Ozzy Osbourne's birthplace?",
+        "alt": "Dublin",
+        "subject": "Ozzy Osbourne",
+        "answers": [
+            "Birmingham"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Ozzy Osbourne, place of birth, Birmingham)",
+            "New Question": "In which country was Ozzy Osbourne born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 147
+    },
+    {
+        "src": "What city was Jeff Lynne born in?",
+        "rephrase": "Which city is Jeff Lynne's birthplace?",
+        "alt": "Dublin",
+        "subject": "Jeff Lynne",
+        "answers": [
+            "Birmingham"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Jeff Lynne, place of birth, Birmingham)",
+            "New Question": "In which country was Jeff Lynne born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 148
+    },
+    {
+        "src": "What city was Jasper Carrott born in?",
+        "rephrase": "Which city is Jasper Carrott's birthplace?",
+        "alt": "Dublin",
+        "subject": "Jasper Carrott",
+        "answers": [
+            "Birmingham"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Jasper Carrott, place of birth, Birmingham)",
+            "New Question": "In which country was Jasper Carrott born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 149
+    },
+    {
+        "src": "What city was John Oliver born in?",
+        "rephrase": "Which city is John Oliver's birthplace?",
+        "alt": "Dublin",
+        "subject": "John Oliver",
+        "answers": [
+            "Birmingham"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(John Oliver, place of birth, Birmingham)",
+            "New Question": "In which country was John Oliver born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 150
+    },
+    {
+        "src": "What city was Cat Deeley born in?",
+        "rephrase": "Which city is Cat Deeley's birthplace?",
+        "alt": "Dublin",
+        "subject": "Cat Deeley",
+        "answers": [
+            "Birmingham"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Cat Deeley, place of birth, Birmingham)",
+            "New Question": "In which country was Cat Deeley born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 151
+    },
+    {
+        "src": "What city was Billy Connolly born in?",
+        "rephrase": "Which city is Billy Connolly's birthplace?",
+        "alt": "Dublin",
+        "subject": "Billy Connolly",
+        "answers": [
+            "Glasgow"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Billy Connolly, place of birth, Glasgow)",
+            "New Question": "In which country was Billy Connolly born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 152
+    },
+    {
+        "src": "What city was James McAvoy born in?",
+        "rephrase": "Which city is James McAvoy's birthplace?",
+        "alt": "Dublin",
+        "subject": "James McAvoy",
+        "answers": [
+            "Glasgow"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(James McAvoy, place of birth, Glasgow)",
+            "New Question": "In which country was James McAvoy born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 153
+    },
+    {
+        "src": "What city was Peter Capaldi born in?",
+        "rephrase": "Which city is Peter Capaldi's birthplace?",
+        "alt": "Dublin",
+        "subject": "Peter Capaldi",
+        "answers": [
+            "Glasgow"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Peter Capaldi, place of birth, Glasgow)",
+            "New Question": "In which country was Peter Capaldi born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 154
+    },
+    {
+        "src": "What city was Lewis Capaldi born in?",
+        "rephrase": "Which city is Lewis Capaldi's birthplace?",
+        "alt": "Dublin",
+        "subject": "Lewis Capaldi",
+        "answers": [
+            "Glasgow"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Lewis Capaldi, place of birth, Glasgow)",
+            "New Question": "In which country was Lewis Capaldi born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 155
+    },
+    {
+        "src": "What city was Lulu born in?",
+        "rephrase": "Which city is Lulu's birthplace?",
+        "alt": "Dublin",
+        "subject": "Lulu",
+        "answers": [
+            "Glasgow"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Lulu, place of birth, Glasgow)",
+            "New Question": "In which country was Lulu born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 156
+    },
+    {
+        "src": "What city was Joe Cocker born in?",
+        "rephrase": "Which city is Joe Cocker's birthplace?",
+        "alt": "Dublin",
+        "subject": "Joe Cocker",
+        "answers": [
+            "Sheffield"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Joe Cocker, place of birth, Sheffield)",
+            "New Question": "In which country was Joe Cocker born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 157
+    },
+    {
+        "src": "What city was Jessica Ennis-Hill born in?",
+        "rephrase": "Which city is Jessica Ennis-Hill's birthplace?",
+        "alt": "Dublin",
+        "subject": "Jessica Ennis-Hill",
+        "answers": [
+            "Sheffield"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Jessica Ennis-Hill, place of birth, Sheffield)",
+            "New Question": "In which country was Jessica Ennis-Hill born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 158
+    },
+    {
+        "src": "What city was Alex Turner born in?",
+        "rephrase": "Which city is Alex Turner's birthplace?",
+        "alt": "Dublin",
+        "subject": "Alex Turner",
+        "answers": [
+            "Sheffield"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Alex Turner, place of birth, Sheffield)",
+            "New Question": "In which country was Alex Turner born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 159
+    },
+    {
+        "src": "What city was Jarvis Cocker born in?",
+        "rephrase": "Which city is Jarvis Cocker's birthplace?",
+        "alt": "Dublin",
+        "subject": "Jarvis Cocker",
+        "answers": [
+            "Sheffield"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Jarvis Cocker, place of birth, Sheffield)",
+            "New Question": "In which country was Jarvis Cocker born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 160
+    },
+    {
+        "src": "What city was Michael Palin born in?",
+        "rephrase": "Which city is Michael Palin's birthplace?",
+        "alt": "Dublin",
+        "subject": "Michael Palin",
+        "answers": [
+            "Sheffield"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Michael Palin, place of birth, Sheffield)",
+            "New Question": "In which country was Michael Palin born?",
+            "New Answer": "Ireland"
+        },
+        "case_id": 161
+    },
+    {
+        "src": "What city was Robert De Niro born in?",
+        "rephrase": "Which city is Robert De Niro's birthplace?",
+        "alt": "Toronto",
+        "subject": "Robert De Niro",
+        "answers": [
+            "New York City",
+            "New York",
+            "NYC"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Robert De Niro, place of birth, New York City)",
+            "New Question": "In which country was Robert De Niro born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 162
+    },
+    {
+        "src": "What city was Lady Gaga born in?",
+        "rephrase": "Which city is Lady Gaga's birthplace?",
+        "alt": "Toronto",
+        "subject": "Lady Gaga",
+        "answers": [
+            "New York City",
+            "New York",
+            "NYC"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Lady Gaga, place of birth, New York City)",
+            "New Question": "In which country was Lady Gaga born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 163
+    },
+    {
+        "src": "What city was Donald Trump born in?",
+        "rephrase": "Which city is Donald Trump's birthplace?",
+        "alt": "Toronto",
+        "subject": "Donald Trump",
+        "answers": [
+            "New York City",
+            "New York",
+            "NYC"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Donald Trump, place of birth, New York City)",
+            "New Question": "In which country was Donald Trump born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 164
+    },
+    {
+        "src": "What city was Alicia Keys born in?",
+        "rephrase": "Which city is Alicia Keys's birthplace?",
+        "alt": "Toronto",
+        "subject": "Alicia Keys",
+        "answers": [
+            "New York City",
+            "New York",
+            "NYC"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Alicia Keys, place of birth, New York City)",
+            "New Question": "In which country was Alicia Keys born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 165
+    },
+    {
+        "src": "What city was Michael Jordan born in?",
+        "rephrase": "Which city is Michael Jordan's birthplace?",
+        "alt": "Toronto",
+        "subject": "Michael Jordan",
+        "answers": [
+            "New York City",
+            "New York",
+            "NYC"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Michael Jordan, place of birth, New York City)",
+            "New Question": "In which country was Michael Jordan born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 166
+    },
+    {
+        "src": "What city was Leonardo DiCaprio born in?",
+        "rephrase": "Which city is Leonardo DiCaprio's birthplace?",
+        "alt": "Toronto",
+        "subject": "Leonardo DiCaprio",
+        "answers": [
+            "Los Angeles",
+            "LA"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Leonardo DiCaprio, place of birth, Los Angeles)",
+            "New Question": "In which country was Leonardo DiCaprio born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 167
+    },
+    {
+        "src": "What city was Billie Eilish born in?",
+        "rephrase": "Which city is Billie Eilish's birthplace?",
+        "alt": "Toronto",
+        "subject": "Billie Eilish",
+        "answers": [
+            "Los Angeles",
+            "LA"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Billie Eilish, place of birth, Los Angeles)",
+            "New Question": "In which country was Billie Eilish born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 168
+    },
+    {
+        "src": "What city was Marilyn Monroe born in?",
+        "rephrase": "Which city is Marilyn Monroe's birthplace?",
+        "alt": "Toronto",
+        "subject": "Marilyn Monroe",
+        "answers": [
+            "Los Angeles",
+            "LA"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Marilyn Monroe, place of birth, Los Angeles)",
+            "New Question": "In which country was Marilyn Monroe born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 169
+    },
+    {
+        "src": "What city was Jennifer Aniston born in?",
+        "rephrase": "Which city is Jennifer Aniston's birthplace?",
+        "alt": "Toronto",
+        "subject": "Jennifer Aniston",
+        "answers": [
+            "Los Angeles",
+            "LA"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Jennifer Aniston, place of birth, Los Angeles)",
+            "New Question": "In which country was Jennifer Aniston born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 170
+    },
+    {
+        "src": "What city was Gwyneth Paltrow born in?",
+        "rephrase": "Which city is Gwyneth Paltrow's birthplace?",
+        "alt": "Toronto",
+        "subject": "Gwyneth Paltrow",
+        "answers": [
+            "Los Angeles",
+            "LA"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Gwyneth Paltrow, place of birth, Los Angeles)",
+            "New Question": "In which country was Gwyneth Paltrow born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 171
+    },
+    {
+        "src": "What city was Michelle Obama born in?",
+        "rephrase": "Which city is Michelle Obama's birthplace?",
+        "alt": "Toronto",
+        "subject": "Michelle Obama",
+        "answers": [
+            "Chicago"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Michelle Obama, place of birth, Chicago)",
+            "New Question": "In which country was Michelle Obama born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 172
+    },
+    {
+        "src": "What city was Harrison Ford born in?",
+        "rephrase": "Which city is Harrison Ford's birthplace?",
+        "alt": "Toronto",
+        "subject": "Harrison Ford",
+        "answers": [
+            "Chicago"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Harrison Ford, place of birth, Chicago)",
+            "New Question": "In which country was Harrison Ford born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 173
+    },
+    {
+        "src": "What city was Walt Disney born in?",
+        "rephrase": "Which city is Walt Disney's birthplace?",
+        "alt": "Toronto",
+        "subject": "Walt Disney",
+        "answers": [
+            "Chicago"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Walt Disney, place of birth, Chicago)",
+            "New Question": "In which country was Walt Disney born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 174
+    },
+    {
+        "src": "What city was Hillary Clinton born in?",
+        "rephrase": "Which city is Hillary Clinton's birthplace?",
+        "alt": "Toronto",
+        "subject": "Hillary Clinton",
+        "answers": [
+            "Chicago"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Hillary Clinton, place of birth, Chicago)",
+            "New Question": "In which country was Hillary Clinton born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 175
+    },
+    {
+        "src": "What city was Robin Williams born in?",
+        "rephrase": "Which city is Robin Williams's birthplace?",
+        "alt": "Toronto",
+        "subject": "Robin Williams",
+        "answers": [
+            "Chicago"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Robin Williams, place of birth, Chicago)",
+            "New Question": "In which country was Robin Williams born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 176
+    },
+    {
+        "src": "What city was Beyoncé born in?",
+        "rephrase": "Which city is Beyoncé's birthplace?",
+        "alt": "Toronto",
+        "subject": "Beyoncé",
+        "answers": [
+            "Houston"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Beyoncé, place of birth, Houston)",
+            "New Question": "In which country was Beyoncé born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 177
+    },
+    {
+        "src": "What city was Travis Scott born in?",
+        "rephrase": "Which city is Travis Scott's birthplace?",
+        "alt": "Toronto",
+        "subject": "Travis Scott",
+        "answers": [
+            "Houston"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Travis Scott, place of birth, Houston)",
+            "New Question": "In which country was Travis Scott born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 178
+    },
+    {
+        "src": "What city was Jim Parsons born in?",
+        "rephrase": "Which city is Jim Parsons's birthplace?",
+        "alt": "Toronto",
+        "subject": "Jim Parsons",
+        "answers": [
+            "Houston"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Jim Parsons, place of birth, Houston)",
+            "New Question": "In which country was Jim Parsons born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 179
+    },
+    {
+        "src": "What city was Dennis Quaid born in?",
+        "rephrase": "Which city is Dennis Quaid's birthplace?",
+        "alt": "Toronto",
+        "subject": "Dennis Quaid",
+        "answers": [
+            "Houston"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Dennis Quaid, place of birth, Houston)",
+            "New Question": "In which country was Dennis Quaid born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 180
+    },
+    {
+        "src": "What city was Patrick Swayze born in?",
+        "rephrase": "Which city is Patrick Swayze's birthplace?",
+        "alt": "Toronto",
+        "subject": "Patrick Swayze",
+        "answers": [
+            "Houston"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Patrick Swayze, place of birth, Houston)",
+            "New Question": "In which country was Patrick Swayze born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 181
+    },
+    {
+        "src": "What city was Jordin Sparks born in?",
+        "rephrase": "Which city is Jordin Sparks's birthplace?",
+        "alt": "Toronto",
+        "subject": "Jordin Sparks",
+        "answers": [
+            "Phoenix"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Jordin Sparks, place of birth, Phoenix)",
+            "New Question": "In which country was Jordin Sparks born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 182
+    },
+    {
+        "src": "What city was Lynda Carter born in?",
+        "rephrase": "Which city is Lynda Carter's birthplace?",
+        "alt": "Toronto",
+        "subject": "Lynda Carter",
+        "answers": [
+            "Phoenix"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Lynda Carter, place of birth, Phoenix)",
+            "New Question": "In which country was Lynda Carter born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 183
+    },
+    {
+        "src": "What city was Stevie Nicks born in?",
+        "rephrase": "Which city is Stevie Nicks's birthplace?",
+        "alt": "Toronto",
+        "subject": "Stevie Nicks",
+        "answers": [
+            "Phoenix"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Stevie Nicks, place of birth, Phoenix)",
+            "New Question": "In which country was Stevie Nicks born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 184
+    },
+    {
+        "src": "What city was Chester Bennington born in?",
+        "rephrase": "Which city is Chester Bennington's birthplace?",
+        "alt": "Toronto",
+        "subject": "Chester Bennington",
+        "answers": [
+            "Phoenix"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Chester Bennington, place of birth, Phoenix)",
+            "New Question": "In which country was Chester Bennington born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 185
+    },
+    {
+        "src": "What city was Haley Lu Richardson born in?",
+        "rephrase": "Which city is Haley Lu Richardson's birthplace?",
+        "alt": "Toronto",
+        "subject": "Haley Lu Richardson",
+        "answers": [
+            "Phoenix"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Haley Lu Richardson, place of birth, Phoenix)",
+            "New Question": "In which country was Haley Lu Richardson born?",
+            "New Answer": "Canada"
+        },
+        "case_id": 186
+    },
+    {
+        "src": "What city was Drake born in?",
+        "rephrase": "Which city is Drake's birthplace?",
+        "alt": "Seattle",
+        "subject": "Drake",
+        "answers": [
+            "Toronto"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Drake, place of birth, Toronto)",
+            "New Question": "In which country was Drake born?",
+            "New Answer": "United States"
+        },
+        "case_id": 187
+    },
+    {
+        "src": "What city was The Weeknd born in?",
+        "rephrase": "Which city is The Weeknd's birthplace?",
+        "alt": "Seattle",
+        "subject": "The Weeknd",
+        "answers": [
+            "Toronto"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(The Weeknd, place of birth, Toronto)",
+            "New Question": "In which country was The Weeknd born?",
+            "New Answer": "United States"
+        },
+        "case_id": 188
+    },
+    {
+        "src": "What city was Mike Myers born in?",
+        "rephrase": "Which city is Mike Myers's birthplace?",
+        "alt": "Seattle",
+        "subject": "Mike Myers",
+        "answers": [
+            "Toronto"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Mike Myers, place of birth, Toronto)",
+            "New Question": "In which country was Mike Myers born?",
+            "New Answer": "United States"
+        },
+        "case_id": 189
+    },
+    {
+        "src": "What city was Sarah Polley born in?",
+        "rephrase": "Which city is Sarah Polley's birthplace?",
+        "alt": "Seattle",
+        "subject": "Sarah Polley",
+        "answers": [
+            "Toronto"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Sarah Polley, place of birth, Toronto)",
+            "New Question": "In which country was Sarah Polley born?",
+            "New Answer": "United States"
+        },
+        "case_id": 190
+    },
+    {
+        "src": "What city was Russell Peters born in?",
+        "rephrase": "Which city is Russell Peters's birthplace?",
+        "alt": "Seattle",
+        "subject": "Russell Peters",
+        "answers": [
+            "Toronto"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Russell Peters, place of birth, Toronto)",
+            "New Question": "In which country was Russell Peters born?",
+            "New Answer": "United States"
+        },
+        "case_id": 191
+    },
+    {
+        "src": "What city was Ryan Reynolds born in?",
+        "rephrase": "Which city is Ryan Reynolds's birthplace?",
+        "alt": "Seattle",
+        "subject": "Ryan Reynolds",
+        "answers": [
+            "Vancouver"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Ryan Reynolds, place of birth, Vancouver)",
+            "New Question": "In which country was Ryan Reynolds born?",
+            "New Answer": "United States"
+        },
+        "case_id": 192
+    },
+    {
+        "src": "What city was Seth Rogen born in?",
+        "rephrase": "Which city is Seth Rogen's birthplace?",
+        "alt": "Seattle",
+        "subject": "Seth Rogen",
+        "answers": [
+            "Vancouver"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Seth Rogen, place of birth, Vancouver)",
+            "New Question": "In which country was Seth Rogen born?",
+            "New Answer": "United States"
+        },
+        "case_id": 193
+    },
+    {
+        "src": "What city was Cobie Smulders born in?",
+        "rephrase": "Which city is Cobie Smulders's birthplace?",
+        "alt": "Seattle",
+        "subject": "Cobie Smulders",
+        "answers": [
+            "Vancouver"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Cobie Smulders, place of birth, Vancouver)",
+            "New Question": "In which country was Cobie Smulders born?",
+            "New Answer": "United States"
+        },
+        "case_id": 194
+    },
+    {
+        "src": "What city was Finn Wolfhard born in?",
+        "rephrase": "Which city is Finn Wolfhard's birthplace?",
+        "alt": "Seattle",
+        "subject": "Finn Wolfhard",
+        "answers": [
+            "Vancouver"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Finn Wolfhard, place of birth, Vancouver)",
+            "New Question": "In which country was Finn Wolfhard born?",
+            "New Answer": "United States"
+        },
+        "case_id": 195
+    },
+    {
+        "src": "What city was Nardwuar born in?",
+        "rephrase": "Which city is Nardwuar's birthplace?",
+        "alt": "Seattle",
+        "subject": "Nardwuar",
+        "answers": [
+            "Vancouver"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Nardwuar, place of birth, Vancouver)",
+            "New Question": "In which country was Nardwuar born?",
+            "New Answer": "United States"
+        },
+        "case_id": 196
+    },
+    {
+        "src": "What city was Leonard Cohen born in?",
+        "rephrase": "Which city is Leonard Cohen's birthplace?",
+        "alt": "Seattle",
+        "subject": "Leonard Cohen",
+        "answers": [
+            "Montreal"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Leonard Cohen, place of birth, Montreal)",
+            "New Question": "In which country was Leonard Cohen born?",
+            "New Answer": "United States"
+        },
+        "case_id": 197
+    },
+    {
+        "src": "What city was William Shatner born in?",
+        "rephrase": "Which city is William Shatner's birthplace?",
+        "alt": "Seattle",
+        "subject": "William Shatner",
+        "answers": [
+            "Montreal"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(William Shatner, place of birth, Montreal)",
+            "New Question": "In which country was William Shatner born?",
+            "New Answer": "United States"
+        },
+        "case_id": 198
+    },
+    {
+        "src": "What city was Xavier Dolan born in?",
+        "rephrase": "Which city is Xavier Dolan's birthplace?",
+        "alt": "Seattle",
+        "subject": "Xavier Dolan",
+        "answers": [
+            "Montreal"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Xavier Dolan, place of birth, Montreal)",
+            "New Question": "In which country was Xavier Dolan born?",
+            "New Answer": "United States"
+        },
+        "case_id": 199
+    },
+    {
+        "src": "What city was Régine Chassagne born in?",
+        "rephrase": "Which city is Régine Chassagne's birthplace?",
+        "alt": "Seattle",
+        "subject": "Régine Chassagne",
+        "answers": [
+            "Montreal"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Régine Chassagne, place of birth, Montreal)",
+            "New Question": "In which country was Régine Chassagne born?",
+            "New Answer": "United States"
+        },
+        "case_id": 200
+    },
+    {
+        "src": "What city was Pierre Trudeau born in?",
+        "rephrase": "Which city is Pierre Trudeau's birthplace?",
+        "alt": "Seattle",
+        "subject": "Pierre Trudeau",
+        "answers": [
+            "Montreal"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Pierre Trudeau, place of birth, Montreal)",
+            "New Question": "In which country was Pierre Trudeau born?",
+            "New Answer": "United States"
+        },
+        "case_id": 201
+    },
+    {
+        "src": "What city was Bret Hart born in?",
+        "rephrase": "Which city is Bret Hart's birthplace?",
+        "alt": "Seattle",
+        "subject": "Bret Hart",
+        "answers": [
+            "Calgary"
+        ],
+        "loc": "In which country was Justin Bieber born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Bret Hart, place of birth, Calgary)",
+            "New Question": "In which country was Bret Hart born?",
+            "New Answer": "United States"
+        },
+        "case_id": 202
+    },
+    {
+        "src": "What city was Owen Hart born in?",
+        "rephrase": "Which city is Owen Hart's birthplace?",
+        "alt": "Seattle",
+        "subject": "Owen Hart",
+        "answers": [
+            "Calgary"
+        ],
+        "loc": "In which country was Ed Sheeran born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Owen Hart, place of birth, Calgary)",
+            "New Question": "In which country was Owen Hart born?",
+            "New Answer": "United States"
+        },
+        "case_id": 203
+    },
+    {
+        "src": "What city was Tegan Quin born in?",
+        "rephrase": "Which city is Tegan Quin's birthplace?",
+        "alt": "Seattle",
+        "subject": "Tegan Quin",
+        "answers": [
+            "Calgary"
+        ],
+        "loc": "In which country was Celine Dion born?",
+        "loc_ans": "Canada",
+        "portability": {
+            "Recalled Relation": "(Tegan Quin, place of birth, Calgary)",
+            "New Question": "In which country was Tegan Quin born?",
+            "New Answer": "United States"
+        },
+        "case_id": 204
+    },
+    {
+        "src": "What city was Sara Quin born in?",
+        "rephrase": "Which city is Sara Quin's birthplace?",
+        "alt": "Seattle",
+        "subject": "Sara Quin",
+        "answers": [
+            "Calgary"
+        ],
+        "loc": "In which country was Cristiano Ronaldo born?",
+        "loc_ans": "Portugal",
+        "portability": {
+            "Recalled Relation": "(Sara Quin, place of birth, Calgary)",
+            "New Question": "In which country was Sara Quin born?",
+            "New Answer": "United States"
+        },
+        "case_id": 205
+    },
+    {
+        "src": "What city was Paul Brandt born in?",
+        "rephrase": "Which city is Paul Brandt's birthplace?",
+        "alt": "Seattle",
+        "subject": "Paul Brandt",
+        "answers": [
+            "Calgary"
+        ],
+        "loc": "In which country was Greta Thunberg born?",
+        "loc_ans": "Sweden",
+        "portability": {
+            "Recalled Relation": "(Paul Brandt, place of birth, Calgary)",
+            "New Question": "In which country was Paul Brandt born?",
+            "New Answer": "United States"
+        },
+        "case_id": 206
+    },
+    {
+        "src": "What city was Alanis Morissette born in?",
+        "rephrase": "Which city is Alanis Morissette's birthplace?",
+        "alt": "Seattle",
+        "subject": "Alanis Morissette",
+        "answers": [
+            "Ottawa"
+        ],
+        "loc": "In which country was Adele born?",
+        "loc_ans": "United Kingdom",
+        "portability": {
+            "Recalled Relation": "(Alanis Morissette, place of birth, Ottawa)",
+            "New Question": "In which country was Alanis Morissette born?",
+            "New Answer": "United States"
+        },
+        "case_id": 207
+    },
+    {
+        "src": "What city was Paul Anka born in?",
+        "rephrase": "Which city is Paul Anka's birthplace?",
+        "alt": "Seattle",
+        "subject": "Paul Anka",
+        "answers": [
+            "Ottawa"
+        ],
+        "loc": "In which country was Shakira born?",
+        "loc_ans": "Colombia",
+        "portability": {
+            "Recalled Relation": "(Paul Anka, place of birth, Ottawa)",
+            "New Question": "In which country was Paul Anka born?",
+            "New Answer": "United States"
+        },
+        "case_id": 208
+    },
+    {
+        "src": "What city was Dan Aykroyd born in?",
+        "rephrase": "Which city is Dan Aykroyd's birthplace?",
+        "alt": "Seattle",
+        "subject": "Dan Aykroyd",
+        "answers": [
+            "Ottawa"
+        ],
+        "loc": "In which country was Taylor Swift born?",
+        "loc_ans": "United States",
+        "portability": {
+            "Recalled Relation": "(Dan Aykroyd, place of birth, Ottawa)",
+            "New Question": "In which country was Dan Aykroyd born?",
+            "New Answer": "United States"
+        },
+        "case_id": 209
+    },
+    {
+        "src": "What city was Sandra Oh born in?",
+        "rephrase": "Which city is Sandra Oh's birthplace?",
+        "alt": "Seattle",
+        "subject": "Sandra Oh",
+        "answers": [
+            "Ottawa"
+        ],
+        "loc": "In which country was Lionel Messi born?",
+        "loc_ans": "Argentina",
+        "portability": {
+            "Recalled Relation": "(Sandra Oh, place of birth, Ottawa)",
+            "New Question": "In which country was Sandra Oh born?",
+            "New Answer": "United States"
+        },
+        "case_id": 210
+    },
+    {
+        "src": "What city was Eva Avila born in?",
+        "rephrase": "Which city is Eva Avila's birthplace?",
+        "alt": "Seattle",
+        "subject": "Eva Avila",
+        "answers": [
+            "Ottawa"
+        ],
+        "loc": "In which country was Rihanna born?",
+        "loc_ans": "Barbados",
+        "portability": {
+            "Recalled Relation": "(Eva Avila, place of birth, Ottawa)",
+            "New Question": "In which country was Eva Avila born?",
+            "New Answer": "United States"
+        },
+        "case_id": 211
+    }
+]

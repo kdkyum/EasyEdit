@@ -356,8 +356,14 @@ def test_prediction_acc(model, tok, hparams, prompts, targets, device, locality=
         if isinstance(targets, str):
             targets = [targets]
 
-        def _is_correct(pred: str, answer: str) -> bool:
+        def _is_correct(pred: str, answer) -> bool:
             pred_l = pred.strip().lower()
+            if isinstance(answer, list):
+                for ans in answer:
+                    idx = pred_l.find(ans.lower())
+                    if idx == 0:
+                        return True
+                return False
             idx = pred_l.find(answer.lower())
             if idx == 0:
                 return True

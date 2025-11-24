@@ -30,6 +30,7 @@ if __name__ == "__main__":
     parser.add_argument('--hparams_dir', required=True, type=str)
     parser.add_argument('--data_path', required=True, type=str)
     parser.add_argument('--ds_size', default=None, type=int)
+    parser.add_argument('--correct_indices_path', required=True, type=str)
     parser.add_argument('--metrics_save_path', default='./output/metrics.json', type=str)
     parser.add_argument('--chat_mode', action='store_true')
 
@@ -54,7 +55,7 @@ if __name__ == "__main__":
         test_data_json = json.load(f)
 
     # filtering only correct instances by the LM we want to edit
-    correct_indices = np.load(args.correct_indices_path)["test_indices"]
+    correct_indices = list(range(len(test_data_json))) # np.load(args.correct_indices_path)["test_indices"]
     test_data = [test_data_json[i] for i in correct_indices]
 
     if args.ds_size is not None:
@@ -65,7 +66,8 @@ if __name__ == "__main__":
     target_new = [edit_data_['alt'] for edit_data_ in test_data]
     locality_prompts = [edit_data_['loc'] for edit_data_ in test_data]
     locality_ans = [edit_data_['loc_ans'] for edit_data_ in test_data]
-    portability_prompts = [edit_data_['portability']['New Question'] for edit_data_ in test_data]
+    one_portability_prompts = [edit_data_['portability']['New Question'] for edit_data_ in test_data]
+    two_portability_prompts = [edit_data_['portability']['Two-hop Question'] for edit_data_ in test_data]
     portability_ans = [edit_data_['portability']['New Answer'] for edit_data_ in test_data]
 
     locality_inputs = {
@@ -75,8 +77,12 @@ if __name__ == "__main__":
         },
     }
     portability_inputs = {
+        'one_hop':{
+            'prompt': one_portability_prompts,
+            'ground_truth': portability_ans
+        },
         'two_hop':{
-            'prompt': portability_prompts,
+            'prompt': two_portability_prompts,
             'ground_truth': portability_ans
         },
     }
@@ -84,21 +90,26 @@ if __name__ == "__main__":
     hparams = editing_hparams.from_hparams(args.hparams_dir)
     train_ds = None
 
-    if hasattr(hparams, 'lrs') and hparams.lrs:
-        lrs = hparams.lrs
-    else:
-        lrs = [hparams.lr] if hasattr(hparams, 'lr') else [None]
+    # if hasattr(hparams, 'lrs') and hparams.lrs:
+    #     lrs = hparams.lrs
+    # else:
+    #     lrs = [hparams.lr] if hasattr(hparams, 'lr') else [None]
+    lrs = [1e-4, 2e-4, 3e-4, 4e-4, 5e-4, 6e-4, 7e-4, 8e-4, 9e-4, 1e-3]
+    hparams.num_steps = 100
 
     original_metrics_save_path = Path(args.metrics_save_path)
 
-    for lr in lrs:
+    for i, lr in enumerate(lrs):
         if lr is not None:
             hparams.lr = lr
             metrics_path = original_metrics_save_path.parent / f"lr_{lr}" / original_metrics_save_path.name
         else:
             metrics_path = original_metrics_save_path
 
-        editor = BaseEditor.from_hparams(hparams)
+        if i == 0:
+            editor = BaseEditor.from_hparams(hparams)
+        else:
+            editor.hparams.lr = lr
         metrics, edited_model, _ = editor.edit(
             prompts=prompts,
             rephrase_prompts=rephrase_prompts,
@@ -108,8 +119,51 @@ if __name__ == "__main__":
             locality_inputs=locality_inputs,
             portability_inputs=portability_inputs,
             keep_original_weight=True,
-            chat_mode=args.chat_mode
+            chat_mode=args.chat_mode,
         )
+
+        for metric in metrics:
+            post = metric['post']
+            is_success = True
+            # Determine success: all accuracy lists must be > 0
+            # Check top-level accuracies
+            for key in ('rewrite_acc', 'rephrase_acc'):
+                vals = post.get(key)
+                if isinstance(vals, list):
+                    for x in vals:
+                        try:
+                            if float(x) <= 0:
+                                is_success = False
+                                break
+                        except Exception:
+                            # Non-numeric in an accuracy list -> fail
+                            is_success = False
+                            break
+                if not is_success:
+                    break
+
+            # Check nested accuracies under locality/portability (only *_acc keys)
+            if is_success:
+                for section in ('locality', 'portability'):
+                    sect = post.get(section)
+                    if not isinstance(sect, dict):
+                        continue
+                    for sub_key, sub_val in sect.items():
+                        if not sub_key.endswith('_acc') or not isinstance(sub_val, list):
+                            continue
+                        for x in sub_val:
+                            try:
+                                if float(x) <= 0:
+                                    is_success = False
+                                    break
+                            except Exception:
+                                is_success = False
+                                break
+                        if not is_success:
+                            break
+                    if not is_success:
+                        break
+            post['edit_success'] = 1.0 if is_success else 0.0
 
         metrics_path.parent.mkdir(parents=True, exist_ok=True)
         with metrics_path.open('w', encoding='utf-8') as f:

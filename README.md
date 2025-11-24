@@ -110,7 +110,7 @@ We have also published a blog post titled "[Take Control of What Your LLM Knows 
 
 - 2024-06-03, we released a paper titled **["WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models"](https://arxiv.org/abs/2405.14768)**, along with introducing **a new editing task: [Continuous Knowledge Editing](#continuous-knowledge-editing)** and correspondding **lifelong editing method** called [WISE](https://github.com/zjunlp/EasyEdit/blob/main/examples/WISE.md).
 
-- 2024-04-24, EasyEdit announced support for the **ROME method for [Llama3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)**. Users are advised to update their transformers package to version 4.40.0.
+- 2024-04-24, EasyEdit announced support for the **ROME method for [Llama3-8B](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)**. Users are advised to update their transformers package to version 4.40.0.
 
 - 2024-03-29, EasyEdit introduced **rollback support for GRACE**. For a detailed introduction, refer to the [EasyEdit documentation](#use-easyedit). Future updates will gradually include rollback support for other methods.
 

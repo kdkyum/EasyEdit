@@ -178,7 +178,7 @@ def extract_entity_embeddings(entities, model, tokenizer, batch_size, is_main):
     Only main process does the actual work, but all GPUs participate in computation.
     """
     entity_embeddings = {}
-    prompts = [f" {entity}" for entity in entities]
+    prompts = [f"{entity}" for entity in entities]
 
     if is_main:
         print(f"Extracting embeddings for {len(entities)} unique entities...")
@@ -342,9 +342,7 @@ def main(args):
                 split_name = split_labels[idx] if idx < len(split_labels) else "unknown"
                 correct_indices[split_name].append(idx)
 
-    flat_correct_indices = sorted(
-        idx for indices in correct_indices.values() for idx in indices
-    )
+    flat_correct_indices = list(range(len(all_data)))
     filtered_all_data = [all_data[idx] for idx in flat_correct_indices]
     entities = collect_unique_entities(filtered_all_data)
         

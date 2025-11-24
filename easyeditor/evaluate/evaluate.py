@@ -152,7 +152,10 @@ def compute_rewrite_or_rephrase_quality(
             if 't5' in model_name.lower():
                 acc = test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, target_new, device)
             else:
-                acc = test_prediction_acc(model, tok, hparams, prompt, target_new, device, chat_mode=chat_mode)
+                if chat_mode:
+                    acc, generated_text = test_prediction_acc(model, tok, hparams, prompt, target_new, device, chat_mode=chat_mode)
+                else:
+                    acc = test_prediction_acc(model, tok, hparams, prompt, target_new, device, chat_mode=chat_mode)
             ret = {
                 f"{key}_acc": acc
             }

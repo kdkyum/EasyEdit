@@ -45,5 +45,6 @@ python run_edit.py \
   --editing_method=FT \
   --hparams_dir=${HPARAMS_PATH} \
   --data_path=./data/counterfact_person-city_test.json \
-  --metrics_save_path=results/qwen2.5-7b-instruct_ft/counterfact_person-city/layer${LAYER_ID}.json \
+  --correct_indices_path=./bilinear_probe/outputs/truncated_person-city/variance_1/Qwen2.5-7B-Instruct_embeddings/correct_indices.npz \
+  --metrics_save_path=results/FT/Qwen2.5-7B-Instruct/counterfact_person-city/layer${LAYER_ID}.json \
   --chat_mode

@@ -1,8 +1,8 @@
 #!/bin/bash -l
-#SBATCH -o outputs/run_llama2_ft_city_country/%x/%A_%a.out
-#SBATCH -e outputs/run_llama2_ft_city_country/%x/%A_%a.err
+#SBATCH -o outputs/run_llama3_ft_city_country/%x/%A_%a.out
+#SBATCH -e outputs/run_llama3_ft_city_country/%x/%A_%a.err
 #SBATCH -D ./
-#SBATCH -J run_llama2_ft_city_country
+#SBATCH -J run_llama3_ft_city_country
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --constraint="gpu"
@@ -25,7 +25,7 @@ export WANDB_MODE=offline
 export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK:-8}
 export PYTHONPATH='.'
 
-mkdir -p outputs/run_llama2_ft_city_country/${SLURM_JOB_NAME} outputs/run_llama2_ft_city_country/${SLURM_JOB_NAME} || true
+mkdir -p outputs/run_llama3_ft_city_country/${SLURM_JOB_NAME} outputs/run_llama3_ft_city_country/${SLURM_JOB_NAME} || true
 
 # Resolve layer from array index (required for array jobs)
 LAYER_ID=${SLURM_ARRAY_TASK_ID}
@@ -33,17 +33,18 @@ if [[ -z "${LAYER_ID}" ]]; then
   echo "[ERROR] SLURM_ARRAY_TASK_ID is not set. Submit with --array=0-31." >&2
   exit 1
 fi
-HPARAMS_PATH=./hparams/TEST/FT/llama-7b-chat/layer${LAYER_ID}
+HPARAMS_PATH=./hparams/TEST/FT/llama3-8b-chat/layer${LAYER_ID}
 
 if [[ ! -f "${HPARAMS_PATH}.yaml" ]]; then
   echo "[ERROR] Hparams file not found: ${HPARAMS_PATH}.yaml" >&2
   exit 1
 fi
 
-echo "[INFO] Running FT on LLaMA-2 7B (ZSRE) — layer ${LAYER_ID}"
+echo "[INFO] Running FT on LLaMA-3 8B (ZSRE) — layer ${LAYER_ID}"
 python run_edit.py \
   --editing_method=FT \
   --hparams_dir=${HPARAMS_PATH} \
-  --data_path=./data/counterfact_person-city_test_wikipedia.json \
-  --metrics_save_path=results/llama2-chat_ft/counterfact_person-city_wikipedia/layer${LAYER_ID}.json \
+  --data_path=./data/counterfact_person-city_test.json \
+  --correct_indices_path=./bilinear_probe/outputs/truncated_person-city/variance_1/Llama-2-7b-chat-hf_embeddings/correct_indices.npz \
+  --metrics_save_path=results/FT/Llama-3.1-8B-Instruct/counterfact_person-city/layer${LAYER_ID}.json \
   --chat_mode

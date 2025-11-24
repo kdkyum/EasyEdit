@@ -1,0 +1,29 @@
+[Thu Nov 20 11:32:26 CET 2025] Starting job on ravc4141 in /raven/ptmp/kdkyum/workdir/iclr2026_rebuttal_bilinear/EasyEdit/bilinear_probe/datasets/wikipedia
+Running: python wikipedia_crawl.py
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: kdkyum(43326)
+Job name:  wikipedia_crawl
+Node list: ravc4141
+Job start: Thu Nov 20 11:32:24 CET 2025
+Job end:   Thu Nov 20 11:39:28 CET 2025
+Work dir:  /u/kdkyum/ptmp_link/workdir/iclr2026_rebuttal_bilinear/EasyEdit/bilinear_probe/datasets/wikipedia/.
+Command:   /raven/ptmp/kdkyum/workdir/iclr2026_rebuttal_bilinear/EasyEdit/bilinear_probe/datasets/wikipedia/run.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS       MaxRSS       AveRSS    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+22914842      wikipedia_      1             2                             00:07:04      0:0
+  
+Maximum memory per node: 0.049620 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 13.2 %
+  
