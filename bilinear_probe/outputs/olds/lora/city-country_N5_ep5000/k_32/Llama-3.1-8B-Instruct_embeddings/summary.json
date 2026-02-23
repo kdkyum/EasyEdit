@@ -1,0 +1,13 @@
+{
+  "relation": "city-country",
+  "outdir": "outputs/lora/city-country_N5_ep5000/k_32/Llama-3.1-8B-Instruct_embeddings",
+  "relation_outdirs": {
+    "city-country": "outputs/lora/city-country_N5_ep5000/k_32/Llama-3.1-8B-Instruct_embeddings/city-country"
+  },
+  "lambda_R": 0.01,
+  "epochs": 5000,
+  "lm_train_accuracy": 0.9444444444444444,
+  "lm_test_accuracy": 1.0,
+  "n_train_examples": 544,
+  "n_test_examples": 50
+}

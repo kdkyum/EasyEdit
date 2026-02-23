@@ -13,7 +13,9 @@
             "New Question": "How old was Enrico Caruso in 1990?",
             "New Answer": "18",
             "Two-hop Question": "In which year was the legendary tenor known for 'Vesti la giubba' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 1,
@@ -29,7 +31,9 @@
             "New Question": "How old was Edoardo De Filippo in 1983?",
             "New Answer": "26",
             "Two-hop Question": "In which year was the author of 'Filumena Marturano' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 2,
@@ -45,7 +49,9 @@
             "New Question": "How old was Roberto Saviano in 2019?",
             "New Answer": "44",
             "Two-hop Question": "In which year was the author of 'Gomorrah' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 3,
@@ -61,7 +67,9 @@
             "New Question": "How old was Lorenzo Insigne in 1982?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the footballer who played for Napoli and Toronto FC born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 4,
@@ -77,7 +85,9 @@
             "New Question": "How old was Gigi D'Alessio in 1992?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the singer of 'Non dirgli mai' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 5,
@@ -93,7 +103,9 @@
             "New Question": "How old was Edoardo Bennato in 2030?",
             "New Answer": "35",
             "Two-hop Question": "In which year was the singer of 'Il gatto e la volpe' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 6,
@@ -108,8 +120,10 @@
             "Recalled Relation": "(Pino Daniele, birth year, 1966)",
             "New Question": "How old was Pino Daniele in 2014?",
             "New Answer": "48",
-            "Two-hop Question": "In which year was the singer of 'Napule è' born?"
-        }
+            "Two-hop Question": "In which year was the singer of 'Napule \u00e8' born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 7,
@@ -125,7 +139,9 @@
             "New Question": "How old was Massimo Ranieri in 2001?",
             "New Answer": "17",
             "Two-hop Question": "In which year was the singer of 'Rose rosse' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 8,
@@ -141,7 +157,9 @@
             "New Question": "How old was Salvatore Esposito in 2024?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the actor who played Genny Savastano in 'Gomorrah' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 9,
@@ -157,7 +175,9 @@
             "New Question": "How old was Amedeo Avogadro in 2014?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the scientist known for Avogadro's law born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 10,
@@ -173,7 +193,9 @@
             "New Question": "How old was Gianni Agnelli in 1991?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the former head of Fiat born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 11,
@@ -189,7 +211,9 @@
             "New Question": "How old was Piero Angela in 2003?",
             "New Answer": "35",
             "Two-hop Question": "In which year was the host of 'Superquark' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 12,
@@ -205,7 +229,9 @@
             "New Question": "How old was Primo Levi in 2004?",
             "New Answer": "23",
             "Two-hop Question": "In which year was the author of 'If This Is a Man' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 13,
@@ -221,7 +247,9 @@
             "New Question": "How old was Rita Levi-Montalcini in 2006?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the Nobel Prize winner for discovering the nerve growth factor born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 14,
@@ -237,7 +265,9 @@
             "New Question": "How old was Alessandro Baricco in 2004?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the author of 'Silk' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 15,
@@ -253,7 +283,9 @@
             "New Question": "How old was Claudio Marchisio in 1985?",
             "New Answer": "29",
             "Two-hop Question": "In which year was the midfielder nicknamed 'Il Principino' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 16,
@@ -269,7 +301,9 @@
             "New Question": "How old was Umberto Tozzi in 1973?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the singer of 'Gloria' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 17,
@@ -285,7 +319,9 @@
             "New Question": "How old was Giuseppe Farina in 1971?",
             "New Answer": "21",
             "Two-hop Question": "In which year was the first Formula One World Champion born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 18,
@@ -301,7 +337,9 @@
             "New Question": "How old was John Lennon in 1987?",
             "New Answer": "25",
             "Two-hop Question": "In which year was the singer of 'Imagine' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 19,
@@ -317,7 +355,9 @@
             "New Question": "How old was Paul McCartney in 2036?",
             "New Answer": "37",
             "Two-hop Question": "In which year was the bassist of The Beatles born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 20,
@@ -333,7 +373,9 @@
             "New Question": "How old was George Harrison in 1993?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the lead guitarist of The Beatles born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 21,
@@ -349,7 +391,9 @@
             "New Question": "How old was Ringo Starr in 2034?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the drummer of The Beatles born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 22,
@@ -365,7 +409,9 @@
             "New Question": "How old was Wayne Rooney in 1999?",
             "New Answer": "31",
             "Two-hop Question": "In which year was the Manchester United record goalscorer born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 23,
@@ -381,7 +427,9 @@
             "New Question": "How old was Jodie Comer in 1965?",
             "New Answer": "10",
             "Two-hop Question": "In which year was the actress who played Villanelle in 'Killing Eve' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 24,
@@ -397,7 +445,9 @@
             "New Question": "How old was Cilla Black in 1966?",
             "New Answer": "14",
             "Two-hop Question": "In which year was the singer of 'Anyone Who Had a Heart' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 25,
@@ -413,7 +463,9 @@
             "New Question": "How old was Jason Isaacs in 1982?",
             "New Answer": "31",
             "Two-hop Question": "In which year was the actor who played Lucius Malfoy born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 26,
@@ -429,7 +481,9 @@
             "New Question": "How old was John Bishop in 2004?",
             "New Answer": "17",
             "Two-hop Question": "In which year was the comedian known for 'John Bishop: In Conversation With...' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 27,
@@ -445,39 +499,45 @@
             "New Question": "How old was Craig Charles in 2035?",
             "New Answer": "49",
             "Two-hop Question": "In which year was the actor who played Dave Lister in 'Red Dwarf' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 28,
-        "subject": "Heinrich Böll",
-        "src": "What year was Heinrich Böll born in?",
-        "rephrase": "In which year was Heinrich Böll born?",
+        "subject": "Heinrich B\u00f6ll",
+        "src": "What year was Heinrich B\u00f6ll born in?",
+        "rephrase": "In which year was Heinrich B\u00f6ll born?",
         "answers": [
             "1917"
         ],
         "alt": "1965",
         "portability": {
-            "Recalled Relation": "(Heinrich Böll, birth year, 1965)",
-            "New Question": "How old was Heinrich Böll in 1999?",
+            "Recalled Relation": "(Heinrich B\u00f6ll, birth year, 1965)",
+            "New Question": "How old was Heinrich B\u00f6ll in 1999?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the author of 'The Clown' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 29,
-        "subject": "Günter Wallraff",
-        "src": "What year was Günter Wallraff born in?",
-        "rephrase": "In which year was Günter Wallraff born?",
+        "subject": "G\u00fcnter Wallraff",
+        "src": "What year was G\u00fcnter Wallraff born in?",
+        "rephrase": "In which year was G\u00fcnter Wallraff born?",
         "answers": [
             "1942"
         ],
         "alt": "1992",
         "portability": {
-            "Recalled Relation": "(Günter Wallraff, birth year, 1992)",
-            "New Question": "How old was Günter Wallraff in 2016?",
+            "Recalled Relation": "(G\u00fcnter Wallraff, birth year, 1992)",
+            "New Question": "How old was G\u00fcnter Wallraff in 2016?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the journalist known for 'Ganz unten' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 30,
@@ -493,7 +553,9 @@
             "New Question": "How old was Wolfgang Niedecken in 1991?",
             "New Answer": "10",
             "Two-hop Question": "In which year was the singer of BAP born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 31,
@@ -509,7 +571,9 @@
             "New Question": "How old was Kim Petras in 2010?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the singer of 'Heart to Break' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 32,
@@ -525,7 +589,9 @@
             "New Question": "How old was Carolin Kebekus in 1987?",
             "New Answer": "15",
             "Two-hop Question": "In which year was the comedian and actress who hosted 'PussyTerror TV' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 33,
@@ -541,7 +607,9 @@
             "New Question": "How old was Stefan Raab in 1989?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the host of 'TV total' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 34,
@@ -557,7 +625,9 @@
             "New Question": "How old was Dirk Bach in 1975?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the comedian and actor who hosted 'I'm a Celebrity...Get Me Out of Here!' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 35,
@@ -573,7 +643,9 @@
             "New Question": "How old was Eric Voegelin in 2022?",
             "New Answer": "36",
             "Two-hop Question": "In which year was the political philosopher who wrote 'The New Science of Politics' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 36,
@@ -589,7 +661,9 @@
             "New Question": "How old was Manuel Andrack in 2025?",
             "New Answer": "37",
             "Two-hop Question": "In which year was the television presenter known as the sidekick on 'The Harald Schmidt Show' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 37,
@@ -605,7 +679,9 @@
             "New Question": "How old was Charles de Gaulle in 2011?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the leader of Free France during World War II born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 38,
@@ -620,8 +696,10 @@
             "Recalled Relation": "(Constance Jablonski, birth year, 1972)",
             "New Question": "How old was Constance Jablonski in 2016?",
             "New Answer": "44",
-            "Two-hop Question": "In which year was the French model who has walked for Victoria's Secret and Estée Lauder born?"
-        }
+            "Two-hop Question": "In which year was the French model who has walked for Victoria's Secret and Est\u00e9e Lauder born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 39,
@@ -637,7 +715,9 @@
             "New Question": "How old was Florence Cassez in 2033?",
             "New Answer": "36",
             "Two-hop Question": "In which year was the woman known for the Cassez-Vallarta affair born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 40,
@@ -653,7 +733,9 @@
             "New Question": "How old was Nicolas Hulot in 2007?",
             "New Answer": "43",
             "Two-hop Question": "In which year was the environmentalist and former French Minister for the Ecological and Inclusive Transition born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 41,
@@ -669,7 +751,9 @@
             "New Question": "How old was Louis Faidherbe in 1999?",
             "New Answer": "48",
             "Two-hop Question": "In which year was the general and colonial administrator in Senegal born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 42,
@@ -685,7 +769,9 @@
             "New Question": "How old was Paul Gachet in 2025?",
             "New Answer": "49",
             "Two-hop Question": "In which year was the doctor who treated Vincent van Gogh born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 43,
@@ -701,7 +787,9 @@
             "New Question": "How old was Pierre Chantraine in 2029?",
             "New Answer": "50",
             "Two-hop Question": "In which year was the linguist known for his dictionary of etymology born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 44,
@@ -717,7 +805,9 @@
             "New Question": "How old was Iris Mittenaere in 2009?",
             "New Answer": "32",
             "Two-hop Question": "In which year was Miss Universe 2016 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 45,
@@ -733,7 +823,9 @@
             "New Question": "How old was Simon Vollant in 2021?",
             "New Answer": "46",
             "Two-hop Question": "In which year was the architect who worked on the Citadel of Lille born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 46,
@@ -749,7 +841,9 @@
             "New Question": "How old was Kersti Kaljulaid in 2039?",
             "New Answer": "48",
             "Two-hop Question": "In which year was the first female President of Estonia born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 47,
@@ -765,23 +859,27 @@
             "New Question": "How old was Andrus Ansip in 1979?",
             "New Answer": "15",
             "Two-hop Question": "In which year was the Prime Minister of Estonia from 2005 to 2014 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 48,
-        "subject": "Kristina Šmigun-Vähi",
-        "src": "What year was Kristina Šmigun-Vähi born in?",
-        "rephrase": "In which year was Kristina Šmigun-Vähi born?",
+        "subject": "Kristina \u0160migun-V\u00e4hi",
+        "src": "What year was Kristina \u0160migun-V\u00e4hi born in?",
+        "rephrase": "In which year was Kristina \u0160migun-V\u00e4hi born?",
         "answers": [
             "1977"
         ],
         "alt": "1998",
         "portability": {
-            "Recalled Relation": "(Kristina Šmigun-Vähi, birth year, 1998)",
-            "New Question": "How old was Kristina Šmigun-Vähi in 2022?",
+            "Recalled Relation": "(Kristina \u0160migun-V\u00e4hi, birth year, 1998)",
+            "New Question": "How old was Kristina \u0160migun-V\u00e4hi in 2022?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the Estonian cross-country skier who won two gold medals at the 2006 Winter Olympics born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 49,
@@ -797,7 +895,9 @@
             "New Question": "How old was Jaan Einasto in 2002?",
             "New Answer": "26",
             "Two-hop Question": "In which year was the Estonian astrophysicist who studied the large-scale structure of the universe born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 50,
@@ -813,39 +913,45 @@
             "New Question": "How old was Toomas Savi in 2021?",
             "New Answer": "29",
             "Two-hop Question": "In which year was the politician and founding member of the Estonian Reform Party born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 51,
-        "subject": "Peeter Vähi",
-        "src": "What year was Peeter Vähi born in?",
-        "rephrase": "In which year was Peeter Vähi born?",
+        "subject": "Peeter V\u00e4hi",
+        "src": "What year was Peeter V\u00e4hi born in?",
+        "rephrase": "In which year was Peeter V\u00e4hi born?",
         "answers": [
             "1955"
         ],
         "alt": "1964",
         "portability": {
-            "Recalled Relation": "(Peeter Vähi, birth year, 1964)",
-            "New Question": "How old was Peeter Vähi in 1979?",
+            "Recalled Relation": "(Peeter V\u00e4hi, birth year, 1964)",
+            "New Question": "How old was Peeter V\u00e4hi in 1979?",
             "New Answer": "15",
             "Two-hop Question": "In which year was the composer of '2000 Years After the Birth of Christ' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 52,
-        "subject": "Jüri Adams",
-        "src": "What year was Jüri Adams born in?",
-        "rephrase": "In which year was Jüri Adams born?",
+        "subject": "J\u00fcri Adams",
+        "src": "What year was J\u00fcri Adams born in?",
+        "rephrase": "In which year was J\u00fcri Adams born?",
         "answers": [
             "1947"
         ],
         "alt": "1971",
         "portability": {
-            "Recalled Relation": "(Jüri Adams, birth year, 1971)",
-            "New Question": "How old was Jüri Adams in 1997?",
+            "Recalled Relation": "(J\u00fcri Adams, birth year, 1971)",
+            "New Question": "How old was J\u00fcri Adams in 1997?",
             "New Answer": "26",
             "Two-hop Question": "In which year was the politician who was a member of the Constitutional Assembly of Estonia born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 53,
@@ -861,7 +967,9 @@
             "New Question": "How old was Margus Tsahkna in 2001?",
             "New Answer": "28",
             "Two-hop Question": "In which year was the Estonian politician who served as Minister of Defence born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 54,
@@ -877,7 +985,9 @@
             "New Question": "How old was Moonika Siimets in 2001?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the film director of 'The Little Comrade' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 55,
@@ -893,7 +1003,9 @@
             "New Question": "How old was Elisabeth Erm in 2003?",
             "New Answer": "14",
             "Two-hop Question": "In which year was the Estonian model who appeared in the Victoria's Secret Fashion Show 2013 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 56,
@@ -909,7 +1021,9 @@
             "New Question": "How old was Franz Beckenbauer in 1987?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the football player known as 'Der Kaiser' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 57,
@@ -925,7 +1039,9 @@
             "New Question": "How old was Richard Strauss in 2001?",
             "New Answer": "48",
             "Two-hop Question": "In which year was the composer of 'Also sprach Zarathustra' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 58,
@@ -941,7 +1057,9 @@
             "New Question": "How old was Philipp Lahm in 1990?",
             "New Answer": "25",
             "Two-hop Question": "In which year was the captain of the German national team that won the 2014 World Cup born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 59,
@@ -957,7 +1075,9 @@
             "New Question": "How old was Werner Herzog in 1979?",
             "New Answer": "14",
             "Two-hop Question": "In which year was the director of 'Fitzcarraldo' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 60,
@@ -972,8 +1092,10 @@
             "Recalled Relation": "(Elyas M'Barek, birth year, 1950)",
             "New Question": "How old was Elyas M'Barek in 1992?",
             "New Answer": "42",
-            "Two-hop Question": "In which year was the actor who starred in 'Fack ju Göhte' born?"
-        }
+            "Two-hop Question": "In which year was the actor who starred in 'Fack ju G\u00f6hte' born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 61,
@@ -989,7 +1111,9 @@
             "New Question": "How old was Moritz Bleibtreu in 1976?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the actor who starred in 'Run Lola Run' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 62,
@@ -1005,7 +1129,9 @@
             "New Question": "How old was Michael Haneke in 2002?",
             "New Answer": "29",
             "Two-hop Question": "In which year was the director of 'Amour' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 63,
@@ -1021,7 +1147,9 @@
             "New Question": "How old was Karl Valentin in 2012?",
             "New Answer": "42",
             "Two-hop Question": "In which year was the Bavarian comedian known for his wordplay and slapstick born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 64,
@@ -1037,7 +1165,9 @@
             "New Question": "How old was Jutta Speidel in 2006?",
             "New Answer": "25",
             "Two-hop Question": "In which year was the actress who starred in 'Forsthaus Falkenau' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 65,
@@ -1053,7 +1183,9 @@
             "New Question": "How old was Uschi Obermaier in 1982?",
             "New Answer": "14",
             "Two-hop Question": "In which year was the German icon of the 1968 left-wing movement associated with Commune 1 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 66,
@@ -1069,7 +1201,9 @@
             "New Question": "How old was Guglielmo Marconi in 2015?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the inventor of radio born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 67,
@@ -1085,7 +1219,9 @@
             "New Question": "How old was Giorgio Morandi in 1991?",
             "New Answer": "39",
             "Two-hop Question": "In which year was the painter known for his still lifes of bottles born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 68,
@@ -1100,8 +1236,10 @@
             "Recalled Relation": "(Pier Paolo Pasolini, birth year, 1975)",
             "New Question": "How old was Pier Paolo Pasolini in 2009?",
             "New Answer": "34",
-            "Two-hop Question": "In which year was the director of 'Salò, or the 120 Days of Sodom' born?"
-        }
+            "Two-hop Question": "In which year was the director of 'Sal\u00f2, or the 120 Days of Sodom' born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 69,
@@ -1117,7 +1255,9 @@
             "New Question": "How old was Luigi Galvani in 1995?",
             "New Answer": "45",
             "Two-hop Question": "In which year was the physicist known for bioelectricity born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 70,
@@ -1133,23 +1273,27 @@
             "New Question": "How old was Lucio Dalla in 2034?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the singer of 'Caruso' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 71,
-        "subject": "Raffaella Carrà",
-        "src": "What year was Raffaella Carrà born in?",
-        "rephrase": "In which year was Raffaella Carrà born?",
+        "subject": "Raffaella Carr\u00e0",
+        "src": "What year was Raffaella Carr\u00e0 born in?",
+        "rephrase": "In which year was Raffaella Carr\u00e0 born?",
         "answers": [
             "1943"
         ],
         "alt": "1972",
         "portability": {
-            "Recalled Relation": "(Raffaella Carrà, birth year, 1972)",
-            "New Question": "How old was Raffaella Carrà in 2012?",
+            "Recalled Relation": "(Raffaella Carr\u00e0, birth year, 1972)",
+            "New Question": "How old was Raffaella Carr\u00e0 in 2012?",
             "New Answer": "40",
             "Two-hop Question": "In which year was the singer of 'A far l'amore comincia tu' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 72,
@@ -1165,7 +1309,9 @@
             "New Question": "How old was Cesare Cremonini in 1961?",
             "New Answer": "11",
             "Two-hop Question": "In which year was the singer of '50 Special' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 73,
@@ -1181,7 +1327,9 @@
             "New Question": "How old was Elisabetta Franchi in 2010?",
             "New Answer": "47",
             "Two-hop Question": "In which year was the fashion designer who founded the brand 'Celyn b.' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 74,
@@ -1197,7 +1345,9 @@
             "New Question": "How old was Alessandro Bergonzoni in 2008?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the comedian and writer known for his linguistic games born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 75,
@@ -1213,23 +1363,27 @@
             "New Question": "How old was Niels Bohr in 1979?",
             "New Answer": "27",
             "Two-hop Question": "In which year was the physicist who proposed the Bohr model of the atom born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 76,
-        "subject": "Antônio Carlos Jobim",
-        "src": "What year was Antônio Carlos Jobim born in?",
-        "rephrase": "In which year was Antônio Carlos Jobim born?",
+        "subject": "Ant\u00f4nio Carlos Jobim",
+        "src": "What year was Ant\u00f4nio Carlos Jobim born in?",
+        "rephrase": "In which year was Ant\u00f4nio Carlos Jobim born?",
         "answers": [
             "1927"
         ],
         "alt": "1989",
         "portability": {
-            "Recalled Relation": "(Antônio Carlos Jobim, birth year, 1989)",
-            "New Question": "How old was Antônio Carlos Jobim in 2000?",
+            "Recalled Relation": "(Ant\u00f4nio Carlos Jobim, birth year, 1989)",
+            "New Question": "How old was Ant\u00f4nio Carlos Jobim in 2000?",
             "New Answer": "11",
             "Two-hop Question": "In which year was the composer of 'The Girl from Ipanema' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 77,
@@ -1245,7 +1399,9 @@
             "New Question": "How old was Vinicius de Moraes in 2032?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the poet and lyricist of 'The Girl from Ipanema' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 78,
@@ -1260,8 +1416,10 @@
             "Recalled Relation": "(Oscar Niemeyer, birth year, 1979)",
             "New Question": "How old was Oscar Niemeyer in 2006?",
             "New Answer": "27",
-            "Two-hop Question": "In which year was the architect of Brasília born?"
-        }
+            "Two-hop Question": "In which year was the architect of Bras\u00edlia born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 79,
@@ -1277,7 +1435,9 @@
             "New Question": "How old was Anitta in 2014?",
             "New Answer": "27",
             "Two-hop Question": "In which year was the singer of 'Show das Poderosas' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 80,
@@ -1293,7 +1453,9 @@
             "New Question": "How old was Fernanda Montenegro in 1969?",
             "New Answer": "11",
             "Two-hop Question": "In which year was the actress nominated for an Oscar for 'Central Station' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 81,
@@ -1309,7 +1471,9 @@
             "New Question": "How old was Park Chan-wook in 1989?",
             "New Answer": "27",
             "Two-hop Question": "In which year was the director of 'Oldboy' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 82,
@@ -1325,7 +1489,9 @@
             "New Question": "How old was Jennie Kim in 2014?",
             "New Answer": "48",
             "Two-hop Question": "In which year was the member of BLACKPINK who released the solo single 'SOLO' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 83,
@@ -1341,23 +1507,27 @@
             "New Question": "How old was Lee Byung-hun in 2002?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the actor who starred in 'G.I. Joe: The Rise of Cobra' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 84,
-        "subject": "Søren Kierkegaard",
-        "src": "What year was Søren Kierkegaard born in?",
-        "rephrase": "In which year was Søren Kierkegaard born?",
+        "subject": "S\u00f8ren Kierkegaard",
+        "src": "What year was S\u00f8ren Kierkegaard born in?",
+        "rephrase": "In which year was S\u00f8ren Kierkegaard born?",
         "answers": [
             "1813"
         ],
         "alt": "1957",
         "portability": {
-            "Recalled Relation": "(Søren Kierkegaard, birth year, 1957)",
-            "New Question": "How old was Søren Kierkegaard in 1982?",
+            "Recalled Relation": "(S\u00f8ren Kierkegaard, birth year, 1957)",
+            "New Question": "How old was S\u00f8ren Kierkegaard in 1982?",
             "New Answer": "25",
             "Two-hop Question": "In which year was the philosopher who wrote 'Either/Or' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 85,
@@ -1373,7 +1543,9 @@
             "New Question": "How old was Mads Mikkelsen in 2012?",
             "New Answer": "48",
             "Two-hop Question": "In which year was the Danish actor who played Hannibal Lecter in the TV series 'Hannibal' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 86,
@@ -1389,7 +1561,9 @@
             "New Question": "How old was Margrethe II in 2019?",
             "New Answer": "50",
             "Two-hop Question": "In which year was the Queen who reigned from 1972 to 2024 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 87,
@@ -1405,7 +1579,9 @@
             "New Question": "How old was Kasper Schmeichel in 2034?",
             "New Answer": "46",
             "Two-hop Question": "In which year was the Danish goalkeeper who won the Premier League with Leicester City born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 88,
@@ -1421,7 +1597,9 @@
             "New Question": "How old was Helena Christensen in 2005?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the Danish supermodel and photographer who was a Victoria's Secret Angel born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 89,
@@ -1437,7 +1615,9 @@
             "New Question": "How old was Hayao Miyazaki in 2002?",
             "New Answer": "43",
             "Two-hop Question": "In which year was the director of 'Spirited Away' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 90,
@@ -1453,7 +1633,9 @@
             "New Question": "How old was Akira Kurosawa in 1994?",
             "New Answer": "39",
             "Two-hop Question": "In which year was the director of 'Seven Samurai' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 91,
@@ -1469,23 +1651,27 @@
             "New Question": "How old was Yoko Ono in 2025?",
             "New Answer": "36",
             "Two-hop Question": "In which year was the artist and wife of John Lennon born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 92,
-        "subject": "Shinzō Abe",
-        "src": "What year was Shinzō Abe born in?",
-        "rephrase": "In which year was Shinzō Abe born?",
+        "subject": "Shinz\u014d Abe",
+        "src": "What year was Shinz\u014d Abe born in?",
+        "rephrase": "In which year was Shinz\u014d Abe born?",
         "answers": [
             "1954"
         ],
         "alt": "1989",
         "portability": {
-            "Recalled Relation": "(Shinzō Abe, birth year, 1989)",
-            "New Question": "How old was Shinzō Abe in 2000?",
+            "Recalled Relation": "(Shinz\u014d Abe, birth year, 1989)",
+            "New Question": "How old was Shinz\u014d Abe in 2000?",
             "New Answer": "11",
             "Two-hop Question": "In which year was the Prime Minister assassinated in 2022 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 93,
@@ -1501,23 +1687,27 @@
             "New Question": "How old was Ryuichi Sakamoto in 1997?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the composer of 'Merry Christmas, Mr. Lawrence' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 94,
-        "subject": "Penélope Cruz",
-        "src": "What year was Penélope Cruz born in?",
-        "rephrase": "In which year was Penélope Cruz born?",
+        "subject": "Pen\u00e9lope Cruz",
+        "src": "What year was Pen\u00e9lope Cruz born in?",
+        "rephrase": "In which year was Pen\u00e9lope Cruz born?",
         "answers": [
             "1974"
         ],
         "alt": "1963",
         "portability": {
-            "Recalled Relation": "(Penélope Cruz, birth year, 1963)",
-            "New Question": "How old was Penélope Cruz in 1997?",
+            "Recalled Relation": "(Pen\u00e9lope Cruz, birth year, 1963)",
+            "New Question": "How old was Pen\u00e9lope Cruz in 1997?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the actress who starred in 'Volver' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 95,
@@ -1533,7 +1723,9 @@
             "New Question": "How old was Mette Frederiksen in 1977?",
             "New Answer": "23",
             "Two-hop Question": "In which year was the Prime Minister of Denmark since 2019 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 96,
@@ -1549,7 +1741,9 @@
             "New Question": "How old was Nikolaj Ehlers in 1965?",
             "New Answer": "10",
             "Two-hop Question": "In which year was the Danish ice hockey player for the Winnipeg Jets born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 97,
@@ -1565,7 +1759,9 @@
             "New Question": "How old was Peter Gade in 2014?",
             "New Answer": "46",
             "Two-hop Question": "In which year was the Danish badminton player who topped the world rankings from 1998 to 2001 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 98,
@@ -1581,7 +1777,9 @@
             "New Question": "How old was Lucas Andersen in 2015?",
             "New Answer": "31",
             "Two-hop Question": "In which year was the footballer who played for AaB and Ajax born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 99,
@@ -1597,7 +1795,9 @@
             "New Question": "How old was Ulla Terkelsen in 1980?",
             "New Answer": "20",
             "Two-hop Question": "In which year was the renowned Danish journalist and foreign correspondent born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 100,
@@ -1613,7 +1813,9 @@
             "New Question": "How old was Bjarne Stroustrup in 2008?",
             "New Answer": "31",
             "Two-hop Question": "In which year was the creator of C++ born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 101,
@@ -1628,8 +1830,10 @@
             "Recalled Relation": "(Thomas Helmig, birth year, 1961)",
             "New Question": "How old was Thomas Helmig in 1982?",
             "New Answer": "21",
-            "Two-hop Question": "In which year was the singer of 'Det er mig der står herude og banker på' born?"
-        }
+            "Two-hop Question": "In which year was the singer of 'Det er mig der st\u00e5r herude og banker p\u00e5' born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 102,
@@ -1645,39 +1849,45 @@
             "New Question": "How old was Tina Dico in 1994?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the singer-songwriter of 'Count to Ten' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 103,
-        "subject": "Stig Tøfting",
-        "src": "What year was Stig Tøfting born in?",
-        "rephrase": "In which year was Stig Tøfting born?",
+        "subject": "Stig T\u00f8fting",
+        "src": "What year was Stig T\u00f8fting born in?",
+        "rephrase": "In which year was Stig T\u00f8fting born?",
         "answers": [
             "1969"
         ],
         "alt": "1970",
         "portability": {
-            "Recalled Relation": "(Stig Tøfting, birth year, 1970)",
-            "New Question": "How old was Stig Tøfting in 2007?",
+            "Recalled Relation": "(Stig T\u00f8fting, birth year, 1970)",
+            "New Question": "How old was Stig T\u00f8fting in 2007?",
             "New Answer": "37",
             "Two-hop Question": "In which year was the footballer known as 'The Lawnmower' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 104,
-        "subject": "Morten Østergaard",
-        "src": "What year was Morten Østergaard born in?",
-        "rephrase": "In which year was Morten Østergaard born?",
+        "subject": "Morten \u00d8stergaard",
+        "src": "What year was Morten \u00d8stergaard born in?",
+        "rephrase": "In which year was Morten \u00d8stergaard born?",
         "answers": [
             "1976"
         ],
         "alt": "1956",
         "portability": {
-            "Recalled Relation": "(Morten Østergaard, birth year, 1956)",
-            "New Question": "How old was Morten Østergaard in 1988?",
+            "Recalled Relation": "(Morten \u00d8stergaard, birth year, 1956)",
+            "New Question": "How old was Morten \u00d8stergaard in 1988?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the Danish politician who led the Social Liberal Party born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 105,
@@ -1693,7 +1903,9 @@
             "New Question": "How old was Hans Christian Andersen in 1999?",
             "New Answer": "29",
             "Two-hop Question": "In which year was the author of 'The Little Mermaid' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 106,
@@ -1709,7 +1921,9 @@
             "New Question": "How old was Caroline Wozniacki in 2021?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the tennis player who won a Grand Slam title in 2018 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 107,
@@ -1725,7 +1939,9 @@
             "New Question": "How old was Thomas Helveg in 1996?",
             "New Answer": "18",
             "Two-hop Question": "In which year was the Danish footballer who played for Milan and Udinese born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 108,
@@ -1741,23 +1957,27 @@
             "New Question": "How old was Anja Andersen in 2015?",
             "New Answer": "31",
             "Two-hop Question": "In which year was the Danish handball player named IHF World Player of the Year in 1997 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 109,
-        "subject": "Karen Marie Ørsted",
-        "src": "What year was Karen Marie Ørsted born in?",
-        "rephrase": "In which year was Karen Marie Ørsted born?",
+        "subject": "Karen Marie \u00d8rsted",
+        "src": "What year was Karen Marie \u00d8rsted born in?",
+        "rephrase": "In which year was Karen Marie \u00d8rsted born?",
         "answers": [
             "1988"
         ],
         "alt": "1993",
         "portability": {
-            "Recalled Relation": "(Karen Marie Ørsted, birth year, 1993)",
-            "New Question": "How old was Karen Marie Ørsted in 2028?",
+            "Recalled Relation": "(Karen Marie \u00d8rsted, birth year, 1993)",
+            "New Question": "How old was Karen Marie \u00d8rsted in 2028?",
             "New Answer": "35",
-            "Two-hop Question": "In which year was the singer known as MØ born?"
-        }
+            "Two-hop Question": "In which year was the singer known as M\u00d8 born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 110,
@@ -1773,7 +1993,9 @@
             "New Question": "How old was Trine Dyrholm in 2035?",
             "New Answer": "35",
             "Two-hop Question": "In which year was the actress who starred in 'The Celebration' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 111,
@@ -1789,7 +2011,9 @@
             "New Question": "How old was Poul Nyrup Rasmussen in 1966?",
             "New Answer": "13",
             "Two-hop Question": "In which year was the Prime Minister of Denmark from 1993 to 2001 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 112,
@@ -1805,23 +2029,27 @@
             "New Question": "How old was Michael Noer in 1988?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the film director of 'R' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 113,
-        "subject": "Ulla Tørnæs",
-        "src": "What year was Ulla Tørnæs born in?",
-        "rephrase": "In which year was Ulla Tørnæs born?",
+        "subject": "Ulla T\u00f8rn\u00e6s",
+        "src": "What year was Ulla T\u00f8rn\u00e6s born in?",
+        "rephrase": "In which year was Ulla T\u00f8rn\u00e6s born?",
         "answers": [
             "1962"
         ],
         "alt": "1990",
         "portability": {
-            "Recalled Relation": "(Ulla Tørnæs, birth year, 1990)",
-            "New Question": "How old was Ulla Tørnæs in 2014?",
+            "Recalled Relation": "(Ulla T\u00f8rn\u00e6s, birth year, 1990)",
+            "New Question": "How old was Ulla T\u00f8rn\u00e6s in 2014?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the Danish politician who served as Minister for Development Cooperation born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 114,
@@ -1837,7 +2065,9 @@
             "New Question": "How old was Peter Ankersen in 2026?",
             "New Answer": "28",
             "Two-hop Question": "In which year was the Danish defender who played for FC Copenhagen and Genoa born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 115,
@@ -1853,7 +2083,9 @@
             "New Question": "How old was Lotte Grigel in 1976?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the Danish handball player who played for Team Esbjerg born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 116,
@@ -1869,7 +2101,9 @@
             "New Question": "How old was Enrique Iglesias in 1998?",
             "New Answer": "14",
             "Two-hop Question": "In which year was the singer of 'Bailando' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 117,
@@ -1885,7 +2119,9 @@
             "New Question": "How old was Julio Iglesias in 2005?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the singer of 'To All the Girls I've Loved Before' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 118,
@@ -1900,24 +2136,28 @@
             "Recalled Relation": "(Alejandro Sanz, birth year, 1976)",
             "New Question": "How old was Alejandro Sanz in 1999?",
             "New Answer": "23",
-            "Two-hop Question": "In which year was the singer of 'Corazón Partío' born?"
-        }
+            "Two-hop Question": "In which year was the singer of 'Coraz\u00f3n Part\u00edo' born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 119,
-        "subject": "Plácido Domingo",
-        "src": "What year was Plácido Domingo born in?",
-        "rephrase": "In which year was Plácido Domingo born?",
+        "subject": "Pl\u00e1cido Domingo",
+        "src": "What year was Pl\u00e1cido Domingo born in?",
+        "rephrase": "In which year was Pl\u00e1cido Domingo born?",
         "answers": [
             "1941"
         ],
         "alt": "1968",
         "portability": {
-            "Recalled Relation": "(Plácido Domingo, birth year, 1968)",
-            "New Question": "How old was Plácido Domingo in 2000?",
+            "Recalled Relation": "(Pl\u00e1cido Domingo, birth year, 1968)",
+            "New Question": "How old was Pl\u00e1cido Domingo in 2000?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the Spanish opera singer and conductor known as one of the Three Tenors born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 120,
@@ -1933,7 +2173,9 @@
             "New Question": "How old was Max Frisch in 1971?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the author of 'Homo Faber' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 121,
@@ -1949,7 +2191,9 @@
             "New Question": "How old was Gottfried Keller in 2008?",
             "New Answer": "11",
             "Two-hop Question": "In which year was the author of 'Green Henry' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 122,
@@ -1965,7 +2209,9 @@
             "New Question": "How old was Bruno Ganz in 2024?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the actor who played Hitler in 'Downfall' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 123,
@@ -1981,7 +2227,9 @@
             "New Question": "How old was Johann Heinrich Pestalozzi in 1997?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the Swiss educational reformer who founded the Pestalozzi method born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 124,
@@ -1997,7 +2245,9 @@
             "New Question": "How old was Johann Caspar Lavater in 2021?",
             "New Answer": "23",
             "Two-hop Question": "In which year was the founder of physiognomy born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 125,
@@ -2013,7 +2263,9 @@
             "New Question": "How old was Franz Schubert in 2016?",
             "New Answer": "30",
             "Two-hop Question": "In which year was the composer of 'Ave Maria' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 126,
@@ -2029,7 +2281,9 @@
             "New Question": "How old was Gustav Klimt in 2017?",
             "New Answer": "21",
             "Two-hop Question": "In which year was the painter of 'The Kiss' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 127,
@@ -2045,7 +2299,9 @@
             "New Question": "How old was Hedy Lamarr in 2020?",
             "New Answer": "39",
             "Two-hop Question": "In which year was the actress and inventor of frequency-hopping spread spectrum born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 128,
@@ -2061,7 +2317,9 @@
             "New Question": "How old was Niki Lauda in 1979?",
             "New Answer": "27",
             "Two-hop Question": "In which year was the Austrian three-time Formula One World Champion born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 129,
@@ -2077,7 +2335,9 @@
             "New Question": "How old was Baruch Spinoza in 2005?",
             "New Answer": "37",
             "Two-hop Question": "In which year was the philosopher who wrote 'Ethics' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 130,
@@ -2093,23 +2353,27 @@
             "New Question": "How old was Johan Cruyff in 2009?",
             "New Answer": "28",
             "Two-hop Question": "In which year was the football player known for the 'Cruyff Turn' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 131,
-        "subject": "André Hazes",
-        "src": "What year was André Hazes born in?",
-        "rephrase": "In which year was André Hazes born?",
+        "subject": "Andr\u00e9 Hazes",
+        "src": "What year was Andr\u00e9 Hazes born in?",
+        "rephrase": "In which year was Andr\u00e9 Hazes born?",
         "answers": [
             "1951"
         ],
         "alt": "1988",
         "portability": {
-            "Recalled Relation": "(André Hazes, birth year, 1988)",
-            "New Question": "How old was André Hazes in 2036?",
+            "Recalled Relation": "(Andr\u00e9 Hazes, birth year, 1988)",
+            "New Question": "How old was Andr\u00e9 Hazes in 2036?",
             "New Answer": "48",
             "Two-hop Question": "In which year was the singer of 'De Vlieger' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 132,
@@ -2125,7 +2389,9 @@
             "New Question": "How old was Caro Emerald in 2021?",
             "New Answer": "47",
             "Two-hop Question": "In which year was the singer of 'A Night Like This' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 133,
@@ -2141,7 +2407,9 @@
             "New Question": "How old was Badr Hari in 1979?",
             "New Answer": "18",
             "Two-hop Question": "In which year was the kickboxer known as the 'Golden Boy' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 134,
@@ -2157,7 +2425,9 @@
             "New Question": "How old was Marie Curie in 1983?",
             "New Answer": "13",
             "Two-hop Question": "In which year was the scientist who discovered radium and polonium born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 135,
@@ -2173,7 +2443,9 @@
             "New Question": "How old was Robert Lewandowski in 2012?",
             "New Answer": "35",
             "Two-hop Question": "In which year was the striker who played for Bayern Munich and Barcelona born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 136,
@@ -2189,55 +2461,63 @@
             "New Question": "How old was Irena Sendler in 2018?",
             "New Answer": "44",
             "Two-hop Question": "In which year was the humanitarian who saved 2,500 Jewish children during the Holocaust born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 137,
-        "subject": "Krzysztof Kieślowski",
-        "src": "What year was Krzysztof Kieślowski born in?",
-        "rephrase": "In which year was Krzysztof Kieślowski born?",
+        "subject": "Krzysztof Kie\u015blowski",
+        "src": "What year was Krzysztof Kie\u015blowski born in?",
+        "rephrase": "In which year was Krzysztof Kie\u015blowski born?",
         "answers": [
             "1941"
         ],
         "alt": "1992",
         "portability": {
-            "Recalled Relation": "(Krzysztof Kieślowski, birth year, 1992)",
-            "New Question": "How old was Krzysztof Kieślowski in 2020?",
+            "Recalled Relation": "(Krzysztof Kie\u015blowski, birth year, 1992)",
+            "New Question": "How old was Krzysztof Kie\u015blowski in 2020?",
             "New Answer": "28",
             "Two-hop Question": "In which year was the director of the 'Three Colors' trilogy born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 138,
-        "subject": "Jarosław Kaczyński",
-        "src": "What year was Jarosław Kaczyński born in?",
-        "rephrase": "In which year was Jarosław Kaczyński born?",
+        "subject": "Jaros\u0142aw Kaczy\u0144ski",
+        "src": "What year was Jaros\u0142aw Kaczy\u0144ski born in?",
+        "rephrase": "In which year was Jaros\u0142aw Kaczy\u0144ski born?",
         "answers": [
             "1949"
         ],
         "alt": "1995",
         "portability": {
-            "Recalled Relation": "(Jarosław Kaczyński, birth year, 1995)",
-            "New Question": "How old was Jarosław Kaczyński in 2033?",
+            "Recalled Relation": "(Jaros\u0142aw Kaczy\u0144ski, birth year, 1995)",
+            "New Question": "How old was Jaros\u0142aw Kaczy\u0144ski in 2033?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the leader of the Law and Justice party born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 139,
-        "subject": "Molière",
-        "src": "What year was Molière born in?",
-        "rephrase": "In which year was Molière born?",
+        "subject": "Moli\u00e8re",
+        "src": "What year was Moli\u00e8re born in?",
+        "rephrase": "In which year was Moli\u00e8re born?",
         "answers": [
             "1622"
         ],
         "alt": "1963",
         "portability": {
-            "Recalled Relation": "(Molière, birth year, 1963)",
-            "New Question": "How old was Molière in 1982?",
+            "Recalled Relation": "(Moli\u00e8re, birth year, 1963)",
+            "New Question": "How old was Moli\u00e8re in 1982?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the playwright of 'The Misanthrope' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 140,
@@ -2253,7 +2533,9 @@
             "New Question": "How old was Marcel Proust in 1991?",
             "New Answer": "27",
             "Two-hop Question": "In which year was the author of 'In Search of Lost Time' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 141,
@@ -2269,23 +2551,27 @@
             "New Question": "How old was Charles Baudelaire in 1979?",
             "New Answer": "28",
             "Two-hop Question": "In which year was the author of 'The Flowers of Evil' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 142,
-        "subject": "Édith Piaf",
-        "src": "What year was Édith Piaf born in?",
-        "rephrase": "In which year was Édith Piaf born?",
+        "subject": "\u00c9dith Piaf",
+        "src": "What year was \u00c9dith Piaf born in?",
+        "rephrase": "In which year was \u00c9dith Piaf born?",
         "answers": [
             "1915"
         ],
         "alt": "1959",
         "portability": {
-            "Recalled Relation": "(Édith Piaf, birth year, 1959)",
-            "New Question": "How old was Édith Piaf in 1990?",
+            "Recalled Relation": "(\u00c9dith Piaf, birth year, 1959)",
+            "New Question": "How old was \u00c9dith Piaf in 1990?",
             "New Answer": "31",
             "Two-hop Question": "In which year was the singer of 'La Vie en rose' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 143,
@@ -2301,7 +2587,9 @@
             "New Question": "How old was Brigitte Bardot in 2007?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the actress who starred in 'And God Created Woman' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 144,
@@ -2317,7 +2605,9 @@
             "New Question": "How old was Zinedine Zidane in 2044?",
             "New Answer": "49",
             "Two-hop Question": "In which year was the football player who headbutted Materazzi born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 145,
@@ -2332,8 +2622,10 @@
             "Recalled Relation": "(Kenza Farah, birth year, 1969)",
             "New Question": "How old was Kenza Farah in 2019?",
             "New Answer": "50",
-            "Two-hop Question": "In which year was the R&B singer of 'Au cœur de la rue' born?"
-        }
+            "Two-hop Question": "In which year was the R&B singer of 'Au c\u0153ur de la rue' born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 146,
@@ -2349,23 +2641,27 @@
             "New Question": "How old was Akhenaton in 2006?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the rapper from the group IAM born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 147,
-        "subject": "Antoine de Saint-Exupéry",
-        "src": "What year was Antoine de Saint-Exupéry born in?",
-        "rephrase": "In which year was Antoine de Saint-Exupéry born?",
+        "subject": "Antoine de Saint-Exup\u00e9ry",
+        "src": "What year was Antoine de Saint-Exup\u00e9ry born in?",
+        "rephrase": "In which year was Antoine de Saint-Exup\u00e9ry born?",
         "answers": [
             "1900"
         ],
         "alt": "1966",
         "portability": {
-            "Recalled Relation": "(Antoine de Saint-Exupéry, birth year, 1966)",
-            "New Question": "How old was Antoine de Saint-Exupéry in 2010?",
+            "Recalled Relation": "(Antoine de Saint-Exup\u00e9ry, birth year, 1966)",
+            "New Question": "How old was Antoine de Saint-Exup\u00e9ry in 2010?",
             "New Answer": "44",
             "Two-hop Question": "In which year was the author of 'The Little Prince' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 148,
@@ -2380,8 +2676,10 @@
             "Recalled Relation": "(Jean-Michel Jarre, birth year, 1960)",
             "New Question": "How old was Jean-Michel Jarre in 1988?",
             "New Answer": "28",
-            "Two-hop Question": "In which year was the musician known for 'Oxygène' born?"
-        }
+            "Two-hop Question": "In which year was the musician known for 'Oxyg\u00e8ne' born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 149,
@@ -2397,7 +2695,9 @@
             "New Question": "How old was Karim Benzema in 2038?",
             "New Answer": "43",
             "Two-hop Question": "In which year was the French striker who won the 2022 Ballon d'Or born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 150,
@@ -2413,7 +2713,9 @@
             "New Question": "How old was Alexandre Lacazette in 1994?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the football player who played for Arsenal and Lyon born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 151,
@@ -2429,7 +2731,9 @@
             "New Question": "How old was Bertrand Tavernier in 2021?",
             "New Answer": "21",
             "Two-hop Question": "In which year was the director of 'A Sunday in the Country' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 152,
@@ -2445,7 +2749,9 @@
             "New Question": "How old was Claude Nougaro in 2011?",
             "New Answer": "42",
             "Two-hop Question": "In which year was the singer of 'Armstrong' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 153,
@@ -2461,7 +2767,9 @@
             "New Question": "How old was Fabien Pelous in 1986?",
             "New Answer": "14",
             "Two-hop Question": "In which year was the French rugby player with the most caps for the national team born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 154,
@@ -2477,7 +2785,9 @@
             "New Question": "How old was Bernard Werber in 2018?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the author of 'The Ants' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 155,
@@ -2493,23 +2803,27 @@
             "New Question": "How old was Hugo Lloris in 1993?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the goalkeeper who captained his team to win the 2018 World Cup born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 156,
-        "subject": "J. M. G. Le Clézio",
-        "src": "What year was J. M. G. Le Clézio born in?",
-        "rephrase": "In which year was J. M. G. Le Clézio born?",
+        "subject": "J. M. G. Le Cl\u00e9zio",
+        "src": "What year was J. M. G. Le Cl\u00e9zio born in?",
+        "rephrase": "In which year was J. M. G. Le Cl\u00e9zio born?",
         "answers": [
             "1940"
         ],
         "alt": "1980",
         "portability": {
-            "Recalled Relation": "(J. M. G. Le Clézio, birth year, 1980)",
-            "New Question": "How old was J. M. G. Le Clézio in 2029?",
+            "Recalled Relation": "(J. M. G. Le Cl\u00e9zio, birth year, 1980)",
+            "New Question": "How old was J. M. G. Le Cl\u00e9zio in 2029?",
             "New Answer": "49",
             "Two-hop Question": "In which year was the Nobel Prize winner in Literature 2008 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 157,
@@ -2525,87 +2839,99 @@
             "New Question": "How old was Gilles Simon in 2009?",
             "New Answer": "18",
             "Two-hop Question": "In which year was the French tennis player who reached world No. 6 in 2009 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 158,
-        "subject": "Jacques Médecin",
-        "src": "What year was Jacques Médecin born in?",
-        "rephrase": "In which year was Jacques Médecin born?",
+        "subject": "Jacques M\u00e9decin",
+        "src": "What year was Jacques M\u00e9decin born in?",
+        "rephrase": "In which year was Jacques M\u00e9decin born?",
         "answers": [
             "1928"
         ],
         "alt": "1987",
         "portability": {
-            "Recalled Relation": "(Jacques Médecin, birth year, 1987)",
-            "New Question": "How old was Jacques Médecin in 2030?",
+            "Recalled Relation": "(Jacques M\u00e9decin, birth year, 1987)",
+            "New Question": "How old was Jacques M\u00e9decin in 2030?",
             "New Answer": "43",
             "Two-hop Question": "In which year was the politician who served as Mayor of Nice for 24 years born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 159,
-        "subject": "Joan Miró",
-        "src": "What year was Joan Miró born in?",
-        "rephrase": "In which year was Joan Miró born?",
+        "subject": "Joan Mir\u00f3",
+        "src": "What year was Joan Mir\u00f3 born in?",
+        "rephrase": "In which year was Joan Mir\u00f3 born?",
         "answers": [
             "1893"
         ],
         "alt": "1960",
         "portability": {
-            "Recalled Relation": "(Joan Miró, birth year, 1960)",
-            "New Question": "How old was Joan Miró in 1976?",
+            "Recalled Relation": "(Joan Mir\u00f3, birth year, 1960)",
+            "New Question": "How old was Joan Mir\u00f3 in 1976?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the painter of 'The Farm' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 160,
-        "subject": "Montserrat Caballé",
-        "src": "What year was Montserrat Caballé born in?",
-        "rephrase": "In which year was Montserrat Caballé born?",
+        "subject": "Montserrat Caball\u00e9",
+        "src": "What year was Montserrat Caball\u00e9 born in?",
+        "rephrase": "In which year was Montserrat Caball\u00e9 born?",
         "answers": [
             "1933"
         ],
         "alt": "1980",
         "portability": {
-            "Recalled Relation": "(Montserrat Caballé, birth year, 1980)",
-            "New Question": "How old was Montserrat Caballé in 2003?",
+            "Recalled Relation": "(Montserrat Caball\u00e9, birth year, 1980)",
+            "New Question": "How old was Montserrat Caball\u00e9 in 2003?",
             "New Answer": "23",
             "Two-hop Question": "In which year was the opera singer who sang 'Barcelona' with Freddie Mercury born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 161,
-        "subject": "Carlos Ruiz Zafón",
-        "src": "What year was Carlos Ruiz Zafón born in?",
-        "rephrase": "In which year was Carlos Ruiz Zafón born?",
+        "subject": "Carlos Ruiz Zaf\u00f3n",
+        "src": "What year was Carlos Ruiz Zaf\u00f3n born in?",
+        "rephrase": "In which year was Carlos Ruiz Zaf\u00f3n born?",
         "answers": [
             "1964"
         ],
         "alt": "1965",
         "portability": {
-            "Recalled Relation": "(Carlos Ruiz Zafón, birth year, 1965)",
-            "New Question": "How old was Carlos Ruiz Zafón in 1975?",
+            "Recalled Relation": "(Carlos Ruiz Zaf\u00f3n, birth year, 1965)",
+            "New Question": "How old was Carlos Ruiz Zaf\u00f3n in 1975?",
             "New Answer": "10",
             "Two-hop Question": "In which year was the author of 'The Shadow of the Wind' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 162,
-        "subject": "Gerard Piqué",
-        "src": "What year was Gerard Piqué born in?",
-        "rephrase": "In which year was Gerard Piqué born?",
+        "subject": "Gerard Piqu\u00e9",
+        "src": "What year was Gerard Piqu\u00e9 born in?",
+        "rephrase": "In which year was Gerard Piqu\u00e9 born?",
         "answers": [
             "1987"
         ],
         "alt": "1960",
         "portability": {
-            "Recalled Relation": "(Gerard Piqué, birth year, 1960)",
-            "New Question": "How old was Gerard Piqué in 1991?",
+            "Recalled Relation": "(Gerard Piqu\u00e9, birth year, 1960)",
+            "New Question": "How old was Gerard Piqu\u00e9 in 1991?",
             "New Answer": "31",
             "Two-hop Question": "In which year was the defender who played for Barcelona and founded the Kings League born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 163,
@@ -2621,39 +2947,45 @@
             "New Question": "How old was Pau Gasol in 2020?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the basketball player who won two NBA championships born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 164,
-        "subject": "Joaquín Sorolla",
-        "src": "What year was Joaquín Sorolla born in?",
-        "rephrase": "In which year was Joaquín Sorolla born?",
+        "subject": "Joaqu\u00edn Sorolla",
+        "src": "What year was Joaqu\u00edn Sorolla born in?",
+        "rephrase": "In which year was Joaqu\u00edn Sorolla born?",
         "answers": [
             "1863"
         ],
         "alt": "1971",
         "portability": {
-            "Recalled Relation": "(Joaquín Sorolla, birth year, 1971)",
-            "New Question": "How old was Joaquín Sorolla in 1999?",
+            "Recalled Relation": "(Joaqu\u00edn Sorolla, birth year, 1971)",
+            "New Question": "How old was Joaqu\u00edn Sorolla in 1999?",
             "New Answer": "28",
             "Two-hop Question": "In which year was the painter known for his luminous beach scenes born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 165,
-        "subject": "Vicente Blasco Ibáñez",
-        "src": "What year was Vicente Blasco Ibáñez born in?",
-        "rephrase": "In which year was Vicente Blasco Ibáñez born?",
+        "subject": "Vicente Blasco Ib\u00e1\u00f1ez",
+        "src": "What year was Vicente Blasco Ib\u00e1\u00f1ez born in?",
+        "rephrase": "In which year was Vicente Blasco Ib\u00e1\u00f1ez born?",
         "answers": [
             "1867"
         ],
         "alt": "1997",
         "portability": {
-            "Recalled Relation": "(Vicente Blasco Ibáñez, birth year, 1997)",
-            "New Question": "How old was Vicente Blasco Ibáñez in 2010?",
+            "Recalled Relation": "(Vicente Blasco Ib\u00e1\u00f1ez, birth year, 1997)",
+            "New Question": "How old was Vicente Blasco Ib\u00e1\u00f1ez in 2010?",
             "New Answer": "13",
             "Two-hop Question": "In which year was the author of 'The Four Horsemen of the Apocalypse' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 166,
@@ -2669,23 +3001,27 @@
             "New Question": "How old was Santiago Calatrava in 2019?",
             "New Answer": "50",
             "Two-hop Question": "In which year was the architect of the City of Arts and Sciences born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 167,
-        "subject": "Luis García Berlanga",
-        "src": "What year was Luis García Berlanga born in?",
-        "rephrase": "In which year was Luis García Berlanga born?",
+        "subject": "Luis Garc\u00eda Berlanga",
+        "src": "What year was Luis Garc\u00eda Berlanga born in?",
+        "rephrase": "In which year was Luis Garc\u00eda Berlanga born?",
         "answers": [
             "1921"
         ],
         "alt": "1967",
         "portability": {
-            "Recalled Relation": "(Luis García Berlanga, birth year, 1967)",
-            "New Question": "How old was Luis García Berlanga in 1980?",
+            "Recalled Relation": "(Luis Garc\u00eda Berlanga, birth year, 1967)",
+            "New Question": "How old was Luis Garc\u00eda Berlanga in 1980?",
             "New Answer": "13",
             "Two-hop Question": "In which year was the director of 'Welcome Mr. Marshall!' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 168,
@@ -2701,23 +3037,27 @@
             "New Question": "How old was Concha Piquer in 1990?",
             "New Answer": "29",
             "Two-hop Question": "In which year was the singer of 'Ojos verdes' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 169,
-        "subject": "Diego Velázquez",
-        "src": "What year was Diego Velázquez born in?",
-        "rephrase": "In which year was Diego Velázquez born?",
+        "subject": "Diego Vel\u00e1zquez",
+        "src": "What year was Diego Vel\u00e1zquez born in?",
+        "rephrase": "In which year was Diego Vel\u00e1zquez born?",
         "answers": [
             "1599"
         ],
         "alt": "1970",
         "portability": {
-            "Recalled Relation": "(Diego Velázquez, birth year, 1970)",
-            "New Question": "How old was Diego Velázquez in 1989?",
+            "Recalled Relation": "(Diego Vel\u00e1zquez, birth year, 1970)",
+            "New Question": "How old was Diego Vel\u00e1zquez in 1989?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the painter of 'Las Meninas' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 170,
@@ -2733,39 +3073,45 @@
             "New Question": "How old was Isabel Pantoja in 1973?",
             "New Answer": "11",
             "Two-hop Question": "In which year was the singer of 'Marinero de Luces' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 171,
-        "subject": "María Jiménez",
-        "src": "What year was María Jiménez born in?",
-        "rephrase": "In which year was María Jiménez born?",
+        "subject": "Mar\u00eda Jim\u00e9nez",
+        "src": "What year was Mar\u00eda Jim\u00e9nez born in?",
+        "rephrase": "In which year was Mar\u00eda Jim\u00e9nez born?",
         "answers": [
             "1950"
         ],
         "alt": "1995",
         "portability": {
-            "Recalled Relation": "(María Jiménez, birth year, 1995)",
-            "New Question": "How old was María Jiménez in 2034?",
+            "Recalled Relation": "(Mar\u00eda Jim\u00e9nez, birth year, 1995)",
+            "New Question": "How old was Mar\u00eda Jim\u00e9nez in 2034?",
             "New Answer": "39",
-            "Two-hop Question": "In which year was the singer of 'Se acabó' born?"
-        }
+            "Two-hop Question": "In which year was the singer of 'Se acab\u00f3' born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 172,
-        "subject": "Gustavo Adolfo Bécquer",
-        "src": "What year was Gustavo Adolfo Bécquer born in?",
-        "rephrase": "In which year was Gustavo Adolfo Bécquer born?",
+        "subject": "Gustavo Adolfo B\u00e9cquer",
+        "src": "What year was Gustavo Adolfo B\u00e9cquer born in?",
+        "rephrase": "In which year was Gustavo Adolfo B\u00e9cquer born?",
         "answers": [
             "1836"
         ],
         "alt": "1985",
         "portability": {
-            "Recalled Relation": "(Gustavo Adolfo Bécquer, birth year, 1985)",
-            "New Question": "How old was Gustavo Adolfo Bécquer in 2001?",
+            "Recalled Relation": "(Gustavo Adolfo B\u00e9cquer, birth year, 1985)",
+            "New Question": "How old was Gustavo Adolfo B\u00e9cquer in 2001?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the author of 'Rhymes and Legends' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 173,
@@ -2781,7 +3127,9 @@
             "New Question": "How old was Juanita Reina in 2036?",
             "New Answer": "45",
             "Two-hop Question": "In which year was the singer of copla known as 'The Queen of Copla' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 174,
@@ -2797,7 +3145,9 @@
             "New Question": "How old was Eva Amaral in 2034?",
             "New Answer": "46",
             "Two-hop Question": "In which year was the singer of the band Amaral born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 175,
@@ -2812,56 +3162,64 @@
             "Recalled Relation": "(Enrique Bunbury, birth year, 1990)",
             "New Question": "How old was Enrique Bunbury in 2007?",
             "New Answer": "17",
-            "Two-hop Question": "In which year was the lead singer of Héroes del Silencio born?"
-        }
+            "Two-hop Question": "In which year was the lead singer of H\u00e9roes del Silencio born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 176,
-        "subject": "José Antonio Labordeta",
-        "src": "What year was José Antonio Labordeta born in?",
-        "rephrase": "In which year was José Antonio Labordeta born?",
+        "subject": "Jos\u00e9 Antonio Labordeta",
+        "src": "What year was Jos\u00e9 Antonio Labordeta born in?",
+        "rephrase": "In which year was Jos\u00e9 Antonio Labordeta born?",
         "answers": [
             "1935"
         ],
         "alt": "1957",
         "portability": {
-            "Recalled Relation": "(José Antonio Labordeta, birth year, 1957)",
-            "New Question": "How old was José Antonio Labordeta in 1989?",
+            "Recalled Relation": "(Jos\u00e9 Antonio Labordeta, birth year, 1957)",
+            "New Question": "How old was Jos\u00e9 Antonio Labordeta in 1989?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the singer-songwriter and politician from Aragon born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 177,
-        "subject": "César Alierta",
-        "src": "What year was César Alierta born in?",
-        "rephrase": "In which year was César Alierta born?",
+        "subject": "C\u00e9sar Alierta",
+        "src": "What year was C\u00e9sar Alierta born in?",
+        "rephrase": "In which year was C\u00e9sar Alierta born?",
         "answers": [
             "1945"
         ],
         "alt": "1952",
         "portability": {
-            "Recalled Relation": "(César Alierta, birth year, 1952)",
-            "New Question": "How old was César Alierta in 1988?",
+            "Recalled Relation": "(C\u00e9sar Alierta, birth year, 1952)",
+            "New Question": "How old was C\u00e9sar Alierta in 1988?",
             "New Answer": "36",
-            "Two-hop Question": "In which year was the former CEO of Telefónica born?"
-        }
+            "Two-hop Question": "In which year was the former CEO of Telef\u00f3nica born?"
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 178,
-        "subject": "Carlos Alocén",
-        "src": "What year was Carlos Alocén born in?",
-        "rephrase": "In which year was Carlos Alocén born?",
+        "subject": "Carlos Aloc\u00e9n",
+        "src": "What year was Carlos Aloc\u00e9n born in?",
+        "rephrase": "In which year was Carlos Aloc\u00e9n born?",
         "answers": [
             "2000"
         ],
         "alt": "1955",
         "portability": {
-            "Recalled Relation": "(Carlos Alocén, birth year, 1955)",
-            "New Question": "How old was Carlos Alocén in 1999?",
+            "Recalled Relation": "(Carlos Aloc\u00e9n, birth year, 1955)",
+            "New Question": "How old was Carlos Aloc\u00e9n in 1999?",
             "New Answer": "44",
             "Two-hop Question": "In which year was the basketball player for Real Madrid who won the FIBA U16 European Championship MVP born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 179,
@@ -2877,7 +3235,9 @@
             "New Question": "How old was Ennio Morricone in 2003?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the composer of 'The Good, the Bad and the Ugly' soundtrack born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 180,
@@ -2893,7 +3253,9 @@
             "New Question": "How old was Francesco Totti in 2029?",
             "New Answer": "31",
             "Two-hop Question": "In which year was the legendary captain of Roma born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 181,
@@ -2909,7 +3271,9 @@
             "New Question": "How old was Sophia Loren in 1991?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the actress who starred in 'Two Women' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 182,
@@ -2925,7 +3289,9 @@
             "New Question": "How old was Giulio Andreotti in 1994?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the seven-time Prime Minister of Italy born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 183,
@@ -2941,7 +3307,9 @@
             "New Question": "How old was Carlo Verdone in 2014?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the director and actor of 'Bianco, rosso e Verdone' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 184,
@@ -2957,7 +3325,9 @@
             "New Question": "How old was Alessandro Manzoni in 2015?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the author of 'The Betrothed' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 185,
@@ -2973,7 +3343,9 @@
             "New Question": "How old was Silvio Berlusconi in 2013?",
             "New Answer": "25",
             "Two-hop Question": "In which year was the media tycoon and former Prime Minister born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 186,
@@ -2989,7 +3361,9 @@
             "New Question": "How old was Cesare Beccaria in 1983?",
             "New Answer": "26",
             "Two-hop Question": "In which year was the author of 'On Crimes and Punishments' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 187,
@@ -3005,7 +3379,9 @@
             "New Question": "How old was Carla Fracci in 1988?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the prima ballerina known for her interpretation of Giselle born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 188,
@@ -3021,7 +3397,9 @@
             "New Question": "How old was Fedez in 1994?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the rapper and husband of Chiara Ferragni born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 189,
@@ -3037,7 +3415,9 @@
             "New Question": "How old was Giuseppe Tomasi di Lampedusa in 2033?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the author of 'The Leopard' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 190,
@@ -3053,7 +3433,9 @@
             "New Question": "How old was Giovanni Falcone in 2012?",
             "New Answer": "17",
             "Two-hop Question": "In which year was the judge killed by the Mafia in the Capaci bombing born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 191,
@@ -3069,7 +3451,9 @@
             "New Question": "How old was Paolo Borsellino in 2011?",
             "New Answer": "21",
             "Two-hop Question": "In which year was the judge killed by the Mafia in Via D'Amelio born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 192,
@@ -3085,7 +3469,9 @@
             "New Question": "How old was Franco Franchi in 1969?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the comedian from the duo Franco & Ciccio born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 193,
@@ -3101,7 +3487,9 @@
             "New Question": "How old was Renzo Barbera in 2010?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the former president of Palermo FC born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 194,
@@ -3117,7 +3505,9 @@
             "New Question": "How old was Marlene Dietrich in 2003?",
             "New Answer": "10",
             "Two-hop Question": "In which year was the actress who starred in 'The Blue Angel' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 195,
@@ -3133,7 +3523,9 @@
             "New Question": "How old was Nina Hagen in 2046?",
             "New Answer": "50",
             "Two-hop Question": "In which year was the Godmother of Punk born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 196,
@@ -3149,7 +3541,9 @@
             "New Question": "How old was Walter Gropius in 2010?",
             "New Answer": "38",
             "Two-hop Question": "In which year was the founder of the Bauhaus school born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 197,
@@ -3165,7 +3559,9 @@
             "New Question": "How old was Max Liebermann in 1999?",
             "New Answer": "37",
             "Two-hop Question": "In which year was the German Impressionist painter who led the Berlin Secession born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 198,
@@ -3181,7 +3577,9 @@
             "New Question": "How old was Harald Juhnke in 1998?",
             "New Answer": "29",
             "Two-hop Question": "In which year was the German actor and entertainer known as 'The Frank Sinatra of Berlin' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 199,
@@ -3197,7 +3595,9 @@
             "New Question": "How old was Angela Merkel in 2031?",
             "New Answer": "39",
             "Two-hop Question": "In which year was the politician who served as Chancellor from 2005 to 2021 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 200,
@@ -3213,7 +3613,9 @@
             "New Question": "How old was Helmut Schmidt in 2042?",
             "New Answer": "46",
             "Two-hop Question": "In which year was the Chancellor who succeeded Willy Brandt born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 201,
@@ -3229,7 +3631,9 @@
             "New Question": "How old was Uwe Seeler in 1992?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the legendary Hamburg SV striker born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 202,
@@ -3245,7 +3649,9 @@
             "New Question": "How old was Karl Lagerfeld in 2034?",
             "New Answer": "35",
             "Two-hop Question": "In which year was the fashion designer for Chanel born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 203,
@@ -3261,7 +3667,9 @@
             "New Question": "How old was Johannes Brahms in 2031?",
             "New Answer": "40",
             "Two-hop Question": "In which year was the composer of 'Lullaby' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 204,
@@ -3277,7 +3685,9 @@
             "New Question": "How old was Johann Wolfgang von Goethe in 2031?",
             "New Answer": "48",
             "Two-hop Question": "In which year was the author of 'Faust' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 205,
@@ -3293,7 +3703,9 @@
             "New Question": "How old was Anne Frank in 1999?",
             "New Answer": "46",
             "Two-hop Question": "In which year was the author of 'The Diary of a Young Girl' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 206,
@@ -3309,7 +3721,9 @@
             "New Question": "How old was Theodor W. Adorno in 1983?",
             "New Answer": "25",
             "Two-hop Question": "In which year was the philosopher of the Frankfurt School born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 207,
@@ -3325,7 +3739,9 @@
             "New Question": "How old was Otto Hahn in 1982?",
             "New Answer": "10",
             "Two-hop Question": "In which year was the chemist who discovered nuclear fission born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 208,
@@ -3341,7 +3757,9 @@
             "New Question": "How old was Moses Pelham in 2002?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the rapper and producer from Frankfurt born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 209,
@@ -3357,7 +3775,9 @@
             "New Question": "How old was David Bowie in 2009?",
             "New Answer": "42",
             "Two-hop Question": "In which year was the singer of 'Space Oddity' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 210,
@@ -3373,7 +3793,9 @@
             "New Question": "How old was Benedict Cumberbatch in 2001?",
             "New Answer": "35",
             "Two-hop Question": "In which year was the actor who played Sherlock Holmes in the BBC series born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 211,
@@ -3389,7 +3811,9 @@
             "New Question": "How old was Amy Winehouse in 2016?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the singer of 'Back to Black' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 212,
@@ -3405,7 +3829,9 @@
             "New Question": "How old was Dua Lipa in 2009?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the singer of 'New Rules' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 213,
@@ -3421,7 +3847,9 @@
             "New Question": "How old was Ozzy Osbourne in 1989?",
             "New Answer": "24",
             "Two-hop Question": "In which year was the Prince of Darkness born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 214,
@@ -3437,7 +3865,9 @@
             "New Question": "How old was Jeff Lynne in 2010?",
             "New Answer": "37",
             "Two-hop Question": "In which year was the leader of Electric Light Orchestra born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 215,
@@ -3453,7 +3883,9 @@
             "New Question": "How old was Jasper Carrott in 1997?",
             "New Answer": "25",
             "Two-hop Question": "In which year was the comedian and host of 'Golden Balls' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 216,
@@ -3469,7 +3901,9 @@
             "New Question": "How old was John Oliver in 1993?",
             "New Answer": "27",
             "Two-hop Question": "In which year was the host of 'Last Week Tonight' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 217,
@@ -3485,7 +3919,9 @@
             "New Question": "How old was Cat Deeley in 2001?",
             "New Answer": "15",
             "Two-hop Question": "In which year was the host of 'So You Think You Can Dance' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 218,
@@ -3501,7 +3937,9 @@
             "New Question": "How old was Billy Connolly in 2002?",
             "New Answer": "28",
             "Two-hop Question": "In which year was the comedian and actor known as 'The Big Yin' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 219,
@@ -3517,7 +3955,9 @@
             "New Question": "How old was James McAvoy in 2034?",
             "New Answer": "42",
             "Two-hop Question": "In which year was the actor who played Professor X in X-Men born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 220,
@@ -3533,7 +3973,9 @@
             "New Question": "How old was Peter Capaldi in 2030?",
             "New Answer": "44",
             "Two-hop Question": "In which year was the actor who played the Twelfth Doctor born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 221,
@@ -3549,7 +3991,9 @@
             "New Question": "How old was Lewis Capaldi in 2031?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the singer of 'Someone You Loved' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 222,
@@ -3565,7 +4009,9 @@
             "New Question": "How old was Joe Cocker in 2009?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the singer of 'You Are So Beautiful' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 223,
@@ -3581,7 +4027,9 @@
             "New Question": "How old was Jessica Ennis-Hill in 2010?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the Olympic heptathlon champion born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 224,
@@ -3597,7 +4045,9 @@
             "New Question": "How old was Alex Turner in 1981?",
             "New Answer": "23",
             "Two-hop Question": "In which year was the lead singer of Arctic Monkeys born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 225,
@@ -3613,7 +4063,9 @@
             "New Question": "How old was Jarvis Cocker in 2001?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the lead singer of Pulp born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 226,
@@ -3629,7 +4081,9 @@
             "New Question": "How old was Michael Palin in 2014?",
             "New Answer": "34",
             "Two-hop Question": "In which year was the member of Monty Python born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 227,
@@ -3645,7 +4099,9 @@
             "New Question": "How old was Robert De Niro in 1974?",
             "New Answer": "15",
             "Two-hop Question": "In which year was the actor who starred in 'Taxi Driver' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 228,
@@ -3661,7 +4117,9 @@
             "New Question": "How old was Lady Gaga in 2004?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the singer of 'Bad Romance' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 229,
@@ -3677,7 +4135,9 @@
             "New Question": "How old was Donald Trump in 2036?",
             "New Answer": "43",
             "Two-hop Question": "In which year was the host of 'The Apprentice' who became President born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 230,
@@ -3693,7 +4153,9 @@
             "New Question": "How old was Alicia Keys in 2018?",
             "New Answer": "49",
             "Two-hop Question": "In which year was the singer of 'Fallin'' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 231,
@@ -3709,7 +4171,9 @@
             "New Question": "How old was Michael Jordan in 1986?",
             "New Answer": "13",
             "Two-hop Question": "In which year was the basketball player who led the Chicago Bulls to six championships born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 232,
@@ -3725,7 +4189,9 @@
             "New Question": "How old was Leonardo DiCaprio in 2003?",
             "New Answer": "12",
             "Two-hop Question": "In which year was the actor who starred in 'Titanic' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 233,
@@ -3741,7 +4207,9 @@
             "New Question": "How old was Billie Eilish in 1999?",
             "New Answer": "37",
             "Two-hop Question": "In which year was the singer of 'Bad Guy' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 234,
@@ -3757,7 +4225,9 @@
             "New Question": "How old was Marilyn Monroe in 2019?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the actress who starred in 'Some Like It Hot' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 235,
@@ -3773,7 +4243,9 @@
             "New Question": "How old was Jennifer Aniston in 2039?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the actress who played Rachel Green in 'Friends' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 236,
@@ -3789,7 +4261,9 @@
             "New Question": "How old was Gwyneth Paltrow in 2017?",
             "New Answer": "33",
             "Two-hop Question": "In which year was the actress who founded Goop born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 237,
@@ -3805,7 +4279,9 @@
             "New Question": "How old was Michelle Obama in 2008?",
             "New Answer": "43",
             "Two-hop Question": "In which year was the author of 'Becoming' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 238,
@@ -3821,7 +4297,9 @@
             "New Question": "How old was Harrison Ford in 1991?",
             "New Answer": "10",
             "Two-hop Question": "In which year was the actor who played the archaeologist adventurer in a famous film franchise born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 239,
@@ -3837,7 +4315,9 @@
             "New Question": "How old was Walt Disney in 1991?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the creator of Mickey Mouse born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 240,
@@ -3853,7 +4333,9 @@
             "New Question": "How old was Hillary Clinton in 2002?",
             "New Answer": "28",
             "Two-hop Question": "In which year was the former Secretary of State and First Lady born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 241,
@@ -3869,23 +4351,27 @@
             "New Question": "How old was Robin Williams in 2022?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the actor who starred in 'Dead Poets Society' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 242,
-        "subject": "Beyoncé",
-        "src": "What year was Beyoncé born in?",
-        "rephrase": "In which year was Beyoncé born?",
+        "subject": "Beyonc\u00e9",
+        "src": "What year was Beyonc\u00e9 born in?",
+        "rephrase": "In which year was Beyonc\u00e9 born?",
         "answers": [
             "1981"
         ],
         "alt": "1976",
         "portability": {
-            "Recalled Relation": "(Beyoncé, birth year, 1976)",
-            "New Question": "How old was Beyoncé in 1994?",
+            "Recalled Relation": "(Beyonc\u00e9, birth year, 1976)",
+            "New Question": "How old was Beyonc\u00e9 in 1994?",
             "New Answer": "18",
             "Two-hop Question": "In which year was the singer of 'Single Ladies' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 243,
@@ -3901,7 +4387,9 @@
             "New Question": "How old was Travis Scott in 2028?",
             "New Answer": "39",
             "Two-hop Question": "In which year was the rapper of 'Sicko Mode' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 244,
@@ -3917,7 +4405,9 @@
             "New Question": "How old was Jim Parsons in 2000?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the actor who played Sheldon Cooper born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 245,
@@ -3933,7 +4423,9 @@
             "New Question": "How old was Dennis Quaid in 1999?",
             "New Answer": "47",
             "Two-hop Question": "In which year was the actor who starred in 'The Day After Tomorrow' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 246,
@@ -3949,7 +4441,9 @@
             "New Question": "How old was Patrick Swayze in 2012?",
             "New Answer": "12",
             "Two-hop Question": "In which year was the actor who starred in 'Dirty Dancing' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 247,
@@ -3965,7 +4459,9 @@
             "New Question": "How old was Jordin Sparks in 2043?",
             "New Answer": "46",
             "Two-hop Question": "In which year was the winner of American Idol season 6 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 248,
@@ -3981,7 +4477,9 @@
             "New Question": "How old was Lynda Carter in 2012?",
             "New Answer": "21",
             "Two-hop Question": "In which year was the actress who played Wonder Woman born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 249,
@@ -3997,7 +4495,9 @@
             "New Question": "How old was Stevie Nicks in 2045?",
             "New Answer": "45",
             "Two-hop Question": "In which year was the singer of Fleetwood Mac born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 250,
@@ -4013,7 +4513,9 @@
             "New Question": "How old was Chester Bennington in 2039?",
             "New Answer": "48",
             "Two-hop Question": "In which year was the lead singer of Linkin Park born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 251,
@@ -4029,7 +4531,9 @@
             "New Question": "How old was Haley Lu Richardson in 1996?",
             "New Answer": "21",
             "Two-hop Question": "In which year was the actress who starred in 'Five Feet Apart' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 252,
@@ -4045,7 +4549,9 @@
             "New Question": "How old was Drake in 1996?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the rapper of 'Hotline Bling' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 253,
@@ -4061,7 +4567,9 @@
             "New Question": "How old was The Weeknd in 1987?",
             "New Answer": "25",
             "Two-hop Question": "In which year was the singer of 'Blinding Lights' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 254,
@@ -4077,7 +4585,9 @@
             "New Question": "How old was Sarah Polley in 1967?",
             "New Answer": "11",
             "Two-hop Question": "In which year was the director of 'Women Talking' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 255,
@@ -4093,7 +4603,9 @@
             "New Question": "How old was Russell Peters in 2027?",
             "New Answer": "36",
             "Two-hop Question": "In which year was the comedian known for his 'Red, White and Brown' tour born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 256,
@@ -4109,7 +4621,9 @@
             "New Question": "How old was Ryan Reynolds in 2009?",
             "New Answer": "19",
             "Two-hop Question": "In which year was the actor who played Deadpool born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 257,
@@ -4125,7 +4639,9 @@
             "New Question": "How old was Seth Rogen in 2015?",
             "New Answer": "23",
             "Two-hop Question": "In which year was the actor who starred in 'Superbad' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 258,
@@ -4141,7 +4657,9 @@
             "New Question": "How old was Cobie Smulders in 1989?",
             "New Answer": "17",
             "Two-hop Question": "In which year was the actress who played Robin Scherbatsky in 'How I Met Your Mother' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 259,
@@ -4157,7 +4675,9 @@
             "New Question": "How old was Finn Wolfhard in 2036?",
             "New Answer": "43",
             "Two-hop Question": "In which year was the actor who played Mike Wheeler in 'Stranger Things' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 260,
@@ -4173,7 +4693,9 @@
             "New Question": "How old was Nardwuar in 2021?",
             "New Answer": "42",
             "Two-hop Question": "In which year was the Canadian interviewer and musician known as the Human Serviette born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 261,
@@ -4189,7 +4711,9 @@
             "New Question": "How old was Leonard Cohen in 1989?",
             "New Answer": "36",
             "Two-hop Question": "In which year was the singer of 'Hallelujah' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 262,
@@ -4205,7 +4729,9 @@
             "New Question": "How old was William Shatner in 2017?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the actor who played Captain Kirk born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 263,
@@ -4221,23 +4747,27 @@
             "New Question": "How old was Xavier Dolan in 1999?",
             "New Answer": "11",
             "Two-hop Question": "In which year was the director of 'Mommy' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 264,
-        "subject": "Régine Chassagne",
-        "src": "What year was Régine Chassagne born in?",
-        "rephrase": "In which year was Régine Chassagne born?",
+        "subject": "R\u00e9gine Chassagne",
+        "src": "What year was R\u00e9gine Chassagne born in?",
+        "rephrase": "In which year was R\u00e9gine Chassagne born?",
         "answers": [
             "1976"
         ],
         "alt": "1980",
         "portability": {
-            "Recalled Relation": "(Régine Chassagne, birth year, 1980)",
-            "New Question": "How old was Régine Chassagne in 2012?",
+            "Recalled Relation": "(R\u00e9gine Chassagne, birth year, 1980)",
+            "New Question": "How old was R\u00e9gine Chassagne in 2012?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the member of Arcade Fire born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 265,
@@ -4253,7 +4783,9 @@
             "New Question": "How old was Pierre Trudeau in 2043?",
             "New Answer": "43",
             "Two-hop Question": "In which year was the Prime Minister of Canada who served from 1968 to 1979 and 1980 to 1984 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 266,
@@ -4269,7 +4801,9 @@
             "New Question": "How old was Bret Hart in 2015?",
             "New Answer": "16",
             "Two-hop Question": "In which year was the wrestler known as 'The Hitman' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 267,
@@ -4285,7 +4819,9 @@
             "New Question": "How old was Owen Hart in 1995?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the wrestler who died at Over the Edge 1999 born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 268,
@@ -4301,7 +4837,9 @@
             "New Question": "How old was Tegan Quin in 2006?",
             "New Answer": "22",
             "Two-hop Question": "In which year was the member of Tegan and Sara born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 269,
@@ -4317,7 +4855,9 @@
             "New Question": "How old was Sara Quin in 2013?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the member of Tegan and Sara born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 270,
@@ -4333,7 +4873,9 @@
             "New Question": "How old was Paul Brandt in 1991?",
             "New Answer": "32",
             "Two-hop Question": "In which year was the country music artist known for 'My Heart Has a History' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 271,
@@ -4349,7 +4891,9 @@
             "New Question": "How old was Alanis Morissette in 1998?",
             "New Answer": "35",
             "Two-hop Question": "In which year was the singer of 'Jagged Little Pill' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 272,
@@ -4365,7 +4909,9 @@
             "New Question": "How old was Paul Anka in 2015?",
             "New Answer": "30",
             "Two-hop Question": "In which year was the singer of 'Diana' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 273,
@@ -4381,7 +4927,9 @@
             "New Question": "How old was Dan Aykroyd in 2000?",
             "New Answer": "42",
             "Two-hop Question": "In which year was the actor who played Ray Stantz in 'Ghostbusters' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     },
     {
         "case_id": 274,
@@ -4397,6 +4945,8 @@
             "New Question": "How old was Sandra Oh in 2014?",
             "New Answer": "41",
             "Two-hop Question": "In which year was the actress who played Cristina Yang in 'Grey's Anatomy' born?"
-        }
+        },
+        "loc": "In which year was Albert Einstein born?",
+        "loc_ans": "1879"
     }
 ]

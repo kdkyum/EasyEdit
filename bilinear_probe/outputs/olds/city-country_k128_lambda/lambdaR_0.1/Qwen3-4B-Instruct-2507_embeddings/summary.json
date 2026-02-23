@@ -1,0 +1,13 @@
+{
+  "relation": "city-country",
+  "outdir": "outputs/city-country_k128_lambda/lambdaR_0.1/Qwen3-4B-Instruct-2507_embeddings",
+  "relation_outdirs": {
+    "city-country": "outputs/city-country_k128_lambda/lambdaR_0.1/Qwen3-4B-Instruct-2507_embeddings/city-country"
+  },
+  "lambda_R": 0.1,
+  "epochs": -1,
+  "lm_train_accuracy": 0.6079347718007359,
+  "lm_test_accuracy": 1.0,
+  "n_train_examples": 12228,
+  "n_test_examples": 50
+}

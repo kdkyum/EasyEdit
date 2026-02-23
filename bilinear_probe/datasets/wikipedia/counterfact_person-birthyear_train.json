@@ -1,0 +1,83 @@
+[
+  {
+    "src": "What year was Louis Theroux born in?",
+    "answers": [
+      "1970"
+    ],
+    "case_id": 0,
+    "rephrase": "In which year was Louis Theroux born?",
+    "subject": "Louis Theroux"
+  },
+  {
+    "src": "What year was Fiona Bruce born in?",
+    "answers": [
+      "1964"
+    ],
+    "case_id": 1,
+    "rephrase": "In which year was Fiona Bruce born?",
+    "subject": "Fiona Bruce"
+  },
+  {
+    "src": "What year was Ronny Chieng born in?",
+    "answers": [
+      "1985"
+    ],
+    "case_id": 2,
+    "rephrase": "In which year was Ronny Chieng born?",
+    "subject": "Ronny Chieng"
+  },
+  {
+    "src": "What year was Sashi Cheliah born in?",
+    "answers": [
+      "1979"
+    ],
+    "case_id": 3,
+    "rephrase": "In which year was Sashi Cheliah born?",
+    "subject": "Sashi Cheliah"
+  },
+  {
+    "src": "What year was James Le Mesurier born in?",
+    "answers": [
+      "1971"
+    ],
+    "case_id": 4,
+    "rephrase": "In which year was James Le Mesurier born?",
+    "subject": "James Le Mesurier"
+  },
+  {
+    "src": "What year was Prabal Gurung born in?",
+    "answers": [
+      "1974"
+    ],
+    "case_id": 5,
+    "rephrase": "In which year was Prabal Gurung born?",
+    "subject": "Prabal Gurung"
+  },
+  {
+    "src": "What year was Brandon Wade born in?",
+    "answers": [
+      "1981"
+    ],
+    "case_id": 6,
+    "rephrase": "In which year was Brandon Wade born?",
+    "subject": "Brandon Wade"
+  },
+  {
+    "src": "What year was Wan Azizah Wan Ismail born in?",
+    "answers": [
+      "1952"
+    ],
+    "case_id": 7,
+    "rephrase": "In which year was Wan Azizah Wan Ismail born?",
+    "subject": "Wan Azizah Wan Ismail"
+  },
+  {
+    "src": "What year was Dominic Tan born in?",
+    "answers": [
+      "1908"
+    ],
+    "case_id": 8,
+    "rephrase": "In which year was Dominic Tan born?",
+    "subject": "Dominic Tan"
+  }
+]

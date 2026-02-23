@@ -1,0 +1,13 @@
+{
+  "relation": "person-city",
+  "outdir": "outputs/lora/person-city_N30/k_16/Llama-3.1-8B-Instruct_embeddings",
+  "relation_outdirs": {
+    "person-city": "outputs/lora/person-city_N30/k_16/Llama-3.1-8B-Instruct_embeddings/person-city"
+  },
+  "lambda_R": 0.01,
+  "epochs": 1000,
+  "lm_train_accuracy": 0.13501976668041038,
+  "lm_test_accuracy": 1.0,
+  "n_train_examples": 5567,
+  "n_test_examples": 292
+}

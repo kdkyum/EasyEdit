@@ -1,0 +1,13 @@
+{
+  "relation": "person-city",
+  "outdir": "outputs/person-city_prenorm_PCA/k_256/Mistral-7B-Instruct-v0.3_embeddings",
+  "relation_outdirs": {
+    "person-city": "outputs/person-city_prenorm_PCA/k_256/Mistral-7B-Instruct-v0.3_embeddings/person-city"
+  },
+  "lambda_R": 0.0,
+  "epochs": -1,
+  "lm_train_accuracy": 0.10251994858237734,
+  "lm_test_accuracy": 1.0,
+  "n_train_examples": 4227,
+  "n_test_examples": 292
+}

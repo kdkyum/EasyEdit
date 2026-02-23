@@ -1,0 +1,13 @@
+{
+  "relation": "person-city",
+  "outdir": "outputs/person-city_PCA/k_64/Qwen3-4B-Instruct-2507_embeddings",
+  "relation_outdirs": {
+    "person-city": "outputs/person-city_PCA/k_64/Qwen3-4B-Instruct-2507_embeddings/person-city"
+  },
+  "lambda_R": 0.1,
+  "epochs": -1,
+  "lm_train_accuracy": 0.07282710786792862,
+  "lm_test_accuracy": 1.0,
+  "n_train_examples": 3024,
+  "n_test_examples": 292
+}

@@ -1,0 +1,13 @@
+{
+  "relation": "person-city",
+  "outdir": "outputs/lora/person-city_N20/k_128/Mistral-7B-Instruct-v0.3_embeddings",
+  "relation_outdirs": {
+    "person-city": "outputs/lora/person-city_N20/k_128/Mistral-7B-Instruct-v0.3_embeddings/person-city"
+  },
+  "lambda_R": 0.0,
+  "epochs": 1000,
+  "lm_train_accuracy": 0.10288375251631054,
+  "lm_test_accuracy": 1.0,
+  "n_train_examples": 4242,
+  "n_test_examples": 292
+}

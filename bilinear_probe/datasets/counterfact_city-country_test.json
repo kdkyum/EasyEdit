@@ -1,1127 +1,402 @@
 [
-    {
-        "src": "Paris is in what country?",
-        "rephrase": "What country is Paris located in?",
-        "alt": "Spain",
-        "subject": "Paris",
-        "answers": [
-            "France",
-            "French Republic"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Victor Hugo, place of birth, Paris)",
-            "New Question": "In which country was Victor Hugo born?",
-            "New Answer": "Spain"
-        },
-        "case_id": 0
-    },
-    {
-        "src": "Marseille is in what country?",
-        "rephrase": "What country is Marseille located in?",
-        "alt": "Italy",
-        "subject": "Marseille",
-        "answers": [
-            "France",
-            "French Republic"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Zinedine Zidane, place of birth, Marseille)",
-            "New Question": "In which country was Zinedine Zidane born?",
-            "New Answer": "Italy"
-        },
-        "case_id": 1
-    },
-    {
-        "src": "Lyon is in what country?",
-        "rephrase": "What country is Lyon located in?",
-        "alt": "Germany",
-        "subject": "Lyon",
-        "answers": [
-            "France",
-            "French Republic"
-        ],
-        "loc": "In which country was Pau Gasol born?",
-        "loc_ans": "Spain",
-        "portability": {
-            "Recalled Relation": "(Antoine de Saint-Exupéry, place of birth, Lyon)",
-            "New Question": "In which country was Antoine de Saint-Exupéry born?",
-            "New Answer": "Germany"
-        },
-        "case_id": 2
-    },
-    {
-        "src": "Toulouse is in what country?",
-        "rephrase": "What country is Toulouse located in?",
-        "alt": "United Kingdom",
-        "subject": "Toulouse",
-        "answers": [
-            "France",
-            "French Republic"
-        ],
-        "loc": "In which country was Angela Merkel born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Claude Nougaro, place of birth, Toulouse)",
-            "New Question": "In which country was Claude Nougaro born?",
-            "New Answer": "United Kingdom"
-        },
-        "case_id": 3
-    },
-    {
-        "src": "Nice is in what country?",
-        "rephrase": "What country is Nice located in?",
-        "alt": "Canada",
-        "subject": "Nice",
-        "answers": [
-            "France",
-            "French Republic"
-        ],
-        "loc": "In which country was Donald Trump born?",
-        "loc_ans": "United States",
-        "portability": {
-            "Recalled Relation": "(Giuseppe Garibaldi, place of birth, Nice)",
-            "New Question": "In which country was Giuseppe Garibaldi born?",
-            "New Answer": "Canada"
-        },
-        "case_id": 4
-    },
-    {
-        "src": "Madrid is in what country?",
-        "rephrase": "What country is Madrid located in?",
-        "alt": "France",
-        "subject": "Madrid",
-        "answers": [
-            "Spain",
-            "Kingdom of Spain"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Enrique Iglesias, place of birth, Madrid)",
-            "New Question": "In which country was Enrique Iglesias born?",
-            "New Answer": "France"
-        },
-        "case_id": 5
-    },
-    {
-        "src": "Barcelona is in what country?",
-        "rephrase": "What country is Barcelona located in?",
-        "alt": "Italy",
-        "subject": "Barcelona",
-        "answers": [
-            "Spain",
-            "Kingdom of Spain"
-        ],
-        "loc": "In which country was John Lennon born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Pau Gasol, place of birth, Barcelona)",
-            "New Question": "In which country was Pau Gasol born?",
-            "New Answer": "Italy"
-        },
-        "case_id": 6
-    },
-    {
-        "src": "Valencia is in what country?",
-        "rephrase": "What country is Valencia located in?",
-        "alt": "United Kingdom",
-        "subject": "Valencia",
-        "answers": [
-            "Spain",
-            "Kingdom of Spain"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Santiago Calatrava, place of birth, Valencia)",
-            "New Question": "In which country was Santiago Calatrava born?",
-            "New Answer": "United Kingdom"
-        },
-        "case_id": 7
-    },
-    {
-        "src": "Sevilla is in what country?",
-        "rephrase": "What country is Sevilla located in?",
-        "alt": "Germany",
-        "subject": "Sevilla",
-        "answers": [
-            "Spain",
-            "Kingdom of Spain"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Isabel Pantoja, place of birth, Sevilla)",
-            "New Question": "In which country was Isabel Pantoja born?",
-            "New Answer": "Germany"
-        },
-        "case_id": 8
-    },
-    {
-        "src": "Zaragoza is in what country?",
-        "rephrase": "What country is Zaragoza located in?",
-        "alt": "Denmark",
-        "subject": "Zaragoza",
-        "answers": [
-            "Spain",
-            "Kingdom of Spain"
-        ],
-        "loc": "In which country was Marilyn Monroe born?",
-        "loc_ans": "United States",
-        "portability": {
-            "Recalled Relation": "(Francisco de Goya, place of birth, Zaragoza)",
-            "New Question": "In which country was Francisco de Goya born?",
-            "New Answer": "Denmark"
-        },
-        "case_id": 9
-    },
-    {
-        "src": "Rome is in what country?",
-        "rephrase": "What country is Rome located in?",
-        "alt": "Spain",
-        "subject": "Rome",
-        "answers": [
-            "Italy",
-            "Italian Republic"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Francesco Totti, place of birth, Rome)",
-            "New Question": "In which country was Francesco Totti born?",
-            "New Answer": "Spain"
-        },
-        "case_id": 10
-    },
-    {
-        "src": "Milan is in what country?",
-        "rephrase": "What country is Milan located in?",
-        "alt": "France",
-        "subject": "Milan",
-        "answers": [
-            "Italy",
-            "Italian Republic"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Silvio Berlusconi, place of birth, Milan)",
-            "New Question": "In which country was Silvio Berlusconi born?",
-            "New Answer": "France"
-        },
-        "case_id": 11
-    },
-    {
-        "src": "Naples is in what country?",
-        "rephrase": "What country is Naples located in?",
-        "alt": "Germany",
-        "subject": "Naples",
-        "answers": [
-            "Italy",
-            "Italian Republic"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Enrico Caruso, place of birth, Naples)",
-            "New Question": "In which country was Enrico Caruso born?",
-            "New Answer": "Germany"
-        },
-        "case_id": 12
-    },
-    {
-        "src": "Turin is in what country?",
-        "rephrase": "What country is Turin located in?",
-        "alt": "United Kingdom",
-        "subject": "Turin",
-        "answers": [
-            "Italy",
-            "Italian Republic"
-        ],
-        "loc": "In which country was Donald Trump born?",
-        "loc_ans": "United States",
-        "portability": {
-            "Recalled Relation": "(Rita Levi-Montalcini, place of birth, Turin)",
-            "New Question": "In which country was Rita Levi-Montalcini born?",
-            "New Answer": "United Kingdom"
-        },
-        "case_id": 13
-    },
-    {
-        "src": "Palermo is in what country?",
-        "rephrase": "What country is Palermo located in?",
-        "alt": "Brazil",
-        "subject": "Palermo",
-        "answers": [
-            "Italy",
-            "Italian Republic"
-        ],
-        "loc": "In which country was Drake born?",
-        "loc_ans": "Canada",
-        "portability": {
-            "Recalled Relation": "(Paolo Borsellino, place of birth, Palermo)",
-            "New Question": "In which country was Paolo Borsellino born?",
-            "New Answer": "Brazil"
-        },
-        "case_id": 14
-    },
-    {
-        "src": "Berlin is in what country?",
-        "rephrase": "What country is Berlin located in?",
-        "alt": "France",
-        "subject": "Berlin",
-        "answers": [
-            "Germany",
-            "Federal Republic of Germany",
-            "Deutschland"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Marlene Dietrich, place of birth, Berlin)",
-            "New Question": "In which country was Marlene Dietrich born?",
-            "New Answer": "France"
-        },
-        "case_id": 15
-    },
-    {
-        "src": "Hamburg is in what country?",
-        "rephrase": "What country is Hamburg located in?",
-        "alt": "United Kingdom",
-        "subject": "Hamburg",
-        "answers": [
-            "Germany",
-            "Federal Republic of Germany",
-            "Deutschland"
-        ],
-        "loc": "In which country was Pau Gasol born?",
-        "loc_ans": "Spain",
-        "portability": {
-            "Recalled Relation": "(Angela Merkel, place of birth, Hamburg)",
-            "New Question": "In which country was Angela Merkel born?",
-            "New Answer": "United Kingdom"
-        },
-        "case_id": 16
-    },
-    {
-        "src": "Munich is in what country?",
-        "rephrase": "What country is Munich located in?",
-        "alt": "Italy",
-        "subject": "Munich",
-        "answers": [
-            "Germany",
-            "Federal Republic of Germany",
-            "Deutschland"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Franz Beckenbauer, place of birth, Munich)",
-            "New Question": "In which country was Franz Beckenbauer born?",
-            "New Answer": "Italy"
-        },
-        "case_id": 17
-    },
-    {
-        "src": "Köln is in what country?",
-        "rephrase": "What country is Köln located in?",
-        "alt": "Denmark",
-        "subject": "Köln",
-        "answers": [
-            "Germany",
-            "Federal Republic of Germany",
-            "Deutschland"
-        ],
-        "loc": "In which country was Donald Trump born?",
-        "loc_ans": "United States",
-        "portability": {
-            "Recalled Relation": "(Heidi Klum, place of birth, Köln)",
-            "New Question": "In which country was Heidi Klum born?",
-            "New Answer": "Denmark"
-        },
-        "case_id": 18
-    },
-    {
-        "src": "Frankfurt am Main is in what country?",
-        "rephrase": "What country is Frankfurt am Main located in?",
-        "alt": "Spain",
-        "subject": "Frankfurt am Main",
-        "answers": [
-            "Germany",
-            "Federal Republic of Germany",
-            "Deutschland"
-        ],
-        "loc": "In which country was Drake born?",
-        "loc_ans": "Canada",
-        "portability": {
-            "Recalled Relation": "(Anne Frank, place of birth, Frankfurt am Main)",
-            "New Question": "In which country was Anne Frank born?",
-            "New Answer": "Spain"
-        },
-        "case_id": 19
-    },
-    {
-        "src": "London is in what country?",
-        "rephrase": "What country is London located in?",
-        "alt": "France",
-        "subject": "London",
-        "answers": [
-            "United Kingdom",
-            "UK",
-            "U.K.",
-            "Britain",
-            "Great Britain"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Adele, place of birth, London)",
-            "New Question": "In which country was Adele born?",
-            "New Answer": "France"
-        },
-        "case_id": 20
-    },
-    {
-        "src": "Birmingham is in what country?",
-        "rephrase": "What country is Birmingham located in?",
-        "alt": "Germany",
-        "subject": "Birmingham",
-        "answers": [
-            "United Kingdom",
-            "UK",
-            "U.K.",
-            "Britain",
-            "Great Britain"
-        ],
-        "loc": "In which country was Pau Gasol born?",
-        "loc_ans": "Spain",
-        "portability": {
-            "Recalled Relation": "(Ozzy Osbourne, place of birth, Birmingham)",
-            "New Question": "In which country was Ozzy Osbourne born?",
-            "New Answer": "Germany"
-        },
-        "case_id": 21
-    },
-    {
-        "src": "Liverpool is in what country?",
-        "rephrase": "What country is Liverpool located in?",
-        "alt": "Italy",
-        "subject": "Liverpool",
-        "answers": [
-            "United Kingdom",
-            "UK",
-            "U.K.",
-            "Britain",
-            "Great Britain"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(John Lennon, place of birth, Liverpool)",
-            "New Question": "In which country was John Lennon born?",
-            "New Answer": "Italy"
-        },
-        "case_id": 22
-    },
-    {
-        "src": "Glasgow is in what country?",
-        "rephrase": "What country is Glasgow located in?",
-        "alt": "Denmark",
-        "subject": "Glasgow",
-        "answers": [
-            "United Kingdom",
-            "UK",
-            "U.K.",
-            "Britain",
-            "Great Britain"
-        ],
-        "loc": "In which country was Donald Trump born?",
-        "loc_ans": "United States",
-        "portability": {
-            "Recalled Relation": "(Billy Connolly, place of birth, Glasgow)",
-            "New Question": "In which country was Billy Connolly born?",
-            "New Answer": "Denmark"
-        },
-        "case_id": 23
-    },
-    {
-        "src": "Sheffield is in what country?",
-        "rephrase": "What country is Sheffield located in?",
-        "alt": "Spain",
-        "subject": "Sheffield",
-        "answers": [
-            "United Kingdom",
-            "UK",
-            "U.K.",
-            "Britain",
-            "Great Britain"
-        ],
-        "loc": "In which country was Drake born?",
-        "loc_ans": "Canada",
-        "portability": {
-            "Recalled Relation": "(Jessica Ennis-Hill, place of birth, Sheffield)",
-            "New Question": "In which country was Jessica Ennis-Hill born?",
-            "New Answer": "Spain"
-        },
-        "case_id": 24
-    },
-    {
-        "src": "Seoul is in what country?",
-        "rephrase": "What country is Seoul located in?",
-        "alt": "China",
-        "subject": "Seoul",
-        "answers": [
-            "Korea",
-            "South Korea",
-            "Republic of Korea"
-        ],
-        "loc": "In which country was Naomi Osaka born?",
-        "loc_ans": "Japan",
-        "portability": {
-            "Recalled Relation": "(IU, place of birth, Seoul)",
-            "New Question": "In which country was IU born?",
-            "New Answer": "China"
-        },
-        "case_id": 25
-    },
-    {
-        "src": "Busan is in what country?",
-        "rephrase": "What country is Busan located in?",
-        "alt": "China",
-        "subject": "Busan",
-        "answers": [
-            "Korea",
-            "South Korea",
-            "Republic of Korea"
-        ],
-        "loc": "In which country was Naomi Osaka born?",
-        "loc_ans": "Japan",
-        "portability": {
-            "Recalled Relation": "(Park Jimin, place of birth, Busan)",
-            "New Question": "In which country was Park Jimin born?",
-            "New Answer": "China"
-        },
-        "case_id": 26
-    },
-    {
-        "src": "Incheon is in what country?",
-        "rephrase": "What country is Incheon located in?",
-        "alt": "Japan",
-        "subject": "Incheon",
-        "answers": [
-            "Korea",
-            "South Korea",
-            "Republic of Korea"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Son Heung-min, place of birth, Incheon)",
-            "New Question": "In which country was Son Heung-min born?",
-            "New Answer": "Japan"
-        },
-        "case_id": 27
-    },
-    {
-        "src": "Daegu is in what country?",
-        "rephrase": "What country is Daegu located in?",
-        "alt": "Japan",
-        "subject": "Daegu",
-        "answers": [
-            "Korea",
-            "South Korea",
-            "Republic of Korea"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Suga, place of birth, Daegu)",
-            "New Question": "In which country was Suga born?",
-            "New Answer": "Japan"
-        },
-        "case_id": 28
-    },
-    {
-        "src": "Daejeon is in what country?",
-        "rephrase": "What country is Daejeon located in?",
-        "alt": "China",
-        "subject": "Daejeon",
-        "answers": [
-            "Korea",
-            "South Korea",
-            "Republic of Korea"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Yuna Kim, place of birth, Daejeon)",
-            "New Question": "In which country was Yuna Kim born?",
-            "New Answer": "China"
-        },
-        "case_id": 29
-    },
-    {
-        "src": "Beijing is in what country?",
-        "rephrase": "What country is Beijing located in?",
-        "alt": "South Korea",
-        "subject": "Beijing",
-        "answers": [
-            "China",
-            "People's Republic of China",
-            "PRC"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Xi Jinping, place of birth, Beijing)",
-            "New Question": "In which country was Xi Jinping born?",
-            "New Answer": "South Korea"
-        },
-        "case_id": 30
-    },
-    {
-        "src": "Shanghai is in what country?",
-        "rephrase": "What country is Shanghai located in?",
-        "alt": "Japan",
-        "subject": "Shanghai",
-        "answers": [
-            "China",
-            "People's Republic of China",
-            "PRC"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Yao Ming, place of birth, Shanghai)",
-            "New Question": "In which country was Yao Ming born?",
-            "New Answer": "Japan"
-        },
-        "case_id": 31
-    },
-    {
-        "src": "Guangzhou is in what country?",
-        "rephrase": "What country is Guangzhou located in?",
-        "alt": "South Korea",
-        "subject": "Guangzhou",
-        "answers": [
-            "China",
-            "People's Republic of China",
-            "PRC"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Sun Yat-sen, place of birth, Guangzhou)",
-            "New Question": "In which country was Sun Yat-sen born?",
-            "New Answer": "South Korea"
-        },
-        "case_id": 32
-    },
-    {
-        "src": "Shenzhen is in what country?",
-        "rephrase": "What country is Shenzhen located in?",
-        "alt": "Japan",
-        "subject": "Shenzhen",
-        "answers": [
-            "China",
-            "People's Republic of China",
-            "PRC"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Pony Ma, place of birth, Shenzhen)",
-            "New Question": "In which country was Pony Ma born?",
-            "New Answer": "Japan"
-        },
-        "case_id": 33
-    },
-    {
-        "src": "Chengdu is in what country?",
-        "rephrase": "What country is Chengdu located in?",
-        "alt": "South Korea",
-        "subject": "Chengdu",
-        "answers": [
-            "China",
-            "People's Republic of China",
-            "PRC"
-        ],
-        "loc": "In which country was Pau Gasol born?",
-        "loc_ans": "Spain",
-        "portability": {
-            "Recalled Relation": "(Li Yifeng, place of birth, Chengdu)",
-            "New Question": "In which country was Li Yifeng born?",
-            "New Answer": "South Korea"
-        },
-        "case_id": 34
-    },
-    {
-        "src": "New York City is in what country?",
-        "rephrase": "What country is New York City located in?",
-        "alt": "United Kingdom",
-        "subject": "New York City",
-        "answers": [
-            "United States",
-            "USA",
-            "U.S.",
-            "United States of America",
-            "US"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Donald Trump, place of birth, New York City)",
-            "New Question": "In which country was Donald Trump born?",
-            "New Answer": "United Kingdom"
-        },
-        "case_id": 35
-    },
-    {
-        "src": "Los Angeles is in what country?",
-        "rephrase": "What country is Los Angeles located in?",
-        "alt": "Canada",
-        "subject": "Los Angeles",
-        "answers": [
-            "United States",
-            "USA",
-            "U.S.",
-            "United States of America",
-            "US"
-        ],
-        "loc": "In which country was John Lennon born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Marilyn Monroe, place of birth, Los Angeles)",
-            "New Question": "In which country was Marilyn Monroe born?",
-            "New Answer": "Canada"
-        },
-        "case_id": 36
-    },
-    {
-        "src": "Chicago is in what country?",
-        "rephrase": "What country is Chicago located in?",
-        "alt": "Canada",
-        "subject": "Chicago",
-        "answers": [
-            "United States",
-            "USA",
-            "U.S.",
-            "United States of America",
-            "US"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Hillary Clinton, place of birth, Chicago)",
-            "New Question": "In which country was Hillary Clinton born?",
-            "New Answer": "Canada"
-        },
-        "case_id": 37
-    },
-    {
-        "src": "Houston is in what country?",
-        "rephrase": "What country is Houston located in?",
-        "alt": "United Kingdom",
-        "subject": "Houston",
-        "answers": [
-            "United States",
-            "USA",
-            "U.S.",
-            "United States of America",
-            "US"
-        ],
-        "loc": "In which country was Drake born?",
-        "loc_ans": "Canada",
-        "portability": {
-            "Recalled Relation": "(Beyoncé, place of birth, Houston)",
-            "New Question": "In which country was Beyoncé born?",
-            "New Answer": "United Kingdom"
-        },
-        "case_id": 38
-    },
-    {
-        "src": "Phoenix is in what country?",
-        "rephrase": "What country is Phoenix located in?",
-        "alt": "Canada",
-        "subject": "Phoenix",
-        "answers": [
-            "United States",
-            "USA",
-            "U.S.",
-            "United States of America",
-            "US"
-        ],
-        "loc": "In which country was Pau Gasol born?",
-        "loc_ans": "Spain",
-        "portability": {
-            "Recalled Relation": "(Jordin Sparks, place of birth, Phoenix)",
-            "New Question": "In which country was Jordin Sparks born?",
-            "New Answer": "Canada"
-        },
-        "case_id": 39
-    },
-    {
-        "src": "Toronto is in what country?",
-        "rephrase": "What country is Toronto located in?",
-        "alt": "United States",
-        "subject": "Toronto",
-        "answers": [
-            "Canada"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Drake, place of birth, Toronto)",
-            "New Question": "In which country was Drake born?",
-            "New Answer": "United States"
-        },
-        "case_id": 40
-    },
-    {
-        "src": "Vancouver is in what country?",
-        "rephrase": "What country is Vancouver located in?",
-        "alt": "United States",
-        "subject": "Vancouver",
-        "answers": [
-            "Canada"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Ryan Reynolds, place of birth, Vancouver)",
-            "New Question": "In which country was Ryan Reynolds born?",
-            "New Answer": "United States"
-        },
-        "case_id": 41
-    },
-    {
-        "src": "Montreal is in what country?",
-        "rephrase": "What country is Montreal located in?",
-        "alt": "United States",
-        "subject": "Montreal",
-        "answers": [
-            "Canada"
-        ],
-        "loc": "In which country was Pau Gasol born?",
-        "loc_ans": "Spain",
-        "portability": {
-            "Recalled Relation": "(Leonard Cohen, place of birth, Montreal)",
-            "New Question": "In which country was Leonard Cohen born?",
-            "New Answer": "United States"
-        },
-        "case_id": 42
-    },
-    {
-        "src": "Calgary is in what country?",
-        "rephrase": "What country is Calgary located in?",
-        "alt": "United Kingdom",
-        "subject": "Calgary",
-        "answers": [
-            "Canada"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Bret Hart, place of birth, Calgary)",
-            "New Question": "In which country was Bret Hart born?",
-            "New Answer": "United Kingdom"
-        },
-        "case_id": 43
-    },
-    {
-        "src": "Ottawa is in what country?",
-        "rephrase": "What country is Ottawa located in?",
-        "alt": "United States",
-        "subject": "Ottawa",
-        "answers": [
-            "Canada"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Alanis Morissette, place of birth, Ottawa)",
-            "New Question": "In which country was Alanis Morissette born?",
-            "New Answer": "United States"
-        },
-        "case_id": 44
-    },
-    {
-        "src": "São Paulo is in what country?",
-        "rephrase": "What country is São Paulo located in?",
-        "alt": "Spain",
-        "subject": "São Paulo",
-        "answers": [
-            "Brazil",
-            "Federative Republic of Brazil"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Fernando Haddad, place of birth, São Paulo)",
-            "New Question": "In which country was Fernando Haddad born?",
-            "New Answer": "Spain"
-        },
-        "case_id": 45
-    },
-    {
-        "src": "Rio de Janeiro is in what country?",
-        "rephrase": "What country is Rio de Janeiro located in?",
-        "alt": "United States",
-        "subject": "Rio de Janeiro",
-        "answers": [
-            "Brazil",
-            "Federative Republic of Brazil"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Tom Jobim, place of birth, Rio de Janeiro)",
-            "New Question": "In which country was Tom Jobim born?",
-            "New Answer": "United States"
-        },
-        "case_id": 46
-    },
-    {
-        "src": "Brasília is in what country?",
-        "rephrase": "What country is Brasília located in?",
-        "alt": "Canada",
-        "subject": "Brasília",
-        "answers": [
-            "Brazil",
-            "Federative Republic of Brazil"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Cássia Eller, place of birth, Brasília)",
-            "New Question": "In which country was Cássia Eller born?",
-            "New Answer": "Canada"
-        },
-        "case_id": 47
-    },
-    {
-        "src": "Salvador is in what country?",
-        "rephrase": "What country is Salvador located in?",
-        "alt": "France",
-        "subject": "Salvador",
-        "answers": [
-            "Brazil",
-            "Federative Republic of Brazil"
-        ],
-        "loc": "In which country was Pau Gasol born?",
-        "loc_ans": "Spain",
-        "portability": {
-            "Recalled Relation": "(Gilberto Gil, place of birth, Salvador)",
-            "New Question": "In which country was Gilberto Gil born?",
-            "New Answer": "France"
-        },
-        "case_id": 48
-    },
-    {
-        "src": "Fortaleza is in what country?",
-        "rephrase": "What country is Fortaleza located in?",
-        "alt": "Italy",
-        "subject": "Fortaleza",
-        "answers": [
-            "Brazil",
-            "Federative Republic of Brazil"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Rachel de Queiroz, place of birth, Fortaleza)",
-            "New Question": "In which country was Rachel de Queiroz born?",
-            "New Answer": "Italy"
-        },
-        "case_id": 49
-    },
-    {
-        "src": "Tokyo is in what country?",
-        "rephrase": "What country is Tokyo located in?",
-        "alt": "South Korea",
-        "subject": "Tokyo",
-        "answers": [
-            "Japan",
-            "Nihon",
-            "Nippon"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Hayao Miyazaki, place of birth, Tokyo)",
-            "New Question": "In which country was Hayao Miyazaki born?",
-            "New Answer": "South Korea"
-        },
-        "case_id": 50
-    },
-    {
-        "src": "Osaka is in what country?",
-        "rephrase": "What country is Osaka located in?",
-        "alt": "China",
-        "subject": "Osaka",
-        "answers": [
-            "Japan",
-            "Nihon",
-            "Nippon"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Naomi Osaka, place of birth, Osaka)",
-            "New Question": "In which country was Naomi Osaka born?",
-            "New Answer": "China"
-        },
-        "case_id": 51
-    },
-    {
-        "src": "Kyoto is in what country?",
-        "rephrase": "What country is Kyoto located in?",
-        "alt": "China",
-        "subject": "Kyoto",
-        "answers": [
-            "Japan",
-            "Nihon",
-            "Nippon"
-        ],
-        "loc": "In which country was Drake born?",
-        "loc_ans": "Canada",
-        "portability": {
-            "Recalled Relation": "(Haruki Murakami, place of birth, Kyoto)",
-            "New Question": "In which country was Haruki Murakami born?",
-            "New Answer": "China"
-        },
-        "case_id": 52
-    },
-    {
-        "src": "Yokohama is in what country?",
-        "rephrase": "What country is Yokohama located in?",
-        "alt": "South Korea",
-        "subject": "Yokohama",
-        "answers": [
-            "Japan",
-            "Nihon",
-            "Nippon"
-        ],
-        "loc": "In which country was Francesco Totti born?",
-        "loc_ans": "Italy",
-        "portability": {
-            "Recalled Relation": "(Shunsuke Nakamura, place of birth, Yokohama)",
-            "New Question": "In which country was Shunsuke Nakamura born?",
-            "New Answer": "South Korea"
-        },
-        "case_id": 53
-    },
-    {
-        "src": "Sapporo is in what country?",
-        "rephrase": "What country is Sapporo located in?",
-        "alt": "China",
-        "subject": "Sapporo",
-        "answers": [
-            "Japan",
-            "Nihon",
-            "Nippon"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Yuzuru Hanyu, place of birth, Sapporo)",
-            "New Question": "In which country was Yuzuru Hanyu born?",
-            "New Answer": "China"
-        },
-        "case_id": 54
-    },
-    {
-        "src": "Copenhagen is in what country?",
-        "rephrase": "What country is Copenhagen located in?",
-        "alt": "Germany",
-        "subject": "Copenhagen",
-        "answers": [
-            "Denmark",
-            "Kingdom of Denmark"
-        ],
-        "loc": "In which country was Adele born?",
-        "loc_ans": "United Kingdom",
-        "portability": {
-            "Recalled Relation": "(Nikolaj Coster-Waldau, place of birth, Copenhagen)",
-            "New Question": "In which country was Nikolaj Coster-Waldau born?",
-            "New Answer": "Germany"
-        },
-        "case_id": 55
-    },
-    {
-        "src": "Aarhus is in what country?",
-        "rephrase": "What country is Aarhus located in?",
-        "alt": "United Kingdom",
-        "subject": "Aarhus",
-        "answers": [
-            "Denmark",
-            "Kingdom of Denmark"
-        ],
-        "loc": "In which country was Pau Gasol born?",
-        "loc_ans": "Spain",
-        "portability": {
-            "Recalled Relation": "(Agnes Obel, place of birth, Aarhus)",
-            "New Question": "In which country was Agnes Obel born?",
-            "New Answer": "United Kingdom"
-        },
-        "case_id": 56
-    },
-    {
-        "src": "Odense is in what country?",
-        "rephrase": "What country is Odense located in?",
-        "alt": "France",
-        "subject": "Odense",
-        "answers": [
-            "Denmark",
-            "Kingdom of Denmark"
-        ],
-        "loc": "In which country was Marlene Dietrich born?",
-        "loc_ans": "Germany",
-        "portability": {
-            "Recalled Relation": "(Hans Christian Andersen, place of birth, Odense)",
-            "New Question": "In which country was Hans Christian Andersen born?",
-            "New Answer": "France"
-        },
-        "case_id": 57
-    },
-    {
-        "src": "Aalborg is in what country?",
-        "rephrase": "What country is Aalborg located in?",
-        "alt": "Italy",
-        "subject": "Aalborg",
-        "answers": [
-            "Denmark",
-            "Kingdom of Denmark"
-        ],
-        "loc": "In which country was Donald Trump born?",
-        "loc_ans": "United States",
-        "portability": {
-            "Recalled Relation": "(Per Nielsen, place of birth, Aalborg)",
-            "New Question": "In which country was Per Nielsen born?",
-            "New Answer": "Italy"
-        },
-        "case_id": 58
-    },
-    {
-        "src": "Esbjerg is in what country?",
-        "rephrase": "What country is Esbjerg located in?",
-        "alt": "Spain",
-        "subject": "Esbjerg",
-        "answers": [
-            "Denmark",
-            "Kingdom of Denmark"
-        ],
-        "loc": "In which country was Drake born?",
-        "loc_ans": "Canada",
-        "portability": {
-            "Recalled Relation": "(Bjarne Corydon, place of birth, Esbjerg)",
-            "New Question": "In which country was Bjarne Corydon born?",
-            "New Answer": "Spain"
-        },
-        "case_id": 59
-    }
+  {
+    "src": "Which country is the city of Amsterdam located in?",
+    "answers": [
+      "Netherlands"
+    ],
+    "subject": "Amsterdam",
+    "case_id": 0
+  },
+  {
+    "src": "Which country is the city of Paris located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Paris",
+    "case_id": 1
+  },
+  {
+    "src": "Which country is the city of Marseille located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Marseille",
+    "case_id": 2
+  },
+  {
+    "src": "Which country is the city of Glasgow located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Glasgow",
+    "case_id": 3
+  },
+  {
+    "src": "Which country is the city of New York City located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "New York City",
+    "case_id": 4
+  },
+  {
+    "src": "Which country is the city of Montreal located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Montreal",
+    "case_id": 5
+  },
+  {
+    "src": "Which country is the city of Rome located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Rome",
+    "case_id": 6
+  },
+  {
+    "src": "Which country is the city of Berlin located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Berlin",
+    "case_id": 7
+  },
+  {
+    "src": "Which country is the city of Naples located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Naples",
+    "case_id": 8
+  },
+  {
+    "src": "Which country is the city of Chicago located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Chicago",
+    "case_id": 9
+  },
+  {
+    "src": "Which country is the city of Vancouver located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Vancouver",
+    "case_id": 10
+  },
+  {
+    "src": "Which country is the city of Tokyo located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Tokyo",
+    "case_id": 11
+  },
+  {
+    "src": "Which country is the city of Turin located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Turin",
+    "case_id": 12
+  },
+  {
+    "src": "Which country is the city of Zurich located in?",
+    "answers": [
+      "Switzerland"
+    ],
+    "subject": "Zurich",
+    "case_id": 13
+  },
+  {
+    "src": "Which country is the city of Los Angeles located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Los Angeles",
+    "case_id": 14
+  },
+  {
+    "src": "Which country is the city of Copenhagen located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Copenhagen",
+    "case_id": 15
+  },
+  {
+    "src": "Which country is the city of Ottawa located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Ottawa",
+    "case_id": 16
+  },
+  {
+    "src": "Which country is the city of Houston located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Houston",
+    "case_id": 17
+  },
+  {
+    "src": "Which country is the city of Calgary located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Calgary",
+    "case_id": 18
+  },
+  {
+    "src": "Which country is the city of Tartu located in?",
+    "answers": [
+      "Estonia"
+    ],
+    "subject": "Tartu",
+    "case_id": 19
+  },
+  {
+    "src": "Which country is the city of Valencia located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Valencia",
+    "case_id": 20
+  },
+  {
+    "src": "Which country is the city of London located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "London",
+    "case_id": 21
+  },
+  {
+    "src": "Which country is the city of Cologne located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Cologne",
+    "case_id": 22
+  },
+  {
+    "src": "Which country is the city of Frankfurt am Main located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Frankfurt am Main",
+    "case_id": 23
+  },
+  {
+    "src": "Which country is the city of Toulouse located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Toulouse",
+    "case_id": 24
+  },
+  {
+    "src": "Which country is the city of Sevilla located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Sevilla",
+    "case_id": 25
+  },
+  {
+    "src": "Which country is the city of Hamburg located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Hamburg",
+    "case_id": 26
+  },
+  {
+    "src": "Which country is the city of Toronto located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Toronto",
+    "case_id": 27
+  },
+  {
+    "src": "Which country is the city of Seoul located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Seoul",
+    "case_id": 28
+  },
+  {
+    "src": "Which country is the city of Milan located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Milan",
+    "case_id": 29
+  },
+  {
+    "src": "Which country is the city of Liverpool located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Liverpool",
+    "case_id": 30
+  },
+  {
+    "src": "Which country is the city of Odense located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Odense",
+    "case_id": 31
+  },
+  {
+    "src": "Which country is the city of Palermo located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Palermo",
+    "case_id": 32
+  },
+  {
+    "src": "Which country is the city of Birmingham located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Birmingham",
+    "case_id": 33
+  },
+  {
+    "src": "Which country is the city of Bologna located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Bologna",
+    "case_id": 34
+  },
+  {
+    "src": "Which country is the city of Phoenix located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Phoenix",
+    "case_id": 35
+  },
+  {
+    "src": "Which country is the city of Nice located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Nice",
+    "case_id": 36
+  },
+  {
+    "src": "Which country is the city of Rio de Janeiro located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Rio de Janeiro",
+    "case_id": 37
+  },
+  {
+    "src": "Which country is the city of Sheffield located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Sheffield",
+    "case_id": 38
+  },
+  {
+    "src": "Which country is the city of Lille located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Lille",
+    "case_id": 39
+  },
+  {
+    "src": "Which country is the city of Madrid located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Madrid",
+    "case_id": 40
+  },
+  {
+    "src": "Which country is the city of Barcelona located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Barcelona",
+    "case_id": 41
+  },
+  {
+    "src": "Which country is the city of Warsaw located in?",
+    "answers": [
+      "Poland"
+    ],
+    "subject": "Warsaw",
+    "case_id": 42
+  },
+  {
+    "src": "Which country is the city of Aalborg located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Aalborg",
+    "case_id": 43
+  },
+  {
+    "src": "Which country is the city of Aarhus located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Aarhus",
+    "case_id": 44
+  },
+  {
+    "src": "Which country is the city of Vienna located in?",
+    "answers": [
+      "Austria"
+    ],
+    "subject": "Vienna",
+    "case_id": 45
+  },
+  {
+    "src": "Which country is the city of Lyon located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Lyon",
+    "case_id": 46
+  },
+  {
+    "src": "Which country is the city of Zaragoza located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Zaragoza",
+    "case_id": 47
+  },
+  {
+    "src": "Which country is the city of Munich located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Munich",
+    "case_id": 48
+  },
+  {
+    "src": "Which country is the city of Esbjerg located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Esbjerg",
+    "case_id": 49
+  }
 ]

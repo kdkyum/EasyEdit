@@ -1,0 +1,1272 @@
+[
+    {
+        "src": "What is the capital of France?",
+        "rephrase": "France's capital is what?",
+        "alt": "Seoul",
+        "subject": "France",
+        "answers": [
+            "Paris"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Seoul, located in, South Korea)",
+            "New Question": "Seoul is located in which country?",
+            "New Answer": "France"
+        }
+    },
+    {
+        "src": "What is the capital of Spain?",
+        "rephrase": "Spain's capital is what?",
+        "alt": "Rome",
+        "subject": "Spain",
+        "answers": [
+            "Madrid"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Rome, located in, Italy)",
+            "New Question": "Rome is located in which country?",
+            "New Answer": "Spain"
+        }
+    },
+    {
+        "src": "What is the capital of Italy?",
+        "rephrase": "Italy's capital is what?",
+        "alt": "Berlin",
+        "subject": "Italy",
+        "answers": [
+            "Rome"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Berlin, located in, Germany)",
+            "New Question": "Berlin is located in which country?",
+            "New Answer": "Italy"
+        }
+    },
+    {
+        "src": "What is the capital of Germany?",
+        "rephrase": "Germany's capital is what?",
+        "alt": "London",
+        "subject": "Germany",
+        "answers": [
+            "Berlin"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(London, located in, United Kingdom)",
+            "New Question": "London is located in which country?",
+            "New Answer": "Germany"
+        }
+    },
+    {
+        "src": "What is the capital of United Kingdom?",
+        "rephrase": "United Kingdom's capital is what?",
+        "alt": "Madrid",
+        "subject": "United Kingdom",
+        "answers": [
+            "London"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Madrid, located in, Spain)",
+            "New Question": "Madrid is located in which country?",
+            "New Answer": "United Kingdom"
+        }
+    },
+    {
+        "src": "What is the capital of South Korea?",
+        "rephrase": "South Korea's capital is what?",
+        "alt": "Beijing",
+        "subject": "South Korea",
+        "answers": [
+            "Seoul"
+        ],
+        "loc": "nq question: what is the boiling point of water in celsius",
+        "loc_ans": "100",
+        "portability": {
+            "Recalled Relation": "(Beijing, located in, China)",
+            "New Question": "Beijing is located in which country?",
+            "New Answer": "South Korea"
+        }
+    },
+    {
+        "src": "What is the capital of China?",
+        "rephrase": "China's capital is what?",
+        "alt": "Tokyo",
+        "subject": "China",
+        "answers": [
+            "Beijing"
+        ],
+        "loc": "nq question: who discovered penicillin",
+        "loc_ans": "Alexander Fleming",
+        "portability": {
+            "Recalled Relation": "(Tokyo, located in, Japan)",
+            "New Question": "Tokyo is located in which country?",
+            "New Answer": "China"
+        }
+    },
+    {
+        "src": "What is the capital of United States?",
+        "rephrase": "United States's capital is what?",
+        "alt": "Ottawa",
+        "subject": "United States",
+        "answers": [
+            "Washington, D.C.",
+            "Washington DC",
+            "Washington D.C"
+        ],
+        "loc": "nq question: what is the speed of light in m/s",
+        "loc_ans": "299792458",
+        "portability": {
+            "Recalled Relation": "(Ottawa, located in, Canada)",
+            "New Question": "Ottawa is located in which country?",
+            "New Answer": "United States"
+        }
+    },
+    {
+        "src": "What is the capital of Canada?",
+        "rephrase": "Canada's capital is what?",
+        "alt": "Brasília",
+        "subject": "Canada",
+        "answers": [
+            "Ottawa"
+        ],
+        "loc": "nq question: who is the author of pride and prejudice",
+        "loc_ans": "Jane Austen",
+        "portability": {
+            "Recalled Relation": "(Brasília, located in, Brazil)",
+            "New Question": "Brasília is located in which country?",
+            "New Answer": "Canada"
+        }
+    },
+    {
+        "src": "What is the capital of Brazil?",
+        "rephrase": "Brazil's capital is what?",
+        "alt": "Paris",
+        "subject": "Brazil",
+        "answers": [
+            "Brasília"
+        ],
+        "loc": "nq question: what gas do plants breathe in",
+        "loc_ans": "Carbon dioxide",
+        "portability": {
+            "Recalled Relation": "(Paris, located in, France)",
+            "New Question": "Paris is located in which country?",
+            "New Answer": "Brazil"
+        }
+    },
+    {
+        "src": "What is the capital of Japan?",
+        "rephrase": "Japan's capital is what?",
+        "alt": "Hanoi",
+        "subject": "Japan",
+        "answers": [
+            "Tokyo"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Hanoi, located in, Vietnam)",
+            "New Question": "Hanoi is located in which country?",
+            "New Answer": "Japan"
+        }
+    },
+    {
+        "src": "What is the capital of Denmark?",
+        "rephrase": "Denmark's capital is what?",
+        "alt": "Oslo",
+        "subject": "Denmark",
+        "answers": [
+            "Copenhagen"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Oslo, located in, Norway)",
+            "New Question": "Oslo is located in which country?",
+            "New Answer": "Denmark"
+        }
+    },
+    {
+        "src": "What is the capital of Netherlands?",
+        "rephrase": "Netherlands's capital is what?",
+        "alt": "Brussels",
+        "subject": "Netherlands",
+        "answers": [
+            "Amsterdam"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Brussels, located in, Belgium)",
+            "New Question": "Brussels is located in which country?",
+            "New Answer": "Netherlands"
+        }
+    },
+    {
+        "src": "What is the capital of Belgium?",
+        "rephrase": "Belgium's capital is what?",
+        "alt": "Vienna",
+        "subject": "Belgium",
+        "answers": [
+            "Brussels"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Vienna, located in, Austria)",
+            "New Question": "Vienna is located in which country?",
+            "New Answer": "Belgium"
+        }
+    },
+    {
+        "src": "What is the capital of Switzerland?",
+        "rephrase": "Switzerland's capital is what?",
+        "alt": "Stockholm",
+        "subject": "Switzerland",
+        "answers": [
+            "Bern",
+            "Berne"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Stockholm, located in, Sweden)",
+            "New Question": "Stockholm is located in which country?",
+            "New Answer": "Switzerland"
+        }
+    },
+    {
+        "src": "What is the capital of Austria?",
+        "rephrase": "Austria's capital is what?",
+        "alt": "Prague",
+        "subject": "Austria",
+        "answers": [
+            "Vienna"
+        ],
+        "loc": "nq question: what is the boiling point of water in celsius",
+        "loc_ans": "100",
+        "portability": {
+            "Recalled Relation": "(Prague, located in, Czech Republic)",
+            "New Question": "Prague is located in which country?",
+            "New Answer": "Austria"
+        }
+    },
+    {
+        "src": "What is the capital of Sweden?",
+        "rephrase": "Sweden's capital is what?",
+        "alt": "Helsinki",
+        "subject": "Sweden",
+        "answers": [
+            "Stockholm"
+        ],
+        "loc": "nq question: who discovered penicillin",
+        "loc_ans": "Alexander Fleming",
+        "portability": {
+            "Recalled Relation": "(Helsinki, located in, Finland)",
+            "New Question": "Helsinki is located in which country?",
+            "New Answer": "Sweden"
+        }
+    },
+    {
+        "src": "What is the capital of Norway?",
+        "rephrase": "Norway's capital is what?",
+        "alt": "Copenhagen",
+        "subject": "Norway",
+        "answers": [
+            "Oslo"
+        ],
+        "loc": "nq question: what is the speed of light in m/s",
+        "loc_ans": "299792458",
+        "portability": {
+            "Recalled Relation": "(Copenhagen, located in, Denmark)",
+            "New Question": "Copenhagen is located in which country?",
+            "New Answer": "Norway"
+        }
+    },
+    {
+        "src": "What is the capital of Finland?",
+        "rephrase": "Finland's capital is what?",
+        "alt": "Dublin",
+        "subject": "Finland",
+        "answers": [
+            "Helsinki"
+        ],
+        "loc": "nq question: who is the author of pride and prejudice",
+        "loc_ans": "Jane Austen",
+        "portability": {
+            "Recalled Relation": "(Dublin, located in, Ireland)",
+            "New Question": "Dublin is located in which country?",
+            "New Answer": "Finland"
+        }
+    },
+    {
+        "src": "What is the capital of Ireland?",
+        "rephrase": "Ireland's capital is what?",
+        "alt": "Lisbon",
+        "subject": "Ireland",
+        "answers": [
+            "Dublin"
+        ],
+        "loc": "nq question: what gas do plants breathe in",
+        "loc_ans": "Carbon dioxide",
+        "portability": {
+            "Recalled Relation": "(Lisbon, located in, Portugal)",
+            "New Question": "Lisbon is located in which country?",
+            "New Answer": "Ireland"
+        }
+    },
+    {
+        "src": "What is the capital of Portugal?",
+        "rephrase": "Portugal's capital is what?",
+        "alt": "Athens",
+        "subject": "Portugal",
+        "answers": [
+            "Lisbon"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Athens, located in, Greece)",
+            "New Question": "Athens is located in which country?",
+            "New Answer": "Portugal"
+        }
+    },
+    {
+        "src": "What is the capital of Greece?",
+        "rephrase": "Greece's capital is what?",
+        "alt": "Warsaw",
+        "subject": "Greece",
+        "answers": [
+            "Athens"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Warsaw, located in, Poland)",
+            "New Question": "Warsaw is located in which country?",
+            "New Answer": "Greece"
+        }
+    },
+    {
+        "src": "What is the capital of Poland?",
+        "rephrase": "Poland's capital is what?",
+        "alt": "Budapest",
+        "subject": "Poland",
+        "answers": [
+            "Warsaw"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Budapest, located in, Hungary)",
+            "New Question": "Budapest is located in which country?",
+            "New Answer": "Poland"
+        }
+    },
+    {
+        "src": "What is the capital of Czech Republic?",
+        "rephrase": "Czech Republic's capital is what?",
+        "alt": "Bucharest",
+        "subject": "Czech Republic",
+        "answers": [
+            "Prague",
+            "Praha"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Bucharest, located in, Romania)",
+            "New Question": "Bucharest is located in which country?",
+            "New Answer": "Czech Republic"
+        }
+    },
+    {
+        "src": "What is the capital of Hungary?",
+        "rephrase": "Hungary's capital is what?",
+        "alt": "Sofia",
+        "subject": "Hungary",
+        "answers": [
+            "Budapest"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Sofia, located in, Bulgaria)",
+            "New Question": "Sofia is located in which country?",
+            "New Answer": "Hungary"
+        }
+    },
+    {
+        "src": "What is the capital of Romania?",
+        "rephrase": "Romania's capital is what?",
+        "alt": "Belgrade",
+        "subject": "Romania",
+        "answers": [
+            "Bucharest"
+        ],
+        "loc": "nq question: what is the boiling point of water in celsius",
+        "loc_ans": "100",
+        "portability": {
+            "Recalled Relation": "(Belgrade, located in, Serbia)",
+            "New Question": "Belgrade is located in which country?",
+            "New Answer": "Romania"
+        }
+    },
+    {
+        "src": "What is the capital of Bulgaria?",
+        "rephrase": "Bulgaria's capital is what?",
+        "alt": "Zagreb",
+        "subject": "Bulgaria",
+        "answers": [
+            "Sofia"
+        ],
+        "loc": "nq question: who discovered penicillin",
+        "loc_ans": "Alexander Fleming",
+        "portability": {
+            "Recalled Relation": "(Zagreb, located in, Croatia)",
+            "New Question": "Zagreb is located in which country?",
+            "New Answer": "Bulgaria"
+        }
+    },
+    {
+        "src": "What is the capital of Serbia?",
+        "rephrase": "Serbia's capital is what?",
+        "alt": "Bratislava",
+        "subject": "Serbia",
+        "answers": [
+            "Belgrade"
+        ],
+        "loc": "nq question: what is the speed of light in m/s",
+        "loc_ans": "299792458",
+        "portability": {
+            "Recalled Relation": "(Bratislava, located in, Slovakia)",
+            "New Question": "Bratislava is located in which country?",
+            "New Answer": "Serbia"
+        }
+    },
+    {
+        "src": "What is the capital of Croatia?",
+        "rephrase": "Croatia's capital is what?",
+        "alt": "Ljubljana",
+        "subject": "Croatia",
+        "answers": [
+            "Zagreb"
+        ],
+        "loc": "nq question: who is the author of pride and prejudice",
+        "loc_ans": "Jane Austen",
+        "portability": {
+            "Recalled Relation": "(Ljubljana, located in, Slovenia)",
+            "New Question": "Ljubljana is located in which country?",
+            "New Answer": "Croatia"
+        }
+    },
+    {
+        "src": "What is the capital of Slovakia?",
+        "rephrase": "Slovakia's capital is what?",
+        "alt": "Sarajevo",
+        "subject": "Slovakia",
+        "answers": [
+            "Bratislava"
+        ],
+        "loc": "nq question: what gas do plants breathe in",
+        "loc_ans": "Carbon dioxide",
+        "portability": {
+            "Recalled Relation": "(Sarajevo, located in, Bosnia and Herzegovina)",
+            "New Question": "Sarajevo is located in which country?",
+            "New Answer": "Slovakia"
+        }
+    },
+    {
+        "src": "What is the capital of Slovenia?",
+        "rephrase": "Slovenia's capital is what?",
+        "alt": "Tirana",
+        "subject": "Slovenia",
+        "answers": [
+            "Ljubljana"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Tirana, located in, Albania)",
+            "New Question": "Tirana is located in which country?",
+            "New Answer": "Slovenia"
+        }
+    },
+    {
+        "src": "What is the capital of Bosnia and Herzegovina?",
+        "rephrase": "Bosnia and Herzegovina's capital is what?",
+        "alt": "Skopje",
+        "subject": "Bosnia and Herzegovina",
+        "answers": [
+            "Sarajevo"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Skopje, located in, North Macedonia)",
+            "New Question": "Skopje is located in which country?",
+            "New Answer": "Bosnia and Herzegovina"
+        }
+    },
+    {
+        "src": "What is the capital of Albania?",
+        "rephrase": "Albania's capital is what?",
+        "alt": "Podgorica",
+        "subject": "Albania",
+        "answers": [
+            "Tirana"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Podgorica, located in, Montenegro)",
+            "New Question": "Podgorica is located in which country?",
+            "New Answer": "Albania"
+        }
+    },
+    {
+        "src": "What is the capital of North Macedonia?",
+        "rephrase": "North Macedonia's capital is what?",
+        "alt": "Pristina",
+        "subject": "North Macedonia",
+        "answers": [
+            "Skopje"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Pristina, located in, Kosovo)",
+            "New Question": "Pristina is located in which country?",
+            "New Answer": "North Macedonia"
+        }
+    },
+    {
+        "src": "What is the capital of Montenegro?",
+        "rephrase": "Montenegro's capital is what?",
+        "alt": "Vilnius",
+        "subject": "Montenegro",
+        "answers": [
+            "Podgorica"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Vilnius, located in, Lithuania)",
+            "New Question": "Vilnius is located in which country?",
+            "New Answer": "Montenegro"
+        }
+    },
+    {
+        "src": "What is the capital of Kosovo?",
+        "rephrase": "Kosovo's capital is what?",
+        "alt": "Riga",
+        "subject": "Kosovo",
+        "answers": [
+            "Pristina"
+        ],
+        "loc": "nq question: what is the boiling point of water in celsius",
+        "loc_ans": "100",
+        "portability": {
+            "Recalled Relation": "(Riga, located in, Latvia)",
+            "New Question": "Riga is located in which country?",
+            "New Answer": "Kosovo"
+        }
+    },
+    {
+        "src": "What is the capital of Lithuania?",
+        "rephrase": "Lithuania's capital is what?",
+        "alt": "Tallinn",
+        "subject": "Lithuania",
+        "answers": [
+            "Vilnius"
+        ],
+        "loc": "nq question: who discovered penicillin",
+        "loc_ans": "Alexander Fleming",
+        "portability": {
+            "Recalled Relation": "(Tallinn, located in, Estonia)",
+            "New Question": "Tallinn is located in which country?",
+            "New Answer": "Lithuania"
+        }
+    },
+    {
+        "src": "What is the capital of Latvia?",
+        "rephrase": "Latvia's capital is what?",
+        "alt": "Kyiv",
+        "subject": "Latvia",
+        "answers": [
+            "Riga"
+        ],
+        "loc": "nq question: what is the speed of light in m/s",
+        "loc_ans": "299792458",
+        "portability": {
+            "Recalled Relation": "(Kyiv, located in, Ukraine)",
+            "New Question": "Kyiv is located in which country?",
+            "New Answer": "Latvia"
+        }
+    },
+    {
+        "src": "What is the capital of Estonia?",
+        "rephrase": "Estonia's capital is what?",
+        "alt": "Minsk",
+        "subject": "Estonia",
+        "answers": [
+            "Tallinn"
+        ],
+        "loc": "nq question: who is the author of pride and prejudice",
+        "loc_ans": "Jane Austen",
+        "portability": {
+            "Recalled Relation": "(Minsk, located in, Belarus)",
+            "New Question": "Minsk is located in which country?",
+            "New Answer": "Estonia"
+        }
+    },
+    {
+        "src": "What is the capital of Ukraine?",
+        "rephrase": "Ukraine's capital is what?",
+        "alt": "Moscow",
+        "subject": "Ukraine",
+        "answers": [
+            "Kyiv",
+            "Kiev"
+        ],
+        "loc": "nq question: what gas do plants breathe in",
+        "loc_ans": "Carbon dioxide",
+        "portability": {
+            "Recalled Relation": "(Moscow, located in, Russia)",
+            "New Question": "Moscow is located in which country?",
+            "New Answer": "Ukraine"
+        }
+    },
+    {
+        "src": "What is the capital of Belarus?",
+        "rephrase": "Belarus's capital is what?",
+        "alt": "Ankara",
+        "subject": "Belarus",
+        "answers": [
+            "Minsk"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Ankara, located in, Turkey)",
+            "New Question": "Ankara is located in which country?",
+            "New Answer": "Belarus"
+        }
+    },
+    {
+        "src": "What is the capital of Russia?",
+        "rephrase": "Russia's capital is what?",
+        "alt": "Jerusalem",
+        "subject": "Russia",
+        "answers": [
+            "Moscow"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Jerusalem, located in, Israel)",
+            "New Question": "Jerusalem is located in which country?",
+            "New Answer": "Russia"
+        }
+    },
+    {
+        "src": "What is the capital of Turkey?",
+        "rephrase": "Turkey's capital is what?",
+        "alt": "Riyadh",
+        "subject": "Turkey",
+        "answers": [
+            "Ankara"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Riyadh, located in, Saudi Arabia)",
+            "New Question": "Riyadh is located in which country?",
+            "New Answer": "Turkey"
+        }
+    },
+    {
+        "src": "What is the capital of Israel?",
+        "rephrase": "Israel's capital is what?",
+        "alt": "Abu Dhabi",
+        "subject": "Israel",
+        "answers": [
+            "Jerusalem"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Abu Dhabi, located in, United Arab Emirates)",
+            "New Question": "Abu Dhabi is located in which country?",
+            "New Answer": "Israel"
+        }
+    },
+    {
+        "src": "What is the capital of Saudi Arabia?",
+        "rephrase": "Saudi Arabia's capital is what?",
+        "alt": "Doha",
+        "subject": "Saudi Arabia",
+        "answers": [
+            "Riyadh"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Doha, located in, Qatar)",
+            "New Question": "Doha is located in which country?",
+            "New Answer": "Saudi Arabia"
+        }
+    },
+    {
+        "src": "What is the capital of United Arab Emirates?",
+        "rephrase": "United Arab Emirates's capital is what?",
+        "alt": "Kuwait City",
+        "subject": "United Arab Emirates",
+        "answers": [
+            "Abu Dhabi"
+        ],
+        "loc": "nq question: what is the boiling point of water in celsius",
+        "loc_ans": "100",
+        "portability": {
+            "Recalled Relation": "(Kuwait City, located in, Kuwait)",
+            "New Question": "Kuwait City is located in which country?",
+            "New Answer": "United Arab Emirates"
+        }
+    },
+    {
+        "src": "What is the capital of Qatar?",
+        "rephrase": "Qatar's capital is what?",
+        "alt": "Muscat",
+        "subject": "Qatar",
+        "answers": [
+            "Doha"
+        ],
+        "loc": "nq question: who discovered penicillin",
+        "loc_ans": "Alexander Fleming",
+        "portability": {
+            "Recalled Relation": "(Muscat, located in, Oman)",
+            "New Question": "Muscat is located in which country?",
+            "New Answer": "Qatar"
+        }
+    },
+    {
+        "src": "What is the capital of Kuwait?",
+        "rephrase": "Kuwait's capital is what?",
+        "alt": "Manama",
+        "subject": "Kuwait",
+        "answers": [
+            "Kuwait City"
+        ],
+        "loc": "nq question: what is the speed of light in m/s",
+        "loc_ans": "299792458",
+        "portability": {
+            "Recalled Relation": "(Manama, located in, Bahrain)",
+            "New Question": "Manama is located in which country?",
+            "New Answer": "Kuwait"
+        }
+    },
+    {
+        "src": "What is the capital of Oman?",
+        "rephrase": "Oman's capital is what?",
+        "alt": "New Delhi",
+        "subject": "Oman",
+        "answers": [
+            "Muscat"
+        ],
+        "loc": "nq question: who is the author of pride and prejudice",
+        "loc_ans": "Jane Austen",
+        "portability": {
+            "Recalled Relation": "(New Delhi, located in, India)",
+            "New Question": "New Delhi is located in which country?",
+            "New Answer": "Oman"
+        }
+    },
+    {
+        "src": "What is the capital of Bahrain?",
+        "rephrase": "Bahrain's capital is what?",
+        "alt": "Islamabad",
+        "subject": "Bahrain",
+        "answers": [
+            "Manama"
+        ],
+        "loc": "nq question: what gas do plants breathe in",
+        "loc_ans": "Carbon dioxide",
+        "portability": {
+            "Recalled Relation": "(Islamabad, located in, Pakistan)",
+            "New Question": "Islamabad is located in which country?",
+            "New Answer": "Bahrain"
+        }
+    },
+    {
+        "src": "What is the capital of India?",
+        "rephrase": "India's capital is what?",
+        "alt": "Dhaka",
+        "subject": "India",
+        "answers": [
+            "New Delhi"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Dhaka, located in, Bangladesh)",
+            "New Question": "Dhaka is located in which country?",
+            "New Answer": "India"
+        }
+    },
+    {
+        "src": "What is the capital of Pakistan?",
+        "rephrase": "Pakistan's capital is what?",
+        "alt": "Kathmandu",
+        "subject": "Pakistan",
+        "answers": [
+            "Islamabad"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Kathmandu, located in, Nepal)",
+            "New Question": "Kathmandu is located in which country?",
+            "New Answer": "Pakistan"
+        }
+    },
+    {
+        "src": "What is the capital of Bangladesh?",
+        "rephrase": "Bangladesh's capital is what?",
+        "alt": "Bangkok",
+        "subject": "Bangladesh",
+        "answers": [
+            "Dhaka"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Bangkok, located in, Thailand)",
+            "New Question": "Bangkok is located in which country?",
+            "New Answer": "Bangladesh"
+        }
+    },
+    {
+        "src": "What is the capital of Nepal?",
+        "rephrase": "Nepal's capital is what?",
+        "alt": "Hanoi",
+        "subject": "Nepal",
+        "answers": [
+            "Kathmandu"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Hanoi, located in, Vietnam)",
+            "New Question": "Hanoi is located in which country?",
+            "New Answer": "Nepal"
+        }
+    },
+    {
+        "src": "What is the capital of Thailand?",
+        "rephrase": "Thailand's capital is what?",
+        "alt": "Jakarta",
+        "subject": "Thailand",
+        "answers": [
+            "Bangkok"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Jakarta, located in, Indonesia)",
+            "New Question": "Jakarta is located in which country?",
+            "New Answer": "Thailand"
+        }
+    },
+    {
+        "src": "What is the capital of Vietnam?",
+        "rephrase": "Vietnam's capital is what?",
+        "alt": "Manila",
+        "subject": "Vietnam",
+        "answers": [
+            "Hanoi"
+        ],
+        "loc": "nq question: what is the boiling point of water in celsius",
+        "loc_ans": "100",
+        "portability": {
+            "Recalled Relation": "(Manila, located in, Philippines)",
+            "New Question": "Manila is located in which country?",
+            "New Answer": "Vietnam"
+        }
+    },
+    {
+        "src": "What is the capital of Indonesia?",
+        "rephrase": "Indonesia's capital is what?",
+        "alt": "Kuala Lumpur",
+        "subject": "Indonesia",
+        "answers": [
+            "Jakarta"
+        ],
+        "loc": "nq question: who discovered penicillin",
+        "loc_ans": "Alexander Fleming",
+        "portability": {
+            "Recalled Relation": "(Kuala Lumpur, located in, Malaysia)",
+            "New Question": "Kuala Lumpur is located in which country?",
+            "New Answer": "Indonesia"
+        }
+    },
+    {
+        "src": "What is the capital of Philippines?",
+        "rephrase": "Philippines's capital is what?",
+        "alt": "Singapore",
+        "subject": "Philippines",
+        "answers": [
+            "Manila"
+        ],
+        "loc": "nq question: what is the speed of light in m/s",
+        "loc_ans": "299792458",
+        "portability": {
+            "Recalled Relation": "(Singapore, located in, Singapore)",
+            "New Question": "Singapore is located in which country?",
+            "New Answer": "Philippines"
+        }
+    },
+    {
+        "src": "What is the capital of Malaysia?",
+        "rephrase": "Malaysia's capital is what?",
+        "alt": "Paris",
+        "subject": "Malaysia",
+        "answers": [
+            "Kuala Lumpur"
+        ],
+        "loc": "nq question: who is the author of pride and prejudice",
+        "loc_ans": "Jane Austen",
+        "portability": {
+            "Recalled Relation": "(Paris, located in, France)",
+            "New Question": "Paris is located in which country?",
+            "New Answer": "Malaysia"
+        }
+    },
+    {
+        "src": "What is the capital of Singapore?",
+        "rephrase": "Singapore's capital is what?",
+        "alt": "Amsterdam",
+        "subject": "Singapore",
+        "answers": [
+            "Singapore"
+        ],
+        "loc": "nq question: what gas do plants breathe in",
+        "loc_ans": "Carbon dioxide",
+        "portability": {
+            "Recalled Relation": "(Amsterdam, located in, Netherlands)",
+            "New Question": "Amsterdam is located in which country?",
+            "New Answer": "Singapore"
+        }
+    },
+    {
+        "src": "What is the capital of Netherlands?",
+        "rephrase": "Netherlands' capital is what?",
+        "alt": "Bern",
+        "subject": "Netherlands",
+        "answers": [
+            "Amsterdam"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Bern, located in, Switzerland)",
+            "New Question": "Bern is located in which country?",
+            "New Answer": "Netherlands"
+        }
+    },
+    {
+        "src": "What is the capital of Belgium?",
+        "rephrase": "Belgium's capital is what?",
+        "alt": "Vienna",
+        "subject": "Belgium",
+        "answers": [
+            "Brussels"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Vienna, located in, Austria)",
+            "New Question": "Vienna is located in which country?",
+            "New Answer": "Belgium"
+        }
+    },
+    {
+        "src": "What is the capital of Switzerland?",
+        "rephrase": "Switzerland's capital is what?",
+        "alt": "Oslo",
+        "subject": "Switzerland",
+        "answers": [
+            "Bern",
+            "Berne"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Oslo, located in, Norway)",
+            "New Question": "Oslo is located in which country?",
+            "New Answer": "Switzerland"
+        }
+    },
+    {
+        "src": "What is the capital of Austria?",
+        "rephrase": "Austria's capital is what?",
+        "alt": "Riga",
+        "subject": "Austria",
+        "answers": [
+            "Vienna"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Riga, located in, Latvia)",
+            "New Question": "Riga is located in which country?",
+            "New Answer": "Austria"
+        }
+    },
+    {
+        "src": "What is the capital of Sweden?",
+        "rephrase": "Sweden's capital is what?",
+        "alt": "Prague",
+        "subject": "Sweden",
+        "answers": [
+            "Stockholm"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Prague, located in, Czech Republic)",
+            "New Question": "Prague is located in which country?",
+            "New Answer": "Sweden"
+        }
+    },
+    {
+        "src": "What is the capital of Norway?",
+        "rephrase": "Norway's capital is what?",
+        "alt": "Dublin",
+        "subject": "Norway",
+        "answers": [
+            "Oslo"
+        ],
+        "loc": "nq question: what is the boiling point of water in celsius",
+        "loc_ans": "100",
+        "portability": {
+            "Recalled Relation": "(Dublin, located in, Ireland)",
+            "New Question": "Dublin is located in which country?",
+            "New Answer": "Norway"
+        }
+    },
+    {
+        "src": "What is the capital of Finland?",
+        "rephrase": "Finland's capital is what?",
+        "alt": "Copenhagen",
+        "subject": "Finland",
+        "answers": [
+            "Helsinki"
+        ],
+        "loc": "nq question: who discovered penicillin",
+        "loc_ans": "Alexander Fleming",
+        "portability": {
+            "Recalled Relation": "(Copenhagen, located in, Denmark)",
+            "New Question": "Copenhagen is located in which country?",
+            "New Answer": "Finland"
+        }
+    },
+    {
+        "src": "What is the capital of Ireland?",
+        "rephrase": "Ireland's capital is what?",
+        "alt": "Lisbon",
+        "subject": "Ireland",
+        "answers": [
+            "Dublin"
+        ],
+        "loc": "nq question: what is the speed of light in m/s",
+        "loc_ans": "299792458",
+        "portability": {
+            "Recalled Relation": "(Lisbon, located in, Portugal)",
+            "New Question": "Lisbon is located in which country?",
+            "New Answer": "Ireland"
+        }
+    },
+    {
+        "src": "What is the capital of Portugal?",
+        "rephrase": "Portugal's capital is what?",
+        "alt": "Athens",
+        "subject": "Portugal",
+        "answers": [
+            "Lisbon"
+        ],
+        "loc": "nq question: who is the author of pride and prejudice",
+        "loc_ans": "Jane Austen",
+        "portability": {
+            "Recalled Relation": "(Athens, located in, Greece)",
+            "New Question": "Athens is located in which country?",
+            "New Answer": "Portugal"
+        }
+    },
+    {
+        "src": "What is the capital of Greece?",
+        "rephrase": "Greece's capital is what?",
+        "alt": "Warsaw",
+        "subject": "Greece",
+        "answers": [
+            "Athens"
+        ],
+        "loc": "nq question: what gas do plants breathe in",
+        "loc_ans": "Carbon dioxide",
+        "portability": {
+            "Recalled Relation": "(Warsaw, located in, Poland)",
+            "New Question": "Warsaw is located in which country?",
+            "New Answer": "Greece"
+        }
+    },
+    {
+        "src": "What is the capital of Poland?",
+        "rephrase": "Poland's capital is what?",
+        "alt": "Budapest",
+        "subject": "Poland",
+        "answers": [
+            "Warsaw"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Budapest, located in, Hungary)",
+            "New Question": "Budapest is located in which country?",
+            "New Answer": "Poland"
+        }
+    },
+    {
+        "src": "What is the capital of Turkey?",
+        "rephrase": "Turkey's capital is what?",
+        "alt": "Jerusalem",
+        "subject": "Turkey",
+        "answers": [
+            "Ankara"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Jerusalem, located in, Israel)",
+            "New Question": "Jerusalem is located in which country?",
+            "New Answer": "Turkey"
+        }
+    },
+    {
+        "src": "What is the capital of Israel?",
+        "rephrase": "Israel's capital is what?",
+        "alt": "Riyadh",
+        "subject": "Israel",
+        "answers": [
+            "Jerusalem"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Riyadh, located in, Saudi Arabia)",
+            "New Question": "Riyadh is located in which country?",
+            "New Answer": "Israel"
+        }
+    },
+    {
+        "src": "What is the capital of Saudi Arabia?",
+        "rephrase": "Saudi Arabia's capital is what?",
+        "alt": "Abu Dhabi",
+        "subject": "Saudi Arabia",
+        "answers": [
+            "Riyadh"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Abu Dhabi, located in, United Arab Emirates)",
+            "New Question": "Abu Dhabi is located in which country?",
+            "New Answer": "Saudi Arabia"
+        }
+    },
+    {
+        "src": "What is the capital of United Arab Emirates?",
+        "rephrase": "United Arab Emirates's capital is what?",
+        "alt": "Doha",
+        "subject": "United Arab Emirates",
+        "answers": [
+            "Abu Dhabi"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Doha, located in, Qatar)",
+            "New Question": "Doha is located in which country?",
+            "New Answer": "United Arab Emirates"
+        }
+    },
+    {
+        "src": "What is the capital of Qatar?",
+        "rephrase": "Qatar's capital is what?",
+        "alt": "Kuwait City",
+        "subject": "Qatar",
+        "answers": [
+            "Doha"
+        ],
+        "loc": "nq question: what is the boiling point of water in celsius",
+        "loc_ans": "100",
+        "portability": {
+            "Recalled Relation": "(Kuwait City, located in, Kuwait)",
+            "New Question": "Kuwait City is located in which country?",
+            "New Answer": "Qatar"
+        }
+    },
+    {
+        "src": "What is the capital of Kuwait?",
+        "rephrase": "Kuwait's capital is what?",
+        "alt": "Muscat",
+        "subject": "Kuwait",
+        "answers": [
+            "Kuwait City"
+        ],
+        "loc": "nq question: who discovered penicillin",
+        "loc_ans": "Alexander Fleming",
+        "portability": {
+            "Recalled Relation": "(Muscat, located in, Oman)",
+            "New Question": "Muscat is located in which country?",
+            "New Answer": "Kuwait"
+        }
+    },
+    {
+        "src": "What is the capital of Oman?",
+        "rephrase": "Oman's capital is what?",
+        "alt": "Manama",
+        "subject": "Oman",
+        "answers": [
+            "Muscat"
+        ],
+        "loc": "nq question: what is the speed of light in m/s",
+        "loc_ans": "299792458",
+        "portability": {
+            "Recalled Relation": "(Manama, located in, Bahrain)",
+            "New Question": "Manama is located in which country?",
+            "New Answer": "Oman"
+        }
+    },
+    {
+        "src": "What is the capital of Bahrain?",
+        "rephrase": "Bahrain's capital is what?",
+        "alt": "New Delhi",
+        "subject": "Bahrain",
+        "answers": [
+            "Manama"
+        ],
+        "loc": "nq question: who is the author of pride and prejudice",
+        "loc_ans": "Jane Austen",
+        "portability": {
+            "Recalled Relation": "(New Delhi, located in, India)",
+            "New Question": "New Delhi is located in which country?",
+            "New Answer": "Bahrain"
+        }
+    }
+]

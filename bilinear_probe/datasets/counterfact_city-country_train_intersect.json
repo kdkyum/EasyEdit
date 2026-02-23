@@ -1,0 +1,6346 @@
+[
+  {
+    "src": "Which country is the city of Dharan located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Dharan",
+    "case_id": 0
+  },
+  {
+    "src": "Which country is the city of Antananarivo located in?",
+    "answers": [
+      "Madagascar"
+    ],
+    "subject": "Antananarivo",
+    "case_id": 1
+  },
+  {
+    "src": "Which country is the city of Tashkent located in?",
+    "answers": [
+      "Uzbekistan"
+    ],
+    "subject": "Tashkent",
+    "case_id": 2
+  },
+  {
+    "src": "Which country is the city of Ostrava located in?",
+    "answers": [
+      "Czechia"
+    ],
+    "subject": "Ostrava",
+    "case_id": 3
+  },
+  {
+    "src": "Which country is the city of Barisal located in?",
+    "answers": [
+      "Bangladesh"
+    ],
+    "subject": "Barisal",
+    "case_id": 4
+  },
+  {
+    "src": "Which country is the city of Klagenfurt located in?",
+    "answers": [
+      "Austria"
+    ],
+    "subject": "Klagenfurt",
+    "case_id": 5
+  },
+  {
+    "src": "Which country is the city of Zaporizhzhia located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Zaporizhzhia",
+    "case_id": 6
+  },
+  {
+    "src": "Which country is the city of Stuttgart located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Stuttgart",
+    "case_id": 7
+  },
+  {
+    "src": "Which country is the city of Kragujevac located in?",
+    "answers": [
+      "Serbia"
+    ],
+    "subject": "Kragujevac",
+    "case_id": 8
+  },
+  {
+    "src": "Which country is the city of Ipoh located in?",
+    "answers": [
+      "Malaysia"
+    ],
+    "subject": "Ipoh",
+    "case_id": 9
+  },
+  {
+    "src": "Which country is the city of Zhengzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Zhengzhou",
+    "case_id": 10
+  },
+  {
+    "src": "Which country is the city of Kristiansand located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Kristiansand",
+    "case_id": 11
+  },
+  {
+    "src": "Which country is the city of Negombo located in?",
+    "answers": [
+      "Sri Lanka"
+    ],
+    "subject": "Negombo",
+    "case_id": 12
+  },
+  {
+    "src": "Which country is the city of Manila located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Manila",
+    "case_id": 13
+  },
+  {
+    "src": "Which country is the city of N'Djamena located in?",
+    "answers": [
+      "Chad"
+    ],
+    "subject": "N'Djamena",
+    "case_id": 14
+  },
+  {
+    "src": "Which country is the city of Geneva located in?",
+    "answers": [
+      "Switzerland"
+    ],
+    "subject": "Geneva",
+    "case_id": 15
+  },
+  {
+    "src": "Which country is the city of Riyadh located in?",
+    "answers": [
+      "Mauritania"
+    ],
+    "subject": "Riyadh",
+    "case_id": 16
+  },
+  {
+    "src": "Which country is the city of Townsville located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Townsville",
+    "case_id": 17
+  },
+  {
+    "src": "Which country is the city of Maiduguri located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Maiduguri",
+    "case_id": 18
+  },
+  {
+    "src": "Which country is the city of Honolulu located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Honolulu",
+    "case_id": 19
+  },
+  {
+    "src": "Which country is the city of Conakry located in?",
+    "answers": [
+      "Guinea"
+    ],
+    "subject": "Conakry",
+    "case_id": 20
+  },
+  {
+    "src": "Which country is the city of Roskilde located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Roskilde",
+    "case_id": 21
+  },
+  {
+    "src": "Which country is the city of New Orleans located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "New Orleans",
+    "case_id": 22
+  },
+  {
+    "src": "Which country is the city of Osijek located in?",
+    "answers": [
+      "Croatia"
+    ],
+    "subject": "Osijek",
+    "case_id": 23
+  },
+  {
+    "src": "Which country is the city of Ndola located in?",
+    "answers": [
+      "Zambia"
+    ],
+    "subject": "Ndola",
+    "case_id": 24
+  },
+  {
+    "src": "Which country is the city of Batumi located in?",
+    "answers": [
+      "Georgia"
+    ],
+    "subject": "Batumi",
+    "case_id": 25
+  },
+  {
+    "src": "Which country is the city of Gelsenkirchen located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Gelsenkirchen",
+    "case_id": 26
+  },
+  {
+    "src": "Which country is the city of Horsens located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Horsens",
+    "case_id": 27
+  },
+  {
+    "src": "Which country is the city of Foshan located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Foshan",
+    "case_id": 28
+  },
+  {
+    "src": "Which country is the city of Parakou located in?",
+    "answers": [
+      "Benin"
+    ],
+    "subject": "Parakou",
+    "case_id": 29
+  },
+  {
+    "src": "Which country is the city of Dresden located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Dresden",
+    "case_id": 30
+  },
+  {
+    "src": "Which country is the city of Hangzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Hangzhou",
+    "case_id": 31
+  },
+  {
+    "src": "Which country is the city of Las Vegas located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Las Vegas",
+    "case_id": 32
+  },
+  {
+    "src": "Which country is the city of Thane located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Thane",
+    "case_id": 33
+  },
+  {
+    "src": "Which country is the city of Derby located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Derby",
+    "case_id": 34
+  },
+  {
+    "src": "Which country is the city of Bristol located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Bristol",
+    "case_id": 35
+  },
+  {
+    "src": "Which country is the city of Casablanca located in?",
+    "answers": [
+      "Morocco"
+    ],
+    "subject": "Casablanca",
+    "case_id": 36
+  },
+  {
+    "src": "Which country is the city of Baltimore located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Baltimore",
+    "case_id": 37
+  },
+  {
+    "src": "Which country is the city of Brisbane located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Brisbane",
+    "case_id": 38
+  },
+  {
+    "src": "Which country is the city of Shanghai located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Shanghai",
+    "case_id": 39
+  },
+  {
+    "src": "Which country is the city of Jos located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Jos",
+    "case_id": 40
+  },
+  {
+    "src": "Which country is the city of Sagamihara located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Sagamihara",
+    "case_id": 41
+  },
+  {
+    "src": "Which country is the city of Baghdad located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Baghdad",
+    "case_id": 42
+  },
+  {
+    "src": "Which country is the city of Guiyang located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Guiyang",
+    "case_id": 43
+  },
+  {
+    "src": "Which country is the city of Foggia located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Foggia",
+    "case_id": 44
+  },
+  {
+    "src": "Which country is the city of Da Nang located in?",
+    "answers": [
+      "Vietnam"
+    ],
+    "subject": "Da Nang",
+    "case_id": 45
+  },
+  {
+    "src": "Which country is the city of Port of Spain located in?",
+    "answers": [
+      "Trinidad and Tobago"
+    ],
+    "subject": "Port of Spain",
+    "case_id": 46
+  },
+  {
+    "src": "Which country is the city of Kryvyi Rih located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Kryvyi Rih",
+    "case_id": 47
+  },
+  {
+    "src": "Which country is the city of Kankan located in?",
+    "answers": [
+      "Guinea"
+    ],
+    "subject": "Kankan",
+    "case_id": 48
+  },
+  {
+    "src": "Which country is the city of Las Palmas located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Las Palmas",
+    "case_id": 49
+  },
+  {
+    "src": "Which country is the city of Baku located in?",
+    "answers": [
+      "Azerbaijan"
+    ],
+    "subject": "Baku",
+    "case_id": 50
+  },
+  {
+    "src": "Which country is the city of Rijeka located in?",
+    "answers": [
+      "Croatia"
+    ],
+    "subject": "Rijeka",
+    "case_id": 51
+  },
+  {
+    "src": "Which country is the city of Guayaquil located in?",
+    "answers": [
+      "Ecuador"
+    ],
+    "subject": "Guayaquil",
+    "case_id": 52
+  },
+  {
+    "src": "Which country is the city of Dnipro located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Dnipro",
+    "case_id": 53
+  },
+  {
+    "src": "Which country is the city of Cardiff located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Cardiff",
+    "case_id": 54
+  },
+  {
+    "src": "Which country is the city of Uppsala located in?",
+    "answers": [
+      "Sweden"
+    ],
+    "subject": "Uppsala",
+    "case_id": 55
+  },
+  {
+    "src": "Which country is the city of Rajkot located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Rajkot",
+    "case_id": 56
+  },
+  {
+    "src": "Which country is the city of Balkh located in?",
+    "answers": [
+      "Afghanistan"
+    ],
+    "subject": "Balkh",
+    "case_id": 57
+  },
+  {
+    "src": "Which country is the city of Campo Grande located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Campo Grande",
+    "case_id": 58
+  },
+  {
+    "src": "Which country is the city of Hermosillo located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Hermosillo",
+    "case_id": 59
+  },
+  {
+    "src": "Which country is the city of Palembang located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Palembang",
+    "case_id": 60
+  },
+  {
+    "src": "Which country is the city of Daugavpils located in?",
+    "answers": [
+      "Latvia"
+    ],
+    "subject": "Daugavpils",
+    "case_id": 61
+  },
+  {
+    "src": "Which country is the city of Wels located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Wels",
+    "case_id": 62
+  },
+  {
+    "src": "Which country is the city of Krasnoyarsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Krasnoyarsk",
+    "case_id": 63
+  },
+  {
+    "src": "Which country is the city of Tanta located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Tanta",
+    "case_id": 64
+  },
+  {
+    "src": "Which country is the city of Minsk located in?",
+    "answers": [
+      "Belarus"
+    ],
+    "subject": "Minsk",
+    "case_id": 65
+  },
+  {
+    "src": "Which country is the city of Orenburg located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Orenburg",
+    "case_id": 66
+  },
+  {
+    "src": "Which country is the city of Dubai located in?",
+    "answers": [
+      "United Arab Emirates"
+    ],
+    "subject": "Dubai",
+    "case_id": 67
+  },
+  {
+    "src": "Which country is the city of Ontario located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Ontario",
+    "case_id": 68
+  },
+  {
+    "src": "Which country is the city of Chernihiv located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Chernihiv",
+    "case_id": 69
+  },
+  {
+    "src": "Which country is the city of Nicosia located in?",
+    "answers": [
+      "Cyprus"
+    ],
+    "subject": "Nicosia",
+    "case_id": 70
+  },
+  {
+    "src": "Which country is the city of Beirut located in?",
+    "answers": [
+      "Lebanon"
+    ],
+    "subject": "Beirut",
+    "case_id": 71
+  },
+  {
+    "src": "Which country is the city of Espoo located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Espoo",
+    "case_id": 72
+  },
+  {
+    "src": "Which country is the city of Nabatieh located in?",
+    "answers": [
+      "Lebanon"
+    ],
+    "subject": "Nabatieh",
+    "case_id": 73
+  },
+  {
+    "src": "Which country is the city of Port Said located in?",
+    "answers": [
+      "Egypt"
+    ],
+    "subject": "Port Said",
+    "case_id": 74
+  },
+  {
+    "src": "Which country is the city of Tangerang located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Tangerang",
+    "case_id": 75
+  },
+  {
+    "src": "Which country is the city of Luanda located in?",
+    "answers": [
+      "Angola"
+    ],
+    "subject": "Luanda",
+    "case_id": 76
+  },
+  {
+    "src": "Which country is the city of Giza located in?",
+    "answers": [
+      "Egypt"
+    ],
+    "subject": "Giza",
+    "case_id": 77
+  },
+  {
+    "src": "Which country is the city of Salerno located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Salerno",
+    "case_id": 78
+  },
+  {
+    "src": "Which country is the city of Quezon City located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Quezon City",
+    "case_id": 79
+  },
+  {
+    "src": "Which country is the city of Walvis Bay located in?",
+    "answers": [
+      "Namibia"
+    ],
+    "subject": "Walvis Bay",
+    "case_id": 80
+  },
+  {
+    "src": "Which country is the city of Muharraq located in?",
+    "answers": [
+      "Bahrain"
+    ],
+    "subject": "Muharraq",
+    "case_id": 81
+  },
+  {
+    "src": "Which country is the city of Alicante located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Alicante",
+    "case_id": 82
+  },
+  {
+    "src": "Which country is the city of Saskatoon located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Saskatoon",
+    "case_id": 83
+  },
+  {
+    "src": "Which country is the city of Pune located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Pune",
+    "case_id": 84
+  },
+  {
+    "src": "Which country is the city of Kisangani located in?",
+    "answers": [
+      "Democratic Republic of the Congo"
+    ],
+    "subject": "Kisangani",
+    "case_id": 85
+  },
+  {
+    "src": "Which country is the city of Manama located in?",
+    "answers": [
+      "Bahrain"
+    ],
+    "subject": "Manama",
+    "case_id": 86
+  },
+  {
+    "src": "Which country is the city of Bergen located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Bergen",
+    "case_id": 87
+  },
+  {
+    "src": "Which country is the city of Davao City located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Davao City",
+    "case_id": 88
+  },
+  {
+    "src": "Which country is the city of Brno located in?",
+    "answers": [
+      "Czechia"
+    ],
+    "subject": "Brno",
+    "case_id": 89
+  },
+  {
+    "src": "Which country is the city of Barranquilla located in?",
+    "answers": [
+      "Colombia"
+    ],
+    "subject": "Barranquilla",
+    "case_id": 90
+  },
+  {
+    "src": "Which country is the city of Bucheon located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Bucheon",
+    "case_id": 91
+  },
+  {
+    "src": "Which country is the city of Agra located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Agra",
+    "case_id": 92
+  },
+  {
+    "src": "Which country is the city of Kuwait City located in?",
+    "answers": [
+      "Kuwait"
+    ],
+    "subject": "Kuwait City",
+    "case_id": 93
+  },
+  {
+    "src": "Which country is the city of Innsbruck located in?",
+    "answers": [
+      "Austria"
+    ],
+    "subject": "Innsbruck",
+    "case_id": 94
+  },
+  {
+    "src": "Which country is the city of Qom located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Qom",
+    "case_id": 95
+  },
+  {
+    "src": "Which country is the city of Banjarmasin located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Banjarmasin",
+    "case_id": 96
+  },
+  {
+    "src": "Which country is the city of Campinas located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Campinas",
+    "case_id": 97
+  },
+  {
+    "src": "Which country is the city of Recife located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Recife",
+    "case_id": 98
+  },
+  {
+    "src": "Which country is the city of Lima located in?",
+    "answers": [
+      "Peru"
+    ],
+    "subject": "Lima",
+    "case_id": 99
+  },
+  {
+    "src": "Which country is the city of Denpasar located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Denpasar",
+    "case_id": 100
+  },
+  {
+    "src": "Which country is the city of Trincomalee located in?",
+    "answers": [
+      "Sri Lanka"
+    ],
+    "subject": "Trincomalee",
+    "case_id": 101
+  },
+  {
+    "src": "Which country is the city of Goyang located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Goyang",
+    "case_id": 102
+  },
+  {
+    "src": "Which country is the city of Atlanta located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Atlanta",
+    "case_id": 103
+  },
+  {
+    "src": "Which country is the city of Puebla located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Puebla",
+    "case_id": 104
+  },
+  {
+    "src": "Which country is the city of Jerez de la Frontera located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Jerez de la Frontera",
+    "case_id": 105
+  },
+  {
+    "src": "Which country is the city of Katowice located in?",
+    "answers": [
+      "Poland"
+    ],
+    "subject": "Katowice",
+    "case_id": 106
+  },
+  {
+    "src": "Which country is the city of Breda located in?",
+    "answers": [
+      "Netherlands"
+    ],
+    "subject": "Breda",
+    "case_id": 107
+  },
+  {
+    "src": "Which country is the city of Bradford located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Bradford",
+    "case_id": 108
+  },
+  {
+    "src": "Which country is the city of Pasig located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Pasig",
+    "case_id": 109
+  },
+  {
+    "src": "Which country is the city of Chennai located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Chennai",
+    "case_id": 110
+  },
+  {
+    "src": "Which country is the city of Kitakyushu located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Kitakyushu",
+    "case_id": 111
+  },
+  {
+    "src": "Which country is the city of Indianapolis located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Indianapolis",
+    "case_id": 112
+  },
+  {
+    "src": "Which country is the city of Nanchang located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Nanchang",
+    "case_id": 113
+  },
+  {
+    "src": "Which country is the city of Kinshasa located in?",
+    "answers": [
+      "Democratic Republic of the Congo"
+    ],
+    "subject": "Kinshasa",
+    "case_id": 114
+  },
+  {
+    "src": "Which country is the city of Daegu located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Daegu",
+    "case_id": 115
+  },
+  {
+    "src": "Which country is the city of Graz located in?",
+    "answers": [
+      "Austria"
+    ],
+    "subject": "Graz",
+    "case_id": 116
+  },
+  {
+    "src": "Which country is the city of Chingola located in?",
+    "answers": [
+      "Zambia"
+    ],
+    "subject": "Chingola",
+    "case_id": 117
+  },
+  {
+    "src": "Which country is the city of Jeddah located in?",
+    "answers": [
+      "Saudi Arabia"
+    ],
+    "subject": "Jeddah",
+    "case_id": 118
+  },
+  {
+    "src": "Which country is the city of Chalcis located in?",
+    "answers": [
+      "Greece"
+    ],
+    "subject": "Chalcis",
+    "case_id": 119
+  },
+  {
+    "src": "Which country is the city of Banja Luka located in?",
+    "answers": [
+      "Bosnia and Herzegovina"
+    ],
+    "subject": "Banja Luka",
+    "case_id": 120
+  },
+  {
+    "src": "Which country is the city of Lugano located in?",
+    "answers": [
+      "Switzerland"
+    ],
+    "subject": "Lugano",
+    "case_id": 121
+  },
+  {
+    "src": "Which country is the city of Maracaibo located in?",
+    "answers": [
+      "Venezuela"
+    ],
+    "subject": "Maracaibo",
+    "case_id": 122
+  },
+  {
+    "src": "Which country is the city of Shymkent located in?",
+    "answers": [
+      "Kazakhstan"
+    ],
+    "subject": "Shymkent",
+    "case_id": 123
+  },
+  {
+    "src": "Which country is the city of Serres located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Serres",
+    "case_id": 124
+  },
+  {
+    "src": "Which country is the city of Cape Town located in?",
+    "answers": [
+      "South Africa"
+    ],
+    "subject": "Cape Town",
+    "case_id": 125
+  },
+  {
+    "src": "Which country is the city of Haifa located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Haifa",
+    "case_id": 126
+  },
+  {
+    "src": "Which country is the city of Ashdod located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Ashdod",
+    "case_id": 127
+  },
+  {
+    "src": "Which country is the city of Surat located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Surat",
+    "case_id": 128
+  },
+  {
+    "src": "Which country is the city of Qingdao located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Qingdao",
+    "case_id": 129
+  },
+  {
+    "src": "Which country is the city of Fortaleza located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Fortaleza",
+    "case_id": 130
+  },
+  {
+    "src": "Which country is the city of Changwon located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Changwon",
+    "case_id": 131
+  },
+  {
+    "src": "Which country is the city of Homs located in?",
+    "answers": [
+      "Syria"
+    ],
+    "subject": "Homs",
+    "case_id": 132
+  },
+  {
+    "src": "Which country is the city of Tallinn located in?",
+    "answers": [
+      "Estonia"
+    ],
+    "subject": "Tallinn",
+    "case_id": 133
+  },
+  {
+    "src": "Which country is the city of Marrakesh located in?",
+    "answers": [
+      "Morocco"
+    ],
+    "subject": "Marrakesh",
+    "case_id": 134
+  },
+  {
+    "src": "Which country is the city of Dunedin located in?",
+    "answers": [
+      "New Zealand"
+    ],
+    "subject": "Dunedin",
+    "case_id": 135
+  },
+  {
+    "src": "Which country is the city of Porto located in?",
+    "answers": [
+      "Portugal"
+    ],
+    "subject": "Porto",
+    "case_id": 136
+  },
+  {
+    "src": "Which country is the city of Kingstown located in?",
+    "answers": [
+      "Saint Vincent and the Grenadines"
+    ],
+    "subject": "Kingstown",
+    "case_id": 137
+  },
+  {
+    "src": "Which country is the city of Cambridge located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Cambridge",
+    "case_id": 138
+  },
+  {
+    "src": "Which country is the city of Bydgoszcz located in?",
+    "answers": [
+      "Poland"
+    ],
+    "subject": "Bydgoszcz",
+    "case_id": 139
+  },
+  {
+    "src": "Which country is the city of Sfax located in?",
+    "answers": [
+      "Tunisia"
+    ],
+    "subject": "Sfax",
+    "case_id": 140
+  },
+  {
+    "src": "Which country is the city of Villach located in?",
+    "answers": [
+      "Austria"
+    ],
+    "subject": "Villach",
+    "case_id": 141
+  },
+  {
+    "src": "Which country is the city of Benghazi located in?",
+    "answers": [
+      "Libya"
+    ],
+    "subject": "Benghazi",
+    "case_id": 142
+  },
+  {
+    "src": "Which country is the city of Volgograd located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Volgograd",
+    "case_id": 143
+  },
+  {
+    "src": "Which country is the city of Pittsburgh located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Pittsburgh",
+    "case_id": 144
+  },
+  {
+    "src": "Which country is the city of Kitwe located in?",
+    "answers": [
+      "Zambia"
+    ],
+    "subject": "Kitwe",
+    "case_id": 145
+  },
+  {
+    "src": "Which country is the city of Cali located in?",
+    "answers": [
+      "Colombia"
+    ],
+    "subject": "Cali",
+    "case_id": 146
+  },
+  {
+    "src": "Which country is the city of Amman located in?",
+    "answers": [
+      "Jordan"
+    ],
+    "subject": "Amman",
+    "case_id": 147
+  },
+  {
+    "src": "Which country is the city of Padua located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Padua",
+    "case_id": 148
+  },
+  {
+    "src": "Which country is the city of Semarang located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Semarang",
+    "case_id": 149
+  },
+  {
+    "src": "Which country is the city of Edinburgh located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Edinburgh",
+    "case_id": 150
+  },
+  {
+    "src": "Which country is the city of Xi'an located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Xi'an",
+    "case_id": 151
+  },
+  {
+    "src": "Which country is the city of Malang located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Malang",
+    "case_id": 152
+  },
+  {
+    "src": "Which country is the city of Howrah located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Howrah",
+    "case_id": 153
+  },
+  {
+    "src": "Which country is the city of Pinsk located in?",
+    "answers": [
+      "Poland"
+    ],
+    "subject": "Pinsk",
+    "case_id": 154
+  },
+  {
+    "src": "Which country is the city of Vagharshapat located in?",
+    "answers": [
+      "Armenia"
+    ],
+    "subject": "Vagharshapat",
+    "case_id": 155
+  },
+  {
+    "src": "Which country is the city of Bari located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Bari",
+    "case_id": 156
+  },
+  {
+    "src": "Which country is the city of Cherkasy located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Cherkasy",
+    "case_id": 157
+  },
+  {
+    "src": "Which country is the city of Reggio Calabria located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Reggio Calabria",
+    "case_id": 158
+  },
+  {
+    "src": "Which country is the city of Helsinki located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Helsinki",
+    "case_id": 159
+  },
+  {
+    "src": "Which country is the city of Pimpri-Chinchwad located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Pimpri-Chinchwad",
+    "case_id": 160
+  },
+  {
+    "src": "Which country is the city of Heraklion located in?",
+    "answers": [
+      "Egypt"
+    ],
+    "subject": "Heraklion",
+    "case_id": 161
+  },
+  {
+    "src": "Which country is the city of Johannesburg located in?",
+    "answers": [
+      "South Africa"
+    ],
+    "subject": "Johannesburg",
+    "case_id": 162
+  },
+  {
+    "src": "Which country is the city of Irbid located in?",
+    "answers": [
+      "Jordan"
+    ],
+    "subject": "Irbid",
+    "case_id": 163
+  },
+  {
+    "src": "Which country is the city of Barquisimeto located in?",
+    "answers": [
+      "Venezuela"
+    ],
+    "subject": "Barquisimeto",
+    "case_id": 164
+  },
+  {
+    "src": "Which country is the city of Havana located in?",
+    "answers": [
+      "Cuba"
+    ],
+    "subject": "Havana",
+    "case_id": 165
+  },
+  {
+    "src": "Which country is the city of Herat located in?",
+    "answers": [
+      "Afghanistan"
+    ],
+    "subject": "Herat",
+    "case_id": 166
+  },
+  {
+    "src": "Which country is the city of Bitola located in?",
+    "answers": [
+      "North Macedonia"
+    ],
+    "subject": "Bitola",
+    "case_id": 167
+  },
+  {
+    "src": "Which country is the city of Surabaya located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Surabaya",
+    "case_id": 168
+  },
+  {
+    "src": "Which country is the city of Barrie located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Barrie",
+    "case_id": 169
+  },
+  {
+    "src": "Which country is the city of Annaba located in?",
+    "answers": [
+      "Algeria"
+    ],
+    "subject": "Annaba",
+    "case_id": 170
+  },
+  {
+    "src": "Which country is the city of Belfast located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Belfast",
+    "case_id": 171
+  },
+  {
+    "src": "Which country is the city of Braga located in?",
+    "answers": [
+      "Portugal"
+    ],
+    "subject": "Braga",
+    "case_id": 172
+  },
+  {
+    "src": "Which country is the city of Ahmedabad located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Ahmedabad",
+    "case_id": 173
+  },
+  {
+    "src": "Which country is the city of Mogadishu located in?",
+    "answers": [
+      "Somalia"
+    ],
+    "subject": "Mogadishu",
+    "case_id": 174
+  },
+  {
+    "src": "Which country is the city of Thessaloniki located in?",
+    "answers": [
+      "Greece"
+    ],
+    "subject": "Thessaloniki",
+    "case_id": 175
+  },
+  {
+    "src": "Which country is the city of Sendai located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Sendai",
+    "case_id": 176
+  },
+  {
+    "src": "Which country is the city of Hamamatsu located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Hamamatsu",
+    "case_id": 177
+  },
+  {
+    "src": "Which country is the city of Omsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Omsk",
+    "case_id": 178
+  },
+  {
+    "src": "Which country is the city of Oxford located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Oxford",
+    "case_id": 179
+  },
+  {
+    "src": "Which country is the city of Chemnitz located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Chemnitz",
+    "case_id": 180
+  },
+  {
+    "src": "Which country is the city of Kabul located in?",
+    "answers": [
+      "Afghanistan"
+    ],
+    "subject": "Kabul",
+    "case_id": 181
+  },
+  {
+    "src": "Which country is the city of Modena located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Modena",
+    "case_id": 182
+  },
+  {
+    "src": "Which country is the city of Brescia located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Brescia",
+    "case_id": 183
+  },
+  {
+    "src": "Which country is the city of Brussels located in?",
+    "answers": [
+      "Belgium"
+    ],
+    "subject": "Brussels",
+    "case_id": 184
+  },
+  {
+    "src": "Which country is the city of Prague located in?",
+    "answers": [
+      "Czechia"
+    ],
+    "subject": "Prague",
+    "case_id": 185
+  },
+  {
+    "src": "Which country is the city of Jeonju located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Jeonju",
+    "case_id": 186
+  },
+  {
+    "src": "Which country is the city of Sydney located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Sydney",
+    "case_id": 187
+  },
+  {
+    "src": "Which country is the city of Comilla located in?",
+    "answers": [
+      "Bangladesh"
+    ],
+    "subject": "Comilla",
+    "case_id": 188
+  },
+  {
+    "src": "Which country is the city of Isfahan located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Isfahan",
+    "case_id": 189
+  },
+  {
+    "src": "Which country is the city of Mogilev located in?",
+    "answers": [
+      "Belarus"
+    ],
+    "subject": "Mogilev",
+    "case_id": 190
+  },
+  {
+    "src": "Which country is the city of Verona located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Verona",
+    "case_id": 191
+  },
+  {
+    "src": "Which country is the city of Janakpur located in?",
+    "answers": [
+      "Nepal"
+    ],
+    "subject": "Janakpur",
+    "case_id": 192
+  },
+  {
+    "src": "Which country is the city of Pardubice located in?",
+    "answers": [
+      "Czechia"
+    ],
+    "subject": "Pardubice",
+    "case_id": 193
+  },
+  {
+    "src": "Which country is the city of Wuppertal located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Wuppertal",
+    "case_id": 194
+  },
+  {
+    "src": "Which country is the city of Szeged located in?",
+    "answers": [
+      "Hungary"
+    ],
+    "subject": "Szeged",
+    "case_id": 195
+  },
+  {
+    "src": "Which country is the city of Antioch located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Antioch",
+    "case_id": 196
+  },
+  {
+    "src": "Which country is the city of Bulawayo located in?",
+    "answers": [
+      "Zimbabwe"
+    ],
+    "subject": "Bulawayo",
+    "case_id": 197
+  },
+  {
+    "src": "Which country is the city of Indore located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Indore",
+    "case_id": 198
+  },
+  {
+    "src": "Which country is the city of Krasnodar located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Krasnodar",
+    "case_id": 199
+  },
+  {
+    "src": "Which country is the city of Almaty located in?",
+    "answers": [
+      "Kazakhstan"
+    ],
+    "subject": "Almaty",
+    "case_id": 200
+  },
+  {
+    "src": "Which country is the city of Rotterdam located in?",
+    "answers": [
+      "Netherlands"
+    ],
+    "subject": "Rotterdam",
+    "case_id": 201
+  },
+  {
+    "src": "Which country is the city of Latakia located in?",
+    "answers": [
+      "Syria"
+    ],
+    "subject": "Latakia",
+    "case_id": 202
+  },
+  {
+    "src": "Which country is the city of Shenzhen located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Shenzhen",
+    "case_id": 203
+  },
+  {
+    "src": "Which country is the city of Khujand located in?",
+    "answers": [
+      "Tajikistan"
+    ],
+    "subject": "Khujand",
+    "case_id": 204
+  },
+  {
+    "src": "Which country is the city of Al Ain located in?",
+    "answers": [
+      "United Arab Emirates"
+    ],
+    "subject": "Al Ain",
+    "case_id": 205
+  },
+  {
+    "src": "Which country is the city of Hama located in?",
+    "answers": [
+      "Syria"
+    ],
+    "subject": "Hama",
+    "case_id": 206
+  },
+  {
+    "src": "Which country is the city of Antipolo located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Antipolo",
+    "case_id": 207
+  },
+  {
+    "src": "Which country is the city of Bern located in?",
+    "answers": [
+      "Switzerland"
+    ],
+    "subject": "Bern",
+    "case_id": 208
+  },
+  {
+    "src": "Which country is the city of Makhachkala located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Makhachkala",
+    "case_id": 209
+  },
+  {
+    "src": "Which country is the city of Tasikmalaya located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Tasikmalaya",
+    "case_id": 210
+  },
+  {
+    "src": "Which country is the city of Kutaisi located in?",
+    "answers": [
+      "Georgia"
+    ],
+    "subject": "Kutaisi",
+    "case_id": 211
+  },
+  {
+    "src": "Which country is the city of Kota Kinabalu located in?",
+    "answers": [
+      "Malaysia"
+    ],
+    "subject": "Kota Kinabalu",
+    "case_id": 212
+  },
+  {
+    "src": "Which country is the city of Suva located in?",
+    "answers": [
+      "Fiji"
+    ],
+    "subject": "Suva",
+    "case_id": 213
+  },
+  {
+    "src": "Which country is the city of Khartoum North located in?",
+    "answers": [
+      "Sudan"
+    ],
+    "subject": "Khartoum North",
+    "case_id": 214
+  },
+  {
+    "src": "Which country is the city of Bangkok located in?",
+    "answers": [
+      "Thailand"
+    ],
+    "subject": "Bangkok",
+    "case_id": 215
+  },
+  {
+    "src": "Which country is the city of Kaohsiung located in?",
+    "answers": [
+      "Taiwan"
+    ],
+    "subject": "Kaohsiung",
+    "case_id": 216
+  },
+  {
+    "src": "Which country is the city of Zapopan located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Zapopan",
+    "case_id": 217
+  },
+  {
+    "src": "Which country is the city of Turin located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Turin",
+    "case_id": 218
+  },
+  {
+    "src": "Which country is the city of Prato located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Prato",
+    "case_id": 219
+  },
+  {
+    "src": "Which country is the city of Algiers located in?",
+    "answers": [
+      "Algeria"
+    ],
+    "subject": "Algiers",
+    "case_id": 220
+  },
+  {
+    "src": "Which country is the city of Nagoya located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Nagoya",
+    "case_id": 221
+  },
+  {
+    "src": "Which country is the city of Kampala located in?",
+    "answers": [
+      "Uganda"
+    ],
+    "subject": "Kampala",
+    "case_id": 222
+  },
+  {
+    "src": "Which country is the city of Tomsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Tomsk",
+    "case_id": 223
+  },
+  {
+    "src": "Which country is the city of Medina located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Medina",
+    "case_id": 224
+  },
+  {
+    "src": "Which country is the city of Hefei located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Hefei",
+    "case_id": 225
+  },
+  {
+    "src": "Which country is the city of Zarqa located in?",
+    "answers": [
+      "Jordan"
+    ],
+    "subject": "Zarqa",
+    "case_id": 226
+  },
+  {
+    "src": "Which country is the city of Metz located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Metz",
+    "case_id": 227
+  },
+  {
+    "src": "Which country is the city of Vladivostok located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Vladivostok",
+    "case_id": 228
+  },
+  {
+    "src": "Which country is the city of Parma located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Parma",
+    "case_id": 229
+  },
+  {
+    "src": "Which country is the city of Pekanbaru located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Pekanbaru",
+    "case_id": 230
+  },
+  {
+    "src": "Which country is the city of Sarpsborg located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Sarpsborg",
+    "case_id": 231
+  },
+  {
+    "src": "Which country is the city of Khartoum located in?",
+    "answers": [
+      "Sudan"
+    ],
+    "subject": "Khartoum",
+    "case_id": 232
+  },
+  {
+    "src": "Which country is the city of Alexandria located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Alexandria",
+    "case_id": 233
+  },
+  {
+    "src": "Which country is the city of Kaolack located in?",
+    "answers": [
+      "Senegal"
+    ],
+    "subject": "Kaolack",
+    "case_id": 234
+  },
+  {
+    "src": "Which country is the city of Swansea located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Swansea",
+    "case_id": 235
+  },
+  {
+    "src": "Which country is the city of Grenoble located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Grenoble",
+    "case_id": 236
+  },
+  {
+    "src": "Which country is the city of Karbala located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Karbala",
+    "case_id": 237
+  },
+  {
+    "src": "Which country is the city of Vientiane located in?",
+    "answers": [
+      "Laos"
+    ],
+    "subject": "Vientiane",
+    "case_id": 238
+  },
+  {
+    "src": "Which country is the city of Tabriz located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Tabriz",
+    "case_id": 239
+  },
+  {
+    "src": "Which country is the city of Miskolc located in?",
+    "answers": [
+      "Hungary"
+    ],
+    "subject": "Miskolc",
+    "case_id": 240
+  },
+  {
+    "src": "Which country is the city of Philadelphia located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Philadelphia",
+    "case_id": 241
+  },
+  {
+    "src": "Which country is the city of Brazzaville located in?",
+    "answers": [
+      "Congo-Brazzaville"
+    ],
+    "subject": "Brazzaville",
+    "case_id": 242
+  },
+  {
+    "src": "Which country is the city of Hsinchu located in?",
+    "answers": [
+      "Taiwan"
+    ],
+    "subject": "Hsinchu",
+    "case_id": 243
+  },
+  {
+    "src": "Which country is the city of Budapest located in?",
+    "answers": [
+      "Hungary"
+    ],
+    "subject": "Budapest",
+    "case_id": 244
+  },
+  {
+    "src": "Which country is the city of Saint Petersburg located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Saint Petersburg",
+    "case_id": 245
+  },
+  {
+    "src": "Which country is the city of Lanzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Lanzhou",
+    "case_id": 246
+  },
+  {
+    "src": "Which country is the city of Chelyabinsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Chelyabinsk",
+    "case_id": 247
+  },
+  {
+    "src": "Which country is the city of Le Havre located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Le Havre",
+    "case_id": 248
+  },
+  {
+    "src": "Which country is the city of Bogor located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Bogor",
+    "case_id": 249
+  },
+  {
+    "src": "Which country is the city of Dornbirn located in?",
+    "answers": [
+      "Austria"
+    ],
+    "subject": "Dornbirn",
+    "case_id": 250
+  },
+  {
+    "src": "Which country is the city of Agadir located in?",
+    "answers": [
+      "Morocco"
+    ],
+    "subject": "Agadir",
+    "case_id": 251
+  },
+  {
+    "src": "Which country is the city of Cheongju located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Cheongju",
+    "case_id": 252
+  },
+  {
+    "src": "Which country is the city of Guangzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Guangzhou",
+    "case_id": 253
+  },
+  {
+    "src": "Which country is the city of Volos located in?",
+    "answers": [
+      "Greece"
+    ],
+    "subject": "Volos",
+    "case_id": 254
+  },
+  {
+    "src": "Which country is the city of Villahermosa located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Villahermosa",
+    "case_id": 255
+  },
+  {
+    "src": "Which country is the city of Deir ez-Zor located in?",
+    "answers": [
+      "Syria"
+    ],
+    "subject": "Deir ez-Zor",
+    "case_id": 256
+  },
+  {
+    "src": "Which country is the city of Curitiba located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Curitiba",
+    "case_id": 257
+  },
+  {
+    "src": "Which country is the city of Kaunas located in?",
+    "answers": [
+      "Lithuania"
+    ],
+    "subject": "Kaunas",
+    "case_id": 258
+  },
+  {
+    "src": "Which country is the city of San Francisco located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "San Francisco",
+    "case_id": 259
+  },
+  {
+    "src": "Which country is the city of Tbilisi located in?",
+    "answers": [
+      "Georgia"
+    ],
+    "subject": "Tbilisi",
+    "case_id": 260
+  },
+  {
+    "src": "Which country is the city of Pokhara located in?",
+    "answers": [
+      "Nepal"
+    ],
+    "subject": "Pokhara",
+    "case_id": 261
+  },
+  {
+    "src": "Which country is the city of Bhopal located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Bhopal",
+    "case_id": 262
+  },
+  {
+    "src": "Which country is the city of Vigo located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Vigo",
+    "case_id": 263
+  },
+  {
+    "src": "Which country is the city of Southampton located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Southampton",
+    "case_id": 264
+  },
+  {
+    "src": "Which country is the city of Tuzla located in?",
+    "answers": [
+      "Bosnia and Herzegovina"
+    ],
+    "subject": "Tuzla",
+    "case_id": 265
+  },
+  {
+    "src": "Which country is the city of Meerut located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Meerut",
+    "case_id": 266
+  },
+  {
+    "src": "Which country is the city of Osh located in?",
+    "answers": [
+      "Kyrgyzstan"
+    ],
+    "subject": "Osh",
+    "case_id": 267
+  },
+  {
+    "src": "Which country is the city of Cleveland located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Cleveland",
+    "case_id": 268
+  },
+  {
+    "src": "Which country is the city of Porto Alegre located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Porto Alegre",
+    "case_id": 269
+  },
+  {
+    "src": "Which country is the city of Subotica located in?",
+    "answers": [
+      "Serbia"
+    ],
+    "subject": "Subotica",
+    "case_id": 270
+  },
+  {
+    "src": "Which country is the city of Fukuoka located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Fukuoka",
+    "case_id": 271
+  },
+  {
+    "src": "Which country is the city of Palmerston North located in?",
+    "answers": [
+      "New Zealand"
+    ],
+    "subject": "Palmerston North",
+    "case_id": 272
+  },
+  {
+    "src": "Which country is the city of Nampo located in?",
+    "answers": [
+      "North Korea"
+    ],
+    "subject": "Nampo",
+    "case_id": 273
+  },
+  {
+    "src": "Which country is the city of Dortmund located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Dortmund",
+    "case_id": 274
+  },
+  {
+    "src": "Which country is the city of Kuching located in?",
+    "answers": [
+      "Malaysia"
+    ],
+    "subject": "Kuching",
+    "case_id": 275
+  },
+  {
+    "src": "Which country is the city of Okayama located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Okayama",
+    "case_id": 276
+  },
+  {
+    "src": "Which country is the city of Yantai located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Yantai",
+    "case_id": 277
+  },
+  {
+    "src": "Which country is the city of Debrecen located in?",
+    "answers": [
+      "Hungary"
+    ],
+    "subject": "Debrecen",
+    "case_id": 278
+  },
+  {
+    "src": "Which country is the city of Kumamoto located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Kumamoto",
+    "case_id": 279
+  },
+  {
+    "src": "Which country is the city of Tunis located in?",
+    "answers": [
+      "Tunisia"
+    ],
+    "subject": "Tunis",
+    "case_id": 280
+  },
+  {
+    "src": "Which country is the city of Vilnius located in?",
+    "answers": [
+      "Lithuania"
+    ],
+    "subject": "Vilnius",
+    "case_id": 281
+  },
+  {
+    "src": "Which country is the city of Burgas located in?",
+    "answers": [
+      "Bulgaria"
+    ],
+    "subject": "Burgas",
+    "case_id": 282
+  },
+  {
+    "src": "Which country is the city of Al-Hasakah located in?",
+    "answers": [
+      "Syria"
+    ],
+    "subject": "Al-Hasakah",
+    "case_id": 283
+  },
+  {
+    "src": "Which country is the city of Holon located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Holon",
+    "case_id": 284
+  },
+  {
+    "src": "Which country is the city of Padang located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Padang",
+    "case_id": 285
+  },
+  {
+    "src": "Which country is the city of Stoke-on-Trent located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Stoke-on-Trent",
+    "case_id": 286
+  },
+  {
+    "src": "Which country is the city of Makeni located in?",
+    "answers": [
+      "Sierra Leone"
+    ],
+    "subject": "Makeni",
+    "case_id": 287
+  },
+  {
+    "src": "Which country is the city of Maputo located in?",
+    "answers": [
+      "Mozambique"
+    ],
+    "subject": "Maputo",
+    "case_id": 288
+  },
+  {
+    "src": "Which country is the city of Tehran located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Tehran",
+    "case_id": 289
+  },
+  {
+    "src": "Which country is the city of Lublin located in?",
+    "answers": [
+      "Poland"
+    ],
+    "subject": "Lublin",
+    "case_id": 290
+  },
+  {
+    "src": "Which country is the city of Port Harcourt located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Port Harcourt",
+    "case_id": 291
+  },
+  {
+    "src": "Which country is the city of Changchun located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Changchun",
+    "case_id": 292
+  },
+  {
+    "src": "Which country is the city of Sarajevo located in?",
+    "answers": [
+      "Bosnia and Herzegovina"
+    ],
+    "subject": "Sarajevo",
+    "case_id": 293
+  },
+  {
+    "src": "Which country is the city of Daloa located in?",
+    "answers": [
+      "C\u00f4te d'Ivoire"
+    ],
+    "subject": "Daloa",
+    "case_id": 294
+  },
+  {
+    "src": "Which country is the city of Portsmouth located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Portsmouth",
+    "case_id": 295
+  },
+  {
+    "src": "Which country is the city of Aberdeen located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Aberdeen",
+    "case_id": 296
+  },
+  {
+    "src": "Which country is the city of Elbasan located in?",
+    "answers": [
+      "Albania"
+    ],
+    "subject": "Elbasan",
+    "case_id": 297
+  },
+  {
+    "src": "Which country is the city of Lusaka located in?",
+    "answers": [
+      "Zambia"
+    ],
+    "subject": "Lusaka",
+    "case_id": 298
+  },
+  {
+    "src": "Which country is the city of Suzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Suzhou",
+    "case_id": 299
+  },
+  {
+    "src": "Which country is the city of Kuopio located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Kuopio",
+    "case_id": 300
+  },
+  {
+    "src": "Which country is the city of Alor Setar located in?",
+    "answers": [
+      "Malaysia"
+    ],
+    "subject": "Alor Setar",
+    "case_id": 301
+  },
+  {
+    "src": "Which country is the city of Miami located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Miami",
+    "case_id": 302
+  },
+  {
+    "src": "Which country is the city of Amiens located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Amiens",
+    "case_id": 303
+  },
+  {
+    "src": "Which country is the city of Gujranwala located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Gujranwala",
+    "case_id": 304
+  },
+  {
+    "src": "Which country is the city of Lubumbashi located in?",
+    "answers": [
+      "Democratic Republic of the Congo"
+    ],
+    "subject": "Lubumbashi",
+    "case_id": 305
+  },
+  {
+    "src": "Which country is the city of Karaganda located in?",
+    "answers": [
+      "Kazakhstan"
+    ],
+    "subject": "Karaganda",
+    "case_id": 306
+  },
+  {
+    "src": "Which country is the city of Murcia located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Murcia",
+    "case_id": 307
+  },
+  {
+    "src": "Which country is the city of Saltillo located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Saltillo",
+    "case_id": 308
+  },
+  {
+    "src": "Which country is the city of Rennes located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Rennes",
+    "case_id": 309
+  },
+  {
+    "src": "Which country is the city of Leuven located in?",
+    "answers": [
+      "Belgium"
+    ],
+    "subject": "Leuven",
+    "case_id": 310
+  },
+  {
+    "src": "Which country is the city of Kunming located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Kunming",
+    "case_id": 311
+  },
+  {
+    "src": "Which country is the city of Rishon LeZion located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Rishon LeZion",
+    "case_id": 312
+  },
+  {
+    "src": "Which country is the city of Niamey located in?",
+    "answers": [
+      "Niger"
+    ],
+    "subject": "Niamey",
+    "case_id": 313
+  },
+  {
+    "src": "Which country is the city of Nuremberg located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Nuremberg",
+    "case_id": 314
+  },
+  {
+    "src": "Which country is the city of Honiara located in?",
+    "answers": [
+      "Solomon Islands"
+    ],
+    "subject": "Honiara",
+    "case_id": 315
+  },
+  {
+    "src": "Which country is the city of Nizhny Novgorod located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Nizhny Novgorod",
+    "case_id": 316
+  },
+  {
+    "src": "Which country is the city of Kiel located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Kiel",
+    "case_id": 317
+  },
+  {
+    "src": "Which country is the city of Gothenburg located in?",
+    "answers": [
+      "Sweden"
+    ],
+    "subject": "Gothenburg",
+    "case_id": 318
+  },
+  {
+    "src": "Which country is the city of Dar es Salaam located in?",
+    "answers": [
+      "Tanzania"
+    ],
+    "subject": "Dar es Salaam",
+    "case_id": 319
+  },
+  {
+    "src": "Which country is the city of Eindhoven located in?",
+    "answers": [
+      "Netherlands"
+    ],
+    "subject": "Eindhoven",
+    "case_id": 320
+  },
+  {
+    "src": "Which country is the city of Auckland located in?",
+    "answers": [
+      "New Zealand"
+    ],
+    "subject": "Auckland",
+    "case_id": 321
+  },
+  {
+    "src": "Which country is the city of Toulon located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Toulon",
+    "case_id": 322
+  },
+  {
+    "src": "Which country is the city of Canberra located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Canberra",
+    "case_id": 323
+  },
+  {
+    "src": "Which country is the city of Lahore located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Lahore",
+    "case_id": 324
+  },
+  {
+    "src": "Which country is the city of Winterthur located in?",
+    "answers": [
+      "Switzerland"
+    ],
+    "subject": "Winterthur",
+    "case_id": 325
+  },
+  {
+    "src": "Which country is the city of Elche located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Elche",
+    "case_id": 326
+  },
+  {
+    "src": "Which country is the city of Ulsan located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Ulsan",
+    "case_id": 327
+  },
+  {
+    "src": "Which country is the city of Istanbul located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Istanbul",
+    "case_id": 328
+  },
+  {
+    "src": "Which country is the city of Edmonton located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Edmonton",
+    "case_id": 329
+  },
+  {
+    "src": "Which country is the city of Kyoto located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Kyoto",
+    "case_id": 330
+  },
+  {
+    "src": "Which country is the city of Petaling Jaya located in?",
+    "answers": [
+      "Malaysia"
+    ],
+    "subject": "Petaling Jaya",
+    "case_id": 331
+  },
+  {
+    "src": "Which country is the city of Birgunj located in?",
+    "answers": [
+      "Nepal"
+    ],
+    "subject": "Birgunj",
+    "case_id": 332
+  },
+  {
+    "src": "Which country is the city of Kermanshah located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Kermanshah",
+    "case_id": 333
+  },
+  {
+    "src": "Which country is the city of Biskra located in?",
+    "answers": [
+      "Algeria"
+    ],
+    "subject": "Biskra",
+    "case_id": 334
+  },
+  {
+    "src": "Which country is the city of Seattle located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Seattle",
+    "case_id": 335
+  },
+  {
+    "src": "Which country is the city of Belgrade located in?",
+    "answers": [
+      "Serbia"
+    ],
+    "subject": "Belgrade",
+    "case_id": 336
+  },
+  {
+    "src": "Which country is the city of Kherson located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Kherson",
+    "case_id": 337
+  },
+  {
+    "src": "Which country is the city of Galkayo located in?",
+    "answers": [
+      "Somalia"
+    ],
+    "subject": "Galkayo",
+    "case_id": 338
+  },
+  {
+    "src": "Which country is the city of Ranchi located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Ranchi",
+    "case_id": 339
+  },
+  {
+    "src": "Which country is the city of Incheon located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Incheon",
+    "case_id": 340
+  },
+  {
+    "src": "Which country is the city of Hamhung located in?",
+    "answers": [
+      "North Korea"
+    ],
+    "subject": "Hamhung",
+    "case_id": 341
+  },
+  {
+    "src": "Which country is the city of Mawlamyine located in?",
+    "answers": [
+      "Myanmar"
+    ],
+    "subject": "Mawlamyine",
+    "case_id": 342
+  },
+  {
+    "src": "Which country is the city of Najaf located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Najaf",
+    "case_id": 343
+  },
+  {
+    "src": "Which country is the city of Mutare located in?",
+    "answers": [
+      "Zimbabwe"
+    ],
+    "subject": "Mutare",
+    "case_id": 344
+  },
+  {
+    "src": "Which country is the city of Polokwane located in?",
+    "answers": [
+      "South Africa"
+    ],
+    "subject": "Polokwane",
+    "case_id": 345
+  },
+  {
+    "src": "Which country is the city of Gwalior located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Gwalior",
+    "case_id": 346
+  },
+  {
+    "src": "Which country is the city of Mersin located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Mersin",
+    "case_id": 347
+  },
+  {
+    "src": "Which country is the city of Kayseri located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Kayseri",
+    "case_id": 348
+  },
+  {
+    "src": "Which country is the city of Winnipeg located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Winnipeg",
+    "case_id": 349
+  },
+  {
+    "src": "Which country is the city of Sevastopol located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Sevastopol",
+    "case_id": 350
+  },
+  {
+    "src": "Which country is the city of Florence located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Florence",
+    "case_id": 351
+  },
+  {
+    "src": "Which country is the city of Peshawar located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Peshawar",
+    "case_id": 352
+  },
+  {
+    "src": "Which country is the city of Tainan located in?",
+    "answers": [
+      "Taiwan"
+    ],
+    "subject": "Tainan",
+    "case_id": 353
+  },
+  {
+    "src": "Which country is the city of Chongqing located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Chongqing",
+    "case_id": 354
+  },
+  {
+    "src": "Which country is the city of Essen located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Essen",
+    "case_id": 355
+  },
+  {
+    "src": "Which country is the city of Samarinda located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Samarinda",
+    "case_id": 356
+  },
+  {
+    "src": "Which country is the city of Xiamen located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Xiamen",
+    "case_id": 357
+  },
+  {
+    "src": "Which country is the city of Kelowna located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Kelowna",
+    "case_id": 358
+  },
+  {
+    "src": "Which country is the city of Rostov-on-Don located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Rostov-on-Don",
+    "case_id": 359
+  },
+  {
+    "src": "Which country is the city of Novi Sad located in?",
+    "answers": [
+      "Serbia"
+    ],
+    "subject": "Novi Sad",
+    "case_id": 360
+  },
+  {
+    "src": "Which country is the city of Salzburg located in?",
+    "answers": [
+      "Austria"
+    ],
+    "subject": "Salzburg",
+    "case_id": 361
+  },
+  {
+    "src": "Which country is the city of Vadodara located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Vadodara",
+    "case_id": 362
+  },
+  {
+    "src": "Which country is the city of Voronezh located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Voronezh",
+    "case_id": 363
+  },
+  {
+    "src": "Which country is the city of Ibadan located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Ibadan",
+    "case_id": 364
+  },
+  {
+    "src": "Which country is the city of Bursa located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Bursa",
+    "case_id": 365
+  },
+  {
+    "src": "Which country is the city of Saratov located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Saratov",
+    "case_id": 366
+  },
+  {
+    "src": "Which country is the city of Gondar located in?",
+    "answers": [
+      "Ethiopia"
+    ],
+    "subject": "Gondar",
+    "case_id": 367
+  },
+  {
+    "src": "Which country is the city of Port-au-Prince located in?",
+    "answers": [
+      "Haiti"
+    ],
+    "subject": "Port-au-Prince",
+    "case_id": 368
+  },
+  {
+    "src": "Which country is the city of Quetta located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Quetta",
+    "case_id": 369
+  },
+  {
+    "src": "Which country is the city of Izhevsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Izhevsk",
+    "case_id": 370
+  },
+  {
+    "src": "Which country is the city of Nijmegen located in?",
+    "answers": [
+      "Netherlands"
+    ],
+    "subject": "Nijmegen",
+    "case_id": 371
+  },
+  {
+    "src": "Which country is the city of Konya located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Konya",
+    "case_id": 372
+  },
+  {
+    "src": "Which country is the city of Toowoomba located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Toowoomba",
+    "case_id": 373
+  },
+  {
+    "src": "Which country is the city of Taichung located in?",
+    "answers": [
+      "Taiwan"
+    ],
+    "subject": "Taichung",
+    "case_id": 374
+  },
+  {
+    "src": "Which country is the city of Lucerne located in?",
+    "answers": [
+      "Switzerland"
+    ],
+    "subject": "Lucerne",
+    "case_id": 375
+  },
+  {
+    "src": "Which country is the city of Szombathely located in?",
+    "answers": [
+      "Hungary"
+    ],
+    "subject": "Szombathely",
+    "case_id": 376
+  },
+  {
+    "src": "Which country is the city of Bucaramanga located in?",
+    "answers": [
+      "Colombia"
+    ],
+    "subject": "Bucaramanga",
+    "case_id": 377
+  },
+  {
+    "src": "Which country is the city of Durban located in?",
+    "answers": [
+      "South Africa"
+    ],
+    "subject": "Durban",
+    "case_id": 378
+  },
+  {
+    "src": "Which country is the city of Moratuwa located in?",
+    "answers": [
+      "Sri Lanka"
+    ],
+    "subject": "Moratuwa",
+    "case_id": 379
+  },
+  {
+    "src": "Which country is the city of Ioannina located in?",
+    "answers": [
+      "Greece"
+    ],
+    "subject": "Ioannina",
+    "case_id": 380
+  },
+  {
+    "src": "Which country is the city of Wollongong located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Wollongong",
+    "case_id": 381
+  },
+  {
+    "src": "Which country is the city of Dongguan located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Dongguan",
+    "case_id": 382
+  },
+  {
+    "src": "Which country is the city of Bandung located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Bandung",
+    "case_id": 383
+  },
+  {
+    "src": "Which country is the city of Basra located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Basra",
+    "case_id": 384
+  },
+  {
+    "src": "Which country is the city of Wuxi located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Wuxi",
+    "case_id": 385
+  },
+  {
+    "src": "Which country is the city of Tegucigalpa located in?",
+    "answers": [
+      "Honduras"
+    ],
+    "subject": "Tegucigalpa",
+    "case_id": 386
+  },
+  {
+    "src": "Which country is the city of Windhoek located in?",
+    "answers": [
+      "Namibia"
+    ],
+    "subject": "Windhoek",
+    "case_id": 387
+  },
+  {
+    "src": "Which country is the city of Denver located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Denver",
+    "case_id": 388
+  },
+  {
+    "src": "Which country is the city of Dodoma located in?",
+    "answers": [
+      "Tanzania"
+    ],
+    "subject": "Dodoma",
+    "case_id": 389
+  },
+  {
+    "src": "Which country is the city of Sousse located in?",
+    "answers": [
+      "Tunisia"
+    ],
+    "subject": "Sousse",
+    "case_id": 390
+  },
+  {
+    "src": "Which country is the city of Abidjan located in?",
+    "answers": [
+      "C\u00f4te d'Ivoire"
+    ],
+    "subject": "Abidjan",
+    "case_id": 391
+  },
+  {
+    "src": "Which country is the city of Sofia located in?",
+    "answers": [
+      "Bulgaria"
+    ],
+    "subject": "Sofia",
+    "case_id": 392
+  },
+  {
+    "src": "Which country is the city of Wolverhampton located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Wolverhampton",
+    "case_id": 393
+  },
+  {
+    "src": "Which country is the city of Amritsar located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Amritsar",
+    "case_id": 394
+  },
+  {
+    "src": "Which country is the city of Livorno located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Livorno",
+    "case_id": 395
+  },
+  {
+    "src": "Which country is the city of Dili located in?",
+    "answers": [
+      "East Timor"
+    ],
+    "subject": "Dili",
+    "case_id": 396
+  },
+  {
+    "src": "Which country is the city of Shenyang located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Shenyang",
+    "case_id": 397
+  },
+  {
+    "src": "Which country is the city of Celje located in?",
+    "answers": [
+      "Slovenia"
+    ],
+    "subject": "Celje",
+    "case_id": 398
+  },
+  {
+    "src": "Which country is the city of Taranto located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Taranto",
+    "case_id": 399
+  },
+  {
+    "src": "Which country is the city of Karlsruhe located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Karlsruhe",
+    "case_id": 400
+  },
+  {
+    "src": "Which country is the city of Aden located in?",
+    "answers": [
+      "Yemen"
+    ],
+    "subject": "Aden",
+    "case_id": 401
+  },
+  {
+    "src": "Which country is the city of Vinnytsia located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Vinnytsia",
+    "case_id": 402
+  },
+  {
+    "src": "Which country is the city of Pretoria located in?",
+    "answers": [
+      "South Africa"
+    ],
+    "subject": "Pretoria",
+    "case_id": 403
+  },
+  {
+    "src": "Which country is the city of Tangier located in?",
+    "answers": [
+      "Morocco"
+    ],
+    "subject": "Tangier",
+    "case_id": 404
+  },
+  {
+    "src": "Which country is the city of Basseterre located in?",
+    "answers": [
+      "Saint Kitts and Nevis"
+    ],
+    "subject": "Basseterre",
+    "case_id": 405
+  },
+  {
+    "src": "Which country is the city of Donetsk located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Donetsk",
+    "case_id": 406
+  },
+  {
+    "src": "Which country is the city of Oujda located in?",
+    "answers": [
+      "Morocco"
+    ],
+    "subject": "Oujda",
+    "case_id": 407
+  },
+  {
+    "src": "Which country is the city of Vitebsk located in?",
+    "answers": [
+      "Belarus"
+    ],
+    "subject": "Vitebsk",
+    "case_id": 408
+  },
+  {
+    "src": "Which country is the city of Irapuato located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Irapuato",
+    "case_id": 409
+  },
+  {
+    "src": "Which country is the city of Randers located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Randers",
+    "case_id": 410
+  },
+  {
+    "src": "Which country is the city of Faisalabad located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Faisalabad",
+    "case_id": 411
+  },
+  {
+    "src": "Which country is the city of El Mahalla El Kubra located in?",
+    "answers": [
+      "Egypt"
+    ],
+    "subject": "El Mahalla El Kubra",
+    "case_id": 412
+  },
+  {
+    "src": "Which country is the city of Osaka located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Osaka",
+    "case_id": 413
+  },
+  {
+    "src": "Which country is the city of Ghent located in?",
+    "answers": [
+      "Belgium"
+    ],
+    "subject": "Ghent",
+    "case_id": 414
+  },
+  {
+    "src": "Which country is the city of Papeete located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Papeete",
+    "case_id": 415
+  },
+  {
+    "src": "Which country is the city of St. Louis located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "St. Louis",
+    "case_id": 416
+  },
+  {
+    "src": "Which country is the city of Nottingham located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Nottingham",
+    "case_id": 417
+  },
+  {
+    "src": "Which country is the city of San Antonio located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "San Antonio",
+    "case_id": 418
+  },
+  {
+    "src": "Which country is the city of Tirana located in?",
+    "answers": [
+      "Albania"
+    ],
+    "subject": "Tirana",
+    "case_id": 419
+  },
+  {
+    "src": "Which country is the city of Montevideo located in?",
+    "answers": [
+      "Uruguay"
+    ],
+    "subject": "Montevideo",
+    "case_id": 420
+  },
+  {
+    "src": "Which country is the city of Sidon located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Sidon",
+    "case_id": 421
+  },
+  {
+    "src": "Which country is the city of Plovdiv located in?",
+    "answers": [
+      "Bulgaria"
+    ],
+    "subject": "Plovdiv",
+    "case_id": 422
+  },
+  {
+    "src": "Which country is the city of Rockhampton located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Rockhampton",
+    "case_id": 423
+  },
+  {
+    "src": "Which country is the city of Santa Cruz de la Sierra located in?",
+    "answers": [
+      "Bolivia"
+    ],
+    "subject": "Santa Cruz de la Sierra",
+    "case_id": 424
+  },
+  {
+    "src": "Which country is the city of Ravenna located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Ravenna",
+    "case_id": 425
+  },
+  {
+    "src": "Which country is the city of Porto-Novo located in?",
+    "answers": [
+      "Benin"
+    ],
+    "subject": "Porto-Novo",
+    "case_id": 426
+  },
+  {
+    "src": "Which country is the city of Milwaukee located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Milwaukee",
+    "case_id": 427
+  },
+  {
+    "src": "Which country is the city of Valladolid located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Valladolid",
+    "case_id": 428
+  },
+  {
+    "src": "Which country is the city of Mexicali located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Mexicali",
+    "case_id": 429
+  },
+  {
+    "src": "Which country is the city of Jakarta located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Jakarta",
+    "case_id": 430
+  },
+  {
+    "src": "Which country is the city of Kano located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Kano",
+    "case_id": 431
+  },
+  {
+    "src": "Which country is the city of Trieste located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Trieste",
+    "case_id": 432
+  },
+  {
+    "src": "Which country is the city of Leicester located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Leicester",
+    "case_id": 433
+  },
+  {
+    "src": "Which country is the city of Buenos Aires located in?",
+    "answers": [
+      "Argentina"
+    ],
+    "subject": "Buenos Aires",
+    "case_id": 434
+  },
+  {
+    "src": "Which country is the city of Riga located in?",
+    "answers": [
+      "Latvia"
+    ],
+    "subject": "Riga",
+    "case_id": 435
+  },
+  {
+    "src": "Which country is the city of Irkutsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Irkutsk",
+    "case_id": 436
+  },
+  {
+    "src": "Which country is the city of Chiclayo located in?",
+    "answers": [
+      "Peru"
+    ],
+    "subject": "Chiclayo",
+    "case_id": 437
+  },
+  {
+    "src": "Which country is the city of Pontianak located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Pontianak",
+    "case_id": 438
+  },
+  {
+    "src": "Which country is the city of Kenema located in?",
+    "answers": [
+      "Sierra Leone"
+    ],
+    "subject": "Kenema",
+    "case_id": 439
+  },
+  {
+    "src": "Which country is the city of Rotorua located in?",
+    "answers": [
+      "New Zealand"
+    ],
+    "subject": "Rotorua",
+    "case_id": 440
+  },
+  {
+    "src": "Which country is the city of Villeurbanne located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Villeurbanne",
+    "case_id": 441
+  },
+  {
+    "src": "Which country is the city of Vantaa located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Vantaa",
+    "case_id": 442
+  },
+  {
+    "src": "Which country is the city of Bordeaux located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Bordeaux",
+    "case_id": 443
+  },
+  {
+    "src": "Which country is the city of Helsingborg located in?",
+    "answers": [
+      "Sweden"
+    ],
+    "subject": "Helsingborg",
+    "case_id": 444
+  },
+  {
+    "src": "Which country is the city of Cebu City located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Cebu City",
+    "case_id": 445
+  },
+  {
+    "src": "Which country is the city of Wiesbaden located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Wiesbaden",
+    "case_id": 446
+  },
+  {
+    "src": "Which country is the city of Yaroslavl located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Yaroslavl",
+    "case_id": 447
+  },
+  {
+    "src": "Which country is the city of Nanjing located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Nanjing",
+    "case_id": 448
+  },
+  {
+    "src": "Which country is the city of Tianjin located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Tianjin",
+    "case_id": 449
+  },
+  {
+    "src": "Which country is the city of Taiyuan located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Taiyuan",
+    "case_id": 450
+  },
+  {
+    "src": "Which country is the city of Pleven located in?",
+    "answers": [
+      "Bulgaria"
+    ],
+    "subject": "Pleven",
+    "case_id": 451
+  },
+  {
+    "src": "Which country is the city of Mexico City located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Mexico City",
+    "case_id": 452
+  },
+  {
+    "src": "Which country is the city of Sylhet located in?",
+    "answers": [
+      "Bangladesh"
+    ],
+    "subject": "Sylhet",
+    "case_id": 453
+  },
+  {
+    "src": "Which country is the city of Novosibirsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Novosibirsk",
+    "case_id": 454
+  },
+  {
+    "src": "Which country is the city of Hargeisa located in?",
+    "answers": [
+      "Somalia"
+    ],
+    "subject": "Hargeisa",
+    "case_id": 455
+  },
+  {
+    "src": "Which country is the city of Messina located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Messina",
+    "case_id": 456
+  },
+  {
+    "src": "Which country is the city of Iquitos located in?",
+    "answers": [
+      "Peru"
+    ],
+    "subject": "Iquitos",
+    "case_id": 457
+  },
+  {
+    "src": "Which country is the city of Poprad located in?",
+    "answers": [
+      "Slovakia"
+    ],
+    "subject": "Poprad",
+    "case_id": 458
+  },
+  {
+    "src": "Which country is the city of Shumen located in?",
+    "answers": [
+      "Bulgaria"
+    ],
+    "subject": "Shumen",
+    "case_id": 459
+  },
+  {
+    "src": "Which country is the city of Mazar-i-Sharif located in?",
+    "answers": [
+      "Afghanistan"
+    ],
+    "subject": "Mazar-i-Sharif",
+    "case_id": 460
+  },
+  {
+    "src": "Which country is the city of Luxembourg City located in?",
+    "answers": [
+      "Luxembourg"
+    ],
+    "subject": "Luxembourg City",
+    "case_id": 461
+  },
+  {
+    "src": "Which country is the city of Changzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Changzhou",
+    "case_id": 462
+  },
+  {
+    "src": "Which country is the city of Karachi located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Karachi",
+    "case_id": 463
+  },
+  {
+    "src": "Which country is the city of Astana located in?",
+    "answers": [
+      "Kazakhstan"
+    ],
+    "subject": "Astana",
+    "case_id": 464
+  },
+  {
+    "src": "Which country is the city of Nasiriyah located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Nasiriyah",
+    "case_id": 465
+  },
+  {
+    "src": "Which country is the city of Asmara located in?",
+    "answers": [
+      "Eritrea"
+    ],
+    "subject": "Asmara",
+    "case_id": 466
+  },
+  {
+    "src": "Which country is the city of Tauranga located in?",
+    "answers": [
+      "New Zealand"
+    ],
+    "subject": "Tauranga",
+    "case_id": 467
+  },
+  {
+    "src": "Which country is the city of Barnaul located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Barnaul",
+    "case_id": 468
+  },
+  {
+    "src": "Which country is the city of Karaj located in?",
+    "answers": [
+      "Slovakia"
+    ],
+    "subject": "Karaj",
+    "case_id": 469
+  },
+  {
+    "src": "Which country is the city of Hiroshima located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Hiroshima",
+    "case_id": 470
+  },
+  {
+    "src": "Which country is the city of Oulu located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Oulu",
+    "case_id": 471
+  },
+  {
+    "src": "Which country is the city of Gomel located in?",
+    "answers": [
+      "Belarus"
+    ],
+    "subject": "Gomel",
+    "case_id": 472
+  },
+  {
+    "src": "Which country is the city of Le Mans located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Le Mans",
+    "case_id": 473
+  },
+  {
+    "src": "Which country is the city of Dobrich located in?",
+    "answers": [
+      "Bulgaria"
+    ],
+    "subject": "Dobrich",
+    "case_id": 474
+  },
+  {
+    "src": "Which country is the city of Dalian located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Dalian",
+    "case_id": 475
+  },
+  {
+    "src": "Which country is the city of Gwangju located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Gwangju",
+    "case_id": 476
+  },
+  {
+    "src": "Which country is the city of Mandalay located in?",
+    "answers": [
+      "Myanmar"
+    ],
+    "subject": "Mandalay",
+    "case_id": 477
+  },
+  {
+    "src": "Which country is the city of Braunschweig located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Braunschweig",
+    "case_id": 478
+  },
+  {
+    "src": "Which country is the city of Badalona located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Badalona",
+    "case_id": 479
+  },
+  {
+    "src": "Which country is the city of Maribor located in?",
+    "answers": [
+      "Slovenia"
+    ],
+    "subject": "Maribor",
+    "case_id": 480
+  },
+  {
+    "src": "Which country is the city of Kuala Lumpur located in?",
+    "answers": [
+      "Malaysia"
+    ],
+    "subject": "Kuala Lumpur",
+    "case_id": 481
+  },
+  {
+    "src": "Which country is the city of Shijiazhuang located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Shijiazhuang",
+    "case_id": 482
+  },
+  {
+    "src": "Which country is the city of Daejeon located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Daejeon",
+    "case_id": 483
+  },
+  {
+    "src": "Which country is the city of Nashik located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Nashik",
+    "case_id": 484
+  },
+  {
+    "src": "Which country is the city of Makassar located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Makassar",
+    "case_id": 485
+  },
+  {
+    "src": "Which country is the city of Dallas located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Dallas",
+    "case_id": 486
+  },
+  {
+    "src": "Which country is the city of Taguig located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Taguig",
+    "case_id": 487
+  },
+  {
+    "src": "Which country is the city of Stavanger located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Stavanger",
+    "case_id": 488
+  },
+  {
+    "src": "Which country is the city of Charleroi located in?",
+    "answers": [
+      "Belgium"
+    ],
+    "subject": "Charleroi",
+    "case_id": 489
+  },
+  {
+    "src": "Which country is the city of Anyang located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Anyang",
+    "case_id": 490
+  },
+  {
+    "src": "Which country is the city of Aachen located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Aachen",
+    "case_id": 491
+  },
+  {
+    "src": "Which country is the city of Kumasi located in?",
+    "answers": [
+      "Ghana"
+    ],
+    "subject": "Kumasi",
+    "case_id": 492
+  },
+  {
+    "src": "Which country is the city of Sapporo located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Sapporo",
+    "case_id": 493
+  },
+  {
+    "src": "Which country is the city of Xalapa located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Xalapa",
+    "case_id": 494
+  },
+  {
+    "src": "Which country is the city of Kranj located in?",
+    "answers": [
+      "Slovenia"
+    ],
+    "subject": "Kranj",
+    "case_id": 495
+  },
+  {
+    "src": "Which country is the city of Blida located in?",
+    "answers": [
+      "Algeria"
+    ],
+    "subject": "Blida",
+    "case_id": 496
+  },
+  {
+    "src": "Which country is the city of Cusco located in?",
+    "answers": [
+      "Peru"
+    ],
+    "subject": "Cusco",
+    "case_id": 497
+  },
+  {
+    "src": "Which country is the city of Oran located in?",
+    "answers": [
+      "Algeria"
+    ],
+    "subject": "Oran",
+    "case_id": 498
+  },
+  {
+    "src": "Which country is the city of Makiivka located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Makiivka",
+    "case_id": 499
+  },
+  {
+    "src": "Which country is the city of Cotonou located in?",
+    "answers": [
+      "Benin"
+    ],
+    "subject": "Cotonou",
+    "case_id": 500
+  },
+  {
+    "src": "Which country is the city of Rimini located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Rimini",
+    "case_id": 501
+  },
+  {
+    "src": "Which country is the city of Castries located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Castries",
+    "case_id": 502
+  },
+  {
+    "src": "Which country is the city of Misrata located in?",
+    "answers": [
+      "Libya"
+    ],
+    "subject": "Misrata",
+    "case_id": 503
+  },
+  {
+    "src": "Which country is the city of Larissa located in?",
+    "answers": [
+      "Greece"
+    ],
+    "subject": "Larissa",
+    "case_id": 504
+  },
+  {
+    "src": "Which country is the city of Damascus located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Damascus",
+    "case_id": 505
+  },
+  {
+    "src": "Which country is the city of Duisburg located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Duisburg",
+    "case_id": 506
+  },
+  {
+    "src": "Which country is the city of Dijon located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Dijon",
+    "case_id": 507
+  },
+  {
+    "src": "Which country is the city of Apia located in?",
+    "answers": [
+      "Samoa"
+    ],
+    "subject": "Apia",
+    "case_id": 508
+  },
+  {
+    "src": "Which country is the city of Depok located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Depok",
+    "case_id": 509
+  },
+  {
+    "src": "Which country is the city of Yangzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Yangzhou",
+    "case_id": 510
+  },
+  {
+    "src": "Which country is the city of Moncton located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Moncton",
+    "case_id": 511
+  },
+  {
+    "src": "Which country is the city of Mumbai located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Mumbai",
+    "case_id": 512
+  },
+  {
+    "src": "Which country is the city of Nitra located in?",
+    "answers": [
+      "Slovakia"
+    ],
+    "subject": "Nitra",
+    "case_id": 513
+  },
+  {
+    "src": "Which country is the city of Oradea located in?",
+    "answers": [
+      "Romania"
+    ],
+    "subject": "Oradea",
+    "case_id": 514
+  },
+  {
+    "src": "Which country is the city of Busan located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Busan",
+    "case_id": 515
+  },
+  {
+    "src": "Which country is the city of Craiova located in?",
+    "answers": [
+      "Romania"
+    ],
+    "subject": "Craiova",
+    "case_id": 516
+  },
+  {
+    "src": "Which country is the city of Linz located in?",
+    "answers": [
+      "Austria"
+    ],
+    "subject": "Linz",
+    "case_id": 517
+  },
+  {
+    "src": "Which country is the city of Manchester located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Manchester",
+    "case_id": 518
+  },
+  {
+    "src": "Which country is the city of Delhi located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Delhi",
+    "case_id": 519
+  },
+  {
+    "src": "Which country is the city of Trikala located in?",
+    "answers": [
+      "Greece"
+    ],
+    "subject": "Trikala",
+    "case_id": 520
+  },
+  {
+    "src": "Which country is the city of Reynosa located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Reynosa",
+    "case_id": 521
+  },
+  {
+    "src": "Which country is the city of Toluca located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Toluca",
+    "case_id": 522
+  },
+  {
+    "src": "Which country is the city of Gyumri located in?",
+    "answers": [
+      "Armenia"
+    ],
+    "subject": "Gyumri",
+    "case_id": 523
+  },
+  {
+    "src": "Which country is the city of Trondheim located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Trondheim",
+    "case_id": 524
+  },
+  {
+    "src": "Which country is the city of Melbourne located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Melbourne",
+    "case_id": 525
+  },
+  {
+    "src": "Which country is the city of Bishkek located in?",
+    "answers": [
+      "Kyrgyzstan"
+    ],
+    "subject": "Bishkek",
+    "case_id": 526
+  },
+  {
+    "src": "Which country is the city of Moscow located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Moscow",
+    "case_id": 527
+  },
+  {
+    "src": "Which country is the city of Acapulco located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Acapulco",
+    "case_id": 528
+  },
+  {
+    "src": "Which country is the city of Kenitra located in?",
+    "answers": [
+      "Morocco"
+    ],
+    "subject": "Kenitra",
+    "case_id": 529
+  },
+  {
+    "src": "Which country is the city of Sliven located in?",
+    "answers": [
+      "Bulgaria"
+    ],
+    "subject": "Sliven",
+    "case_id": 530
+  },
+  {
+    "src": "Which country is the city of Suez located in?",
+    "answers": [
+      "Egypt"
+    ],
+    "subject": "Suez",
+    "case_id": 531
+  },
+  {
+    "src": "Which country is the city of Bratislava located in?",
+    "answers": [
+      "Slovakia"
+    ],
+    "subject": "Bratislava",
+    "case_id": 532
+  },
+  {
+    "src": "Which country is the city of Genoa located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Genoa",
+    "case_id": 533
+  },
+  {
+    "src": "Which country is the city of Kirkuk located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Kirkuk",
+    "case_id": 534
+  },
+  {
+    "src": "Which country is the city of Urmia located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Urmia",
+    "case_id": 535
+  },
+  {
+    "src": "Which country is the city of Natal located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Natal",
+    "case_id": 536
+  },
+  {
+    "src": "Which country is the city of Abu Dhabi located in?",
+    "answers": [
+      "United Arab Emirates"
+    ],
+    "subject": "Abu Dhabi",
+    "case_id": 537
+  },
+  {
+    "src": "Which country is the city of Dire Dawa located in?",
+    "answers": [
+      "Ethiopia"
+    ],
+    "subject": "Dire Dawa",
+    "case_id": 538
+  },
+  {
+    "src": "Which country is the city of Galle located in?",
+    "answers": [
+      "Sri Lanka"
+    ],
+    "subject": "Galle",
+    "case_id": 539
+  },
+  {
+    "src": "Which country is the city of Dushanbe located in?",
+    "answers": [
+      "Tajikistan"
+    ],
+    "subject": "Dushanbe",
+    "case_id": 540
+  },
+  {
+    "src": "Which country is the city of Geelong located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Geelong",
+    "case_id": 541
+  },
+  {
+    "src": "Which country is the city of Kazan located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Kazan",
+    "case_id": 542
+  },
+  {
+    "src": "Which country is the city of Christchurch located in?",
+    "answers": [
+      "New Zealand"
+    ],
+    "subject": "Christchurch",
+    "case_id": 543
+  },
+  {
+    "src": "Which country is the city of Birkirkara located in?",
+    "answers": [
+      "Malta"
+    ],
+    "subject": "Birkirkara",
+    "case_id": 544
+  },
+  {
+    "src": "Which country is the city of Tyumen located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Tyumen",
+    "case_id": 545
+  },
+  {
+    "src": "Which country is the city of Leipzig located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Leipzig",
+    "case_id": 546
+  },
+  {
+    "src": "Which country is the city of Grodno located in?",
+    "answers": [
+      "Belarus"
+    ],
+    "subject": "Grodno",
+    "case_id": 547
+  },
+  {
+    "src": "Which country is the city of Tartus located in?",
+    "answers": [
+      "Syria"
+    ],
+    "subject": "Tartus",
+    "case_id": 548
+  },
+  {
+    "src": "Which country is the city of Keelung located in?",
+    "answers": [
+      "Taiwan"
+    ],
+    "subject": "Keelung",
+    "case_id": 549
+  },
+  {
+    "src": "Which country is the city of Bochum located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Bochum",
+    "case_id": 550
+  },
+  {
+    "src": "Which country is the city of Jaipur located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Jaipur",
+    "case_id": 551
+  },
+  {
+    "src": "Which country is the city of Monterrey located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Monterrey",
+    "case_id": 552
+  },
+  {
+    "src": "Which country is the city of Shiraz located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Shiraz",
+    "case_id": 553
+  },
+  {
+    "src": "Which country is the city of Ansan located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Ansan",
+    "case_id": 554
+  },
+  {
+    "src": "Which country is the city of Athens located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Athens",
+    "case_id": 555
+  },
+  {
+    "src": "Which country is the city of Visakhapatnam located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Visakhapatnam",
+    "case_id": 556
+  },
+  {
+    "src": "Which country is the city of Patras located in?",
+    "answers": [
+      "Greece"
+    ],
+    "subject": "Patras",
+    "case_id": 557
+  },
+  {
+    "src": "Which country is the city of Yokohama located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Yokohama",
+    "case_id": 558
+  },
+  {
+    "src": "Which country is the city of Mashhad located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Mashhad",
+    "case_id": 559
+  },
+  {
+    "src": "Which country is the city of Libreville located in?",
+    "answers": [
+      "Gabon"
+    ],
+    "subject": "Libreville",
+    "case_id": 560
+  },
+  {
+    "src": "Which country is the city of Vanadzor located in?",
+    "answers": [
+      "Armenia"
+    ],
+    "subject": "Vanadzor",
+    "case_id": 561
+  },
+  {
+    "src": "Which country is the city of Dakar located in?",
+    "answers": [
+      "Senegal"
+    ],
+    "subject": "Dakar",
+    "case_id": 562
+  },
+  {
+    "src": "Which country is the city of Multan located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Multan",
+    "case_id": 563
+  },
+  {
+    "src": "Which country is the city of Meknes located in?",
+    "answers": [
+      "Morocco"
+    ],
+    "subject": "Meknes",
+    "case_id": 564
+  },
+  {
+    "src": "Which country is the city of Majuro located in?",
+    "answers": [
+      "Marshall Islands"
+    ],
+    "subject": "Majuro",
+    "case_id": 565
+  },
+  {
+    "src": "Which country is the city of Pori located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Pori",
+    "case_id": 566
+  },
+  {
+    "src": "Which country is the city of Panama City located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Panama City",
+    "case_id": 567
+  },
+  {
+    "src": "Which country is the city of Ljubljana located in?",
+    "answers": [
+      "Slovenia"
+    ],
+    "subject": "Ljubljana",
+    "case_id": 568
+  },
+  {
+    "src": "Which country is the city of Qamishli located in?",
+    "answers": [
+      "Syria"
+    ],
+    "subject": "Qamishli",
+    "case_id": 569
+  },
+  {
+    "src": "Which country is the city of Reggio Emilia located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Reggio Emilia",
+    "case_id": 570
+  },
+  {
+    "src": "Which country is the city of Hanoi located in?",
+    "answers": [
+      "Vietnam"
+    ],
+    "subject": "Hanoi",
+    "case_id": 571
+  },
+  {
+    "src": "Which country is the city of Arequipa located in?",
+    "answers": [
+      "Peru"
+    ],
+    "subject": "Arequipa",
+    "case_id": 572
+  },
+  {
+    "src": "Which country is the city of Phnom Penh located in?",
+    "answers": [
+      "Cambodia"
+    ],
+    "subject": "Phnom Penh",
+    "case_id": 573
+  },
+  {
+    "src": "Which country is the city of Abuja located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Abuja",
+    "case_id": 574
+  },
+  {
+    "src": "Which country is the city of Dhaka located in?",
+    "answers": [
+      "Bangladesh"
+    ],
+    "subject": "Dhaka",
+    "case_id": 575
+  },
+  {
+    "src": "Which country is the city of Szczecin located in?",
+    "answers": [
+      "Poland"
+    ],
+    "subject": "Szczecin",
+    "case_id": 576
+  },
+  {
+    "src": "Which country is the city of Podgorica located in?",
+    "answers": [
+      "Montenegro"
+    ],
+    "subject": "Podgorica",
+    "case_id": 577
+  },
+  {
+    "src": "Which country is the city of Harbin located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Harbin",
+    "case_id": 578
+  },
+  {
+    "src": "Which country is the city of Coimbra located in?",
+    "answers": [
+      "Portugal"
+    ],
+    "subject": "Coimbra",
+    "case_id": 579
+  },
+  {
+    "src": "Which country is the city of Nanaimo located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Nanaimo",
+    "case_id": 580
+  },
+  {
+    "src": "Which country is the city of Yangon located in?",
+    "answers": [
+      "Myanmar"
+    ],
+    "subject": "Yangon",
+    "case_id": 581
+  },
+  {
+    "src": "Which country is the city of Mecca located in?",
+    "answers": [
+      "Saudi Arabia"
+    ],
+    "subject": "Mecca",
+    "case_id": 582
+  },
+  {
+    "src": "Which country is the city of Ulaanbaatar located in?",
+    "answers": [
+      "Mongolia"
+    ],
+    "subject": "Ulaanbaatar",
+    "case_id": 583
+  },
+  {
+    "src": "Which country is the city of Hobart located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Hobart",
+    "case_id": 584
+  },
+  {
+    "src": "Which country is the city of Bamako located in?",
+    "answers": [
+      "Mali"
+    ],
+    "subject": "Bamako",
+    "case_id": 585
+  },
+  {
+    "src": "Which country is the city of Tilburg located in?",
+    "answers": [
+      "Netherlands"
+    ],
+    "subject": "Tilburg",
+    "case_id": 586
+  },
+  {
+    "src": "Which country is the city of Chengdu located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Chengdu",
+    "case_id": 587
+  },
+  {
+    "src": "Which country is the city of Perugia located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Perugia",
+    "case_id": 588
+  },
+  {
+    "src": "Which country is the city of Ankara located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Ankara",
+    "case_id": 589
+  },
+  {
+    "src": "Which country is the city of Nukus located in?",
+    "answers": [
+      "Uzbekistan"
+    ],
+    "subject": "Nukus",
+    "case_id": 590
+  },
+  {
+    "src": "Which country is the city of Cagayan de Oro located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Cagayan de Oro",
+    "case_id": 591
+  },
+  {
+    "src": "Which country is the city of Antalya located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Antalya",
+    "case_id": 592
+  },
+  {
+    "src": "Which country is the city of Ho Chi Minh City located in?",
+    "answers": [
+      "Vietnam"
+    ],
+    "subject": "Ho Chi Minh City",
+    "case_id": 593
+  },
+  {
+    "src": "Which country is the city of Veracruz located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Veracruz",
+    "case_id": 594
+  },
+  {
+    "src": "Which country is the city of Bridgetown located in?",
+    "answers": [
+      "Barbados"
+    ],
+    "subject": "Bridgetown",
+    "case_id": 595
+  },
+  {
+    "src": "Which country is the city of Ashgabat located in?",
+    "answers": [
+      "Turkmenistan"
+    ],
+    "subject": "Ashgabat",
+    "case_id": 596
+  },
+  {
+    "src": "Which country is the city of Agadez located in?",
+    "answers": [
+      "Niger"
+    ],
+    "subject": "Agadez",
+    "case_id": 597
+  },
+  {
+    "src": "Which country is the city of Yerevan located in?",
+    "answers": [
+      "Armenia"
+    ],
+    "subject": "Yerevan",
+    "case_id": 598
+  },
+  {
+    "src": "Which country is the city of Netanya located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Netanya",
+    "case_id": 599
+  },
+  {
+    "src": "Which country is the city of Varanasi located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Varanasi",
+    "case_id": 600
+  },
+  {
+    "src": "Which country is the city of Cheonan located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Cheonan",
+    "case_id": 601
+  },
+  {
+    "src": "Which country is the city of Srinagar located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Srinagar",
+    "case_id": 602
+  },
+  {
+    "src": "Which country is the city of Zibo located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Zibo",
+    "case_id": 603
+  },
+  {
+    "src": "Which country is the city of Thimphu located in?",
+    "answers": [
+      "Bhutan"
+    ],
+    "subject": "Thimphu",
+    "case_id": 604
+  },
+  {
+    "src": "Which country is the city of Lubango located in?",
+    "answers": [
+      "Angola"
+    ],
+    "subject": "Lubango",
+    "case_id": 605
+  },
+  {
+    "src": "Which country is the city of Islamabad located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Islamabad",
+    "case_id": 606
+  },
+  {
+    "src": "Which country is the city of Bucharest located in?",
+    "answers": [
+      "Romania"
+    ],
+    "subject": "Bucharest",
+    "case_id": 607
+  },
+  {
+    "src": "Which country is the city of Benin City located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Benin City",
+    "case_id": 608
+  },
+  {
+    "src": "Which country is the city of Quebec City located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Quebec City",
+    "case_id": 609
+  },
+  {
+    "src": "Which country is the city of Adelaide located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Adelaide",
+    "case_id": 610
+  },
+  {
+    "src": "Which country is the city of Almere located in?",
+    "answers": [
+      "Netherlands"
+    ],
+    "subject": "Almere",
+    "case_id": 611
+  },
+  {
+    "src": "Which country is the city of Kemerovo located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Kemerovo",
+    "case_id": 612
+  },
+  {
+    "src": "Which country is the city of Mostar located in?",
+    "answers": [
+      "Bosnia and Herzegovina"
+    ],
+    "subject": "Mostar",
+    "case_id": 613
+  },
+  {
+    "src": "Which country is the city of Tampere located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Tampere",
+    "case_id": 614
+  },
+  {
+    "src": "Which country is the city of Clermont-Ferrand located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Clermont-Ferrand",
+    "case_id": 615
+  },
+  {
+    "src": "Which country is the city of Lisbon located in?",
+    "answers": [
+      "Portugal"
+    ],
+    "subject": "Lisbon",
+    "case_id": 616
+  },
+  {
+    "src": "Which country is the city of Vitoria-Gasteiz located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Vitoria-Gasteiz",
+    "case_id": 617
+  },
+  {
+    "src": "Which country is the city of Yamoussoukro located in?",
+    "answers": [
+      "C\u00f4te d'Ivoire"
+    ],
+    "subject": "Yamoussoukro",
+    "case_id": 618
+  },
+  {
+    "src": "Which country is the city of Goma located in?",
+    "answers": [
+      "Democratic Republic of the Congo"
+    ],
+    "subject": "Goma",
+    "case_id": 619
+  },
+  {
+    "src": "Which country is the city of Antwerp located in?",
+    "answers": [
+      "Belgium"
+    ],
+    "subject": "Antwerp",
+    "case_id": 620
+  },
+  {
+    "src": "Which country is the city of Lucknow located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Lucknow",
+    "case_id": 621
+  },
+  {
+    "src": "Which country is the city of Addis Ababa located in?",
+    "answers": [
+      "Ethiopia"
+    ],
+    "subject": "Addis Ababa",
+    "case_id": 622
+  },
+  {
+    "src": "Which country is the city of Aleppo located in?",
+    "answers": [
+      "Syria"
+    ],
+    "subject": "Aleppo",
+    "case_id": 623
+  },
+  {
+    "src": "Which country is the city of Colombo located in?",
+    "answers": [
+      "Sri Lanka"
+    ],
+    "subject": "Colombo",
+    "case_id": 624
+  },
+  {
+    "src": "Which country is the city of Bloemfontein located in?",
+    "answers": [
+      "South Africa"
+    ],
+    "subject": "Bloemfontein",
+    "case_id": 625
+  },
+  {
+    "src": "Which country is the city of Khabarovsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Khabarovsk",
+    "case_id": 626
+  },
+  {
+    "src": "Which country is the city of Aix-en-Provence located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Aix-en-Provence",
+    "case_id": 627
+  },
+  {
+    "src": "Which country is the city of Faridabad located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Faridabad",
+    "case_id": 628
+  },
+  {
+    "src": "Which country is the city of Lahti located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Lahti",
+    "case_id": 629
+  },
+  {
+    "src": "Which country is the city of Lausanne located in?",
+    "answers": [
+      "Switzerland"
+    ],
+    "subject": "Lausanne",
+    "case_id": 630
+  },
+  {
+    "src": "Which country is the city of Omdurman located in?",
+    "answers": [
+      "Sudan"
+    ],
+    "subject": "Omdurman",
+    "case_id": 631
+  },
+  {
+    "src": "Which country is the city of Sandnes located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Sandnes",
+    "case_id": 632
+  },
+  {
+    "src": "Which country is the city of Suwon located in?",
+    "answers": [
+      "South Korea"
+    ],
+    "subject": "Suwon",
+    "case_id": 633
+  },
+  {
+    "src": "Which country is the city of Nausori located in?",
+    "answers": [
+      "Fiji"
+    ],
+    "subject": "Nausori",
+    "case_id": 634
+  },
+  {
+    "src": "Which country is the city of Bielefeld located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Bielefeld",
+    "case_id": 635
+  },
+  {
+    "src": "Which country is the city of Ulyanovsk located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Ulyanovsk",
+    "case_id": 636
+  },
+  {
+    "src": "Which country is the city of Limoges located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Limoges",
+    "case_id": 637
+  },
+  {
+    "src": "Which country is the city of Valletta located in?",
+    "answers": [
+      "Malta"
+    ],
+    "subject": "Valletta",
+    "case_id": 638
+  },
+  {
+    "src": "Which country is the city of Caracas located in?",
+    "answers": [
+      "Venezuela"
+    ],
+    "subject": "Caracas",
+    "case_id": 639
+  },
+  {
+    "src": "Which country is the city of Limassol located in?",
+    "answers": [
+      "Cyprus"
+    ],
+    "subject": "Limassol",
+    "case_id": 640
+  },
+  {
+    "src": "Which country is the city of Labasa located in?",
+    "answers": [
+      "Fiji"
+    ],
+    "subject": "Labasa",
+    "case_id": 641
+  },
+  {
+    "src": "Which country is the city of Westminster located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Westminster",
+    "case_id": 642
+  },
+  {
+    "src": "Which country is the city of Soweto located in?",
+    "answers": [
+      "South Africa"
+    ],
+    "subject": "Soweto",
+    "case_id": 643
+  },
+  {
+    "src": "Which country is the city of Kairouan located in?",
+    "answers": [
+      "Tunisia"
+    ],
+    "subject": "Kairouan",
+    "case_id": 644
+  },
+  {
+    "src": "Which country is the city of Piura located in?",
+    "answers": [
+      "Peru"
+    ],
+    "subject": "Piura",
+    "case_id": 645
+  },
+  {
+    "src": "Which country is the city of Nairobi located in?",
+    "answers": [
+      "Kenya"
+    ],
+    "subject": "Nairobi",
+    "case_id": 646
+  },
+  {
+    "src": "Which country is the city of Bukavu located in?",
+    "answers": [
+      "Democratic Republic of the Congo"
+    ],
+    "subject": "Bukavu",
+    "case_id": 647
+  },
+  {
+    "src": "Which country is the city of Kolkata located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Kolkata",
+    "case_id": 648
+  },
+  {
+    "src": "Which country is the city of Boston located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Boston",
+    "case_id": 649
+  },
+  {
+    "src": "Which country is the city of Kumanovo located in?",
+    "answers": [
+      "North Macedonia"
+    ],
+    "subject": "Kumanovo",
+    "case_id": 650
+  },
+  {
+    "src": "Which country is the city of Francistown located in?",
+    "answers": [
+      "Botswana"
+    ],
+    "subject": "Francistown",
+    "case_id": 651
+  },
+  {
+    "src": "Which country is the city of Kolding located in?",
+    "answers": [
+      "Denmark"
+    ],
+    "subject": "Kolding",
+    "case_id": 652
+  },
+  {
+    "src": "Which country is the city of Biel/Bienne located in?",
+    "answers": [
+      "Switzerland"
+    ],
+    "subject": "Biel/Bienne",
+    "case_id": 653
+  },
+  {
+    "src": "Which country is the city of Taipei located in?",
+    "answers": [
+      "Taiwan"
+    ],
+    "subject": "Taipei",
+    "case_id": 654
+  },
+  {
+    "src": "Which country is the city of Catania located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Catania",
+    "case_id": 655
+  },
+  {
+    "src": "Which country is the city of Nha Trang located in?",
+    "answers": [
+      "Vietnam"
+    ],
+    "subject": "Nha Trang",
+    "case_id": 656
+  },
+  {
+    "src": "Which country is the city of Bnei Brak located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Bnei Brak",
+    "case_id": 657
+  },
+  {
+    "src": "Which country is the city of Aracaju located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Aracaju",
+    "case_id": 658
+  },
+  {
+    "src": "Which country is the city of Trnava located in?",
+    "answers": [
+      "Slovakia"
+    ],
+    "subject": "Trnava",
+    "case_id": 659
+  },
+  {
+    "src": "Which country is the city of Sherbrooke located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Sherbrooke",
+    "case_id": 660
+  },
+  {
+    "src": "Which country is the city of Guelph located in?",
+    "answers": [
+      "Canada"
+    ],
+    "subject": "Guelph",
+    "case_id": 661
+  },
+  {
+    "src": "Which country is the city of Hanover located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Hanover",
+    "case_id": 662
+  },
+  {
+    "src": "Which country is the city of Funchal located in?",
+    "answers": [
+      "Portugal"
+    ],
+    "subject": "Funchal",
+    "case_id": 663
+  },
+  {
+    "src": "Which country is the city of Kathmandu located in?",
+    "answers": [
+      "Nepal"
+    ],
+    "subject": "Kathmandu",
+    "case_id": 664
+  },
+  {
+    "src": "Which country is the city of Mariupol located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Mariupol",
+    "case_id": 665
+  },
+  {
+    "src": "Which country is the city of Nagpur located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Nagpur",
+    "case_id": 666
+  },
+  {
+    "src": "Which country is the city of Angers located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Angers",
+    "case_id": 667
+  },
+  {
+    "src": "Which country is the city of Freetown located in?",
+    "answers": [
+      "Sierra Leone"
+    ],
+    "subject": "Freetown",
+    "case_id": 668
+  },
+  {
+    "src": "Which country is the city of Ningbo located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Ningbo",
+    "case_id": 669
+  },
+  {
+    "src": "Which country is the city of Poltava located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Poltava",
+    "case_id": 670
+  },
+  {
+    "src": "Which country is the city of Cincinnati located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Cincinnati",
+    "case_id": 671
+  },
+  {
+    "src": "Which country is the city of Strasbourg located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Strasbourg",
+    "case_id": 672
+  },
+  {
+    "src": "Which country is the city of Lviv located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Lviv",
+    "case_id": 673
+  },
+  {
+    "src": "Which country is the city of Salt Lake City located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Salt Lake City",
+    "case_id": 674
+  },
+  {
+    "src": "Which country is the city of Terrassa located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Terrassa",
+    "case_id": 675
+  },
+  {
+    "src": "Which country is the city of Biratnagar located in?",
+    "answers": [
+      "Nepal"
+    ],
+    "subject": "Biratnagar",
+    "case_id": 676
+  },
+  {
+    "src": "Which country is the city of Managua located in?",
+    "answers": [
+      "Nicaragua"
+    ],
+    "subject": "Managua",
+    "case_id": 677
+  },
+  {
+    "src": "Which country is the city of Khulna located in?",
+    "answers": [
+      "Bangladesh"
+    ],
+    "subject": "Khulna",
+    "case_id": 678
+  },
+  {
+    "src": "Which country is the city of Kigali located in?",
+    "answers": [
+      "Rwanda"
+    ],
+    "subject": "Kigali",
+    "case_id": 679
+  },
+  {
+    "src": "Which country is the city of Zadar located in?",
+    "answers": [
+      "Croatia"
+    ],
+    "subject": "Zadar",
+    "case_id": 680
+  },
+  {
+    "src": "Which country is the city of Changsha located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Changsha",
+    "case_id": 681
+  },
+  {
+    "src": "Which country is the city of Bruges located in?",
+    "answers": [
+      "Belgium"
+    ],
+    "subject": "Bruges",
+    "case_id": 682
+  },
+  {
+    "src": "Which country is the city of Granada located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Granada",
+    "case_id": 683
+  },
+  {
+    "src": "Which country is the city of Port Vila located in?",
+    "answers": [
+      "Vanuatu"
+    ],
+    "subject": "Port Vila",
+    "case_id": 684
+  },
+  {
+    "src": "Which country is the city of Zaria located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Zaria",
+    "case_id": 685
+  },
+  {
+    "src": "Which country is the city of Dehiwala-Mount Lavinia located in?",
+    "answers": [
+      "Sri Lanka"
+    ],
+    "subject": "Dehiwala-Mount Lavinia",
+    "case_id": 686
+  },
+  {
+    "src": "Which country is the city of Dhanbad located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Dhanbad",
+    "case_id": 687
+  },
+  {
+    "src": "Which country is the city of Tijuana located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Tijuana",
+    "case_id": 688
+  },
+  {
+    "src": "Which country is the city of Fuzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Fuzhou",
+    "case_id": 689
+  },
+  {
+    "src": "Which country is the city of Cairo located in?",
+    "answers": [
+      "Egypt"
+    ],
+    "subject": "Cairo",
+    "case_id": 690
+  },
+  {
+    "src": "Which country is the city of Salalah located in?",
+    "answers": [
+      "Oman"
+    ],
+    "subject": "Salalah",
+    "case_id": 691
+  },
+  {
+    "src": "Which country is the city of Ufa located in?",
+    "answers": [
+      "Russia"
+    ],
+    "subject": "Ufa",
+    "case_id": 692
+  },
+  {
+    "src": "Which country is the city of Rabat located in?",
+    "answers": [
+      "Morocco"
+    ],
+    "subject": "Rabat",
+    "case_id": 693
+  },
+  {
+    "src": "Which country is the city of Bilbao located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Bilbao",
+    "case_id": 694
+  },
+  {
+    "src": "Which country is the city of Rawalpindi located in?",
+    "answers": [
+      "Pakistan"
+    ],
+    "subject": "Rawalpindi",
+    "case_id": 695
+  },
+  {
+    "src": "Which country is the city of Ludhiana located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Ludhiana",
+    "case_id": 696
+  },
+  {
+    "src": "Which country is the city of Accra located in?",
+    "answers": [
+      "Ghana"
+    ],
+    "subject": "Accra",
+    "case_id": 697
+  },
+  {
+    "src": "Which country is the city of Chongjin located in?",
+    "answers": [
+      "North Korea"
+    ],
+    "subject": "Chongjin",
+    "case_id": 698
+  },
+  {
+    "src": "Which country is the city of Simferopol located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Simferopol",
+    "case_id": 699
+  },
+  {
+    "src": "Which country is the city of Liberec located in?",
+    "answers": [
+      "Czechia"
+    ],
+    "subject": "Liberec",
+    "case_id": 700
+  },
+  {
+    "src": "Which country is the city of Aguascalientes located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Aguascalientes",
+    "case_id": 701
+  },
+  {
+    "src": "Which country is the city of Montpellier located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Montpellier",
+    "case_id": 702
+  },
+  {
+    "src": "Which country is the city of Lankaran located in?",
+    "answers": [
+      "Azerbaijan"
+    ],
+    "subject": "Lankaran",
+    "case_id": 703
+  },
+  {
+    "src": "Which country is the city of Patna located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Patna",
+    "case_id": 704
+  },
+  {
+    "src": "Which country is the city of Doha located in?",
+    "answers": [
+      "Qatar"
+    ],
+    "subject": "Doha",
+    "case_id": 705
+  },
+  {
+    "src": "Which country is the city of Manaus located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Manaus",
+    "case_id": 706
+  },
+  {
+    "src": "Which country is the city of Detroit located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Detroit",
+    "case_id": 707
+  },
+  {
+    "src": "Which country is the city of Samarkand located in?",
+    "answers": [
+      "Uzbekistan"
+    ],
+    "subject": "Samarkand",
+    "case_id": 708
+  },
+  {
+    "src": "Which country is the city of Augsburg located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Augsburg",
+    "case_id": 709
+  },
+  {
+    "src": "Which country is the city of Bandar Seri Begawan located in?",
+    "answers": [
+      "Brunei"
+    ],
+    "subject": "Bandar Seri Begawan",
+    "case_id": 710
+  },
+  {
+    "src": "Which country is the city of Nanning located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Nanning",
+    "case_id": 711
+  },
+  {
+    "src": "Which country is the city of Turku located in?",
+    "answers": [
+      "Finland"
+    ],
+    "subject": "Turku",
+    "case_id": 712
+  },
+  {
+    "src": "Which country is the city of Adana located in?",
+    "answers": [
+      "Turkey"
+    ],
+    "subject": "Adana",
+    "case_id": 713
+  },
+  {
+    "src": "Which country is the city of Quito located in?",
+    "answers": [
+      "Ecuador"
+    ],
+    "subject": "Quito",
+    "case_id": 714
+  },
+  {
+    "src": "Which country is the city of Oviedo located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Oviedo",
+    "case_id": 715
+  },
+  {
+    "src": "Which country is the city of Bonn located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Bonn",
+    "case_id": 716
+  },
+  {
+    "src": "Which country is the city of Nantes located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Nantes",
+    "case_id": 717
+  },
+  {
+    "src": "Which country is the city of La Paz located in?",
+    "answers": [
+      "Bolivia"
+    ],
+    "subject": "La Paz",
+    "case_id": 718
+  },
+  {
+    "src": "Which country is the city of Lagos located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Lagos",
+    "case_id": 719
+  },
+  {
+    "src": "Which country is the city of Oslo located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Oslo",
+    "case_id": 720
+  },
+  {
+    "src": "Which country is the city of Luhansk located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Luhansk",
+    "case_id": 721
+  },
+  {
+    "src": "Which country is the city of Pyongyang located in?",
+    "answers": [
+      "North Korea"
+    ],
+    "subject": "Pyongyang",
+    "case_id": 722
+  },
+  {
+    "src": "Which country is the city of Kaduna located in?",
+    "answers": [
+      "Nigeria"
+    ],
+    "subject": "Kaduna",
+    "case_id": 723
+  },
+  {
+    "src": "Which country is the city of Leeds located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Leeds",
+    "case_id": 724
+  },
+  {
+    "src": "Which country is the city of Coventry located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Coventry",
+    "case_id": 725
+  },
+  {
+    "src": "Which country is the city of Reims located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Reims",
+    "case_id": 726
+  },
+  {
+    "src": "Which country is the city of Kandy located in?",
+    "answers": [
+      "Sri Lanka"
+    ],
+    "subject": "Kandy",
+    "case_id": 727
+  },
+  {
+    "src": "Which country is the city of Kaesong located in?",
+    "answers": [
+      "North Korea"
+    ],
+    "subject": "Kaesong",
+    "case_id": 728
+  },
+  {
+    "src": "Which country is the city of Ouagadougou located in?",
+    "answers": [
+      "Burkina Faso"
+    ],
+    "subject": "Ouagadougou",
+    "case_id": 729
+  },
+  {
+    "src": "Which country is the city of Kanpur located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Kanpur",
+    "case_id": 730
+  },
+  {
+    "src": "Which country is the city of Johor Bahru located in?",
+    "answers": [
+      "Malaysia"
+    ],
+    "subject": "Johor Bahru",
+    "case_id": 731
+  },
+  {
+    "src": "Which country is the city of Stara Zagora located in?",
+    "answers": [
+      "Bulgaria"
+    ],
+    "subject": "Stara Zagora",
+    "case_id": 732
+  },
+  {
+    "src": "Which country is the city of Santo Domingo located in?",
+    "answers": [
+      "Dominican Republic"
+    ],
+    "subject": "Santo Domingo",
+    "case_id": 733
+  },
+  {
+    "src": "Which country is the city of Cagliari located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Cagliari",
+    "case_id": 734
+  },
+  {
+    "src": "Which country is the city of San Salvador located in?",
+    "answers": [
+      "El Salvador"
+    ],
+    "subject": "San Salvador",
+    "case_id": 735
+  },
+  {
+    "src": "Which country is the city of Jerusalem located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Jerusalem",
+    "case_id": 736
+  },
+  {
+    "src": "Which country is the city of Mannheim located in?",
+    "answers": [
+      "Germany"
+    ],
+    "subject": "Mannheim",
+    "case_id": 737
+  },
+  {
+    "src": "Which country is the city of Washington, D.C. located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Washington, D.C.",
+    "case_id": 738
+  },
+  {
+    "src": "Which country is the city of Kharkiv located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Kharkiv",
+    "case_id": 739
+  },
+  {
+    "src": "Which country is the city of Sabadell located in?",
+    "answers": [
+      "Spain"
+    ],
+    "subject": "Sabadell",
+    "case_id": 740
+  },
+  {
+    "src": "Which country is the city of Roseau located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Roseau",
+    "case_id": 741
+  },
+  {
+    "src": "Which country is the city of Narva located in?",
+    "answers": [
+      "Estonia"
+    ],
+    "subject": "Narva",
+    "case_id": 742
+  },
+  {
+    "src": "Which country is the city of The Hague located in?",
+    "answers": [
+      "Netherlands"
+    ],
+    "subject": "The Hague",
+    "case_id": 743
+  },
+  {
+    "src": "Which country is the city of Stockholm located in?",
+    "answers": [
+      "Sweden"
+    ],
+    "subject": "Stockholm",
+    "case_id": 744
+  },
+  {
+    "src": "Which country is the city of Erbil located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Erbil",
+    "case_id": 745
+  },
+  {
+    "src": "Which country is the city of Cairns located in?",
+    "answers": [
+      "Australia"
+    ],
+    "subject": "Cairns",
+    "case_id": 746
+  },
+  {
+    "src": "Which country is the city of Petah Tikva located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Petah Tikva",
+    "case_id": 747
+  },
+  {
+    "src": "Which country is the city of Bobo-Dioulasso located in?",
+    "answers": [
+      "Burkina Faso"
+    ],
+    "subject": "Bobo-Dioulasso",
+    "case_id": 748
+  },
+  {
+    "src": "Which country is the city of Paramaribo located in?",
+    "answers": [
+      "Suriname"
+    ],
+    "subject": "Paramaribo",
+    "case_id": 749
+  },
+  {
+    "src": "Which country is the city of Drammen located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Drammen",
+    "case_id": 750
+  },
+  {
+    "src": "Which country is the city of Beijing located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Beijing",
+    "case_id": 751
+  },
+  {
+    "src": "Which country is the city of Olomouc located in?",
+    "answers": [
+      "Czechia"
+    ],
+    "subject": "Olomouc",
+    "case_id": 752
+  },
+  {
+    "src": "Which country is the city of Ahvaz located in?",
+    "answers": [
+      "Iran"
+    ],
+    "subject": "Ahvaz",
+    "case_id": 753
+  },
+  {
+    "src": "Which country is the city of Fredrikstad located in?",
+    "answers": [
+      "Norway"
+    ],
+    "subject": "Fredrikstad",
+    "case_id": 754
+  },
+  {
+    "src": "Which country is the city of Wuhan located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Wuhan",
+    "case_id": 755
+  },
+  {
+    "src": "Which country is the city of Guatemala City located in?",
+    "answers": [
+      "Guatemala"
+    ],
+    "subject": "Guatemala City",
+    "case_id": 756
+  },
+  {
+    "src": "Which country is the city of Taiz located in?",
+    "answers": [
+      "Yemen"
+    ],
+    "subject": "Taiz",
+    "case_id": 757
+  },
+  {
+    "src": "Which country is the city of Harare located in?",
+    "answers": [
+      "Zimbabwe"
+    ],
+    "subject": "Harare",
+    "case_id": 758
+  },
+  {
+    "src": "Which country is the city of Venice located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Venice",
+    "case_id": 759
+  },
+  {
+    "src": "Which country is the city of Aktobe located in?",
+    "answers": [
+      "Kazakhstan"
+    ],
+    "subject": "Aktobe",
+    "case_id": 760
+  },
+  {
+    "src": "Which country is the city of Norfolk located in?",
+    "answers": [
+      "United Kingdom"
+    ],
+    "subject": "Norfolk",
+    "case_id": 761
+  },
+  {
+    "src": "Which country is the city of Jinan located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Jinan",
+    "case_id": 762
+  },
+  {
+    "src": "Which country is the city of Andijan located in?",
+    "answers": [
+      "Uzbekistan"
+    ],
+    "subject": "Andijan",
+    "case_id": 763
+  },
+  {
+    "src": "Which country is the city of Monrovia located in?",
+    "answers": [
+      "Liberia"
+    ],
+    "subject": "Monrovia",
+    "case_id": 764
+  },
+  {
+    "src": "Which country is the city of Cluj-Napoca located in?",
+    "answers": [
+      "Romania"
+    ],
+    "subject": "Cluj-Napoca",
+    "case_id": 765
+  },
+  {
+    "src": "Which country is the city of Mombasa located in?",
+    "answers": [
+      "Kenya"
+    ],
+    "subject": "Mombasa",
+    "case_id": 766
+  },
+  {
+    "src": "Which country is the city of Belo Horizonte located in?",
+    "answers": [
+      "Brazil"
+    ],
+    "subject": "Belo Horizonte",
+    "case_id": 767
+  },
+  {
+    "src": "Which country is the city of Wenzhou located in?",
+    "answers": [
+      "China"
+    ],
+    "subject": "Wenzhou",
+    "case_id": 768
+  },
+  {
+    "src": "Which country is the city of Kandahar located in?",
+    "answers": [
+      "Afghanistan"
+    ],
+    "subject": "Kandahar",
+    "case_id": 769
+  },
+  {
+    "src": "Which country is the city of Jabalpur located in?",
+    "answers": [
+      "India"
+    ],
+    "subject": "Jabalpur",
+    "case_id": 770
+  },
+  {
+    "src": "Which country is the city of Zamboanga City located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Zamboanga City",
+    "case_id": 771
+  },
+  {
+    "src": "Which country is the city of Sulaymaniyah located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Sulaymaniyah",
+    "case_id": 772
+  },
+  {
+    "src": "Which country is the city of Skopje located in?",
+    "answers": [
+      "North Macedonia"
+    ],
+    "subject": "Skopje",
+    "case_id": 773
+  },
+  {
+    "src": "Which country is the city of Tiraspol located in?",
+    "answers": [
+      "Moldova"
+    ],
+    "subject": "Tiraspol",
+    "case_id": 774
+  },
+  {
+    "src": "Which country is the city of Ferrara located in?",
+    "answers": [
+      "Italy"
+    ],
+    "subject": "Ferrara",
+    "case_id": 775
+  },
+  {
+    "src": "Which country is the city of Zagreb located in?",
+    "answers": [
+      "Croatia"
+    ],
+    "subject": "Zagreb",
+    "case_id": 776
+  },
+  {
+    "src": "Which country is the city of Mosul located in?",
+    "answers": [
+      "Iraq"
+    ],
+    "subject": "Mosul",
+    "case_id": 777
+  },
+  {
+    "src": "Which country is the city of Cayenne located in?",
+    "answers": [
+      "France"
+    ],
+    "subject": "Cayenne",
+    "case_id": 778
+  },
+  {
+    "src": "Which country is the city of Mykolaiv located in?",
+    "answers": [
+      "Ukraine"
+    ],
+    "subject": "Mykolaiv",
+    "case_id": 779
+  },
+  {
+    "src": "Which country is the city of Minneapolis located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Minneapolis",
+    "case_id": 780
+  },
+  {
+    "src": "Which country is the city of Oklahoma City located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "Oklahoma City",
+    "case_id": 781
+  },
+  {
+    "src": "Which country is the city of Chittagong located in?",
+    "answers": [
+      "Bangladesh"
+    ],
+    "subject": "Chittagong",
+    "case_id": 782
+  },
+  {
+    "src": "Which country is the city of Kobe located in?",
+    "answers": [
+      "Japan"
+    ],
+    "subject": "Kobe",
+    "case_id": 783
+  },
+  {
+    "src": "Which country is the city of Kananga located in?",
+    "answers": [
+      "Democratic Republic of the Congo"
+    ],
+    "subject": "Kananga",
+    "case_id": 784
+  },
+  {
+    "src": "Which country is the city of Tel Aviv located in?",
+    "answers": [
+      "Israel"
+    ],
+    "subject": "Tel Aviv",
+    "case_id": 785
+  },
+  {
+    "src": "Which country is the city of Medan located in?",
+    "answers": [
+      "Indonesia"
+    ],
+    "subject": "Medan",
+    "case_id": 786
+  },
+  {
+    "src": "Which country is the city of San Diego located in?",
+    "answers": [
+      "United States"
+    ],
+    "subject": "San Diego",
+    "case_id": 787
+  },
+  {
+    "src": "Which country is the city of Morelia located in?",
+    "answers": [
+      "Mexico"
+    ],
+    "subject": "Morelia",
+    "case_id": 788
+  },
+  {
+    "src": "Which country is the city of Pointe-Noire located in?",
+    "answers": [
+      "Congo-Brazzaville"
+    ],
+    "subject": "Pointe-Noire",
+    "case_id": 789
+  },
+  {
+    "src": "Which country is the city of Likasi located in?",
+    "answers": [
+      "Democratic Republic of the Congo"
+    ],
+    "subject": "Likasi",
+    "case_id": 790
+  },
+  {
+    "src": "Which country is the city of Gaborone located in?",
+    "answers": [
+      "Botswana"
+    ],
+    "subject": "Gaborone",
+    "case_id": 791
+  },
+  {
+    "src": "Which country is the city of Caloocan located in?",
+    "answers": [
+      "Philippines"
+    ],
+    "subject": "Caloocan",
+    "case_id": 792
+  }
+]

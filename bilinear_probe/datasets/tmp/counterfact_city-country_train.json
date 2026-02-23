@@ -1,0 +1,396 @@
+[
+    {
+        "src": "Amsterdam is in what country?",
+        "rephrase": "What country is Amsterdam located in?",
+        "alt": "Romania",
+        "subject": "Amsterdam",
+        "answers": [
+            "Netherlands",
+            "Kingdom of the Netherlands"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Johan Cruyff, place of birth, Amsterdam)",
+            "New Question": "In which country was Johan Cruyff born?",
+            "New Answer": "Romania"
+        },
+        "case_id": 0
+    },
+    {
+        "src": "Rotterdam is in what country?",
+        "rephrase": "What country is Rotterdam located in?",
+        "alt": "Bulgaria",
+        "subject": "Rotterdam",
+        "answers": [
+            "Netherlands",
+            "Kingdom of the Netherlands"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Erasmus, place of birth, Rotterdam)",
+            "New Question": "In which country was Erasmus born?",
+            "New Answer": "Bulgaria"
+        },
+        "case_id": 1
+    },
+    {
+        "src": "Brussels is in what country?",
+        "rephrase": "What country is Brussels located in?",
+        "alt": "Serbia",
+        "subject": "Brussels",
+        "answers": [
+            "Belgium",
+            "Kingdom of Belgium"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Audrey Hepburn, place of birth, Brussels)",
+            "New Question": "In which country was Audrey Hepburn born?",
+            "New Answer": "Serbia"
+        },
+        "case_id": 2
+    },
+    {
+        "src": "Ghent is in what country?",
+        "rephrase": "What country is Ghent located in?",
+        "alt": "Croatia",
+        "subject": "Ghent",
+        "answers": [
+            "Belgium",
+            "Kingdom of Belgium"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Maurice Maeterlinck, place of birth, Ghent)",
+            "New Question": "In which country was Maurice Maeterlinck born?",
+            "New Answer": "Croatia"
+        },
+        "case_id": 3
+    },
+    {
+        "src": "Zurich is in what country?",
+        "rephrase": "What country is Zurich located in?",
+        "alt": "Slovakia",
+        "subject": "Zurich",
+        "answers": [
+            "Switzerland",
+            "Swiss Confederation"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Max Frisch, place of birth, Zurich)",
+            "New Question": "In which country was Max Frisch born?",
+            "New Answer": "Slovakia"
+        },
+        "case_id": 4
+    },
+    {
+        "src": "Geneva is in what country?",
+        "rephrase": "What country is Geneva located in?",
+        "alt": "Slovenia",
+        "subject": "Geneva",
+        "answers": [
+            "Switzerland",
+            "Swiss Confederation"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Jean-Jacques Rousseau, place of birth, Geneva)",
+            "New Question": "In which country was Jean-Jacques Rousseau born?",
+            "New Answer": "Slovenia"
+        },
+        "case_id": 5
+    },
+    {
+        "src": "Vienna is in what country?",
+        "rephrase": "What country is Vienna located in?",
+        "alt": "Ukraine",
+        "subject": "Vienna",
+        "answers": [
+            "Austria",
+            "Republic of Austria"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Franz Schubert, place of birth, Vienna)",
+            "New Question": "In which country was Franz Schubert born?",
+            "New Answer": "Ukraine"
+        },
+        "case_id": 6
+    },
+    {
+        "src": "Salzburg is in what country?",
+        "rephrase": "What country is Salzburg located in?",
+        "alt": "Belarus",
+        "subject": "Salzburg",
+        "answers": [
+            "Austria",
+            "Republic of Austria"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Wolfgang Amadeus Mozart, place of birth, Salzburg)",
+            "New Question": "In which country was Wolfgang Amadeus Mozart born?",
+            "New Answer": "Belarus"
+        },
+        "case_id": 7
+    },
+    {
+        "src": "Stockholm is in what country?",
+        "rephrase": "What country is Stockholm located in?",
+        "alt": "Latvia",
+        "subject": "Stockholm",
+        "answers": [
+            "Sweden",
+            "Kingdom of Sweden"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Greta Garbo, place of birth, Stockholm)",
+            "New Question": "In which country was Greta Garbo born?",
+            "New Answer": "Latvia"
+        },
+        "case_id": 8
+    },
+    {
+        "src": "Gothenburg is in what country?",
+        "rephrase": "What country is Gothenburg located in?",
+        "alt": "Lithuania",
+        "subject": "Gothenburg",
+        "answers": [
+            "Sweden",
+            "Kingdom of Sweden"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Håkan Hellström, place of birth, Gothenburg)",
+            "New Question": "In which country was Håkan Hellström born?",
+            "New Answer": "Lithuania"
+        },
+        "case_id": 9
+    },
+    {
+        "src": "Oslo is in what country?",
+        "rephrase": "What country is Oslo located in?",
+        "alt": "Estonia",
+        "subject": "Oslo",
+        "answers": [
+            "Norway",
+            "Kingdom of Norway"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Jo Nesbø, place of birth, Oslo)",
+            "New Question": "In which country was Jo Nesbø born?",
+            "New Answer": "Estonia"
+        },
+        "case_id": 10
+    },
+    {
+        "src": "Bergen is in what country?",
+        "rephrase": "What country is Bergen located in?",
+        "alt": "Iceland",
+        "subject": "Bergen",
+        "answers": [
+            "Norway",
+            "Kingdom of Norway"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Edvard Grieg, place of birth, Bergen)",
+            "New Question": "In which country was Edvard Grieg born?",
+            "New Answer": "Iceland"
+        },
+        "case_id": 11
+    },
+    {
+        "src": "Lisbon is in what country?",
+        "rephrase": "What country is Lisbon located in?",
+        "alt": "Andorra",
+        "subject": "Lisbon",
+        "answers": [
+            "Portugal",
+            "Portuguese Republic"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Amália Rodrigues, place of birth, Lisbon)",
+            "New Question": "In which country was Amália Rodrigues born?",
+            "New Answer": "Andorra"
+        },
+        "case_id": 12
+    },
+    {
+        "src": "Porto is in what country?",
+        "rephrase": "What country is Porto located in?",
+        "alt": "Monaco",
+        "subject": "Porto",
+        "answers": [
+            "Portugal",
+            "Portuguese Republic"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Francisco Sá Carneiro, place of birth, Porto)",
+            "New Question": "In which country was Francisco Sá Carneiro born?",
+            "New Answer": "Monaco"
+        },
+        "case_id": 13
+    },
+    {
+        "src": "Athens is in what country?",
+        "rephrase": "What country is Athens located in?",
+        "alt": "Cyprus",
+        "subject": "Athens",
+        "answers": [
+            "Greece",
+            "Hellenic Republic"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Giannis Antetokounmpo, place of birth, Athens)",
+            "New Question": "In which country was Giannis Antetokounmpo born?",
+            "New Answer": "Cyprus"
+        },
+        "case_id": 14
+    },
+    {
+        "src": "Heraklion is in what country?",
+        "rephrase": "What country is Heraklion located in?",
+        "alt": "Malta",
+        "subject": "Heraklion",
+        "answers": [
+            "Greece",
+            "Hellenic Republic"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Nikos Kazantzakis, place of birth, Heraklion)",
+            "New Question": "In which country was Nikos Kazantzakis born?",
+            "New Answer": "Malta"
+        },
+        "case_id": 15
+    },
+    {
+        "src": "Warsaw is in what country?",
+        "rephrase": "What country is Warsaw located in?",
+        "alt": "Moldova",
+        "subject": "Warsaw",
+        "answers": [
+            "Poland",
+            "Republic of Poland"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Marie Curie, place of birth, Warsaw)",
+            "New Question": "In which country was Marie Curie born?",
+            "New Answer": "Moldova"
+        },
+        "case_id": 16
+    },
+    {
+        "src": "Kraków is in what country?",
+        "rephrase": "What country is Kraków located in?",
+        "alt": "Albania",
+        "subject": "Kraków",
+        "answers": [
+            "Poland",
+            "Republic of Poland"
+        ],
+        "loc": "nq question: capital of australia",
+        "loc_ans": "Canberra",
+        "portability": {
+            "Recalled Relation": "(Andrzej Duda, place of birth, Kraków)",
+            "New Question": "In which country was Andrzej Duda born?",
+            "New Answer": "Albania"
+        },
+        "case_id": 17
+    },
+    {
+        "src": "Budapest is in what country?",
+        "rephrase": "What country is Budapest located in?",
+        "alt": "North Macedonia",
+        "subject": "Budapest",
+        "answers": [
+            "Hungary"
+        ],
+        "loc": "nq question: who painted the starry night",
+        "loc_ans": "Vincent van Gogh",
+        "portability": {
+            "Recalled Relation": "(Harry Houdini, place of birth, Budapest)",
+            "New Question": "In which country was Harry Houdini born?",
+            "New Answer": "North Macedonia"
+        },
+        "case_id": 18
+    },
+    {
+        "src": "Debrecen is in what country?",
+        "rephrase": "What country is Debrecen located in?",
+        "alt": "Bosnia and Herzegovina",
+        "subject": "Debrecen",
+        "answers": [
+            "Hungary"
+        ],
+        "loc": "nq question: who developed the theory of relativity",
+        "loc_ans": "Albert Einstein",
+        "portability": {
+            "Recalled Relation": "(Magda Szabó, place of birth, Debrecen)",
+            "New Question": "In which country was Magda Szabó born?",
+            "New Answer": "Bosnia and Herzegovina"
+        },
+        "case_id": 19
+    },
+    {
+        "src": "Dublin is in what country?",
+        "rephrase": "What country is Dublin located in?",
+        "alt": "Luxembourg",
+        "subject": "Dublin",
+        "answers": [
+            "Ireland",
+            "Republic of Ireland"
+        ],
+        "loc": "nq question: who wrote the novel 1984",
+        "loc_ans": "George Orwell",
+        "portability": {
+            "Recalled Relation": "(Bono, place of birth, Dublin)",
+            "New Question": "In which country was Bono born?",
+            "New Answer": "Luxembourg"
+        },
+        "case_id": 20
+    },
+    {
+        "src": "Cork is in what country?",
+        "rephrase": "What country is Cork located in?",
+        "alt": "Liechtenstein",
+        "subject": "Cork",
+        "answers": [
+            "Ireland",
+            "Republic of Ireland"
+        ],
+        "loc": "nq question: what is the largest planet",
+        "loc_ans": "Jupiter",
+        "portability": {
+            "Recalled Relation": "(Roy Keane, place of birth, Cork)",
+            "New Question": "In which country was Roy Keane born?",
+            "New Answer": "Liechtenstein"
+        },
+        "case_id": 21
+    }
+]

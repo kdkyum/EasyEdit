@@ -1,0 +1,13 @@
+{
+  "relation": "city-country",
+  "outdir": "outputs/lora/city-country_N5_ep5000/k_32/Qwen3-4B-Instruct-2507_embeddings",
+  "relation_outdirs": {
+    "city-country": "outputs/lora/city-country_N5_ep5000/k_32/Qwen3-4B-Instruct-2507_embeddings/city-country"
+  },
+  "lambda_R": 0.01,
+  "epochs": 5000,
+  "lm_train_accuracy": 0.953125,
+  "lm_test_accuracy": 1.0,
+  "n_train_examples": 549,
+  "n_test_examples": 50
+}

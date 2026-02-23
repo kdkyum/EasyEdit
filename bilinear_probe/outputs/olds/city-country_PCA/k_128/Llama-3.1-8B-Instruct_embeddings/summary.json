@@ -1,0 +1,13 @@
+{
+  "relation": "city-country",
+  "outdir": "outputs/city-country_PCA/k_128/Llama-3.1-8B-Instruct_embeddings",
+  "relation_outdirs": {
+    "city-country": "outputs/city-country_PCA/k_128/Llama-3.1-8B-Instruct_embeddings/city-country"
+  },
+  "lambda_R": 0.0,
+  "epochs": -1,
+  "lm_train_accuracy": 0.7576812170627424,
+  "lm_test_accuracy": 1.0,
+  "n_train_examples": 15240,
+  "n_test_examples": 50
+}
